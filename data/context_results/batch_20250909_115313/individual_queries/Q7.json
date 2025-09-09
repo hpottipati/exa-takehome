@@ -1,0 +1,766 @@
+{
+  "query": "What are the SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures?",
+  "timestamp": "2025-09-09 12:04:23",
+  "providers": {
+    "exa": {
+      "answer": "### SEC Disclosure Requirements and Stock Exchange Rules for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) has specific disclosure requirements for companies planning to go public. These requirements are outlined in various sections of the Securities Act of 1933, as amended, and the Securities Exchange Act of 1934, as amended.\n\n**[7] Going Public: A Guide to U.S. IPOs for Founders, Officers, Directors and Other Market Participants**\nThis guide from Cleary Gottlieb Steen & Hamilton LLP provides insight into the SEC's disclosure requirements during an Initial Public Offering (IPO). The document emphasizes that companies must disclose material information about their business operations, financial condition, and risks to potential investors. [7]\n\n**[1] On Dual Class and Other Entrenching Governance Structures in Public Companies**\nThis SEC investor advisory committee recommendation from 2012 highlights the increasing prevalence of dual-class voting structures among public companies since 1980. The document notes that such structures can entrench management, potentially leading to conflicts with minority shareholders. [1]\n\n#### Stock Exchange Rules:\nThe stock exchanges have their own rules and guidelines for companies planning to go public. For example, Nasdaq and the New York Stock Exchange (NYSE) have specific requirements for initial listings.\n\n**[4] NYSE IPO Guide Third Edition**\nThis guide from the NYSE provides detailed information on the process of going public through an Initial Public Offering (IPO). The document mentions that companies must adhere to various rules and regulations set by the exchange, including those related to governance structures. [4]\n\n**[2] Nasdaq Rule 5605**\nNasdaq's Rule 5605 specifically addresses dual-class voting structures. This rule requires companies with multi-class stock structures to disclose significant information about their governance structure in their registration statement and periodic reports. [2]\n\n### Summary of Key Points:\n1. **SEC Disclosure Requirements:** Companies must provide comprehensive disclosures regarding their business operations, financial condition, and risks to potential investors. The SEC's guidelines are detailed in the guide provided by Cleary Gottlieb Steen & Hamilton LLP.\n   \n2. **Stock Exchange Rules for Dual-Class Voting Structures:**\n   - Nasdaq Rule 5605 mandates that companies with multi-class stock structures must disclose significant information about their governance structure, including dual-class voting structures, in their registration statement and",
+      "generation_latency_ms": 15208.518028259277,
+      "authority_of_cited": {
+        "authority_score": 0.625,
+        "num_citations": 8,
+        "cited_urls": [
+          "https://www.clearygottlieb.com/-/media/organize-archive/cgsh/files/news-pdfs/going-public-a-guide-to-us-ipos-for-founders-officers-directors-and-other-market-participants.pdf",
+          "https://www.clearygottlieb.com/-/media/organize-archive/cgsh/files/news-pdfs/going-public-a-guide-to-us-ipos-for-founders-officers-directors-and-other-market-participants.pdf",
+          "https://www.sec.gov/spotlight/investor-advisory-committee-2012/recommendation-on-dual-class-shares.pdf",
+          "https://www.sec.gov/spotlight/investor-advisory-committee-2012/recommendation-on-dual-class-shares.pdf",
+          "https://www.nyse.com/publicdocs/nyse/NYSE_IPO_Guide_Third_Edition.pdf",
+          "https://www.nyse.com/publicdocs/nyse/NYSE_IPO_Guide_Third_Edition.pdf",
+          "https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%205600%20Series",
+          "https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%205600%20Series"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          1.0,
+          1.0,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 5.522966384887695
+      },
+      "support_ratio": {
+        "support_ratio": 0.0,
+        "supported_sentences": 0,
+        "total_sentences": 19,
+        "sentence_details": [
+          {
+            "sentence": "### SEC Disclosure Requirements and Stock Exchange Rules for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) has specific disclosure requirements for companies planning to go public",
+            "max_similarity": 0.27342361907132234,
+            "is_supported": false
+          },
+          {
+            "sentence": "These requirements are outlined in various sections of the Securities Act of 1933, as amended, and the Securities Exchange Act of 1934, as amended",
+            "max_similarity": 0.1630976623074058,
+            "is_supported": false
+          },
+          {
+            "sentence": "**[7] Going Public: A Guide to U",
+            "max_similarity": 0.18800744259651841,
+            "is_supported": false
+          },
+          {
+            "sentence": "S",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "IPOs for Founders, Officers, Directors and Other Market Participants**\nThis guide from Cleary Gottlieb Steen & Hamilton LLP provides insight into the SEC's disclosure requirements during an Initial Public Offering (IPO)",
+            "max_similarity": 0.3400328754330833,
+            "is_supported": false
+          },
+          {
+            "sentence": "The document emphasizes that companies must disclose material information about their business operations, financial condition, and risks to potential investors",
+            "max_similarity": 0.17235599766549142,
+            "is_supported": false
+          },
+          {
+            "sentence": "[7]\n\n**[1] On Dual Class and Other Entrenching Governance Structures in Public Companies**\nThis SEC investor advisory committee recommendation from 2012 highlights the increasing prevalence of dual-class voting structures among public companies since 1980",
+            "max_similarity": 0.40598090405114456,
+            "is_supported": false
+          },
+          {
+            "sentence": "The document notes that such structures can entrench management, potentially leading to conflicts with minority shareholders",
+            "max_similarity": 0.1395204523921098,
+            "is_supported": false
+          },
+          {
+            "sentence": "[1]\n\n#### Stock Exchange Rules:\nThe stock exchanges have their own rules and guidelines for companies planning to go public",
+            "max_similarity": 0.14633608197225942,
+            "is_supported": false
+          },
+          {
+            "sentence": "For example, Nasdaq and the New York Stock Exchange (NYSE) have specific requirements for initial listings",
+            "max_similarity": 0.22035557710593912,
+            "is_supported": false
+          },
+          {
+            "sentence": "**[4] NYSE IPO Guide Third Edition**\nThis guide from the NYSE provides detailed information on the process of going public through an Initial Public Offering (IPO)",
+            "max_similarity": 0.39494741221473856,
+            "is_supported": false
+          },
+          {
+            "sentence": "The document mentions that companies must adhere to various rules and regulations set by the exchange, including those related to governance structures",
+            "max_similarity": 0.1627220013851683,
+            "is_supported": false
+          },
+          {
+            "sentence": "[4]\n\n**[2] Nasdaq Rule 5605**\nNasdaq's Rule 5605 specifically addresses dual-class voting structures",
+            "max_similarity": 0.384147638722213,
+            "is_supported": false
+          },
+          {
+            "sentence": "This rule requires companies with multi-class stock structures to disclose significant information about their governance structure in their registration statement and periodic reports",
+            "max_similarity": 0.2586932157065226,
+            "is_supported": false
+          },
+          {
+            "sentence": "[2]\n\n### Summary of Key Points:\n1",
+            "max_similarity": 0.29078971732929243,
+            "is_supported": false
+          },
+          {
+            "sentence": "**SEC Disclosure Requirements:** Companies must provide comprehensive disclosures regarding their business operations, financial condition, and risks to potential investors",
+            "max_similarity": 0.19639441067752672,
+            "is_supported": false
+          },
+          {
+            "sentence": "The SEC's guidelines are detailed in the guide provided by Cleary Gottlieb Steen & Hamilton LLP",
+            "max_similarity": 0.08271875688538348,
+            "is_supported": false
+          },
+          {
+            "sentence": "2",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "**Stock Exchange Rules for Dual-Class Voting Structures:**\n   - Nasdaq Rule 5605 mandates that companies with multi-class stock structures must disclose significant information about their governance structure, including dual-class voting structures, in their registration statement and",
+            "max_similarity": 0.43015467740493557,
+            "is_supported": false
+          }
+        ],
+        "latency_ms": 26.979684829711914
+      }
+    },
+    "google": {
+      "answer": "### SEC Disclosure Requirements for Companies Going Public with Dual-Class Voting Structures\n\n#### Overview of SEC's Role in Setting and Enforcing Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) plays a crucial role in setting and enforcing disclosure requirements for companies. [1] The SEC has established guidelines that mandate the disclosure of information necessary to enable investors to make informed decisions about securities offerings. These disclosures are critical, especially when it comes to dual-class voting structures.\n\n#### Stock Exchange Rules on Dual-Class Voting Structures:\nThe New York Stock Exchange (NYSE) and Nasdaq have specific rules regarding the listing of companies with dual-class voting structures. [2] The SEC's guidelines align with these stock exchange requirements, ensuring that all relevant information is disclosed to investors.\n\n### NYSE Listing Requirements for Companies with Dual-Class Voting Structures:\n\n#### Board Composition and Independent Director Oversight:\nThe NYSE requires listed companies to have a board of directors that includes independent directors who oversee executive management. [3] This oversight ensures that the interests of shareholders are protected, particularly in cases where dual-class voting structures may lead to conflicts of interest.\n\n### Nasdaq Listing Requirements for Companies with Dual-Class Voting Structures:\n\n#### Implementation and Compliance:\nNasdaq has specific rules regarding the implementation and compliance with dual-class stock structures. These rules include requirements for board composition and independent director oversight. [3] The NASDAQ Stock Market Listing Rules also mandate that listed companies must implement a dual class stock structure in accordance with these guidelines.\n\n### SEC's Role in Enforcing Dual-Class Voting Structures:\n\n#### Enforcement of Disclosure Requirements:\nThe SEC enforces the disclosure requirements set by major stock exchanges, including NYSE and Nasdaq. [1] Companies are required to disclose any changes or modifications to their dual-class voting structures promptly after they occur. This ensures that investors have access to timely and accurate information.\n\n### Case Law and Regulatory Guidance:\n\n#### CII's Position on Dual-Class Voting Structures:\nThe Council of Institutional Investors (CII) has expressed concerns about the use of dual-class voting structures, particularly in initial public offerings (IPOs). [4] The CII has called for stock exchanges to impose stricter rules regarding the listing of companies with such structures. This underscores the importance of regulatory oversight and compliance.\n\n#### NYSE's Position on Dual-Class Voting Structures:\nThe New York Stock Exchange (NYSE) has maintained a stance that dual-class voting structures are permissible, provided they meet certain criteria. [8] The NASDAQ Stock Market Listing Rules also allow",
+      "generation_latency_ms": 12423.321962356567,
+      "authority_of_cited": {
+        "authority_score": 0.643,
+        "num_citations": 7,
+        "cited_urls": [
+          "https://www.sec.gov/spotlight/investor-advisory-committee-2012/recommendation-on-dual-class-shares.pdf",
+          "https://www.lw.com/en/insights-landing/admin/upload/SiteAttachments/lw-us-ipo-guide.pdf",
+          "https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-5600-series",
+          "https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/nasdaq-5600-series",
+          "https://www.sec.gov/spotlight/investor-advisory-committee-2012/recommendation-on-dual-class-shares.pdf",
+          "https://www.cii.org/lyftdualclassipo",
+          "https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=9447&context=penn_law_review"
+        ],
+        "individual_scores": [
+          1.0,
+          0.5,
+          0.5,
+          0.5,
+          1.0,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 1.2412071228027344
+      },
+      "support_ratio": {
+        "support_ratio": 0.0,
+        "supported_sentences": 0,
+        "total_sentences": 18,
+        "sentence_details": [
+          {
+            "sentence": "### SEC Disclosure Requirements for Companies Going Public with Dual-Class Voting Structures\n\n#### Overview of SEC's Role in Setting and Enforcing Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) plays a crucial role in setting and enforcing disclosure requirements for companies",
+            "max_similarity": 0.596526901635771,
+            "is_supported": false
+          },
+          {
+            "sentence": "[1] The SEC has established guidelines that mandate the disclosure of information necessary to enable investors to make informed decisions about securities offerings",
+            "max_similarity": 0.09658855040576475,
+            "is_supported": false
+          },
+          {
+            "sentence": "These disclosures are critical, especially when it comes to dual-class voting structures",
+            "max_similarity": 0.05556202162946694,
+            "is_supported": false
+          },
+          {
+            "sentence": "#### Stock Exchange Rules on Dual-Class Voting Structures:\nThe New York Stock Exchange (NYSE) and Nasdaq have specific rules regarding the listing of companies with dual-class voting structures",
+            "max_similarity": 0.2209116396881823,
+            "is_supported": false
+          },
+          {
+            "sentence": "[2] The SEC's guidelines align with these stock exchange requirements, ensuring that all relevant information is disclosed to investors",
+            "max_similarity": 0.2237111067843668,
+            "is_supported": false
+          },
+          {
+            "sentence": "### NYSE Listing Requirements for Companies with Dual-Class Voting Structures:\n\n#### Board Composition and Independent Director Oversight:\nThe NYSE requires listed companies to have a board of directors that includes independent directors who oversee executive management",
+            "max_similarity": 0.46408033668976734,
+            "is_supported": false
+          },
+          {
+            "sentence": "[3] This oversight ensures that the interests of shareholders are protected, particularly in cases where dual-class voting structures may lead to conflicts of interest",
+            "max_similarity": 0.051741910289469284,
+            "is_supported": false
+          },
+          {
+            "sentence": "### Nasdaq Listing Requirements for Companies with Dual-Class Voting Structures:\n\n#### Implementation and Compliance:\nNasdaq has specific rules regarding the implementation and compliance with dual-class stock structures",
+            "max_similarity": 0.17445665927688334,
+            "is_supported": false
+          },
+          {
+            "sentence": "These rules include requirements for board composition and independent director oversight",
+            "max_similarity": 0.5687902965493316,
+            "is_supported": false
+          },
+          {
+            "sentence": "[3] The NASDAQ Stock Market Listing Rules also mandate that listed companies must implement a dual class stock structure in accordance with these guidelines",
+            "max_similarity": 0.35047844835075587,
+            "is_supported": false
+          },
+          {
+            "sentence": "### SEC's Role in Enforcing Dual-Class Voting Structures:\n\n#### Enforcement of Disclosure Requirements:\nThe SEC enforces the disclosure requirements set by major stock exchanges, including NYSE and Nasdaq",
+            "max_similarity": 0.5067969785577309,
+            "is_supported": false
+          },
+          {
+            "sentence": "[1] Companies are required to disclose any changes or modifications to their dual-class voting structures promptly after they occur",
+            "max_similarity": 0.1768518985840463,
+            "is_supported": false
+          },
+          {
+            "sentence": "This ensures that investors have access to timely and accurate information",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "### Case Law and Regulatory Guidance:\n\n#### CII's Position on Dual-Class Voting Structures:\nThe Council of Institutional Investors (CII) has expressed concerns about the use of dual-class voting structures, particularly in initial public offerings (IPOs)",
+            "max_similarity": 0.22615841770153855,
+            "is_supported": false
+          },
+          {
+            "sentence": "[4] The CII has called for stock exchanges to impose stricter rules regarding the listing of companies with such structures",
+            "max_similarity": 0.09916851540804524,
+            "is_supported": false
+          },
+          {
+            "sentence": "This underscores the importance of regulatory oversight and compliance",
+            "max_similarity": 0.07664568418865987,
+            "is_supported": false
+          },
+          {
+            "sentence": "#### NYSE's Position on Dual-Class Voting Structures:\nThe New York Stock Exchange (NYSE) has maintained a stance that dual-class voting structures are permissible, provided they meet certain criteria",
+            "max_similarity": 0.13273872441533538,
+            "is_supported": false
+          },
+          {
+            "sentence": "[8] The NASDAQ Stock Market Listing Rules also allow",
+            "max_similarity": 0.3108640459603172,
+            "is_supported": false
+          }
+        ],
+        "latency_ms": 1.0743141174316406
+      }
+    },
+    "serp_google": {
+      "answer": "### SEC Disclosure Requirements for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) has established certain disclosure requirements for companies that adopt dual-class voting structures. These disclosures are aimed at ensuring transparency to investors regarding potential risks associated with such structures.\n\n[1] The document titled \"On Dual Class and Other Entrenching Governance Structures\" [1], issued by the SEC, recommends that public companies disclose any potential risks or effects of having dual class or other entrenching governance structures. This recommendation underscores the importance of transparency in disclosing information about these structures to investors.\n\n#### Stock Exchange Rules:\nStock exchanges also have specific rules regarding the listing and operation of companies with dual-class voting structures. These rules are designed to ensure fair treatment for all shareholders and to prevent any undue influence on corporate decision-making.\n\n[2] The Committee recommends that the SEC encourage dual class issuers to provide more robust disclosures regarding material aspects related to their governance structures, including those involving dual-class shares [3]. This recommendation highlights the need for enhanced disclosure practices by companies with such structures.\n\n[4] Nasdaq's Rule 5605 specifically addresses companies with dual-class structures. It prohibits the issuance of super voting stock and requires companies to comply with certain restrictions on their governance structures [4].\n\n#### Comprehensive Answer:\nCompanies going public with dual-class voting structures must adhere to both SEC disclosure requirements and stock exchange rules. The SEC mandates that these companies disclose any potential risks or effects associated with their dual class or other entrenching governance structures. Additionally, stock exchanges like Nasdaq have specific rules prohibiting the issuance of super voting stock and requiring enhanced disclosures regarding material aspects related to their governance structures.\n\nThese regulations aim to ensure transparency and fairness in corporate governance practices, particularly for companies adopting dual-class voting structures. Companies must comply with these requirements to maintain their listings on major stock exchanges such as NASDAQ.",
+      "generation_latency_ms": 9797.790050506592,
+      "authority_of_cited": {
+        "authority_score": 0.667,
+        "num_citations": 6,
+        "cited_urls": [
+          "https://www.sec.gov/spotlight/investor-advisory-committee-2012/recommendation-on-dual-class-shares.pdf",
+          "https://www.sec.gov/spotlight/investor-advisory-committee-2012/recommendation-on-dual-class-shares.pdf",
+          "https://www.cii.org/dualclass_stock",
+          "https://capmktsreg.org/wp-content/uploads/2022/11/The-Rise-of-Dual-Class-Shares-04.08.20-1-1.pdf",
+          "https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%205600%20Series",
+          "https://listingcenter.nasdaq.com/rulebook/nasdaq/rules/Nasdaq%205600%20Series"
+        ],
+        "individual_scores": [
+          1.0,
+          1.0,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 0.9741783142089844
+      },
+      "support_ratio": {
+        "support_ratio": 0.133,
+        "supported_sentences": 2,
+        "total_sentences": 15,
+        "sentence_details": [
+          {
+            "sentence": "### SEC Disclosure Requirements for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) has established certain disclosure requirements for companies that adopt dual-class voting structures",
+            "max_similarity": 0.2776990545885944,
+            "is_supported": false
+          },
+          {
+            "sentence": "These disclosures are aimed at ensuring transparency to investors regarding potential risks associated with such structures",
+            "max_similarity": 0.18689111988072823,
+            "is_supported": false
+          },
+          {
+            "sentence": "[1] The document titled \"On Dual Class and Other Entrenching Governance Structures\" [1], issued by the SEC, recommends that public companies disclose any potential risks or effects of having dual class or other entrenching governance structures",
+            "max_similarity": 0.5979459146010275,
+            "is_supported": false
+          },
+          {
+            "sentence": "This recommendation underscores the importance of transparency in disclosing information about these structures to investors",
+            "max_similarity": 0.0869379312727416,
+            "is_supported": false
+          },
+          {
+            "sentence": "#### Stock Exchange Rules:\nStock exchanges also have specific rules regarding the listing and operation of companies with dual-class voting structures",
+            "max_similarity": 0.20535213330258267,
+            "is_supported": false
+          },
+          {
+            "sentence": "These rules are designed to ensure fair treatment for all shareholders and to prevent any undue influence on corporate decision-making",
+            "max_similarity": 0.08039192160361065,
+            "is_supported": false
+          },
+          {
+            "sentence": "[2] The Committee recommends that the SEC encourage dual class issuers to provide more robust disclosures regarding material aspects related to their governance structures, including those involving dual-class shares [3]",
+            "max_similarity": 0.678790825339389,
+            "is_supported": true
+          },
+          {
+            "sentence": "This recommendation highlights the need for enhanced disclosure practices by companies with such structures",
+            "max_similarity": 0.2104835265512142,
+            "is_supported": false
+          },
+          {
+            "sentence": "[4] Nasdaq's Rule 5605 specifically addresses companies with dual-class structures",
+            "max_similarity": 0.1731616064740046,
+            "is_supported": false
+          },
+          {
+            "sentence": "It prohibits the issuance of super voting stock and requires companies to comply with certain restrictions on their governance structures [4]",
+            "max_similarity": 0.3170785625824963,
+            "is_supported": false
+          },
+          {
+            "sentence": "#### Comprehensive Answer:\nCompanies going public with dual-class voting structures must adhere to both SEC disclosure requirements and stock exchange rules",
+            "max_similarity": 0.17365051210380916,
+            "is_supported": false
+          },
+          {
+            "sentence": "The SEC mandates that these companies disclose any potential risks or effects associated with their dual class or other entrenching governance structures",
+            "max_similarity": 0.6042664566647059,
+            "is_supported": true
+          },
+          {
+            "sentence": "Additionally, stock exchanges like Nasdaq have specific rules prohibiting the issuance of super voting stock and requiring enhanced disclosures regarding material aspects related to their governance structures",
+            "max_similarity": 0.28291332903702615,
+            "is_supported": false
+          },
+          {
+            "sentence": "These regulations aim to ensure transparency and fairness in corporate governance practices, particularly for companies adopting dual-class voting structures",
+            "max_similarity": 0.17479139550514478,
+            "is_supported": false
+          },
+          {
+            "sentence": "Companies must comply with these requirements to maintain their listings on major stock exchanges such as NASDAQ",
+            "max_similarity": 0.13129968312634618,
+            "is_supported": false
+          }
+        ],
+        "latency_ms": 0.9548664093017578
+      }
+    },
+    "serp_bing": {
+      "answer": "The search results provided do not contain any information related to SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures. The content of these web pages is unrelated to financial regulation or corporate governance practices as they pertain to gaming FAQs and game-related discussions.\n\nTo answer the legal question, I would need specific sources that discuss SEC disclosure requirements and stock exchange rules concerning dual-class voting structures in initial public offerings (IPOs). Here are some general points about such disclosures:\n\n### SEC Disclosure Requirements for Dual-Class Voting Structures\n\nThe Securities and Exchange Commission (SEC) requires companies to disclose significant information regarding their corporate governance practices, including the structure of their shareholdings. For companies going public with dual-class voting structures, these requirements include detailed disclosure in their registration statements.\n\n#### Key Points from SEC Guidance:\n\n1. **Disclosure Requirements**: Companies must provide clear and comprehensive disclosures about the nature of their voting structures, including how many votes each class of stock carries and any other significant terms related to the structure.\n   \n2. **Comparative Disclosures**: The SEC requires companies to compare their dual-class structure with that of comparable public companies in order to highlight any material differences or unique aspects.\n\n3. **Reasonableness Provisions**: Companies must explain why they believe their voting structures are reasonable and fair, providing evidence such as market research or expert opinions where applicable.\n\n4. **Risk Factors**: Dual-class voting structures can pose significant risks to investors, so companies should disclose these risks in detail, including potential dilution of voting power for common shareholders over time.\n\n5. **Board Composition**: The SEC mandates that the board of directors must be composed of independent members and provide a detailed description of how the dual-class structure affects this independence.\n\n### Stock Exchange Rules\n\nStock exchanges also have specific rules regarding the disclosure requirements for companies with dual-class voting structures. For example, the New York Stock Exchange (NYSE) has certain filing requirements under Rule 14a-8, which mandates that any shareholder proposal or director nomination must be accompanied by a proxy statement disclosing all material terms of the proposal.\n\n#### Key Points from NYSE Rules:\n\n1. **Proxy Statement**: Companies are required to include in their annual reports and other filings detailed information about the voting structure, including how many votes each class of stock carries.\n   \n2. **Notice Requirements**: Shareholders must be given notice of any shareholder proposals or director nominations that involve dual-class structures.\n\n3. **Filing Fees**: There may be additional",
+      "generation_latency_ms": 13297.350883483887,
+      "authority_of_cited": {
+        "authority_score": 0.0,
+        "num_citations": 0,
+        "cited_urls": [],
+        "latency_ms": 0.022172927856445312
+      },
+      "support_ratio": {
+        "support_ratio": 0.0,
+        "supported_sentences": 0,
+        "total_sentences": 23,
+        "sentence_details": [
+          {
+            "sentence": "The search results provided do not contain any information related to SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures",
+            "max_similarity": 0.02775067774839766,
+            "is_supported": false
+          },
+          {
+            "sentence": "The content of these web pages is unrelated to financial regulation or corporate governance practices as they pertain to gaming FAQs and game-related discussions",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "To answer the legal question, I would need specific sources that discuss SEC disclosure requirements and stock exchange rules concerning dual-class voting structures in initial public offerings (IPOs)",
+            "max_similarity": 0.023510777563428557,
+            "is_supported": false
+          },
+          {
+            "sentence": "Here are some general points about such disclosures:\n\n### SEC Disclosure Requirements for Dual-Class Voting Structures\n\nThe Securities and Exchange Commission (SEC) requires companies to disclose significant information regarding their corporate governance practices, including the structure of their shareholdings",
+            "max_similarity": 0.022204114626634772,
+            "is_supported": false
+          },
+          {
+            "sentence": "For companies going public with dual-class voting structures, these requirements include detailed disclosure in their registration statements",
+            "max_similarity": 0.034466749137135065,
+            "is_supported": false
+          },
+          {
+            "sentence": "#### Key Points from SEC Guidance:\n\n1",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "**Disclosure Requirements**: Companies must provide clear and comprehensive disclosures about the nature of their voting structures, including how many votes each class of stock carries and any other significant terms related to the structure",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "2",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "**Comparative Disclosures**: The SEC requires companies to compare their dual-class structure with that of comparable public companies in order to highlight any material differences or unique aspects",
+            "max_similarity": 0.024945681748099937,
+            "is_supported": false
+          },
+          {
+            "sentence": "3",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "**Reasonableness Provisions**: Companies must explain why they believe their voting structures are reasonable and fair, providing evidence such as market research or expert opinions where applicable",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "4",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "**Risk Factors**: Dual-class voting structures can pose significant risks to investors, so companies should disclose these risks in detail, including potential dilution of voting power for common shareholders over time",
+            "max_similarity": 0.057754790282677035,
+            "is_supported": false
+          },
+          {
+            "sentence": "5",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "**Board Composition**: The SEC mandates that the board of directors must be composed of independent members and provide a detailed description of how the dual-class structure affects this independence",
+            "max_similarity": 0.09095603633252661,
+            "is_supported": false
+          },
+          {
+            "sentence": "### Stock Exchange Rules\n\nStock exchanges also have specific rules regarding the disclosure requirements for companies with dual-class voting structures",
+            "max_similarity": 0.029828776935591973,
+            "is_supported": false
+          },
+          {
+            "sentence": "For example, the New York Stock Exchange (NYSE) has certain filing requirements under Rule 14a-8, which mandates that any shareholder proposal or director nomination must be accompanied by a proxy statement disclosing all material terms of the proposal",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "#### Key Points from NYSE Rules:\n\n1",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "**Proxy Statement**: Companies are required to include in their annual reports and other filings detailed information about the voting structure, including how many votes each class of stock carries",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "2",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "**Notice Requirements**: Shareholders must be given notice of any shareholder proposals or director nominations that involve dual-class structures",
+            "max_similarity": 0.027072528469942864,
+            "is_supported": false
+          },
+          {
+            "sentence": "3",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "**Filing Fees**: There may be additional",
+            "max_similarity": 0.0,
+            "is_supported": false
+          }
+        ],
+        "latency_ms": 1.2249946594238281
+      }
+    },
+    "serp_duckduckgo": {
+      "answer": "### SEC Disclosure Requirements and Stock Exchange Rules for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) plays a crucial role in setting and enforcing disclosure requirements for public offerings of multi-class shares. The current disclosure regime under securities laws requires risk factor disclosures related to various risks posed by non-standard share structures, including dual-class voting structures [3].\n\nFor instance, the SEC's staff reviews these disclosures during their review process. This ensures that companies provide comprehensive information about potential risks associated with dual-class structures, such as agency costs and the concentration of control rights among certain shareholders.\n\n#### Stock Exchange Rules:\nThe New York Stock Exchange (NYSE) and Nasdaq have specific policies regarding the listing of companies with dual-class voting structures at the time of their initial public offering (IPO). These exchanges require that companies satisfy quantitative listing requirements and corporate governance standards to be eligible for listing. Listed companies are also required to meet certain ongoing requirements relating to shareholder communication and disclosure [4].\n\nThe NYSE, Nasdaq, and other stock exchanges have adopted policies permitting the listing of companies with dual-class shares in an IPO, provided they adhere to specific criteria. For example, the NYSE updated its policy in 1940 to limit the listing of non-voting common stock, although Ford Motor Company was permitted to list with a dual class share structure in 1956 [5].\n\n#### Recent Trends:\nIn recent years, there has been an increase in companies adopting dual-class voting structures. According to research by Latham & Watkins, nearly one in four U.S. companies that went public in the first half of 2021 did so with a dual class structure [7]. This trend is also reflected in data from NYU Law's report on dual-class stock IPOs, which found that these structures are becoming more popular among firms seeking to list their shares publicly [6].\n\n### Summary:\nCompanies going public with dual-class voting structures must adhere to both SEC disclosure requirements and the specific listing rules of relevant stock exchanges. The SEC mandates risk factor disclosures related to potential risks associated with such structures, while stock exchanges like NYSE and Nasdaq have policies permitting the listing of companies with these structures provided they meet certain criteria.\n\nFor instance, the NYSE updated its policy in 1940 to limit the listing of non-voting common stock. However, Ford Motor Company was permitted to list with a dual class share structure as early as ",
+      "generation_latency_ms": 13473.242044448853,
+      "authority_of_cited": {
+        "authority_score": 0.6,
+        "num_citations": 5,
+        "cited_urls": [
+          "https://www.sec.gov/spotlight/investor-advisory-committee-2012/recommendation-on-dual-class-shares.pdf",
+          "https://www.lw.com/admin/upload/SiteAttachments/lw-us-ipo-guide.pdf",
+          "https://www.bakermckenzie.com/-/media/files/insight/publications/2020/03/the-revival-of-dual-class-shares.pdf",
+          "https://www.cii.org/dualclass_stock",
+          "https://www.law.nyu.edu/sites/default/files/The%20Rise%20of%20Dual-Class%20Stock%20IPOs%20-%2020211122.pdf"
+        ],
+        "individual_scores": [
+          1.0,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 1.0349750518798828
+      },
+      "support_ratio": {
+        "support_ratio": 0.167,
+        "supported_sentences": 3,
+        "total_sentences": 18,
+        "sentence_details": [
+          {
+            "sentence": "### SEC Disclosure Requirements and Stock Exchange Rules for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) plays a crucial role in setting and enforcing disclosure requirements for public offerings of multi-class shares",
+            "max_similarity": 0.48995436344230336,
+            "is_supported": false
+          },
+          {
+            "sentence": "The current disclosure regime under securities laws requires risk factor disclosures related to various risks posed by non-standard share structures, including dual-class voting structures [3]",
+            "max_similarity": 0.47264700486191363,
+            "is_supported": false
+          },
+          {
+            "sentence": "For instance, the SEC's staff reviews these disclosures during their review process",
+            "max_similarity": 0.2943939830063933,
+            "is_supported": false
+          },
+          {
+            "sentence": "This ensures that companies provide comprehensive information about potential risks associated with dual-class structures, such as agency costs and the concentration of control rights among certain shareholders",
+            "max_similarity": 0.3526028278891148,
+            "is_supported": false
+          },
+          {
+            "sentence": "#### Stock Exchange Rules:\nThe New York Stock Exchange (NYSE) and Nasdaq have specific policies regarding the listing of companies with dual-class voting structures at the time of their initial public offering (IPO)",
+            "max_similarity": 0.36555835064640774,
+            "is_supported": false
+          },
+          {
+            "sentence": "These exchanges require that companies satisfy quantitative listing requirements and corporate governance standards to be eligible for listing",
+            "max_similarity": 0.5941141184379644,
+            "is_supported": false
+          },
+          {
+            "sentence": "Listed companies are also required to meet certain ongoing requirements relating to shareholder communication and disclosure [4]",
+            "max_similarity": 0.7243780568911001,
+            "is_supported": true
+          },
+          {
+            "sentence": "The NYSE, Nasdaq, and other stock exchanges have adopted policies permitting the listing of companies with dual-class shares in an IPO, provided they adhere to specific criteria",
+            "max_similarity": 0.26562071729029685,
+            "is_supported": false
+          },
+          {
+            "sentence": "For example, the NYSE updated its policy in 1940 to limit the listing of non-voting common stock, although Ford Motor Company was permitted to list with a dual class share structure in 1956 [5]",
+            "max_similarity": 0.9719960579891388,
+            "is_supported": true
+          },
+          {
+            "sentence": "#### Recent Trends:\nIn recent years, there has been an increase in companies adopting dual-class voting structures",
+            "max_similarity": 0.18815603521537766,
+            "is_supported": false
+          },
+          {
+            "sentence": "According to research by Latham & Watkins, nearly one in four U",
+            "max_similarity": 0.08101588026575439,
+            "is_supported": false
+          },
+          {
+            "sentence": "S",
+            "max_similarity": 0.0,
+            "is_supported": false
+          },
+          {
+            "sentence": "companies that went public in the first half of 2021 did so with a dual class structure [7]",
+            "max_similarity": 0.5552022120485415,
+            "is_supported": false
+          },
+          {
+            "sentence": "This trend is also reflected in data from NYU Law's report on dual-class stock IPOs, which found that these structures are becoming more popular among firms seeking to list their shares publicly [6]",
+            "max_similarity": 0.17250875945164856,
+            "is_supported": false
+          },
+          {
+            "sentence": "### Summary:\nCompanies going public with dual-class voting structures must adhere to both SEC disclosure requirements and the specific listing rules of relevant stock exchanges",
+            "max_similarity": 0.1891581655163801,
+            "is_supported": false
+          },
+          {
+            "sentence": "The SEC mandates risk factor disclosures related to potential risks associated with such structures, while stock exchanges like NYSE and Nasdaq have policies permitting the listing of companies with these structures provided they meet certain criteria",
+            "max_similarity": 0.2301503890426482,
+            "is_supported": false
+          },
+          {
+            "sentence": "For instance, the NYSE updated its policy in 1940 to limit the listing of non-voting common stock",
+            "max_similarity": 0.6479253307773517,
+            "is_supported": true
+          },
+          {
+            "sentence": "However, Ford Motor Company was permitted to list with a dual class share structure as early as",
+            "max_similarity": 0.5867361743604649,
+            "is_supported": false
+          }
+        ],
+        "latency_ms": 1.0461807250976562
+      }
+    }
+  },
+  "llm_win_rate": {
+    "win_rates": {
+      "exa": 0.75,
+      "google": 0.5,
+      "serp_google": 0.25,
+      "serp_bing": 0.75,
+      "serp_duckduckgo": 0.25
+    },
+    "win_counts": {
+      "exa": 3,
+      "google": 2,
+      "serp_google": 1,
+      "serp_bing": 3,
+      "serp_duckduckgo": 1
+    },
+    "judgments_count": 10,
+    "evaluation_latency_ms": 100501.52683258057
+  },
+  "pairwise_judgments": [
+    {
+      "query": "What are the SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures?",
+      "provider_a": "google",
+      "provider_b": "exa",
+      "answer_a": "### SEC Disclosure Requirements for Companies Going Public with Dual-Class Voting Structures\n\n#### Overview of SEC's Role in Setting and Enforcing Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) plays a crucial role in setting and enforcing disclosure requirements for companies. [1] The SEC has established guidelines that mandate the disclosure of information necessary to enable investors to make informed decisions about securities offerings. These disclosures are critical, especially when it comes to dual-class voting structures.\n\n#### Stock Exchange Rules on Dual-Class Voting Structures:\nThe New York Stock Exchange (NYSE) and Nasdaq have specific rules regarding the listing of companies with dual-class voting structures. [2] The SEC's guidelines align with these stock exchange requirements, ensuring that all relevant information is disclosed to investors.\n\n### NYSE Listing Requirements for Companies with Dual-Class Voting Structures:\n\n#### Board Composition and Independent Director Oversight:\nThe NYSE requires listed companies to have a board of directors that includes independent directors who oversee executive management. [3] This oversight ensures that the interests of shareholders are protected, particularly in cases where dual-class voting structures may lead to conflicts of interest.\n\n### Nasdaq Listing Requirements for Companies with Dual-Class Voting Structures:\n\n#### Implementation and Compliance:\nNasdaq has specific rules regarding the implementation and compliance with dual-class stock structures. These rules include requirements for board composition and independent director oversight. [3] The NASDAQ Stock Market Listing Rules also mandate that listed companies must implement a dual class stock structure in accordance with these guidelines.\n\n### SEC's Role in Enforcing Dual-Class Voting Structures:\n\n#### Enforcement of Disclosure Requirements:\nThe SEC enforces the disclosure requirements set by major stock exchanges, including NYSE and Nasdaq. [1] Companies are required to disclose any changes or modifications to their dual-class voting structures promptly after they occur. This ensures that investors have access to timely and accurate information.\n\n### Case Law and Regulatory Guidance:\n\n#### CII's Position on Dual-Class Voting Structures:\nThe Council of Institutional Investors (CII) has expressed concerns about the use of dual-class voting structures, particularly in initial public offerings (IPOs). [4] The CII has called for stock exchanges to impose stricter rules regarding the listing of companies with such structures. This underscores the importance of regulatory oversight and compliance.\n\n#### NYSE's Position on Dual-Class Voting Structures:\nThe New York Stock Exchange (NYSE) has maintained a stance that dual-class voting structures are permissible, provided they meet certain criteria. [8] The NASDAQ Stock Market Listing Rules also allow",
+      "answer_b": "### SEC Disclosure Requirements and Stock Exchange Rules for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) has specific disclosure requirements for companies planning to go public. These requirements are outlined in various sections of the Securities Act of 1933, as amended, and the Securities Exchange Act of 1934, as amended.\n\n**[7] Going Public: A Guide to U.S. IPOs for Founders, Officers, Directors and Other Market Participants**\nThis guide from Cleary Gottlieb Steen & Hamilton LLP provides insight into the SEC's disclosure requirements during an Initial Public Offering (IPO). The document emphasizes that companies must disclose material information about their business operations, financial condition, and risks to potential investors. [7]\n\n**[1] On Dual Class and Other Entrenching Governance Structures in Public Companies**\nThis SEC investor advisory committee recommendation from 2012 highlights the increasing prevalence of dual-class voting structures among public companies since 1980. The document notes that such structures can entrench management, potentially leading to conflicts with minority shareholders. [1]\n\n#### Stock Exchange Rules:\nThe stock exchanges have their own rules and guidelines for companies planning to go public. For example, Nasdaq and the New York Stock Exchange (NYSE) have specific requirements for initial listings.\n\n**[4] NYSE IPO Guide Third Edition**\nThis guide from the NYSE provides detailed information on the process of going public through an Initial Public Offering (IPO). The document mentions that companies must adhere to various rules and regulations set by the exchange, including those related to governance structures. [4]\n\n**[2] Nasdaq Rule 5605**\nNasdaq's Rule 5605 specifically addresses dual-class voting structures. This rule requires companies with multi-class stock structures to disclose significant information about their governance structure in their registration statement and periodic reports. [2]\n\n### Summary of Key Points:\n1. **SEC Disclosure Requirements:** Companies must provide comprehensive disclosures regarding their business operations, financial condition, and risks to potential investors. The SEC's guidelines are detailed in the guide provided by Cleary Gottlieb Steen & Hamilton LLP.\n   \n2. **Stock Exchange Rules for Dual-Class Voting Structures:**\n   - Nasdaq Rule 5605 mandates that companies with multi-class stock structures must disclose significant information about their governance structure, including dual-class voting structures, in their registration statement and",
+      "winner": "exa",
+      "confidence": 3,
+      "reasoning": "Answer A provides a more comprehensive and detailed legal analysis of SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures. It cites specific regulations and guidelines from the SEC, NYSE, and Nasdaq, offering a clearer understanding of the applicable laws and regulatory guidance. Answer B mentions some sources but does not provide as much detail or context regarding the specific rules and regulations.",
+      "judgment_latency_ms": 4275.245189666748
+    },
+    {
+      "query": "What are the SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures?",
+      "provider_a": "serp_google",
+      "provider_b": "exa",
+      "answer_a": "### SEC Disclosure Requirements for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) has established certain disclosure requirements for companies that adopt dual-class voting structures. These disclosures are aimed at ensuring transparency to investors regarding potential risks associated with such structures.\n\n[1] The document titled \"On Dual Class and Other Entrenching Governance Structures\" [1], issued by the SEC, recommends that public companies disclose any potential risks or effects of having dual class or other entrenching governance structures. This recommendation underscores the importance of transparency in disclosing information about these structures to investors.\n\n#### Stock Exchange Rules:\nStock exchanges also have specific rules regarding the listing and operation of companies with dual-class voting structures. These rules are designed to ensure fair treatment for all shareholders and to prevent any undue influence on corporate decision-making.\n\n[2] The Committee recommends that the SEC encourage dual class issuers to provide more robust disclosures regarding material aspects related to their governance structures, including those involving dual-class shares [3]. This recommendation highlights the need for enhanced disclosure practices by companies with such structures.\n\n[4] Nasdaq's Rule 5605 specifically addresses companies with dual-class structures. It prohibits the issuance of super voting stock and requires companies to comply with certain restrictions on their governance structures [4].\n\n#### Comprehensive Answer:\nCompanies going public with dual-class voting structures must adhere to both SEC disclosure requirements and stock exchange rules. The SEC mandates that these companies disclose any potential risks or effects associated with their dual class or other entrenching governance structures. Additionally, stock exchanges like Nasdaq have specific rules prohibiting the issuance of super voting stock and requiring enhanced disclosures regarding material aspects related to their governance structures.\n\nThese regulations aim to ensure transparency and fairness in corporate governance practices, particularly for companies adopting dual-class voting structures. Companies must comply with these requirements to maintain their listings on major stock exchanges such as NASDAQ.",
+      "answer_b": "### SEC Disclosure Requirements and Stock Exchange Rules for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) has specific disclosure requirements for companies planning to go public. These requirements are outlined in various sections of the Securities Act of 1933, as amended, and the Securities Exchange Act of 1934, as amended.\n\n**[7] Going Public: A Guide to U.S. IPOs for Founders, Officers, Directors and Other Market Participants**\nThis guide from Cleary Gottlieb Steen & Hamilton LLP provides insight into the SEC's disclosure requirements during an Initial Public Offering (IPO). The document emphasizes that companies must disclose material information about their business operations, financial condition, and risks to potential investors. [7]\n\n**[1] On Dual Class and Other Entrenching Governance Structures in Public Companies**\nThis SEC investor advisory committee recommendation from 2012 highlights the increasing prevalence of dual-class voting structures among public companies since 1980. The document notes that such structures can entrench management, potentially leading to conflicts with minority shareholders. [1]\n\n#### Stock Exchange Rules:\nThe stock exchanges have their own rules and guidelines for companies planning to go public. For example, Nasdaq and the New York Stock Exchange (NYSE) have specific requirements for initial listings.\n\n**[4] NYSE IPO Guide Third Edition**\nThis guide from the NYSE provides detailed information on the process of going public through an Initial Public Offering (IPO). The document mentions that companies must adhere to various rules and regulations set by the exchange, including those related to governance structures. [4]\n\n**[2] Nasdaq Rule 5605**\nNasdaq's Rule 5605 specifically addresses dual-class voting structures. This rule requires companies with multi-class stock structures to disclose significant information about their governance structure in their registration statement and periodic reports. [2]\n\n### Summary of Key Points:\n1. **SEC Disclosure Requirements:** Companies must provide comprehensive disclosures regarding their business operations, financial condition, and risks to potential investors. The SEC's guidelines are detailed in the guide provided by Cleary Gottlieb Steen & Hamilton LLP.\n   \n2. **Stock Exchange Rules for Dual-Class Voting Structures:**\n   - Nasdaq Rule 5605 mandates that companies with multi-class stock structures must disclose significant information about their governance structure, including dual-class voting structures, in their registration statement and",
+      "winner": "exa",
+      "confidence": 3,
+      "reasoning": "Answer A is clearly superior due to its more detailed legal analysis, better identification of applicable laws/regulations, higher quality citations, and clearer legal reasoning. Answer B provides some relevant information but lacks the depth and specificity found in Answer A.",
+      "judgment_latency_ms": 3049.4940280914307
+    },
+    {
+      "query": "What are the SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures?",
+      "provider_a": "serp_bing",
+      "provider_b": "exa",
+      "answer_a": "The search results provided do not contain any information related to SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures. The content of these web pages is unrelated to financial regulation or corporate governance practices as they pertain to gaming FAQs and game-related discussions.\n\nTo answer the legal question, I would need specific sources that discuss SEC disclosure requirements and stock exchange rules concerning dual-class voting structures in initial public offerings (IPOs). Here are some general points about such disclosures:\n\n### SEC Disclosure Requirements for Dual-Class Voting Structures\n\nThe Securities and Exchange Commission (SEC) requires companies to disclose significant information regarding their corporate governance practices, including the structure of their shareholdings. For companies going public with dual-class voting structures, these requirements include detailed disclosure in their registration statements.\n\n#### Key Points from SEC Guidance:\n\n1. **Disclosure Requirements**: Companies must provide clear and comprehensive disclosures about the nature of their voting structures, including how many votes each class of stock carries and any other significant terms related to the structure.\n   \n2. **Comparative Disclosures**: The SEC requires companies to compare their dual-class structure with that of comparable public companies in order to highlight any material differences or unique aspects.\n\n3. **Reasonableness Provisions**: Companies must explain why they believe their voting structures are reasonable and fair, providing evidence such as market research or expert opinions where applicable.\n\n4. **Risk Factors**: Dual-class voting structures can pose significant risks to investors, so companies should disclose these risks in detail, including potential dilution of voting power for common shareholders over time.\n\n5. **Board Composition**: The SEC mandates that the board of directors must be composed of independent members and provide a detailed description of how the dual-class structure affects this independence.\n\n### Stock Exchange Rules\n\nStock exchanges also have specific rules regarding the disclosure requirements for companies with dual-class voting structures. For example, the New York Stock Exchange (NYSE) has certain filing requirements under Rule 14a-8, which mandates that any shareholder proposal or director nomination must be accompanied by a proxy statement disclosing all material terms of the proposal.\n\n#### Key Points from NYSE Rules:\n\n1. **Proxy Statement**: Companies are required to include in their annual reports and other filings detailed information about the voting structure, including how many votes each class of stock carries.\n   \n2. **Notice Requirements**: Shareholders must be given notice of any shareholder proposals or director nominations that involve dual-class structures.\n\n3. **Filing Fees**: There may be additional",
+      "answer_b": "### SEC Disclosure Requirements and Stock Exchange Rules for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) has specific disclosure requirements for companies planning to go public. These requirements are outlined in various sections of the Securities Act of 1933, as amended, and the Securities Exchange Act of 1934, as amended.\n\n**[7] Going Public: A Guide to U.S. IPOs for Founders, Officers, Directors and Other Market Participants**\nThis guide from Cleary Gottlieb Steen & Hamilton LLP provides insight into the SEC's disclosure requirements during an Initial Public Offering (IPO). The document emphasizes that companies must disclose material information about their business operations, financial condition, and risks to potential investors. [7]\n\n**[1] On Dual Class and Other Entrenching Governance Structures in Public Companies**\nThis SEC investor advisory committee recommendation from 2012 highlights the increasing prevalence of dual-class voting structures among public companies since 1980. The document notes that such structures can entrench management, potentially leading to conflicts with minority shareholders. [1]\n\n#### Stock Exchange Rules:\nThe stock exchanges have their own rules and guidelines for companies planning to go public. For example, Nasdaq and the New York Stock Exchange (NYSE) have specific requirements for initial listings.\n\n**[4] NYSE IPO Guide Third Edition**\nThis guide from the NYSE provides detailed information on the process of going public through an Initial Public Offering (IPO). The document mentions that companies must adhere to various rules and regulations set by the exchange, including those related to governance structures. [4]\n\n**[2] Nasdaq Rule 5605**\nNasdaq's Rule 5605 specifically addresses dual-class voting structures. This rule requires companies with multi-class stock structures to disclose significant information about their governance structure in their registration statement and periodic reports. [2]\n\n### Summary of Key Points:\n1. **SEC Disclosure Requirements:** Companies must provide comprehensive disclosures regarding their business operations, financial condition, and risks to potential investors. The SEC's guidelines are detailed in the guide provided by Cleary Gottlieb Steen & Hamilton LLP.\n   \n2. **Stock Exchange Rules for Dual-Class Voting Structures:**\n   - Nasdaq Rule 5605 mandates that companies with multi-class stock structures must disclose significant information about their governance structure, including dual-class voting structures, in their registration statement and",
+      "winner": "serp_bing",
+      "confidence": 3,
+      "reasoning": "Answer B provides more relevant and specific legal guidance on SEC disclosure requirements and stock exchange rules for companies with dual-class voting structures. It cites authoritative sources such as the Securities Act of 1933, the Securities Exchange Act of 1934, and NYSE Rule 5605, which are directly applicable to the question. Answer A is vague and does not provide specific legal requirements or references.",
+      "judgment_latency_ms": 4241.714954376221
+    },
+    {
+      "query": "What are the SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures?",
+      "provider_a": "exa",
+      "provider_b": "serp_duckduckgo",
+      "answer_a": "### SEC Disclosure Requirements and Stock Exchange Rules for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) has specific disclosure requirements for companies planning to go public. These requirements are outlined in various sections of the Securities Act of 1933, as amended, and the Securities Exchange Act of 1934, as amended.\n\n**[7] Going Public: A Guide to U.S. IPOs for Founders, Officers, Directors and Other Market Participants**\nThis guide from Cleary Gottlieb Steen & Hamilton LLP provides insight into the SEC's disclosure requirements during an Initial Public Offering (IPO). The document emphasizes that companies must disclose material information about their business operations, financial condition, and risks to potential investors. [7]\n\n**[1] On Dual Class and Other Entrenching Governance Structures in Public Companies**\nThis SEC investor advisory committee recommendation from 2012 highlights the increasing prevalence of dual-class voting structures among public companies since 1980. The document notes that such structures can entrench management, potentially leading to conflicts with minority shareholders. [1]\n\n#### Stock Exchange Rules:\nThe stock exchanges have their own rules and guidelines for companies planning to go public. For example, Nasdaq and the New York Stock Exchange (NYSE) have specific requirements for initial listings.\n\n**[4] NYSE IPO Guide Third Edition**\nThis guide from the NYSE provides detailed information on the process of going public through an Initial Public Offering (IPO). The document mentions that companies must adhere to various rules and regulations set by the exchange, including those related to governance structures. [4]\n\n**[2] Nasdaq Rule 5605**\nNasdaq's Rule 5605 specifically addresses dual-class voting structures. This rule requires companies with multi-class stock structures to disclose significant information about their governance structure in their registration statement and periodic reports. [2]\n\n### Summary of Key Points:\n1. **SEC Disclosure Requirements:** Companies must provide comprehensive disclosures regarding their business operations, financial condition, and risks to potential investors. The SEC's guidelines are detailed in the guide provided by Cleary Gottlieb Steen & Hamilton LLP.\n   \n2. **Stock Exchange Rules for Dual-Class Voting Structures:**\n   - Nasdaq Rule 5605 mandates that companies with multi-class stock structures must disclose significant information about their governance structure, including dual-class voting structures, in their registration statement and",
+      "answer_b": "### SEC Disclosure Requirements and Stock Exchange Rules for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) plays a crucial role in setting and enforcing disclosure requirements for public offerings of multi-class shares. The current disclosure regime under securities laws requires risk factor disclosures related to various risks posed by non-standard share structures, including dual-class voting structures [3].\n\nFor instance, the SEC's staff reviews these disclosures during their review process. This ensures that companies provide comprehensive information about potential risks associated with dual-class structures, such as agency costs and the concentration of control rights among certain shareholders.\n\n#### Stock Exchange Rules:\nThe New York Stock Exchange (NYSE) and Nasdaq have specific policies regarding the listing of companies with dual-class voting structures at the time of their initial public offering (IPO). These exchanges require that companies satisfy quantitative listing requirements and corporate governance standards to be eligible for listing. Listed companies are also required to meet certain ongoing requirements relating to shareholder communication and disclosure [4].\n\nThe NYSE, Nasdaq, and other stock exchanges have adopted policies permitting the listing of companies with dual-class shares in an IPO, provided they adhere to specific criteria. For example, the NYSE updated its policy in 1940 to limit the listing of non-voting common stock, although Ford Motor Company was permitted to list with a dual class share structure in 1956 [5].\n\n#### Recent Trends:\nIn recent years, there has been an increase in companies adopting dual-class voting structures. According to research by Latham & Watkins, nearly one in four U.S. companies that went public in the first half of 2021 did so with a dual class structure [7]. This trend is also reflected in data from NYU Law's report on dual-class stock IPOs, which found that these structures are becoming more popular among firms seeking to list their shares publicly [6].\n\n### Summary:\nCompanies going public with dual-class voting structures must adhere to both SEC disclosure requirements and the specific listing rules of relevant stock exchanges. The SEC mandates risk factor disclosures related to potential risks associated with such structures, while stock exchanges like NYSE and Nasdaq have policies permitting the listing of companies with these structures provided they meet certain criteria.\n\nFor instance, the NYSE updated its policy in 1940 to limit the listing of non-voting common stock. However, Ford Motor Company was permitted to list with a dual class share structure as early as ",
+      "winner": "exa",
+      "confidence": 3,
+      "reasoning": "Answer A provides more detailed and accurate legal information about SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures. It cites specific documents from reputable sources such as Cleary Gottlieb Steen & Hamilton LLP, the SEC investor advisory committee, and NYSE IPO Guide Third Edition. Answer B mentions some of these sources but does not provide as much detail or context. Both answers are clear in their legal reasoning, but A's citations are more relevant to the specific question.",
+      "judgment_latency_ms": 4570.384979248047
+    },
+    {
+      "query": "What are the SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures?",
+      "provider_a": "serp_google",
+      "provider_b": "google",
+      "answer_a": "### SEC Disclosure Requirements for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) has established certain disclosure requirements for companies that adopt dual-class voting structures. These disclosures are aimed at ensuring transparency to investors regarding potential risks associated with such structures.\n\n[1] The document titled \"On Dual Class and Other Entrenching Governance Structures\" [1], issued by the SEC, recommends that public companies disclose any potential risks or effects of having dual class or other entrenching governance structures. This recommendation underscores the importance of transparency in disclosing information about these structures to investors.\n\n#### Stock Exchange Rules:\nStock exchanges also have specific rules regarding the listing and operation of companies with dual-class voting structures. These rules are designed to ensure fair treatment for all shareholders and to prevent any undue influence on corporate decision-making.\n\n[2] The Committee recommends that the SEC encourage dual class issuers to provide more robust disclosures regarding material aspects related to their governance structures, including those involving dual-class shares [3]. This recommendation highlights the need for enhanced disclosure practices by companies with such structures.\n\n[4] Nasdaq's Rule 5605 specifically addresses companies with dual-class structures. It prohibits the issuance of super voting stock and requires companies to comply with certain restrictions on their governance structures [4].\n\n#### Comprehensive Answer:\nCompanies going public with dual-class voting structures must adhere to both SEC disclosure requirements and stock exchange rules. The SEC mandates that these companies disclose any potential risks or effects associated with their dual class or other entrenching governance structures. Additionally, stock exchanges like Nasdaq have specific rules prohibiting the issuance of super voting stock and requiring enhanced disclosures regarding material aspects related to their governance structures.\n\nThese regulations aim to ensure transparency and fairness in corporate governance practices, particularly for companies adopting dual-class voting structures. Companies must comply with these requirements to maintain their listings on major stock exchanges such as NASDAQ.",
+      "answer_b": "### SEC Disclosure Requirements for Companies Going Public with Dual-Class Voting Structures\n\n#### Overview of SEC's Role in Setting and Enforcing Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) plays a crucial role in setting and enforcing disclosure requirements for companies. [1] The SEC has established guidelines that mandate the disclosure of information necessary to enable investors to make informed decisions about securities offerings. These disclosures are critical, especially when it comes to dual-class voting structures.\n\n#### Stock Exchange Rules on Dual-Class Voting Structures:\nThe New York Stock Exchange (NYSE) and Nasdaq have specific rules regarding the listing of companies with dual-class voting structures. [2] The SEC's guidelines align with these stock exchange requirements, ensuring that all relevant information is disclosed to investors.\n\n### NYSE Listing Requirements for Companies with Dual-Class Voting Structures:\n\n#### Board Composition and Independent Director Oversight:\nThe NYSE requires listed companies to have a board of directors that includes independent directors who oversee executive management. [3] This oversight ensures that the interests of shareholders are protected, particularly in cases where dual-class voting structures may lead to conflicts of interest.\n\n### Nasdaq Listing Requirements for Companies with Dual-Class Voting Structures:\n\n#### Implementation and Compliance:\nNasdaq has specific rules regarding the implementation and compliance with dual-class stock structures. These rules include requirements for board composition and independent director oversight. [3] The NASDAQ Stock Market Listing Rules also mandate that listed companies must implement a dual class stock structure in accordance with these guidelines.\n\n### SEC's Role in Enforcing Dual-Class Voting Structures:\n\n#### Enforcement of Disclosure Requirements:\nThe SEC enforces the disclosure requirements set by major stock exchanges, including NYSE and Nasdaq. [1] Companies are required to disclose any changes or modifications to their dual-class voting structures promptly after they occur. This ensures that investors have access to timely and accurate information.\n\n### Case Law and Regulatory Guidance:\n\n#### CII's Position on Dual-Class Voting Structures:\nThe Council of Institutional Investors (CII) has expressed concerns about the use of dual-class voting structures, particularly in initial public offerings (IPOs). [4] The CII has called for stock exchanges to impose stricter rules regarding the listing of companies with such structures. This underscores the importance of regulatory oversight and compliance.\n\n#### NYSE's Position on Dual-Class Voting Structures:\nThe New York Stock Exchange (NYSE) has maintained a stance that dual-class voting structures are permissible, provided they meet certain criteria. [8] The NASDAQ Stock Market Listing Rules also allow",
+      "winner": "google",
+      "confidence": 3,
+      "reasoning": "Answer A is clearly superior in terms of legal accuracy and completeness of analysis. It provides more detailed explanations with specific references to SEC guidelines, NYSE rules, and Nasdaq listing requirements. Answer B lacks the depth and specificity found in Answer A, making it less comprehensive and harder to follow.",
+      "judgment_latency_ms": 3275.3798961639404
+    },
+    {
+      "query": "What are the SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures?",
+      "provider_a": "google",
+      "provider_b": "serp_bing",
+      "answer_a": "### SEC Disclosure Requirements for Companies Going Public with Dual-Class Voting Structures\n\n#### Overview of SEC's Role in Setting and Enforcing Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) plays a crucial role in setting and enforcing disclosure requirements for companies. [1] The SEC has established guidelines that mandate the disclosure of information necessary to enable investors to make informed decisions about securities offerings. These disclosures are critical, especially when it comes to dual-class voting structures.\n\n#### Stock Exchange Rules on Dual-Class Voting Structures:\nThe New York Stock Exchange (NYSE) and Nasdaq have specific rules regarding the listing of companies with dual-class voting structures. [2] The SEC's guidelines align with these stock exchange requirements, ensuring that all relevant information is disclosed to investors.\n\n### NYSE Listing Requirements for Companies with Dual-Class Voting Structures:\n\n#### Board Composition and Independent Director Oversight:\nThe NYSE requires listed companies to have a board of directors that includes independent directors who oversee executive management. [3] This oversight ensures that the interests of shareholders are protected, particularly in cases where dual-class voting structures may lead to conflicts of interest.\n\n### Nasdaq Listing Requirements for Companies with Dual-Class Voting Structures:\n\n#### Implementation and Compliance:\nNasdaq has specific rules regarding the implementation and compliance with dual-class stock structures. These rules include requirements for board composition and independent director oversight. [3] The NASDAQ Stock Market Listing Rules also mandate that listed companies must implement a dual class stock structure in accordance with these guidelines.\n\n### SEC's Role in Enforcing Dual-Class Voting Structures:\n\n#### Enforcement of Disclosure Requirements:\nThe SEC enforces the disclosure requirements set by major stock exchanges, including NYSE and Nasdaq. [1] Companies are required to disclose any changes or modifications to their dual-class voting structures promptly after they occur. This ensures that investors have access to timely and accurate information.\n\n### Case Law and Regulatory Guidance:\n\n#### CII's Position on Dual-Class Voting Structures:\nThe Council of Institutional Investors (CII) has expressed concerns about the use of dual-class voting structures, particularly in initial public offerings (IPOs). [4] The CII has called for stock exchanges to impose stricter rules regarding the listing of companies with such structures. This underscores the importance of regulatory oversight and compliance.\n\n#### NYSE's Position on Dual-Class Voting Structures:\nThe New York Stock Exchange (NYSE) has maintained a stance that dual-class voting structures are permissible, provided they meet certain criteria. [8] The NASDAQ Stock Market Listing Rules also allow",
+      "answer_b": "The search results provided do not contain any information related to SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures. The content of these web pages is unrelated to financial regulation or corporate governance practices as they pertain to gaming FAQs and game-related discussions.\n\nTo answer the legal question, I would need specific sources that discuss SEC disclosure requirements and stock exchange rules concerning dual-class voting structures in initial public offerings (IPOs). Here are some general points about such disclosures:\n\n### SEC Disclosure Requirements for Dual-Class Voting Structures\n\nThe Securities and Exchange Commission (SEC) requires companies to disclose significant information regarding their corporate governance practices, including the structure of their shareholdings. For companies going public with dual-class voting structures, these requirements include detailed disclosure in their registration statements.\n\n#### Key Points from SEC Guidance:\n\n1. **Disclosure Requirements**: Companies must provide clear and comprehensive disclosures about the nature of their voting structures, including how many votes each class of stock carries and any other significant terms related to the structure.\n   \n2. **Comparative Disclosures**: The SEC requires companies to compare their dual-class structure with that of comparable public companies in order to highlight any material differences or unique aspects.\n\n3. **Reasonableness Provisions**: Companies must explain why they believe their voting structures are reasonable and fair, providing evidence such as market research or expert opinions where applicable.\n\n4. **Risk Factors**: Dual-class voting structures can pose significant risks to investors, so companies should disclose these risks in detail, including potential dilution of voting power for common shareholders over time.\n\n5. **Board Composition**: The SEC mandates that the board of directors must be composed of independent members and provide a detailed description of how the dual-class structure affects this independence.\n\n### Stock Exchange Rules\n\nStock exchanges also have specific rules regarding the disclosure requirements for companies with dual-class voting structures. For example, the New York Stock Exchange (NYSE) has certain filing requirements under Rule 14a-8, which mandates that any shareholder proposal or director nomination must be accompanied by a proxy statement disclosing all material terms of the proposal.\n\n#### Key Points from NYSE Rules:\n\n1. **Proxy Statement**: Companies are required to include in their annual reports and other filings detailed information about the voting structure, including how many votes each class of stock carries.\n   \n2. **Notice Requirements**: Shareholders must be given notice of any shareholder proposals or director nominations that involve dual-class structures.\n\n3. **Filing Fees**: There may be additional",
+      "winner": "serp_bing",
+      "confidence": 1,
+      "reasoning": "Answer A contains irrelevant information and does not provide specific legal requirements related to SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures. Answer B, while brief, provides a general overview of the relevant regulatory framework without any inaccuracies or contradictions.",
+      "judgment_latency_ms": 3345.149278640747
+    },
+    {
+      "query": "What are the SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures?",
+      "provider_a": "google",
+      "provider_b": "serp_duckduckgo",
+      "answer_a": "### SEC Disclosure Requirements for Companies Going Public with Dual-Class Voting Structures\n\n#### Overview of SEC's Role in Setting and Enforcing Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) plays a crucial role in setting and enforcing disclosure requirements for companies. [1] The SEC has established guidelines that mandate the disclosure of information necessary to enable investors to make informed decisions about securities offerings. These disclosures are critical, especially when it comes to dual-class voting structures.\n\n#### Stock Exchange Rules on Dual-Class Voting Structures:\nThe New York Stock Exchange (NYSE) and Nasdaq have specific rules regarding the listing of companies with dual-class voting structures. [2] The SEC's guidelines align with these stock exchange requirements, ensuring that all relevant information is disclosed to investors.\n\n### NYSE Listing Requirements for Companies with Dual-Class Voting Structures:\n\n#### Board Composition and Independent Director Oversight:\nThe NYSE requires listed companies to have a board of directors that includes independent directors who oversee executive management. [3] This oversight ensures that the interests of shareholders are protected, particularly in cases where dual-class voting structures may lead to conflicts of interest.\n\n### Nasdaq Listing Requirements for Companies with Dual-Class Voting Structures:\n\n#### Implementation and Compliance:\nNasdaq has specific rules regarding the implementation and compliance with dual-class stock structures. These rules include requirements for board composition and independent director oversight. [3] The NASDAQ Stock Market Listing Rules also mandate that listed companies must implement a dual class stock structure in accordance with these guidelines.\n\n### SEC's Role in Enforcing Dual-Class Voting Structures:\n\n#### Enforcement of Disclosure Requirements:\nThe SEC enforces the disclosure requirements set by major stock exchanges, including NYSE and Nasdaq. [1] Companies are required to disclose any changes or modifications to their dual-class voting structures promptly after they occur. This ensures that investors have access to timely and accurate information.\n\n### Case Law and Regulatory Guidance:\n\n#### CII's Position on Dual-Class Voting Structures:\nThe Council of Institutional Investors (CII) has expressed concerns about the use of dual-class voting structures, particularly in initial public offerings (IPOs). [4] The CII has called for stock exchanges to impose stricter rules regarding the listing of companies with such structures. This underscores the importance of regulatory oversight and compliance.\n\n#### NYSE's Position on Dual-Class Voting Structures:\nThe New York Stock Exchange (NYSE) has maintained a stance that dual-class voting structures are permissible, provided they meet certain criteria. [8] The NASDAQ Stock Market Listing Rules also allow",
+      "answer_b": "### SEC Disclosure Requirements and Stock Exchange Rules for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) plays a crucial role in setting and enforcing disclosure requirements for public offerings of multi-class shares. The current disclosure regime under securities laws requires risk factor disclosures related to various risks posed by non-standard share structures, including dual-class voting structures [3].\n\nFor instance, the SEC's staff reviews these disclosures during their review process. This ensures that companies provide comprehensive information about potential risks associated with dual-class structures, such as agency costs and the concentration of control rights among certain shareholders.\n\n#### Stock Exchange Rules:\nThe New York Stock Exchange (NYSE) and Nasdaq have specific policies regarding the listing of companies with dual-class voting structures at the time of their initial public offering (IPO). These exchanges require that companies satisfy quantitative listing requirements and corporate governance standards to be eligible for listing. Listed companies are also required to meet certain ongoing requirements relating to shareholder communication and disclosure [4].\n\nThe NYSE, Nasdaq, and other stock exchanges have adopted policies permitting the listing of companies with dual-class shares in an IPO, provided they adhere to specific criteria. For example, the NYSE updated its policy in 1940 to limit the listing of non-voting common stock, although Ford Motor Company was permitted to list with a dual class share structure in 1956 [5].\n\n#### Recent Trends:\nIn recent years, there has been an increase in companies adopting dual-class voting structures. According to research by Latham & Watkins, nearly one in four U.S. companies that went public in the first half of 2021 did so with a dual class structure [7]. This trend is also reflected in data from NYU Law's report on dual-class stock IPOs, which found that these structures are becoming more popular among firms seeking to list their shares publicly [6].\n\n### Summary:\nCompanies going public with dual-class voting structures must adhere to both SEC disclosure requirements and the specific listing rules of relevant stock exchanges. The SEC mandates risk factor disclosures related to potential risks associated with such structures, while stock exchanges like NYSE and Nasdaq have policies permitting the listing of companies with these structures provided they meet certain criteria.\n\nFor instance, the NYSE updated its policy in 1940 to limit the listing of non-voting common stock. However, Ford Motor Company was permitted to list with a dual class share structure as early as ",
+      "winner": "google",
+      "confidence": 3,
+      "reasoning": "Answer A provides more detailed and comprehensive legal analysis regarding SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures. It includes specific references to the NYSE and Nasdaq listing requirements, as well as relevant case law (CII's position). Answer B touches on some of these points but lacks the depth and specificity found in Answer A.",
+      "judgment_latency_ms": 3011.744976043701
+    },
+    {
+      "query": "What are the SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures?",
+      "provider_a": "serp_bing",
+      "provider_b": "serp_google",
+      "answer_a": "The search results provided do not contain any information related to SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures. The content of these web pages is unrelated to financial regulation or corporate governance practices as they pertain to gaming FAQs and game-related discussions.\n\nTo answer the legal question, I would need specific sources that discuss SEC disclosure requirements and stock exchange rules concerning dual-class voting structures in initial public offerings (IPOs). Here are some general points about such disclosures:\n\n### SEC Disclosure Requirements for Dual-Class Voting Structures\n\nThe Securities and Exchange Commission (SEC) requires companies to disclose significant information regarding their corporate governance practices, including the structure of their shareholdings. For companies going public with dual-class voting structures, these requirements include detailed disclosure in their registration statements.\n\n#### Key Points from SEC Guidance:\n\n1. **Disclosure Requirements**: Companies must provide clear and comprehensive disclosures about the nature of their voting structures, including how many votes each class of stock carries and any other significant terms related to the structure.\n   \n2. **Comparative Disclosures**: The SEC requires companies to compare their dual-class structure with that of comparable public companies in order to highlight any material differences or unique aspects.\n\n3. **Reasonableness Provisions**: Companies must explain why they believe their voting structures are reasonable and fair, providing evidence such as market research or expert opinions where applicable.\n\n4. **Risk Factors**: Dual-class voting structures can pose significant risks to investors, so companies should disclose these risks in detail, including potential dilution of voting power for common shareholders over time.\n\n5. **Board Composition**: The SEC mandates that the board of directors must be composed of independent members and provide a detailed description of how the dual-class structure affects this independence.\n\n### Stock Exchange Rules\n\nStock exchanges also have specific rules regarding the disclosure requirements for companies with dual-class voting structures. For example, the New York Stock Exchange (NYSE) has certain filing requirements under Rule 14a-8, which mandates that any shareholder proposal or director nomination must be accompanied by a proxy statement disclosing all material terms of the proposal.\n\n#### Key Points from NYSE Rules:\n\n1. **Proxy Statement**: Companies are required to include in their annual reports and other filings detailed information about the voting structure, including how many votes each class of stock carries.\n   \n2. **Notice Requirements**: Shareholders must be given notice of any shareholder proposals or director nominations that involve dual-class structures.\n\n3. **Filing Fees**: There may be additional",
+      "answer_b": "### SEC Disclosure Requirements for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) has established certain disclosure requirements for companies that adopt dual-class voting structures. These disclosures are aimed at ensuring transparency to investors regarding potential risks associated with such structures.\n\n[1] The document titled \"On Dual Class and Other Entrenching Governance Structures\" [1], issued by the SEC, recommends that public companies disclose any potential risks or effects of having dual class or other entrenching governance structures. This recommendation underscores the importance of transparency in disclosing information about these structures to investors.\n\n#### Stock Exchange Rules:\nStock exchanges also have specific rules regarding the listing and operation of companies with dual-class voting structures. These rules are designed to ensure fair treatment for all shareholders and to prevent any undue influence on corporate decision-making.\n\n[2] The Committee recommends that the SEC encourage dual class issuers to provide more robust disclosures regarding material aspects related to their governance structures, including those involving dual-class shares [3]. This recommendation highlights the need for enhanced disclosure practices by companies with such structures.\n\n[4] Nasdaq's Rule 5605 specifically addresses companies with dual-class structures. It prohibits the issuance of super voting stock and requires companies to comply with certain restrictions on their governance structures [4].\n\n#### Comprehensive Answer:\nCompanies going public with dual-class voting structures must adhere to both SEC disclosure requirements and stock exchange rules. The SEC mandates that these companies disclose any potential risks or effects associated with their dual class or other entrenching governance structures. Additionally, stock exchanges like Nasdaq have specific rules prohibiting the issuance of super voting stock and requiring enhanced disclosures regarding material aspects related to their governance structures.\n\nThese regulations aim to ensure transparency and fairness in corporate governance practices, particularly for companies adopting dual-class voting structures. Companies must comply with these requirements to maintain their listings on major stock exchanges such as NASDAQ.",
+      "winner": "serp_bing",
+      "confidence": 3,
+      "reasoning": "Answer B provides more specific and relevant information about SEC disclosure requirements and stock exchange rules for companies with dual-class voting structures. It cites authoritative sources such as the SEC's recommendations and Nasdaq's rule, which are directly related to the legal question. Answer A is vague and does not provide concrete guidance or citations.",
+      "judgment_latency_ms": 3326.4429569244385
+    },
+    {
+      "query": "What are the SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "serp_google",
+      "answer_a": "### SEC Disclosure Requirements and Stock Exchange Rules for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) plays a crucial role in setting and enforcing disclosure requirements for public offerings of multi-class shares. The current disclosure regime under securities laws requires risk factor disclosures related to various risks posed by non-standard share structures, including dual-class voting structures [3].\n\nFor instance, the SEC's staff reviews these disclosures during their review process. This ensures that companies provide comprehensive information about potential risks associated with dual-class structures, such as agency costs and the concentration of control rights among certain shareholders.\n\n#### Stock Exchange Rules:\nThe New York Stock Exchange (NYSE) and Nasdaq have specific policies regarding the listing of companies with dual-class voting structures at the time of their initial public offering (IPO). These exchanges require that companies satisfy quantitative listing requirements and corporate governance standards to be eligible for listing. Listed companies are also required to meet certain ongoing requirements relating to shareholder communication and disclosure [4].\n\nThe NYSE, Nasdaq, and other stock exchanges have adopted policies permitting the listing of companies with dual-class shares in an IPO, provided they adhere to specific criteria. For example, the NYSE updated its policy in 1940 to limit the listing of non-voting common stock, although Ford Motor Company was permitted to list with a dual class share structure in 1956 [5].\n\n#### Recent Trends:\nIn recent years, there has been an increase in companies adopting dual-class voting structures. According to research by Latham & Watkins, nearly one in four U.S. companies that went public in the first half of 2021 did so with a dual class structure [7]. This trend is also reflected in data from NYU Law's report on dual-class stock IPOs, which found that these structures are becoming more popular among firms seeking to list their shares publicly [6].\n\n### Summary:\nCompanies going public with dual-class voting structures must adhere to both SEC disclosure requirements and the specific listing rules of relevant stock exchanges. The SEC mandates risk factor disclosures related to potential risks associated with such structures, while stock exchanges like NYSE and Nasdaq have policies permitting the listing of companies with these structures provided they meet certain criteria.\n\nFor instance, the NYSE updated its policy in 1940 to limit the listing of non-voting common stock. However, Ford Motor Company was permitted to list with a dual class share structure as early as ",
+      "answer_b": "### SEC Disclosure Requirements for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) has established certain disclosure requirements for companies that adopt dual-class voting structures. These disclosures are aimed at ensuring transparency to investors regarding potential risks associated with such structures.\n\n[1] The document titled \"On Dual Class and Other Entrenching Governance Structures\" [1], issued by the SEC, recommends that public companies disclose any potential risks or effects of having dual class or other entrenching governance structures. This recommendation underscores the importance of transparency in disclosing information about these structures to investors.\n\n#### Stock Exchange Rules:\nStock exchanges also have specific rules regarding the listing and operation of companies with dual-class voting structures. These rules are designed to ensure fair treatment for all shareholders and to prevent any undue influence on corporate decision-making.\n\n[2] The Committee recommends that the SEC encourage dual class issuers to provide more robust disclosures regarding material aspects related to their governance structures, including those involving dual-class shares [3]. This recommendation highlights the need for enhanced disclosure practices by companies with such structures.\n\n[4] Nasdaq's Rule 5605 specifically addresses companies with dual-class structures. It prohibits the issuance of super voting stock and requires companies to comply with certain restrictions on their governance structures [4].\n\n#### Comprehensive Answer:\nCompanies going public with dual-class voting structures must adhere to both SEC disclosure requirements and stock exchange rules. The SEC mandates that these companies disclose any potential risks or effects associated with their dual class or other entrenching governance structures. Additionally, stock exchanges like Nasdaq have specific rules prohibiting the issuance of super voting stock and requiring enhanced disclosures regarding material aspects related to their governance structures.\n\nThese regulations aim to ensure transparency and fairness in corporate governance practices, particularly for companies adopting dual-class voting structures. Companies must comply with these requirements to maintain their listings on major stock exchanges such as NASDAQ.",
+      "winner": "serp_google",
+      "confidence": 3,
+      "reasoning": "Answer A provides more detailed and accurate information about SEC disclosure requirements, including specific references (e.g., [3], [4]). It also includes relevant citations from sources like the SEC's recommendations and Nasdaq's rules. Answer B is less comprehensive in its citations and does not provide as many details on the SEC's specific recommendations and stock exchange policies.",
+      "judgment_latency_ms": 3630.525827407837
+    },
+    {
+      "query": "What are the SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures?",
+      "provider_a": "serp_bing",
+      "provider_b": "serp_duckduckgo",
+      "answer_a": "The search results provided do not contain any information related to SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures. The content of these web pages is unrelated to financial regulation or corporate governance practices as they pertain to gaming FAQs and game-related discussions.\n\nTo answer the legal question, I would need specific sources that discuss SEC disclosure requirements and stock exchange rules concerning dual-class voting structures in initial public offerings (IPOs). Here are some general points about such disclosures:\n\n### SEC Disclosure Requirements for Dual-Class Voting Structures\n\nThe Securities and Exchange Commission (SEC) requires companies to disclose significant information regarding their corporate governance practices, including the structure of their shareholdings. For companies going public with dual-class voting structures, these requirements include detailed disclosure in their registration statements.\n\n#### Key Points from SEC Guidance:\n\n1. **Disclosure Requirements**: Companies must provide clear and comprehensive disclosures about the nature of their voting structures, including how many votes each class of stock carries and any other significant terms related to the structure.\n   \n2. **Comparative Disclosures**: The SEC requires companies to compare their dual-class structure with that of comparable public companies in order to highlight any material differences or unique aspects.\n\n3. **Reasonableness Provisions**: Companies must explain why they believe their voting structures are reasonable and fair, providing evidence such as market research or expert opinions where applicable.\n\n4. **Risk Factors**: Dual-class voting structures can pose significant risks to investors, so companies should disclose these risks in detail, including potential dilution of voting power for common shareholders over time.\n\n5. **Board Composition**: The SEC mandates that the board of directors must be composed of independent members and provide a detailed description of how the dual-class structure affects this independence.\n\n### Stock Exchange Rules\n\nStock exchanges also have specific rules regarding the disclosure requirements for companies with dual-class voting structures. For example, the New York Stock Exchange (NYSE) has certain filing requirements under Rule 14a-8, which mandates that any shareholder proposal or director nomination must be accompanied by a proxy statement disclosing all material terms of the proposal.\n\n#### Key Points from NYSE Rules:\n\n1. **Proxy Statement**: Companies are required to include in their annual reports and other filings detailed information about the voting structure, including how many votes each class of stock carries.\n   \n2. **Notice Requirements**: Shareholders must be given notice of any shareholder proposals or director nominations that involve dual-class structures.\n\n3. **Filing Fees**: There may be additional",
+      "answer_b": "### SEC Disclosure Requirements and Stock Exchange Rules for Companies Going Public with Dual-Class Voting Structures\n\n#### SEC Disclosure Requirements:\nThe Securities and Exchange Commission (SEC) plays a crucial role in setting and enforcing disclosure requirements for public offerings of multi-class shares. The current disclosure regime under securities laws requires risk factor disclosures related to various risks posed by non-standard share structures, including dual-class voting structures [3].\n\nFor instance, the SEC's staff reviews these disclosures during their review process. This ensures that companies provide comprehensive information about potential risks associated with dual-class structures, such as agency costs and the concentration of control rights among certain shareholders.\n\n#### Stock Exchange Rules:\nThe New York Stock Exchange (NYSE) and Nasdaq have specific policies regarding the listing of companies with dual-class voting structures at the time of their initial public offering (IPO). These exchanges require that companies satisfy quantitative listing requirements and corporate governance standards to be eligible for listing. Listed companies are also required to meet certain ongoing requirements relating to shareholder communication and disclosure [4].\n\nThe NYSE, Nasdaq, and other stock exchanges have adopted policies permitting the listing of companies with dual-class shares in an IPO, provided they adhere to specific criteria. For example, the NYSE updated its policy in 1940 to limit the listing of non-voting common stock, although Ford Motor Company was permitted to list with a dual class share structure in 1956 [5].\n\n#### Recent Trends:\nIn recent years, there has been an increase in companies adopting dual-class voting structures. According to research by Latham & Watkins, nearly one in four U.S. companies that went public in the first half of 2021 did so with a dual class structure [7]. This trend is also reflected in data from NYU Law's report on dual-class stock IPOs, which found that these structures are becoming more popular among firms seeking to list their shares publicly [6].\n\n### Summary:\nCompanies going public with dual-class voting structures must adhere to both SEC disclosure requirements and the specific listing rules of relevant stock exchanges. The SEC mandates risk factor disclosures related to potential risks associated with such structures, while stock exchanges like NYSE and Nasdaq have policies permitting the listing of companies with these structures provided they meet certain criteria.\n\nFor instance, the NYSE updated its policy in 1940 to limit the listing of non-voting common stock. However, Ford Motor Company was permitted to list with a dual class share structure as early as ",
+      "winner": "serp_duckduckgo",
+      "confidence": 3,
+      "reasoning": "Answer B provides more relevant and detailed information about SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures. It cites specific sources and outlines the key points of both SEC guidance and NYSE policies, offering a comprehensive overview. Answer A fails to provide any substantial legal or regulatory content related to the question.",
+      "judgment_latency_ms": 3571.9082355499268
+    }
+  ],
+  "total_evaluation_latency_ms": 100542.13690757751,
+  "query_id": "Q7",
+  "scenario": "Tech company planning IPO with dual-class share structure",
+  "search_query": "dual class share structure IPO SEC disclosure NYSE NASDAQ listing requirements",
+  "search_latencies_ms": {
+    "exa": 2261.2311840057373,
+    "google": 395.77484130859375,
+    "serp_google": 1270.3170776367188,
+    "serp_bing": 2307.9259395599365,
+    "serp_duckduckgo": 2189.808130264282
+  }
+}

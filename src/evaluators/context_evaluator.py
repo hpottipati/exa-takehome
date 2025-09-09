@@ -1,5 +1,5 @@
 """
-RAG Evaluation Module for Legal Search Benchmarking
+Context Evaluation Module for Legal Search Benchmarking
 Implements three core metrics: LLMWinRate, AuthorityOfCited, SupportRatio
 """
 
@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 
 @dataclass
-class RAGAnswer:
+class ContextAnswer:
     """Container for generated answer with metadata"""
     query: str
     provider: str
@@ -47,13 +47,13 @@ class PairwiseJudgment:
 class OllamaClient:
     """Client for interacting with Ollama LLM"""
     
-    def __init__(self, model: str = "llama3.1:latest", temperature: float = 0.1):
+    def __init__(self, model: str = "qwen2.5:3b", temperature: float = 0.1):
         self.model = model
         self.temperature = temperature
         
     def generate_answer(self, query: str, documents: List[Dict], max_tokens: int = 500) -> Tuple[str, float]:
         """
-        Generate an answer using RAG approach
+        Generate an answer using context-based approach
         Returns: (answer, latency_ms)
         """
         # Format documents for context
@@ -160,34 +160,75 @@ Provide your evaluation as JSON:"""
             # Parse JSON response
             response_text = response['response'].strip()
             
+            # Clean the response text to handle control characters
+            # Replace unescaped control characters with escaped versions
+            def clean_json_string(text):
+                """Clean a string that should contain JSON by escaping control characters"""
+                # First, try to find the JSON object boundaries
+                start_idx = text.find('{')
+                end_idx = -1
+                
+                if start_idx != -1:
+                    # Count braces to find the matching closing brace
+                    brace_count = 0
+                    in_string = False
+                    escape_next = False
+                    
+                    for i in range(start_idx, len(text)):
+                        char = text[i]
+                        
+                        # Track if we're inside a string
+                        if char == '"' and not escape_next:
+                            in_string = not in_string
+                        elif char == '\\':
+                            escape_next = not escape_next
+                            continue
+                        
+                        escape_next = False
+                        
+                        # Count braces only outside of strings
+                        if not in_string:
+                            if char == '{':
+                                brace_count += 1
+                            elif char == '}':
+                                brace_count -= 1
+                                if brace_count == 0:
+                                    end_idx = i
+                                    break
+                    
+                    if end_idx > start_idx:
+                        # Extract just the JSON part
+                        json_str = text[start_idx:end_idx+1]
+                        
+                        # Replace unescaped control characters within string values
+                        # This regex finds string values and processes them
+                        def escape_string_value(match):
+                            value = match.group(1)
+                            # Replace actual newlines, tabs, etc. with escaped versions
+                            value = value.replace('\n', '\\n')
+                            value = value.replace('\r', '\\r')
+                            value = value.replace('\t', '\\t')
+                            # Remove other control characters
+                            value = ''.join(char if ord(char) >= 32 or char in '\n\r\t' else ' ' for char in value)
+                            return f'"{value}"'
+                        
+                        # Process string values in the JSON
+                        json_str = re.sub(r'"([^"\\]*(?:\\.[^"\\]*)*)"', escape_string_value, json_str)
+                        return json_str
+                
+                return text
+            
             # Try to parse the response directly first
             try:
                 judgment = json.loads(response_text)
             except json.JSONDecodeError:
-                # If direct parsing fails, try to extract JSON from the response
-                # Look for JSON object boundaries more carefully
-                # Find the first { and the matching }
-                start_idx = response_text.find('{')
-                if start_idx != -1:
-                    # Count braces to find the matching closing brace
-                    brace_count = 0
-                    end_idx = start_idx
-                    for i in range(start_idx, len(response_text)):
-                        if response_text[i] == '{':
-                            brace_count += 1
-                        elif response_text[i] == '}':
-                            brace_count -= 1
-                            if brace_count == 0:
-                                end_idx = i
-                                break
-                    
-                    if end_idx > start_idx:
-                        json_text = response_text[start_idx:end_idx+1]
-                        judgment = json.loads(json_text)
-                    else:
-                        raise json.JSONDecodeError("No matching closing brace found", response_text, start_idx)
-                else:
-                    raise json.JSONDecodeError("No JSON object found in response", response_text, 0)
+                # Clean the response and try again
+                cleaned_text = clean_json_string(response_text)
+                try:
+                    judgment = json.loads(cleaned_text)
+                except json.JSONDecodeError as e:
+                    # If still failing, raise the error
+                    raise json.JSONDecodeError(f"Failed after cleaning: {str(e)}", cleaned_text, 0)
             
             # Validate required fields
             if 'winner' not in judgment or 'confidence' not in judgment or 'reasoning' not in judgment:
@@ -228,10 +269,10 @@ Provide your evaluation as JSON:"""
             }, latency_ms
 
 
-class RAGEvaluator:
-    """Main RAG evaluation class implementing the three metrics"""
+class ContextEvaluator:
+    """Main context evaluation class implementing the three metrics"""
     
-    def __init__(self, ollama_model: str = "llama3.1:latest"):
+    def __init__(self, ollama_model: str = "qwen2.5:3b"):
         self.ollama_client = OllamaClient(model=ollama_model)
         self.authority_scorer = AuthorityScorer()
         self.vectorizer = TfidfVectorizer(max_features=1000, stop_words='english')
@@ -473,9 +514,9 @@ class RAGEvaluator:
     
     def evaluate_all_metrics(self, query: str, providers_results: Dict[str, List[Dict]]) -> Dict:
         """
-        Run all three RAG evaluation metrics
+        Run all three context evaluation metrics
         """
-        logger.info(f"Starting RAG evaluation for query: {query[:100]}...")
+        logger.info(f"Starting context evaluation for query: {query[:100]}...")
         
         evaluation_start = time.time()
         results = {
@@ -530,12 +571,12 @@ class RAGEvaluator:
         # Total evaluation time
         results['total_evaluation_latency_ms'] = (time.time() - evaluation_start) * 1000
         
-        logger.info(f"RAG evaluation completed in {results['total_evaluation_latency_ms']:.1f}ms")
+        logger.info(f"Context evaluation completed in {results['total_evaluation_latency_ms']:.1f}ms")
         
         return results
 
 
-def generate_rag_report(evaluations: List[Dict]) -> Dict:
+def generate_context_report(evaluations: List[Dict]) -> Dict:
     """
     Generate aggregate report across all query evaluations
     """
@@ -621,7 +662,7 @@ def generate_rag_report(evaluations: List[Dict]) -> Dict:
         report['recommended_provider'] = {
             'name': best_provider,
             'composite_score': composite_scores[best_provider],
-            'reasoning': f"{best_provider} achieved the highest composite score across all three RAG metrics"
+            'reasoning': f"{best_provider} achieved the highest composite score across all three context metrics"
         }
     
     return report

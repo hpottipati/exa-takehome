@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test RAG evaluation for a single query
+Test context evaluation for a single query
 """
 
 import os
@@ -19,7 +19,7 @@ load_dotenv()
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from src.search.search_manager import SearchManager
-from src.evaluators.rag_evaluator import RAGEvaluator, generate_rag_report
+from src.evaluators.context_evaluator import ContextEvaluator, generate_context_report
 from src.evaluators.authority_scorer import SearchResult
 
 logging.basicConfig(
@@ -67,7 +67,7 @@ def save_results(results: Dict, output_dir: Path, filename: str):
 
 def test_single_query(query_id: str = "Q1", providers: List[str] = None):
     """
-    Test RAG evaluation on a single query
+    Test context evaluation on a single query
     """
     # Default providers
     if providers is None:
@@ -82,7 +82,7 @@ def test_single_query(query_id: str = "Q1", providers: List[str] = None):
         return
     
     logger.info(f"\n{'='*80}")
-    logger.info(f"Testing RAG Evaluation for Query {query_id}")
+    logger.info(f"Testing Context Evaluation for Query {query_id}")
     logger.info(f"Question: {query_data['question']}")
     logger.info(f"Search Query: {query_data['search_query']}")
     logger.info(f"Providers: {providers}")
@@ -119,35 +119,35 @@ def test_single_query(query_id: str = "Q1", providers: List[str] = None):
         logger.error("No search results from any provider. Exiting.")
         return
     
-    # Initialize RAG evaluator
-    logger.info("Initializing RAG evaluator with llama3.1:latest...")
-    evaluator = RAGEvaluator(ollama_model="llama3.1:latest")
+    # Initialize context evaluator
+    logger.info("Initializing context evaluator with qwen2.5:3b...")
+    evaluator = ContextEvaluator(ollama_model="qwen2.5:3b")
     
-    # Run RAG evaluation
-    logger.info("Running RAG evaluation (this may take a few minutes)...\n")
+    # Run context evaluation
+    logger.info("Running context evaluation (this may take a few minutes)...\n")
     eval_start = time.time()
     
-    rag_results = evaluator.evaluate_all_metrics(
+    context_results = evaluator.evaluate_all_metrics(
         query=query_data['question'],
         providers_results=providers_results
     )
     
     # Add search latencies to results
-    rag_results['search_latencies_ms'] = search_latencies
-    rag_results['query_id'] = query_id
-    rag_results['scenario'] = query_data['scenario']
+    context_results['search_latencies_ms'] = search_latencies
+    context_results['query_id'] = query_id
+    context_results['scenario'] = query_data['scenario']
     
     eval_time = (time.time() - eval_start) * 1000
-    logger.info(f"\nRAG evaluation completed in {eval_time:.1f}ms")
+    logger.info(f"\nContext evaluation completed in {eval_time:.1f}ms")
     
     # Create output directory structure
     timestamp = time.strftime('%Y%m%d_%H%M%S')
-    output_base = Path(__file__).parent.parent.parent / "data" / "rag_results" / f"{timestamp}_evaluation"
+    output_base = Path(__file__).parent.parent.parent / "data" / "context_results" / f"{timestamp}_evaluation"
     
     # Save raw results
     raw_dir = output_base / "raw_answers"
-    for provider in rag_results.get('providers', {}):
-        provider_data = rag_results['providers'][provider]
+    for provider in context_results.get('providers', {}):
+        provider_data = context_results['providers'][provider]
         save_results(
             {
                 'query_id': query_id,
@@ -160,9 +160,9 @@ def test_single_query(query_id: str = "Q1", providers: List[str] = None):
         )
     
     # Save pairwise judgments
-    if 'pairwise_judgments' in rag_results:
+    if 'pairwise_judgments' in context_results:
         judgments_dir = output_base / "pairwise_judgments"
-        for i, judgment in enumerate(rag_results['pairwise_judgments']):
+        for i, judgment in enumerate(context_results['pairwise_judgments']):
             save_results(
                 judgment,
                 judgments_dir,
@@ -174,13 +174,13 @@ def test_single_query(query_id: str = "Q1", providers: List[str] = None):
     save_results(
         {
             'query_id': query_id,
-            'llm_win_rate': rag_results.get('llm_win_rate', {}),
+            'llm_win_rate': context_results.get('llm_win_rate', {}),
             'provider_metrics': {
                 provider: {
                     'authority_of_cited': data.get('authority_of_cited', {}),
                     'support_ratio': data.get('support_ratio', {})
                 }
-                for provider, data in rag_results.get('providers', {}).items()
+                for provider, data in context_results.get('providers', {}).items()
             }
         },
         metrics_dir,
@@ -188,27 +188,27 @@ def test_single_query(query_id: str = "Q1", providers: List[str] = None):
     )
     
     # Save complete results
-    complete_path = save_results(rag_results, output_base, f"{query_id}_complete.json")
+    complete_path = save_results(context_results, output_base, f"{query_id}_complete.json")
     
     # Create symlink to latest results
-    latest_link = Path(__file__).parent.parent.parent / "data" / "rag_results" / "latest"
+    latest_link = Path(__file__).parent.parent.parent / "data" / "context_results" / "latest"
     if latest_link.exists():
         latest_link.unlink()
     latest_link.symlink_to(output_base.name)
     
     # Print summary
-    print_results_summary(rag_results)
+    print_results_summary(context_results)
     
     logger.info(f"\n✓ All results saved to {output_base}")
-    logger.info(f"  View latest results at: data/rag_results/latest/")
+    logger.info(f"  View latest results at: data/context_results/latest/")
     
-    return rag_results
+    return context_results
 
 
 def print_results_summary(results: Dict):
     """Print a summary of the evaluation results"""
     print("\n" + "="*80)
-    print("RAG EVALUATION SUMMARY")
+    print("CONTEXT EVALUATION SUMMARY")
     print("="*80)
     
     # Win rates
@@ -250,7 +250,7 @@ def main():
     """Main function"""
     import argparse
     
-    parser = argparse.ArgumentParser(description='Test RAG evaluation on a single query')
+    parser = argparse.ArgumentParser(description='Test context evaluation on a single query')
     parser.add_argument('--query-id', default='Q1', help='Query ID from scenarios.json (default: Q1)')
     parser.add_argument('--providers', nargs='+', default=['exa', 'google'],
                        help='Providers to test (default: exa google)')
@@ -277,12 +277,7 @@ def main():
             elif hasattr(model, 'name'):
                 model_names.append(model.name)
         
-        if not any('llama3.1' in name.lower() for name in model_names if name):
-            logger.warning("llama3.1:latest not found. Please run: ollama pull llama3.1:latest")
-            if model_names:
-                logger.info(f"Available models: {model_names}")
-        else:
-            logger.info("✓ Ollama is running with llama3.1:latest")
+        
     except Exception as e:
         logger.error(f"Cannot connect to Ollama: {e}")
         logger.error("Please ensure Ollama is running: ollama serve")
