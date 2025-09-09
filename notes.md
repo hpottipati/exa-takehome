@@ -29,3 +29,29 @@ Possibly something to run queries in parallel with live results and evaluation
 I want to make a solution where we are evaluating two things:
 1. The authority levels of each of the top k results
 2. A simple rag pipeline and evaluating the answers from each search and figuring out if Exa is better than non-RAG, competitors, etc.
+
+weights and evals for now:
+
+```json
+"evaluation_framework": {
+    "authority_scoring": {
+      "domains": {
+        ".gov": 1.0,
+        "law.cornell.edu": 0.9,
+        "oyez.org": 0.9,
+        "justia.com": 0.7,
+        "findlaw.com": 0.7,
+        "other": 0.5
+      },
+      "citation_bonus": "0.3 + min(0.7, legal_citations_per_100_words * 20)"
+    },
+    "rag_evaluation": {
+      "support_ratio": "how much of the generated answer is actually backed by the retrieved documents",
+      "authority_of_cited": "how authoritative are the sources that the LLM actually references in its answer", 
+      "llm_win_rate": "how often an independent LLM judge prefers the answer generated using Provider A vs Provider B",
+    },
+    "metrics": {
+        "authority_metrics": ["Authority@k", "HighAuthHit@k", "UtilityScore@k"],
+        "rag_metrics": ["LLMWinRate", "AuthorityOfCited", "SupportRatio"]
+    }
+}```
