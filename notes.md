@@ -53,5 +53,8 @@ weights and evals for now:
     "metrics": {
         "authority_metrics": ["Authority@k", "HighAuthHit@k", "UtilityScore@k"],
         "rag_metrics": ["LLMWinRate", "AuthorityOfCited", "SupportRatio"]
+    },
+    "latency":{
+      "retrival_time": seconds for api call
     }
 }```
