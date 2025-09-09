@@ -1,12 +1,11 @@
 # Legal Search Benchmark
 
 **TLDR**: A set of evals to answer the question — *Which search provider delivers the most authoritative and useful results for legal research?*
-
+**LOOM VIDEO** :
 ---
-
 ## The Problem
 
-raditional search engines optimize for broad relevance, not authority. Lawyers need **precise answers and credible sources**
+Traditional search engines optimize for broad relevance, not authority. Lawyers need **precise answers and credible sources**
 
 ## The Solution
 
