@@ -183,7 +183,7 @@ def main():
         print(f"\nOverall Test Duration: {overall_time_ms:.1f}ms ({overall_time_ms/1000:.2f}s)")
         
         # Save results to file
-        results_dir = Path("../../data/results")
+        results_dir = Path("../../results/authority_results")
         results_dir.mkdir(exist_ok=True, parents=True)
         
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")

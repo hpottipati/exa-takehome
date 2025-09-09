@@ -322,8 +322,14 @@ class AuthorityScorer:
         citation_bonus = self.calculate_citation_bonus(page_text)
         citation_count = self.count_legal_citations(page_text)
         
-        # Final authority score
-        authority_score = domain_score * citation_bonus
+        # Final authority score - hybrid model to avoid penalizing high-authority domains
+        if domain_score >= 0.9:  # Government, edu, and other high-authority domains
+            # Additive model: high domains get citation bonuses, not penalties
+            # Base score preserved, citations add modest bonus
+            authority_score = min(1.0, domain_score + (citation_bonus - 0.3) * 0.5)
+        else:  # Regular domains (legal firms, blogs, etc.)
+            # Multiplicative model: citation density affects overall score
+            authority_score = domain_score * citation_bonus
         
         return AuthorityEvaluation(
             url=url,

@@ -97,7 +97,7 @@ def run_batch_evaluation(
     # Create output directory
     timestamp = time.strftime('%Y%m%d_%H%M%S')
     if output_dir is None:
-        output_base = Path(__file__).parent.parent.parent / "data" / "context_results" / f"batch_{timestamp}"
+        output_base = Path(__file__).parent.parent.parent / "results" / "context_results" / f"batch_{timestamp}"
     else:
         output_base = Path(output_dir)
     
@@ -205,13 +205,13 @@ def run_batch_evaluation(
         print_aggregate_summary(report)
         
         # Create symlink to latest batch
-        latest_link = Path(__file__).parent.parent.parent / "data" / "context_results" / "latest_batch"
+        latest_link = Path(__file__).parent.parent.parent / "results" / "context_results" / "latest_batch"
         if latest_link.exists():
             latest_link.unlink()
         latest_link.symlink_to(output_base.name)
         
         logger.info(f"\n✓ All results saved to {output_base}")
-        logger.info(f"  View latest batch at: data/context_results/latest_batch/")
+        logger.info(f"  View latest batch at: results/context_results/latest_batch/")
         
     else:
         logger.error("No successful evaluations to report")

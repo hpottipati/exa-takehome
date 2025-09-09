@@ -149,7 +149,7 @@ def main():
             print(f"  Queries Evaluated: {summary['queries_evaluated']}")
         
         # Save results to file
-        results_dir = Path("../../data/results")
+        results_dir = Path("../../results/authority_results")
         results_dir.mkdir(exist_ok=True, parents=True)
         
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")

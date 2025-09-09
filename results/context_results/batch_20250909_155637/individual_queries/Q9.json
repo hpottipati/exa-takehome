@@ -1,0 +1,741 @@
+{
+  "query": "What is the current federal standard for independent contractor classification and what are the penalties for misclassification?",
+  "timestamp": "2025-09-09 16:03:23",
+  "providers": {
+    "exa": {
+      "answer": "The current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on independent contractor misclassification enforcement. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g));\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g));\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g));\n* They are responsible for their own expenses and have the opportunity to realize a profit or loss (DOL, [7]);\n* They have control over the means and manner of performing the work (DOL, [7]).\n\nThe DOL has also issued guidance on the \"economic reality\" test, which considers the following factors to determine whether an individual is an employee or an independent contractor:\n\n* The nature and degree of control exercised by the hiring entity;\n* The degree of skill required for the work;\n* The permanence of the working relationship;\n* The amount of investment made by the individual;\n* The opportunity for profit or loss;\n* The degree of permanence of the working relationship;\n* The degree of integration of the individual's work into the hiring entity's business (DOL, [7]).\n\nThe penalties for misclassification can be severe and include:\n\n* Fines levied by the DOL, IRS, and state agencies, which can exceed millions depending on the severity of the infractions (ADP, [10]);\n* Class action lawsuits, which can result in significant damages and attorney's fees (Pillsbury, [6]);\n* Back pay and benefits owed to misclassified employees (DOL, [7]);\n* Interest on back pay and benefits owed (DOL, [7]);\n* Liquidated damages, which can be up to 100% of the back pay and benefits owed (FLSA, 29 U.S.C. \u00a7 216(c)).\n\nIn addition, employers may also face reputational damage and loss of business due to misclassification.\n\nReferences:\n\n[1] Title: DOL Issues Guidance on Independent",
+      "generation_latency_ms": 1145.721197128296,
+      "authority_of_cited": {
+        "authority_score": 0.812,
+        "num_citations": 8,
+        "cited_urls": [
+          "https://www.dol.gov/agencies/whd/flsa/misclassification",
+          "https://www.dol.gov/agencies/whd/flsa/misclassification",
+          "https://www.dol.gov/agencies/whd/flsa/misclassification",
+          "https://www.adp.com/spark/articles/2023/05/9-consequences-of-misclassifying-your-1099-contractors.aspx",
+          "https://www.pillsburylaw.com/en/news-and-insights/dol-fair-labor-standards-act-contractors.html",
+          "https://www.dol.gov/agencies/whd/flsa/misclassification",
+          "https://www.dol.gov/agencies/whd/flsa/misclassification",
+          "https://www.fortneyscott.com/dol-issues-guidance-on-independent-contractor-misclassification-enforcement"
+        ],
+        "individual_scores": [
+          1.0,
+          1.0,
+          1.0,
+          0.5,
+          0.5,
+          1.0,
+          1.0,
+          0.5
+        ],
+        "latency_ms": 2.3779869079589844
+      },
+      "support_ratio": {
+        "support_ratio": 0.556,
+        "supported_sentences": 5,
+        "total_sentences": 9,
+        "sentence_details": [
+          {
+            "sentence": "The current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on independent contractor misclassification enforcement",
+            "max_similarity": 0.7605003714561462,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U",
+            "max_similarity": 0.7220848798751831,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 203(g));\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U",
+            "max_similarity": 0.52385413646698,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 203(g));\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U",
+            "max_similarity": 0.40434569120407104,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 203(g));\n* They are responsible for their own expenses and have the opportunity to realize a profit or loss (DOL, [7]);\n* They have control over the means and manner of performing the work (DOL, [7])",
+            "max_similarity": 0.46310052275657654,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The DOL has also issued guidance on the \"economic reality\" test, which considers the following factors to determine whether an individual is an employee or an independent contractor:\n\n* The nature and degree of control exercised by the hiring entity;\n* The degree of skill required for the work;\n* The permanence of the working relationship;\n* The amount of investment made by the individual;\n* The opportunity for profit or loss;\n* The degree of permanence of the working relationship;\n* The degree of integration of the individual's work into the hiring entity's business (DOL, [7])",
+            "max_similarity": 0.7490429878234863,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The penalties for misclassification can be severe and include:\n\n* Fines levied by the DOL, IRS, and state agencies, which can exceed millions depending on the severity of the infractions (ADP, [10]);\n* Class action lawsuits, which can result in significant damages and attorney's fees (Pillsbury, [6]);\n* Back pay and benefits owed to misclassified employees (DOL, [7]);\n* Interest on back pay and benefits owed (DOL, [7]);\n* Liquidated damages, which can be up to 100% of the back pay and benefits owed (FLSA, 29 U",
+            "max_similarity": 0.7771649956703186,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In addition, employers may also face reputational damage and loss of business due to misclassification",
+            "max_similarity": 0.6963132619857788,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "References:\n\n[1] Title: DOL Issues Guidance on Independent",
+            "max_similarity": 0.47229480743408203,
+            "is_supported": false,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 69,
+        "latency_ms": 943.3300495147705
+      }
+    },
+    "google": {
+      "answer": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is outlined in the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) regulations. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (29 CFR 541.2(a)).\n* They perform work that is outside the usual course of the hiring entity's business (29 CFR 541.2(b)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as the work performed (29 CFR 541.2(c)).\n* They are responsible for their own expenses, including equipment, travel, and other costs (29 CFR 541.2(d)).\n\nThe DOL has also established a 20-factor test to determine whether a worker is an employee or an independent contractor (29 CFR 541.2). This test considers factors such as the worker's level of control, the permanence of the work relationship, and the worker's ability to work for others.\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying workers as independent contractors can be severe. According to the DOL, employers who misclassify workers may be liable for back wages, liquidated damages, and civil penalties (29 USC 216(b)). The DOL has also established a process for recovering back wages and liquidated damages for misclassified workers (29 CFR 578.3).\n\nIn addition to federal penalties, states may also impose their own penalties for misclassification. For example, California law provides for penalties of up to $25,000 per violation (Cal. Lab. Code \u00a7 226.8).\n\n**Examples of Misclassification Penalties:**\n\nAccording to a report by ADP, fines levied by the DOL, IRS, and state agencies for worker misclassification can exceed millions depending on the severity of the violation ([6]). For example, in 2020, the DOL recovered over $1.5 billion in back wages and liquidated damages for misclassified workers ([1]).\n\n**Conclusion:**\n\nIn conclusion, the current federal standard for independent contractor classification is outlined in the FLSA and the DOL's regulations. Employers who misclassify workers as independent contractors may face severe penalties, including back wages, liquidated damages, and civil",
+      "generation_latency_ms": 949.5639801025391,
+      "authority_of_cited": {
+        "authority_score": 0.75,
+        "num_citations": 2,
+        "cited_urls": [
+          "https://www.adp.com/spark/articles/2023/05/9-consequences-of-misclassifying-your-1099-contractors.aspx",
+          "https://www.dol.gov/agencies/whd/flsa/misclassification"
+        ],
+        "individual_scores": [
+          0.5,
+          1.0
+        ],
+        "latency_ms": 0.2682209014892578
+      },
+      "support_ratio": {
+        "support_ratio": 0.588,
+        "supported_sentences": 10,
+        "total_sentences": 17,
+        "sentence_details": [
+          {
+            "sentence": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is outlined in the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) regulations",
+            "max_similarity": 0.7601508498191833,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (29 CFR 541",
+            "max_similarity": 0.6728957891464233,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* They perform work that is outside the usual course of the hiring entity's business (29 CFR 541",
+            "max_similarity": 0.5372094511985779,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* They are customarily engaged in an independently established trade, occupation, or business of the same nature as the work performed (29 CFR 541",
+            "max_similarity": 0.39350417256355286,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* They are responsible for their own expenses, including equipment, travel, and other costs (29 CFR 541",
+            "max_similarity": 0.3369339406490326,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The DOL has also established a 20-factor test to determine whether a worker is an employee or an independent contractor (29 CFR 541",
+            "max_similarity": 0.6549124717712402,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "This test considers factors such as the worker's level of control, the permanence of the work relationship, and the worker's ability to work for others",
+            "max_similarity": 0.5361623167991638,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Penalties for Misclassification:**\n\nThe penalties for misclassifying workers as independent contractors can be severe",
+            "max_similarity": 0.7750856876373291,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to the DOL, employers who misclassify workers may be liable for back wages, liquidated damages, and civil penalties (29 USC 216(b))",
+            "max_similarity": 0.7230454087257385,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The DOL has also established a process for recovering back wages and liquidated damages for misclassified workers (29 CFR 578",
+            "max_similarity": 0.6384302377700806,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In addition to federal penalties, states may also impose their own penalties for misclassification",
+            "max_similarity": 0.648006021976471,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "For example, California law provides for penalties of up to $25,000 per violation (Cal",
+            "max_similarity": 0.5404913425445557,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Examples of Misclassification Penalties:**\n\nAccording to a report by ADP, fines levied by the DOL, IRS, and state agencies for worker misclassification can exceed millions depending on the severity of the violation ([6])",
+            "max_similarity": 0.8168718218803406,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "For example, in 2020, the DOL recovered over $1",
+            "max_similarity": 0.39425554871559143,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "5 billion in back wages and liquidated damages for misclassified workers ([1])",
+            "max_similarity": 0.585838258266449,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Conclusion:**\n\nIn conclusion, the current federal standard for independent contractor classification is outlined in the FLSA and the DOL's regulations",
+            "max_similarity": 0.7417781352996826,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Employers who misclassify workers as independent contractors may face severe penalties, including back wages, liquidated damages, and civil",
+            "max_similarity": 0.7469377517700195,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 58,
+        "latency_ms": 362.5059127807617
+      }
+    },
+    "serp_google": {
+      "answer": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on independent contractor misclassification enforcement. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are responsible for their own expenses and have the opportunity to realize a profit or loss based on their work (DOL, [1]).\n\nThe DOL has also issued guidance on the factors that indicate an individual is an employee rather than an independent contractor, including:\n\n* The hiring entity has the right to control the individual's work, including the right to direct, supervise, and control the individual's activities (DOL, [1]).\n* The individual is required to work exclusively for the hiring entity (DOL, [1]).\n* The individual is required to follow the hiring entity's policies and procedures (DOL, [1]).\n* The individual is not free to work for other entities while working for the hiring entity (DOL, [1]).\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying employees as independent contractors can be severe. According to the DOL, employers who misclassify employees as independent contractors may be liable for:\n\n* Back wages and overtime pay for the misclassified employees (FLSA, 29 U.S.C. \u00a7 216(b)).\n* Liquidated damages, which can be up to 100% of the back wages and overtime pay (FLSA, 29 U.S.C. \u00a7 216(b)).\n* Civil penalties of up to $13,653 per violation (FLSA, 29 U.S.C. \u00a7 217).\n* State penalties, which can be up to $100,000 per violation (varies by state).\n\nIn addition to these penalties, employers who misclassify employees as independent contractors may also be subject to",
+      "generation_latency_ms": 917.482852935791,
+      "authority_of_cited": {
+        "authority_score": 1.0,
+        "num_citations": 5,
+        "cited_urls": [
+          "https://www.dol.gov/agencies/whd/flsa/misclassification",
+          "https://www.dol.gov/agencies/whd/flsa/misclassification",
+          "https://www.dol.gov/agencies/whd/flsa/misclassification",
+          "https://www.dol.gov/agencies/whd/flsa/misclassification",
+          "https://www.dol.gov/agencies/whd/flsa/misclassification"
+        ],
+        "individual_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "latency_ms": 0.07605552673339844
+      },
+      "support_ratio": {
+        "support_ratio": 0.4,
+        "supported_sentences": 6,
+        "total_sentences": 15,
+        "sentence_details": [
+          {
+            "sentence": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on independent contractor misclassification enforcement",
+            "max_similarity": 0.7540643811225891,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U",
+            "max_similarity": 0.7220849990844727,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U",
+            "max_similarity": 0.5116912722587585,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U",
+            "max_similarity": 0.41031643748283386,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* They are responsible for their own expenses and have the opportunity to realize a profit or loss based on their work (DOL, [1])",
+            "max_similarity": 0.4323827624320984,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The DOL has also issued guidance on the factors that indicate an individual is an employee rather than an independent contractor, including:\n\n* The hiring entity has the right to control the individual's work, including the right to direct, supervise, and control the individual's activities (DOL, [1])",
+            "max_similarity": 0.7445706725120544,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* The individual is required to work exclusively for the hiring entity (DOL, [1])",
+            "max_similarity": 0.4885106086730957,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* The individual is required to follow the hiring entity's policies and procedures (DOL, [1])",
+            "max_similarity": 0.5005074739456177,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* The individual is not free to work for other entities while working for the hiring entity (DOL, [1])",
+            "max_similarity": 0.45477426052093506,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Penalties for Misclassification:**\n\nThe penalties for misclassifying employees as independent contractors can be severe",
+            "max_similarity": 0.7967589497566223,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to the DOL, employers who misclassify employees as independent contractors may be liable for:\n\n* Back wages and overtime pay for the misclassified employees (FLSA, 29 U",
+            "max_similarity": 0.7739888429641724,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* Liquidated damages, which can be up to 100% of the back wages and overtime pay (FLSA, 29 U",
+            "max_similarity": 0.5784021615982056,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* Civil penalties of up to $13,653 per violation (FLSA, 29 U",
+            "max_similarity": 0.44663259387016296,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* State penalties, which can be up to $100,000 per violation (varies by state)",
+            "max_similarity": 0.5225653648376465,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In addition to these penalties, employers who misclassify employees as independent contractors may also be subject to",
+            "max_similarity": 0.8416240811347961,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 62,
+        "latency_ms": 362.6439571380615
+      }
+    },
+    "serp_bing": {
+      "answer": "Based on the search results, it appears that the question is asking about the current federal standard for independent contractor classification and the penalties for misclassification. Unfortunately, the search results provided do not contain any relevant information on this topic.\n\nHowever, I can provide some general information on the topic and suggest some possible sources that may be relevant.\n\nIn the United States, the classification of workers as employees or independent contractors is governed by federal and state laws. The Fair Labor Standards Act (FLSA) [29 U.S.C. \u00a7 203(e)(1)] defines an employee as \"any individual employed by an employer,\" while an independent contractor is defined as \"any individual who performs work for an employer under a contract that specifies the work to be performed and the compensation to be paid.\"\n\nThe IRS uses a 20-factor test to determine whether a worker is an employee or an independent contractor [26 CFR \u00a7 31.3121(d)-1]. The test considers factors such as the worker's control over the work, the worker's opportunity for profit or loss, and the level of supervision provided by the employer.\n\nThe penalties for misclassifying workers as independent contractors can be significant. Under the FLSA, employers who misclassify employees as independent contractors may be liable for back wages, liquidated damages, and attorney's fees [29 U.S.C. \u00a7 216(b)].\n\nSome possible sources that may be relevant to this topic include:\n\n* The IRS's website, which provides guidance on the classification of workers as employees or independent contractors [IRS.gov]\n* The Department of Labor's website, which provides information on the FLSA and the classification of workers [DOL.gov]\n* The National Conference of State Legislatures' website, which provides information on state laws related to worker classification [NCSL.org]\n\nI hope this information is helpful. If you have any further questions or would like more information, please let me know.\n\nReferences:\n\n* 29 U.S.C. \u00a7 203(e)(1)\n* 26 CFR \u00a7 31.3121(d)-1\n* 29 U.S.C. \u00a7 216(b)",
+      "generation_latency_ms": 701.4758586883545,
+      "authority_of_cited": {
+        "authority_score": 0.0,
+        "num_citations": 0,
+        "cited_urls": [],
+        "latency_ms": 0.0209808349609375
+      },
+      "support_ratio": {
+        "support_ratio": 0.0,
+        "supported_sentences": 0,
+        "total_sentences": 18,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, it appears that the question is asking about the current federal standard for independent contractor classification and the penalties for misclassification",
+            "max_similarity": 0.28168731927871704,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Unfortunately, the search results provided do not contain any relevant information on this topic",
+            "max_similarity": 0.23287345468997955,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, I can provide some general information on the topic and suggest some possible sources that may be relevant",
+            "max_similarity": 0.21640442311763763,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In the United States, the classification of workers as employees or independent contractors is governed by federal and state laws",
+            "max_similarity": 0.2998221218585968,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The Fair Labor Standards Act (FLSA) [29 U",
+            "max_similarity": 0.19748879969120026,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 203(e)(1)] defines an employee as \"any individual employed by an employer,\" while an independent contractor is defined as \"any individual who performs work for an employer under a contract that specifies the work to be performed and the compensation to be paid",
+            "max_similarity": 0.5416107773780823,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\"\n\nThe IRS uses a 20-factor test to determine whether a worker is an employee or an independent contractor [26 CFR \u00a7 31",
+            "max_similarity": 0.2911470830440521,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The test considers factors such as the worker's control over the work, the worker's opportunity for profit or loss, and the level of supervision provided by the employer",
+            "max_similarity": 0.19250518083572388,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The penalties for misclassifying workers as independent contractors can be significant",
+            "max_similarity": 0.3238500952720642,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Under the FLSA, employers who misclassify employees as independent contractors may be liable for back wages, liquidated damages, and attorney's fees [29 U",
+            "max_similarity": 0.3107494115829468,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Some possible sources that may be relevant to this topic include:\n\n* The IRS's website, which provides guidance on the classification of workers as employees or independent contractors [IRS",
+            "max_similarity": 0.3059450387954712,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "gov]\n* The Department of Labor's website, which provides information on the FLSA and the classification of workers [DOL",
+            "max_similarity": 0.25219976902008057,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "gov]\n* The National Conference of State Legislatures' website, which provides information on state laws related to worker classification [NCSL",
+            "max_similarity": 0.23185788094997406,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "org]\n\nI hope this information is helpful",
+            "max_similarity": 0.32928046584129333,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "If you have any further questions or would like more information, please let me know",
+            "max_similarity": 0.19157636165618896,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "References:\n\n* 29 U",
+            "max_similarity": 0.16595813632011414,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 203(e)(1)\n* 26 CFR \u00a7 31",
+            "max_similarity": 0.19485020637512207,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "3121(d)-1\n* 29 U",
+            "max_similarity": 0.10240983963012695,
+            "is_supported": false,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 57,
+        "latency_ms": 344.2058563232422
+      }
+    },
+    "serp_duckduckgo": {
+      "answer": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on misclassification. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are responsible for their own expenses, including equipment, travel, and other costs (DOL, [1]).\n\nThe DOL has also issued guidance on the \"economic realities\" test, which considers factors such as the worker's opportunity for profit or loss, their investment in equipment or facilities, and their degree of control over their work (DOL, [1]).\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying employees as independent contractors can be substantial. According to the DOL, employers who misclassify employees as independent contractors may be liable for back wages, liquidated damages, and civil penalties (FLSA, 29 U.S.C. \u00a7 216).\n\nIn addition to federal penalties, employers may also face state-level penalties and lawsuits. For example, the California Labor Code provides for penalties of up to $25,000 per violation for misclassifying employees as independent contractors (Cal. Lab. Code \u00a7 226.2).\n\nThe cost of non-compliance can be staggering, with fines levied by the US Department of Labor (DOL), IRS, and state agencies for worker misclassification exceeding millions depending on the severity of the violation (ADP, [7]).\n\n**Relevant Statutes and Regulations:**\n\n* Fair Labor Standards Act (FLSA), 29 U.S.C. \u00a7 203(g)\n* Department of Labor's guidance on misclassification (DOL, [1])\n* California Labor Code \u00a7 226.2\n\n**Recent Developments:**\n\nIn May 2023, the DOL issued revised guidance on independent contractor misclassification, which",
+      "generation_latency_ms": 1525.1662731170654,
+      "authority_of_cited": {
+        "authority_score": 0.875,
+        "num_citations": 4,
+        "cited_urls": [
+          "https://www.dol.gov/agencies/whd/flsa/misclassification",
+          "https://www.dol.gov/agencies/whd/flsa/misclassification",
+          "https://www.adp.com/spark/articles/2023/05/9-consequences-of-misclassifying-your-1099-contractors.aspx",
+          "https://www.dol.gov/agencies/whd/flsa/misclassification"
+        ],
+        "individual_scores": [
+          1.0,
+          1.0,
+          0.5,
+          1.0
+        ],
+        "latency_ms": 0.30922889709472656
+      },
+      "support_ratio": {
+        "support_ratio": 0.786,
+        "supported_sentences": 11,
+        "total_sentences": 14,
+        "sentence_details": [
+          {
+            "sentence": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on misclassification",
+            "max_similarity": 0.7527759075164795,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U",
+            "max_similarity": 0.6772013306617737,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U",
+            "max_similarity": 0.4908490777015686,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U",
+            "max_similarity": 0.4103165566921234,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* They are responsible for their own expenses, including equipment, travel, and other costs (DOL, [1])",
+            "max_similarity": 0.37123602628707886,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The DOL has also issued guidance on the \"economic realities\" test, which considers factors such as the worker's opportunity for profit or loss, their investment in equipment or facilities, and their degree of control over their work (DOL, [1])",
+            "max_similarity": 0.6192929148674011,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Penalties for Misclassification:**\n\nThe penalties for misclassifying employees as independent contractors can be substantial",
+            "max_similarity": 0.8179289698600769,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to the DOL, employers who misclassify employees as independent contractors may be liable for back wages, liquidated damages, and civil penalties (FLSA, 29 U",
+            "max_similarity": 0.7519527673721313,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In addition to federal penalties, employers may also face state-level penalties and lawsuits",
+            "max_similarity": 0.6299721598625183,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "For example, the California Labor Code provides for penalties of up to $25,000 per violation for misclassifying employees as independent contractors (Cal",
+            "max_similarity": 0.6785760521888733,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The cost of non-compliance can be staggering, with fines levied by the US Department of Labor (DOL), IRS, and state agencies for worker misclassification exceeding millions depending on the severity of the violation (ADP, [7])",
+            "max_similarity": 0.7056095004081726,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Relevant Statutes and Regulations:**\n\n* Fair Labor Standards Act (FLSA), 29 U",
+            "max_similarity": 0.6667385697364807,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 203(g)\n* Department of Labor's guidance on misclassification (DOL, [1])\n* California Labor Code \u00a7 226",
+            "max_similarity": 0.6958543658256531,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "2\n\n**Recent Developments:**\n\nIn May 2023, the DOL issued revised guidance on independent contractor misclassification, which",
+            "max_similarity": 0.7633523344993591,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 54,
+        "latency_ms": 334.22112464904785
+      }
+    }
+  },
+  "content_fetch_latency_ms": 836.5821838378906,
+  "llm_win_rate": {
+    "win_rates": {
+      "exa": 0.75,
+      "google": 0.5,
+      "serp_google": 0.25,
+      "serp_bing": 0.75,
+      "serp_duckduckgo": 0.25
+    },
+    "win_counts": {
+      "exa": 3,
+      "google": 2,
+      "serp_google": 1,
+      "serp_bing": 3,
+      "serp_duckduckgo": 1
+    },
+    "judgments_count": 10,
+    "evaluation_latency_ms": 27770.859003067017
+  },
+  "pairwise_judgments": [
+    {
+      "query": "What is the current federal standard for independent contractor classification and what are the penalties for misclassification?",
+      "provider_a": "google",
+      "provider_b": "exa",
+      "answer_a": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is outlined in the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) regulations. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (29 CFR 541.2(a)).\n* They perform work that is outside the usual course of the hiring entity's business (29 CFR 541.2(b)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as the work performed (29 CFR 541.2(c)).\n* They are responsible for their own expenses, including equipment, travel, and other costs (29 CFR 541.2(d)).\n\nThe DOL has also established a 20-factor test to determine whether a worker is an employee or an independent contractor (29 CFR 541.2). This test considers factors such as the worker's level of control, the permanence of the work relationship, and the worker's ability to work for others.\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying workers as independent contractors can be severe. According to the DOL, employers who misclassify workers may be liable for back wages, liquidated damages, and civil penalties (29 USC 216(b)). The DOL has also established a process for recovering back wages and liquidated damages for misclassified workers (29 CFR 578.3).\n\nIn addition to federal penalties, states may also impose their own penalties for misclassification. For example, California law provides for penalties of up to $25,000 per violation (Cal. Lab. Code \u00a7 226.8).\n\n**Examples of Misclassification Penalties:**\n\nAccording to a report by ADP, fines levied by the DOL, IRS, and state agencies for worker misclassification can exceed millions depending on the severity of the violation ([6]). For example, in 2020, the DOL recovered over $1.5 billion in back wages and liquidated damages for misclassified workers ([1]).\n\n**Conclusion:**\n\nIn conclusion, the current federal standard for independent contractor classification is outlined in the FLSA and the DOL's regulations. Employers who misclassify workers as independent contractors may face severe penalties, including back wages, liquidated damages, and civil",
+      "answer_b": "The current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on independent contractor misclassification enforcement. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g));\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g));\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g));\n* They are responsible for their own expenses and have the opportunity to realize a profit or loss (DOL, [7]);\n* They have control over the means and manner of performing the work (DOL, [7]).\n\nThe DOL has also issued guidance on the \"economic reality\" test, which considers the following factors to determine whether an individual is an employee or an independent contractor:\n\n* The nature and degree of control exercised by the hiring entity;\n* The degree of skill required for the work;\n* The permanence of the working relationship;\n* The amount of investment made by the individual;\n* The opportunity for profit or loss;\n* The degree of permanence of the working relationship;\n* The degree of integration of the individual's work into the hiring entity's business (DOL, [7]).\n\nThe penalties for misclassification can be severe and include:\n\n* Fines levied by the DOL, IRS, and state agencies, which can exceed millions depending on the severity of the infractions (ADP, [10]);\n* Class action lawsuits, which can result in significant damages and attorney's fees (Pillsbury, [6]);\n* Back pay and benefits owed to misclassified employees (DOL, [7]);\n* Interest on back pay and benefits owed (DOL, [7]);\n* Liquidated damages, which can be up to 100% of the back pay and benefits owed (FLSA, 29 U.S.C. \u00a7 216(c)).\n\nIn addition, employers may also face reputational damage and loss of business due to misclassification.\n\nReferences:\n\n[1] Title: DOL Issues Guidance on Independent",
+      "winner": "exa",
+      "confidence": 2,
+      "reasoning": "Overall: A=90.0, B=82.1 (diff=7.9%). Legal Accuracy: A better (9 vs 8); Completeness: A better (9 vs 8); Jurisdictional Relevance: A better (9 vs 8)",
+      "judgment_latency_ms": 1987.4529838562012
+    },
+    {
+      "query": "What is the current federal standard for independent contractor classification and what are the penalties for misclassification?",
+      "provider_a": "exa",
+      "provider_b": "serp_google",
+      "answer_a": "The current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on independent contractor misclassification enforcement. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g));\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g));\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g));\n* They are responsible for their own expenses and have the opportunity to realize a profit or loss (DOL, [7]);\n* They have control over the means and manner of performing the work (DOL, [7]).\n\nThe DOL has also issued guidance on the \"economic reality\" test, which considers the following factors to determine whether an individual is an employee or an independent contractor:\n\n* The nature and degree of control exercised by the hiring entity;\n* The degree of skill required for the work;\n* The permanence of the working relationship;\n* The amount of investment made by the individual;\n* The opportunity for profit or loss;\n* The degree of permanence of the working relationship;\n* The degree of integration of the individual's work into the hiring entity's business (DOL, [7]).\n\nThe penalties for misclassification can be severe and include:\n\n* Fines levied by the DOL, IRS, and state agencies, which can exceed millions depending on the severity of the infractions (ADP, [10]);\n* Class action lawsuits, which can result in significant damages and attorney's fees (Pillsbury, [6]);\n* Back pay and benefits owed to misclassified employees (DOL, [7]);\n* Interest on back pay and benefits owed (DOL, [7]);\n* Liquidated damages, which can be up to 100% of the back pay and benefits owed (FLSA, 29 U.S.C. \u00a7 216(c)).\n\nIn addition, employers may also face reputational damage and loss of business due to misclassification.\n\nReferences:\n\n[1] Title: DOL Issues Guidance on Independent",
+      "answer_b": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on independent contractor misclassification enforcement. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are responsible for their own expenses and have the opportunity to realize a profit or loss based on their work (DOL, [1]).\n\nThe DOL has also issued guidance on the factors that indicate an individual is an employee rather than an independent contractor, including:\n\n* The hiring entity has the right to control the individual's work, including the right to direct, supervise, and control the individual's activities (DOL, [1]).\n* The individual is required to work exclusively for the hiring entity (DOL, [1]).\n* The individual is required to follow the hiring entity's policies and procedures (DOL, [1]).\n* The individual is not free to work for other entities while working for the hiring entity (DOL, [1]).\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying employees as independent contractors can be severe. According to the DOL, employers who misclassify employees as independent contractors may be liable for:\n\n* Back wages and overtime pay for the misclassified employees (FLSA, 29 U.S.C. \u00a7 216(b)).\n* Liquidated damages, which can be up to 100% of the back wages and overtime pay (FLSA, 29 U.S.C. \u00a7 216(b)).\n* Civil penalties of up to $13,653 per violation (FLSA, 29 U.S.C. \u00a7 217).\n* State penalties, which can be up to $100,000 per violation (varies by state).\n\nIn addition to these penalties, employers who misclassify employees as independent contractors may also be subject to",
+      "winner": "exa",
+      "confidence": 2,
+      "reasoning": "Overall: A=92.1, B=80.0 (diff=12.1%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2787.5609397888184
+    },
+    {
+      "query": "What is the current federal standard for independent contractor classification and what are the penalties for misclassification?",
+      "provider_a": "serp_bing",
+      "provider_b": "exa",
+      "answer_a": "Based on the search results, it appears that the question is asking about the current federal standard for independent contractor classification and the penalties for misclassification. Unfortunately, the search results provided do not contain any relevant information on this topic.\n\nHowever, I can provide some general information on the topic and suggest some possible sources that may be relevant.\n\nIn the United States, the classification of workers as employees or independent contractors is governed by federal and state laws. The Fair Labor Standards Act (FLSA) [29 U.S.C. \u00a7 203(e)(1)] defines an employee as \"any individual employed by an employer,\" while an independent contractor is defined as \"any individual who performs work for an employer under a contract that specifies the work to be performed and the compensation to be paid.\"\n\nThe IRS uses a 20-factor test to determine whether a worker is an employee or an independent contractor [26 CFR \u00a7 31.3121(d)-1]. The test considers factors such as the worker's control over the work, the worker's opportunity for profit or loss, and the level of supervision provided by the employer.\n\nThe penalties for misclassifying workers as independent contractors can be significant. Under the FLSA, employers who misclassify employees as independent contractors may be liable for back wages, liquidated damages, and attorney's fees [29 U.S.C. \u00a7 216(b)].\n\nSome possible sources that may be relevant to this topic include:\n\n* The IRS's website, which provides guidance on the classification of workers as employees or independent contractors [IRS.gov]\n* The Department of Labor's website, which provides information on the FLSA and the classification of workers [DOL.gov]\n* The National Conference of State Legislatures' website, which provides information on state laws related to worker classification [NCSL.org]\n\nI hope this information is helpful. If you have any further questions or would like more information, please let me know.\n\nReferences:\n\n* 29 U.S.C. \u00a7 203(e)(1)\n* 26 CFR \u00a7 31.3121(d)-1\n* 29 U.S.C. \u00a7 216(b)",
+      "answer_b": "The current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on independent contractor misclassification enforcement. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g));\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g));\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g));\n* They are responsible for their own expenses and have the opportunity to realize a profit or loss (DOL, [7]);\n* They have control over the means and manner of performing the work (DOL, [7]).\n\nThe DOL has also issued guidance on the \"economic reality\" test, which considers the following factors to determine whether an individual is an employee or an independent contractor:\n\n* The nature and degree of control exercised by the hiring entity;\n* The degree of skill required for the work;\n* The permanence of the working relationship;\n* The amount of investment made by the individual;\n* The opportunity for profit or loss;\n* The degree of permanence of the working relationship;\n* The degree of integration of the individual's work into the hiring entity's business (DOL, [7]).\n\nThe penalties for misclassification can be severe and include:\n\n* Fines levied by the DOL, IRS, and state agencies, which can exceed millions depending on the severity of the infractions (ADP, [10]);\n* Class action lawsuits, which can result in significant damages and attorney's fees (Pillsbury, [6]);\n* Back pay and benefits owed to misclassified employees (DOL, [7]);\n* Interest on back pay and benefits owed (DOL, [7]);\n* Liquidated damages, which can be up to 100% of the back pay and benefits owed (FLSA, 29 U.S.C. \u00a7 216(c)).\n\nIn addition, employers may also face reputational damage and loss of business due to misclassification.\n\nReferences:\n\n[1] Title: DOL Issues Guidance on Independent",
+      "winner": "serp_bing",
+      "confidence": 3,
+      "reasoning": "Overall: A=72.9, B=91.4 (diff=18.6%). Legal Accuracy: B better (9 vs 8); Citation Quality: B better (9 vs 8); Completeness: B better (10 vs 8)",
+      "judgment_latency_ms": 2562.5572204589844
+    },
+    {
+      "query": "What is the current federal standard for independent contractor classification and what are the penalties for misclassification?",
+      "provider_a": "exa",
+      "provider_b": "serp_duckduckgo",
+      "answer_a": "The current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on independent contractor misclassification enforcement. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g));\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g));\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g));\n* They are responsible for their own expenses and have the opportunity to realize a profit or loss (DOL, [7]);\n* They have control over the means and manner of performing the work (DOL, [7]).\n\nThe DOL has also issued guidance on the \"economic reality\" test, which considers the following factors to determine whether an individual is an employee or an independent contractor:\n\n* The nature and degree of control exercised by the hiring entity;\n* The degree of skill required for the work;\n* The permanence of the working relationship;\n* The amount of investment made by the individual;\n* The opportunity for profit or loss;\n* The degree of permanence of the working relationship;\n* The degree of integration of the individual's work into the hiring entity's business (DOL, [7]).\n\nThe penalties for misclassification can be severe and include:\n\n* Fines levied by the DOL, IRS, and state agencies, which can exceed millions depending on the severity of the infractions (ADP, [10]);\n* Class action lawsuits, which can result in significant damages and attorney's fees (Pillsbury, [6]);\n* Back pay and benefits owed to misclassified employees (DOL, [7]);\n* Interest on back pay and benefits owed (DOL, [7]);\n* Liquidated damages, which can be up to 100% of the back pay and benefits owed (FLSA, 29 U.S.C. \u00a7 216(c)).\n\nIn addition, employers may also face reputational damage and loss of business due to misclassification.\n\nReferences:\n\n[1] Title: DOL Issues Guidance on Independent",
+      "answer_b": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on misclassification. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are responsible for their own expenses, including equipment, travel, and other costs (DOL, [1]).\n\nThe DOL has also issued guidance on the \"economic realities\" test, which considers factors such as the worker's opportunity for profit or loss, their investment in equipment or facilities, and their degree of control over their work (DOL, [1]).\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying employees as independent contractors can be substantial. According to the DOL, employers who misclassify employees as independent contractors may be liable for back wages, liquidated damages, and civil penalties (FLSA, 29 U.S.C. \u00a7 216).\n\nIn addition to federal penalties, employers may also face state-level penalties and lawsuits. For example, the California Labor Code provides for penalties of up to $25,000 per violation for misclassifying employees as independent contractors (Cal. Lab. Code \u00a7 226.2).\n\nThe cost of non-compliance can be staggering, with fines levied by the US Department of Labor (DOL), IRS, and state agencies for worker misclassification exceeding millions depending on the severity of the violation (ADP, [7]).\n\n**Relevant Statutes and Regulations:**\n\n* Fair Labor Standards Act (FLSA), 29 U.S.C. \u00a7 203(g)\n* Department of Labor's guidance on misclassification (DOL, [1])\n* California Labor Code \u00a7 226.2\n\n**Recent Developments:**\n\nIn May 2023, the DOL issued revised guidance on independent contractor misclassification, which",
+      "winner": "exa",
+      "confidence": 2,
+      "reasoning": "Overall: A=87.9, B=82.1 (diff=5.7%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2096.5869426727295
+    },
+    {
+      "query": "What is the current federal standard for independent contractor classification and what are the penalties for misclassification?",
+      "provider_a": "serp_google",
+      "provider_b": "google",
+      "answer_a": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on independent contractor misclassification enforcement. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are responsible for their own expenses and have the opportunity to realize a profit or loss based on their work (DOL, [1]).\n\nThe DOL has also issued guidance on the factors that indicate an individual is an employee rather than an independent contractor, including:\n\n* The hiring entity has the right to control the individual's work, including the right to direct, supervise, and control the individual's activities (DOL, [1]).\n* The individual is required to work exclusively for the hiring entity (DOL, [1]).\n* The individual is required to follow the hiring entity's policies and procedures (DOL, [1]).\n* The individual is not free to work for other entities while working for the hiring entity (DOL, [1]).\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying employees as independent contractors can be severe. According to the DOL, employers who misclassify employees as independent contractors may be liable for:\n\n* Back wages and overtime pay for the misclassified employees (FLSA, 29 U.S.C. \u00a7 216(b)).\n* Liquidated damages, which can be up to 100% of the back wages and overtime pay (FLSA, 29 U.S.C. \u00a7 216(b)).\n* Civil penalties of up to $13,653 per violation (FLSA, 29 U.S.C. \u00a7 217).\n* State penalties, which can be up to $100,000 per violation (varies by state).\n\nIn addition to these penalties, employers who misclassify employees as independent contractors may also be subject to",
+      "answer_b": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is outlined in the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) regulations. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (29 CFR 541.2(a)).\n* They perform work that is outside the usual course of the hiring entity's business (29 CFR 541.2(b)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as the work performed (29 CFR 541.2(c)).\n* They are responsible for their own expenses, including equipment, travel, and other costs (29 CFR 541.2(d)).\n\nThe DOL has also established a 20-factor test to determine whether a worker is an employee or an independent contractor (29 CFR 541.2). This test considers factors such as the worker's level of control, the permanence of the work relationship, and the worker's ability to work for others.\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying workers as independent contractors can be severe. According to the DOL, employers who misclassify workers may be liable for back wages, liquidated damages, and civil penalties (29 USC 216(b)). The DOL has also established a process for recovering back wages and liquidated damages for misclassified workers (29 CFR 578.3).\n\nIn addition to federal penalties, states may also impose their own penalties for misclassification. For example, California law provides for penalties of up to $25,000 per violation (Cal. Lab. Code \u00a7 226.8).\n\n**Examples of Misclassification Penalties:**\n\nAccording to a report by ADP, fines levied by the DOL, IRS, and state agencies for worker misclassification can exceed millions depending on the severity of the violation ([6]). For example, in 2020, the DOL recovered over $1.5 billion in back wages and liquidated damages for misclassified workers ([1]).\n\n**Conclusion:**\n\nIn conclusion, the current federal standard for independent contractor classification is outlined in the FLSA and the DOL's regulations. Employers who misclassify workers as independent contractors may face severe penalties, including back wages, liquidated damages, and civil",
+      "winner": "google",
+      "confidence": 1,
+      "reasoning": "Overall: A=90.0, B=87.1 (diff=2.9%). Completeness: A better (9 vs 8); Legal Reasoning: A better (9 vs 8)",
+      "judgment_latency_ms": 2918.7769889831543
+    },
+    {
+      "query": "What is the current federal standard for independent contractor classification and what are the penalties for misclassification?",
+      "provider_a": "serp_bing",
+      "provider_b": "google",
+      "answer_a": "Based on the search results, it appears that the question is asking about the current federal standard for independent contractor classification and the penalties for misclassification. Unfortunately, the search results provided do not contain any relevant information on this topic.\n\nHowever, I can provide some general information on the topic and suggest some possible sources that may be relevant.\n\nIn the United States, the classification of workers as employees or independent contractors is governed by federal and state laws. The Fair Labor Standards Act (FLSA) [29 U.S.C. \u00a7 203(e)(1)] defines an employee as \"any individual employed by an employer,\" while an independent contractor is defined as \"any individual who performs work for an employer under a contract that specifies the work to be performed and the compensation to be paid.\"\n\nThe IRS uses a 20-factor test to determine whether a worker is an employee or an independent contractor [26 CFR \u00a7 31.3121(d)-1]. The test considers factors such as the worker's control over the work, the worker's opportunity for profit or loss, and the level of supervision provided by the employer.\n\nThe penalties for misclassifying workers as independent contractors can be significant. Under the FLSA, employers who misclassify employees as independent contractors may be liable for back wages, liquidated damages, and attorney's fees [29 U.S.C. \u00a7 216(b)].\n\nSome possible sources that may be relevant to this topic include:\n\n* The IRS's website, which provides guidance on the classification of workers as employees or independent contractors [IRS.gov]\n* The Department of Labor's website, which provides information on the FLSA and the classification of workers [DOL.gov]\n* The National Conference of State Legislatures' website, which provides information on state laws related to worker classification [NCSL.org]\n\nI hope this information is helpful. If you have any further questions or would like more information, please let me know.\n\nReferences:\n\n* 29 U.S.C. \u00a7 203(e)(1)\n* 26 CFR \u00a7 31.3121(d)-1\n* 29 U.S.C. \u00a7 216(b)",
+      "answer_b": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is outlined in the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) regulations. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (29 CFR 541.2(a)).\n* They perform work that is outside the usual course of the hiring entity's business (29 CFR 541.2(b)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as the work performed (29 CFR 541.2(c)).\n* They are responsible for their own expenses, including equipment, travel, and other costs (29 CFR 541.2(d)).\n\nThe DOL has also established a 20-factor test to determine whether a worker is an employee or an independent contractor (29 CFR 541.2). This test considers factors such as the worker's level of control, the permanence of the work relationship, and the worker's ability to work for others.\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying workers as independent contractors can be severe. According to the DOL, employers who misclassify workers may be liable for back wages, liquidated damages, and civil penalties (29 USC 216(b)). The DOL has also established a process for recovering back wages and liquidated damages for misclassified workers (29 CFR 578.3).\n\nIn addition to federal penalties, states may also impose their own penalties for misclassification. For example, California law provides for penalties of up to $25,000 per violation (Cal. Lab. Code \u00a7 226.8).\n\n**Examples of Misclassification Penalties:**\n\nAccording to a report by ADP, fines levied by the DOL, IRS, and state agencies for worker misclassification can exceed millions depending on the severity of the violation ([6]). For example, in 2020, the DOL recovered over $1.5 billion in back wages and liquidated damages for misclassified workers ([1]).\n\n**Conclusion:**\n\nIn conclusion, the current federal standard for independent contractor classification is outlined in the FLSA and the DOL's regulations. Employers who misclassify workers as independent contractors may face severe penalties, including back wages, liquidated damages, and civil",
+      "winner": "serp_bing",
+      "confidence": 3,
+      "reasoning": "Overall: A=42.9, B=85.7 (diff=42.9%). Legal Accuracy: B better (9 vs 4); Citation Quality: B better (8 vs 6); Completeness: B better (10 vs 6)",
+      "judgment_latency_ms": 1891.2599086761475
+    },
+    {
+      "query": "What is the current federal standard for independent contractor classification and what are the penalties for misclassification?",
+      "provider_a": "google",
+      "provider_b": "serp_duckduckgo",
+      "answer_a": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is outlined in the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) regulations. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (29 CFR 541.2(a)).\n* They perform work that is outside the usual course of the hiring entity's business (29 CFR 541.2(b)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as the work performed (29 CFR 541.2(c)).\n* They are responsible for their own expenses, including equipment, travel, and other costs (29 CFR 541.2(d)).\n\nThe DOL has also established a 20-factor test to determine whether a worker is an employee or an independent contractor (29 CFR 541.2). This test considers factors such as the worker's level of control, the permanence of the work relationship, and the worker's ability to work for others.\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying workers as independent contractors can be severe. According to the DOL, employers who misclassify workers may be liable for back wages, liquidated damages, and civil penalties (29 USC 216(b)). The DOL has also established a process for recovering back wages and liquidated damages for misclassified workers (29 CFR 578.3).\n\nIn addition to federal penalties, states may also impose their own penalties for misclassification. For example, California law provides for penalties of up to $25,000 per violation (Cal. Lab. Code \u00a7 226.8).\n\n**Examples of Misclassification Penalties:**\n\nAccording to a report by ADP, fines levied by the DOL, IRS, and state agencies for worker misclassification can exceed millions depending on the severity of the violation ([6]). For example, in 2020, the DOL recovered over $1.5 billion in back wages and liquidated damages for misclassified workers ([1]).\n\n**Conclusion:**\n\nIn conclusion, the current federal standard for independent contractor classification is outlined in the FLSA and the DOL's regulations. Employers who misclassify workers as independent contractors may face severe penalties, including back wages, liquidated damages, and civil",
+      "answer_b": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on misclassification. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are responsible for their own expenses, including equipment, travel, and other costs (DOL, [1]).\n\nThe DOL has also issued guidance on the \"economic realities\" test, which considers factors such as the worker's opportunity for profit or loss, their investment in equipment or facilities, and their degree of control over their work (DOL, [1]).\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying employees as independent contractors can be substantial. According to the DOL, employers who misclassify employees as independent contractors may be liable for back wages, liquidated damages, and civil penalties (FLSA, 29 U.S.C. \u00a7 216).\n\nIn addition to federal penalties, employers may also face state-level penalties and lawsuits. For example, the California Labor Code provides for penalties of up to $25,000 per violation for misclassifying employees as independent contractors (Cal. Lab. Code \u00a7 226.2).\n\nThe cost of non-compliance can be staggering, with fines levied by the US Department of Labor (DOL), IRS, and state agencies for worker misclassification exceeding millions depending on the severity of the violation (ADP, [7]).\n\n**Relevant Statutes and Regulations:**\n\n* Fair Labor Standards Act (FLSA), 29 U.S.C. \u00a7 203(g)\n* Department of Labor's guidance on misclassification (DOL, [1])\n* California Labor Code \u00a7 226.2\n\n**Recent Developments:**\n\nIn May 2023, the DOL issued revised guidance on independent contractor misclassification, which",
+      "winner": "google",
+      "confidence": 2,
+      "reasoning": "Overall: A=90.0, B=80.0 (diff=10.0%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2149.6376991271973
+    },
+    {
+      "query": "What is the current federal standard for independent contractor classification and what are the penalties for misclassification?",
+      "provider_a": "serp_bing",
+      "provider_b": "serp_google",
+      "answer_a": "Based on the search results, it appears that the question is asking about the current federal standard for independent contractor classification and the penalties for misclassification. Unfortunately, the search results provided do not contain any relevant information on this topic.\n\nHowever, I can provide some general information on the topic and suggest some possible sources that may be relevant.\n\nIn the United States, the classification of workers as employees or independent contractors is governed by federal and state laws. The Fair Labor Standards Act (FLSA) [29 U.S.C. \u00a7 203(e)(1)] defines an employee as \"any individual employed by an employer,\" while an independent contractor is defined as \"any individual who performs work for an employer under a contract that specifies the work to be performed and the compensation to be paid.\"\n\nThe IRS uses a 20-factor test to determine whether a worker is an employee or an independent contractor [26 CFR \u00a7 31.3121(d)-1]. The test considers factors such as the worker's control over the work, the worker's opportunity for profit or loss, and the level of supervision provided by the employer.\n\nThe penalties for misclassifying workers as independent contractors can be significant. Under the FLSA, employers who misclassify employees as independent contractors may be liable for back wages, liquidated damages, and attorney's fees [29 U.S.C. \u00a7 216(b)].\n\nSome possible sources that may be relevant to this topic include:\n\n* The IRS's website, which provides guidance on the classification of workers as employees or independent contractors [IRS.gov]\n* The Department of Labor's website, which provides information on the FLSA and the classification of workers [DOL.gov]\n* The National Conference of State Legislatures' website, which provides information on state laws related to worker classification [NCSL.org]\n\nI hope this information is helpful. If you have any further questions or would like more information, please let me know.\n\nReferences:\n\n* 29 U.S.C. \u00a7 203(e)(1)\n* 26 CFR \u00a7 31.3121(d)-1\n* 29 U.S.C. \u00a7 216(b)",
+      "answer_b": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on independent contractor misclassification enforcement. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are responsible for their own expenses and have the opportunity to realize a profit or loss based on their work (DOL, [1]).\n\nThe DOL has also issued guidance on the factors that indicate an individual is an employee rather than an independent contractor, including:\n\n* The hiring entity has the right to control the individual's work, including the right to direct, supervise, and control the individual's activities (DOL, [1]).\n* The individual is required to work exclusively for the hiring entity (DOL, [1]).\n* The individual is required to follow the hiring entity's policies and procedures (DOL, [1]).\n* The individual is not free to work for other entities while working for the hiring entity (DOL, [1]).\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying employees as independent contractors can be severe. According to the DOL, employers who misclassify employees as independent contractors may be liable for:\n\n* Back wages and overtime pay for the misclassified employees (FLSA, 29 U.S.C. \u00a7 216(b)).\n* Liquidated damages, which can be up to 100% of the back wages and overtime pay (FLSA, 29 U.S.C. \u00a7 216(b)).\n* Civil penalties of up to $13,653 per violation (FLSA, 29 U.S.C. \u00a7 217).\n* State penalties, which can be up to $100,000 per violation (varies by state).\n\nIn addition to these penalties, employers who misclassify employees as independent contractors may also be subject to",
+      "winner": "serp_bing",
+      "confidence": 3,
+      "reasoning": "Overall: A=62.9, B=86.4 (diff=23.6%). Legal Accuracy: B better (8 vs 6); Citation Quality: B better (8 vs 6); Completeness: B better (10 vs 8)",
+      "judgment_latency_ms": 1888.3490562438965
+    },
+    {
+      "query": "What is the current federal standard for independent contractor classification and what are the penalties for misclassification?",
+      "provider_a": "serp_google",
+      "provider_b": "serp_duckduckgo",
+      "answer_a": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on independent contractor misclassification enforcement. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are responsible for their own expenses and have the opportunity to realize a profit or loss based on their work (DOL, [1]).\n\nThe DOL has also issued guidance on the factors that indicate an individual is an employee rather than an independent contractor, including:\n\n* The hiring entity has the right to control the individual's work, including the right to direct, supervise, and control the individual's activities (DOL, [1]).\n* The individual is required to work exclusively for the hiring entity (DOL, [1]).\n* The individual is required to follow the hiring entity's policies and procedures (DOL, [1]).\n* The individual is not free to work for other entities while working for the hiring entity (DOL, [1]).\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying employees as independent contractors can be severe. According to the DOL, employers who misclassify employees as independent contractors may be liable for:\n\n* Back wages and overtime pay for the misclassified employees (FLSA, 29 U.S.C. \u00a7 216(b)).\n* Liquidated damages, which can be up to 100% of the back wages and overtime pay (FLSA, 29 U.S.C. \u00a7 216(b)).\n* Civil penalties of up to $13,653 per violation (FLSA, 29 U.S.C. \u00a7 217).\n* State penalties, which can be up to $100,000 per violation (varies by state).\n\nIn addition to these penalties, employers who misclassify employees as independent contractors may also be subject to",
+      "answer_b": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on misclassification. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are responsible for their own expenses, including equipment, travel, and other costs (DOL, [1]).\n\nThe DOL has also issued guidance on the \"economic realities\" test, which considers factors such as the worker's opportunity for profit or loss, their investment in equipment or facilities, and their degree of control over their work (DOL, [1]).\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying employees as independent contractors can be substantial. According to the DOL, employers who misclassify employees as independent contractors may be liable for back wages, liquidated damages, and civil penalties (FLSA, 29 U.S.C. \u00a7 216).\n\nIn addition to federal penalties, employers may also face state-level penalties and lawsuits. For example, the California Labor Code provides for penalties of up to $25,000 per violation for misclassifying employees as independent contractors (Cal. Lab. Code \u00a7 226.2).\n\nThe cost of non-compliance can be staggering, with fines levied by the US Department of Labor (DOL), IRS, and state agencies for worker misclassification exceeding millions depending on the severity of the violation (ADP, [7]).\n\n**Relevant Statutes and Regulations:**\n\n* Fair Labor Standards Act (FLSA), 29 U.S.C. \u00a7 203(g)\n* Department of Labor's guidance on misclassification (DOL, [1])\n* California Labor Code \u00a7 226.2\n\n**Recent Developments:**\n\nIn May 2023, the DOL issued revised guidance on independent contractor misclassification, which",
+      "winner": "serp_google",
+      "confidence": 2,
+      "reasoning": "Overall: A=87.9, B=82.1 (diff=5.7%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2343.1150913238525
+    },
+    {
+      "query": "What is the current federal standard for independent contractor classification and what are the penalties for misclassification?",
+      "provider_a": "serp_bing",
+      "provider_b": "serp_duckduckgo",
+      "answer_a": "Based on the search results, it appears that the question is asking about the current federal standard for independent contractor classification and the penalties for misclassification. Unfortunately, the search results provided do not contain any relevant information on this topic.\n\nHowever, I can provide some general information on the topic and suggest some possible sources that may be relevant.\n\nIn the United States, the classification of workers as employees or independent contractors is governed by federal and state laws. The Fair Labor Standards Act (FLSA) [29 U.S.C. \u00a7 203(e)(1)] defines an employee as \"any individual employed by an employer,\" while an independent contractor is defined as \"any individual who performs work for an employer under a contract that specifies the work to be performed and the compensation to be paid.\"\n\nThe IRS uses a 20-factor test to determine whether a worker is an employee or an independent contractor [26 CFR \u00a7 31.3121(d)-1]. The test considers factors such as the worker's control over the work, the worker's opportunity for profit or loss, and the level of supervision provided by the employer.\n\nThe penalties for misclassifying workers as independent contractors can be significant. Under the FLSA, employers who misclassify employees as independent contractors may be liable for back wages, liquidated damages, and attorney's fees [29 U.S.C. \u00a7 216(b)].\n\nSome possible sources that may be relevant to this topic include:\n\n* The IRS's website, which provides guidance on the classification of workers as employees or independent contractors [IRS.gov]\n* The Department of Labor's website, which provides information on the FLSA and the classification of workers [DOL.gov]\n* The National Conference of State Legislatures' website, which provides information on state laws related to worker classification [NCSL.org]\n\nI hope this information is helpful. If you have any further questions or would like more information, please let me know.\n\nReferences:\n\n* 29 U.S.C. \u00a7 203(e)(1)\n* 26 CFR \u00a7 31.3121(d)-1\n* 29 U.S.C. \u00a7 216(b)",
+      "answer_b": "**Current Federal Standard for Independent Contractor Classification:**\n\nThe current federal standard for independent contractor classification is based on the Fair Labor Standards Act (FLSA) and the Department of Labor's (DOL) guidance on misclassification. According to the DOL, an individual is considered an independent contractor if they meet the following criteria:\n\n* They are free from the control and direction of the hiring entity in connection with the performance of the work (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They perform work that is outside the usual course of the hiring entity's business (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are customarily engaged in an independently established trade, occupation, or business of the same nature as that involved in the work performed (FLSA, 29 U.S.C. \u00a7 203(g)).\n* They are responsible for their own expenses, including equipment, travel, and other costs (DOL, [1]).\n\nThe DOL has also issued guidance on the \"economic realities\" test, which considers factors such as the worker's opportunity for profit or loss, their investment in equipment or facilities, and their degree of control over their work (DOL, [1]).\n\n**Penalties for Misclassification:**\n\nThe penalties for misclassifying employees as independent contractors can be substantial. According to the DOL, employers who misclassify employees as independent contractors may be liable for back wages, liquidated damages, and civil penalties (FLSA, 29 U.S.C. \u00a7 216).\n\nIn addition to federal penalties, employers may also face state-level penalties and lawsuits. For example, the California Labor Code provides for penalties of up to $25,000 per violation for misclassifying employees as independent contractors (Cal. Lab. Code \u00a7 226.2).\n\nThe cost of non-compliance can be staggering, with fines levied by the US Department of Labor (DOL), IRS, and state agencies for worker misclassification exceeding millions depending on the severity of the violation (ADP, [7]).\n\n**Relevant Statutes and Regulations:**\n\n* Fair Labor Standards Act (FLSA), 29 U.S.C. \u00a7 203(g)\n* Department of Labor's guidance on misclassification (DOL, [1])\n* California Labor Code \u00a7 226.2\n\n**Recent Developments:**\n\nIn May 2023, the DOL issued revised guidance on independent contractor misclassification, which",
+      "winner": "serp_duckduckgo",
+      "confidence": 3,
+      "reasoning": "Overall: A=62.9, B=89.3 (diff=26.4%). Legal Accuracy: B better (9 vs 6); Citation Quality: B better (9 vs 8); Completeness: B better (10 vs 8)",
+      "judgment_latency_ms": 1903.228759765625
+    }
+  ],
+  "total_evaluation_latency_ms": 30957.683086395264,
+  "query_id": "Q9",
+  "scenario": "Contractor classification audit by Department of Labor",
+  "search_query": "independent contractor classification DOL federal standard penalties misclassification",
+  "search_latencies_ms": {
+    "exa": 1971.9350337982178,
+    "google": 321.25282287597656,
+    "serp_google": 2956.324815750122,
+    "serp_bing": 3610.67795753479,
+    "serp_duckduckgo": 1631.6328048706055
+  }
+}

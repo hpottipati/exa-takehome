@@ -99,9 +99,9 @@ def main():
         status = "✅ PASSED" if success else "❌ FAILED"
         print(f"{name}: {status}")
     
-    print(f"\n✨ Results saved in: data/")
-    print(f"   - Authority: data/authority_results/latest_batch/")
-    print(f"   - Context:   data/context_results/latest_batch/")
+    print(f"\n✨ Results saved in: results/")
+    print(f"   - Authority: results/authority_results/latest_batch/")
+    print(f"   - Context:   results/context_results/latest_batch/")
     
     print(f"\n⏱️  Completed: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
