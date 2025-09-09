@@ -3,7 +3,7 @@
 **TLDR**: A set of evals to answer the question — *Which search provider delivers the most authoritative and useful results for legal research?*
 
 
-**VIDEO** : https://youtu.be/4f00BbR9jLc
+**VIDEO** : https://youtu.be/9BzsxnOtWO4
 ---
 ## The Problem
 
