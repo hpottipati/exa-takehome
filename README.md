@@ -68,8 +68,6 @@ python3 tests/authority/run_all_authority_tests.py
 python3 tests/context/run_batch_context_eval.py --providers exa google
 ```
 
-## Results
-
 **Authority Metrics** (`data/results/`):
 - `authority_at_3`: Avg. authority of top 3 results
 - `high_auth_hit_rate`: % queries w/ ≥1 authoritative source in top 3
@@ -89,3 +87,9 @@ python3 tests/context/run_batch_context_eval.py --providers exa google
 **Context Quality**: Groq Llama 3.1 judges answers on 5 criteria (legal accuracy, citations, completeness, jurisdiction, reasoning) with weighted scoring. Win rate from pairwise comparisons across all providers.
 
 **Support Ratio**: Sentence transformers calculate semantic similarity between each answer sentence and retrieved documents. Sentences above threshold count as "supported".
+
+## Results
+
+<img width="2234" height="755" alt="context_evaluation_dashboard" src="https://github.com/user-attachments/assets/511ccab1-c317-42e4-a56b-4d6a56f7a409" />
+<img width="2380" height="887" alt="combined_summary" src="https://github.com/user-attachments/assets/615a617b-f0f5-472d-a4ca-f7aa8162d2c3" />
+<img width="1784" height="742" alt="authority_evaluation_dashboard" src="https://github.com/user-attachments/assets/eaa37b1d-953f-4117-b98e-f775fbaeb62d" />
