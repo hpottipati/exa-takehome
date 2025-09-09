@@ -1,0 +1,194 @@
+[
+  {
+    "query": "What are the compliance requirements for using AI in hiring across NYC, California, and Illinois?",
+    "timestamp": "2025-09-09 14:49:19",
+    "providers": {
+      "exa": {
+        "answer": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC's Local Law 144, enacted in 2021, requires employers to ensure that automated employment decision tools (AEDTs) used in hiring processes are fair and transparent [1, 2, 3, 9]. The law applies to employers with 15 or more employees and requires them to:\n\n1. Conduct regular audits of AEDTs to ensure they are fair and unbiased [1, 9].\n2. Provide clear explanations of the decision-making process used by AEDTs [1, 9].\n3. Ensure that AEDTs do not discriminate against protected classes, such as age, sex, or disability [1, 9].\n\nEmployers who fail to comply with Local Law 144 may face fines and reputational damage [1].\n\n**California**\n\nCalifornia's SB 7, enacted in 2022, requires employers to ensure that AI-powered hiring tools are fair and unbiased [6]. The law applies to employers with 5 or more employees and requires them to:\n\n1. Conduct regular audits of AI-powered hiring tools to ensure they are fair and unbiased [6].\n2. Provide clear explanations of the decision-making process used by AI-powered hiring tools [6].\n3. Ensure that AI-powered hiring tools do not discriminate against protected classes, such as age, sex, or disability [6].\n\nEmployers who fail to comply with SB 7 may face fines and reputational damage [6].\n\n**Illinois**\n\nThere is no specific law or regulation in Illinois that addresses AI-powered hiring tools. However, employers in Illinois are still subject to federal and state anti-discrimination laws, including the Illinois Human Rights Act [5].\n\n**Best Practices**\n\nTo mitigate the risk of AI hiring tool noncompliance with antidiscrimination statutes, employers should:\n\n1. Conduct regular audits of AI-powered hiring tools to ensure they are fair and unbiased [7].\n2. Provide clear explanations of the decision-making process used by AI-powered hiring tools [7].\n3. Ensure that AI-powered hiring tools do not discriminate against protected classes, such as age, sex, or disability [7].\n4. Implement bias-mitigation strategies, such as data validation and testing [7].\n\nIn conclusion, employers using AI in hiring across NYC, California, and Illinois must ensure that their AI-powered hiring tools are fair,",
+        "generation_latency_ms": 916.3920879364014,
+        "authority_of_cited": {
+          "authority_score": 0.5,
+          "num_citations": 11,
+          "cited_urls": [
+            "https://www.warden-ai.com/blog/hr-tech-compliance-nyc-local-law-144",
+            "https://www.hireright.com/blog/california-sb-7-how-ai-hiring-rules-could-impact-background-checks",
+            "https://www.hireright.com/blog/california-sb-7-how-ai-hiring-rules-could-impact-background-checks",
+            "https://www.hireright.com/blog/california-sb-7-how-ai-hiring-rules-could-impact-background-checks",
+            "https://www.hireright.com/blog/california-sb-7-how-ai-hiring-rules-could-impact-background-checks",
+            "https://www.hireright.com/blog/california-sb-7-how-ai-hiring-rules-could-impact-background-checks",
+            "https://www.orrick.com/en/insights/2025/04/automated-hiring-tools-are-my-hiring-practices-subject-to-ai-regulation",
+            "https://blogs.duanemorris.com/classactiondefense/2025/04/29/best-practices-to-mitigate-the-risk-of-ai-hiring-tool-noncompliance-with-antidiscrimination-statutes/",
+            "https://blogs.duanemorris.com/classactiondefense/2025/04/29/best-practices-to-mitigate-the-risk-of-ai-hiring-tool-noncompliance-with-antidiscrimination-statutes/",
+            "https://blogs.duanemorris.com/classactiondefense/2025/04/29/best-practices-to-mitigate-the-risk-of-ai-hiring-tool-noncompliance-with-antidiscrimination-statutes/",
+            "https://blogs.duanemorris.com/classactiondefense/2025/04/29/best-practices-to-mitigate-the-risk-of-ai-hiring-tool-noncompliance-with-antidiscrimination-statutes/"
+          ],
+          "individual_scores": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "latency_ms": 5.914926528930664
+        },
+        "support_ratio": {
+          "support_ratio": 0.6,
+          "supported_sentences": 12,
+          "total_sentences": 20,
+          "sentence_details": [
+            {
+              "sentence": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC's Local Law 144, enacted in 2021, requires employers to ensure that automated employment decision tools (AEDTs) used in hiring processes are fair and transparent [1, 2, 3, 9]",
+              "max_similarity": 0.7822343111038208,
+              "is_supported": true,
+              "method": "semantic"
+            },
+            {
+              "sentence": "The law applies to employers with 15 or more employees and requires them to:\n\n1",
+              "max_similarity": 0.46354877948760986,
+              "is_supported": false,
+              "method": "semantic"
+            },
+            {
+              "sentence": "Conduct regular audits of AEDTs to ensure they are fair and unbiased [1, 9]",
+              "max_similarity": 0.672549307346344,
+              "is_supported": true,
+              "method": "semantic"
+            },
+            {
+              "sentence": "Provide clear explanations of the decision-making process used by AEDTs [1, 9]",
+              "max_similarity": 0.5123448371887207,
+              "is_supported": false,
+              "method": "semantic"
+            },
+            {
+              "sentence": "Ensure that AEDTs do not discriminate against protected classes, such as age, sex, or disability [1, 9]",
+              "max_similarity": 0.5356714129447937,
+              "is_supported": false,
+              "method": "semantic"
+            },
+            {
+              "sentence": "Employers who fail to comply with Local Law 144 may face fines and reputational damage [1]",
+              "max_similarity": 0.5274572968482971,
+              "is_supported": false,
+              "method": "semantic"
+            },
+            {
+              "sentence": "**California**\n\nCalifornia's SB 7, enacted in 2022, requires employers to ensure that AI-powered hiring tools are fair and unbiased [6]",
+              "max_similarity": 0.7548106908798218,
+              "is_supported": true,
+              "method": "semantic"
+            },
+            {
+              "sentence": "The law applies to employers with 5 or more employees and requires them to:\n\n1",
+              "max_similarity": 0.469760924577713,
+              "is_supported": false,
+              "method": "semantic"
+            },
+            {
+              "sentence": "Conduct regular audits of AI-powered hiring tools to ensure they are fair and unbiased [6]",
+              "max_similarity": 0.6978232860565186,
+              "is_supported": true,
+              "method": "semantic"
+            },
+            {
+              "sentence": "Provide clear explanations of the decision-making process used by AI-powered hiring tools [6]",
+              "max_similarity": 0.6278670430183411,
+              "is_supported": true,
+              "method": "semantic"
+            },
+            {
+              "sentence": "Ensure that AI-powered hiring tools do not discriminate against protected classes, such as age, sex, or disability [6]",
+              "max_similarity": 0.7537975907325745,
+              "is_supported": true,
+              "method": "semantic"
+            },
+            {
+              "sentence": "Employers who fail to comply with SB 7 may face fines and reputational damage [6]",
+              "max_similarity": 0.47567665576934814,
+              "is_supported": false,
+              "method": "semantic"
+            },
+            {
+              "sentence": "**Illinois**\n\nThere is no specific law or regulation in Illinois that addresses AI-powered hiring tools",
+              "max_similarity": 0.6864033341407776,
+              "is_supported": true,
+              "method": "semantic"
+            },
+            {
+              "sentence": "However, employers in Illinois are still subject to federal and state anti-discrimination laws, including the Illinois Human Rights Act [5]",
+              "max_similarity": 0.5719775557518005,
+              "is_supported": false,
+              "method": "semantic"
+            },
+            {
+              "sentence": "**Best Practices**\n\nTo mitigate the risk of AI hiring tool noncompliance with antidiscrimination statutes, employers should:\n\n1",
+              "max_similarity": 0.8306901454925537,
+              "is_supported": true,
+              "method": "semantic"
+            },
+            {
+              "sentence": "Conduct regular audits of AI-powered hiring tools to ensure they are fair and unbiased [7]",
+              "max_similarity": 0.6971087455749512,
+              "is_supported": true,
+              "method": "semantic"
+            },
+            {
+              "sentence": "Provide clear explanations of the decision-making process used by AI-powered hiring tools [7]",
+              "max_similarity": 0.6301254034042358,
+              "is_supported": true,
+              "method": "semantic"
+            },
+            {
+              "sentence": "Ensure that AI-powered hiring tools do not discriminate against protected classes, such as age, sex, or disability [7]",
+              "max_similarity": 0.7537743449211121,
+              "is_supported": true,
+              "method": "semantic"
+            },
+            {
+              "sentence": "Implement bias-mitigation strategies, such as data validation and testing [7]",
+              "max_similarity": 0.48827308416366577,
+              "is_supported": false,
+              "method": "semantic"
+            },
+            {
+              "sentence": "In conclusion, employers using AI in hiring across NYC, California, and Illinois must ensure that their AI-powered hiring tools are fair,",
+              "max_similarity": 0.755276620388031,
+              "is_supported": true,
+              "method": "semantic"
+            }
+          ],
+          "method": "semantic",
+          "threshold": 0.6,
+          "num_doc_chunks": 58,
+          "latency_ms": 1210.3149890899658
+        }
+      }
+    },
+    "content_fetch_latency_ms": 2073.8608837127686,
+    "llm_win_rate": {
+      "win_rates": {
+        "exa": 0.0
+      },
+      "win_counts": {
+        "exa": 0
+      },
+      "judgments_count": 0,
+      "evaluation_latency_ms": 916.5420532226562
+    },
+    "pairwise_judgments": [],
+    "total_evaluation_latency_ms": 4206.758260726929,
+    "query_id": "Q1",
+    "scenario": "Company wants to implement AI resume screening in NYC, California, and Illinois offices",
+    "search_query": "AI hiring screening compliance requirements NYC Local Law 144 California Illinois",
+    "search_latencies_ms": {
+      "exa": 1445.5108642578125,
+      "google": 0
+    }
+  }
+]

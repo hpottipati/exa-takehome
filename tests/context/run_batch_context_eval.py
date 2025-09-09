@@ -92,7 +92,7 @@ def run_batch_evaluation(
     
     # Initialize components
     search_manager = SearchManager()
-    evaluator = ContextEvaluator(ollama_model="qwen2.5:3b")
+    evaluator = ContextEvaluator(groq_model="llama-3.1-8b-instant")
     
     # Create output directory
     timestamp = time.strftime('%Y%m%d_%H%M%S')
@@ -274,37 +274,29 @@ def main():
     
     args = parser.parse_args()
     
-    # Test Ollama connection
-    logger.info("Testing Ollama connection...")
-    try:
-        import ollama
-        response = ollama.list()
-        # Handle both dict and object responses
-        if hasattr(response, 'models'):
-            models = response.models
-        elif isinstance(response, dict) and 'models' in response:
-            models = response['models']
-        else:
-            models = []
-        
-        model_names = []
-        for model in models:
-            if isinstance(model, dict):
-                model_names.append(model.get('name', ''))
-            elif hasattr(model, 'name'):
-                model_names.append(model.name)
-        
-        if not any('qwen2.5:3b' == name for name in model_names if name):
-            logger.warning("qwen2.5:3b not found. Please run: ollama pull qwen2.5:3b")
-            if model_names:
-                logger.info(f"Available models: {model_names}")
-            logger.info("Trying to continue anyway...")
-        else:
-            logger.info("✓ Ollama is running with qwen2.5:3b")
-    except Exception as e:
-        logger.error(f"Cannot connect to Ollama: {e}")
-        logger.error("Please ensure Ollama is running: ollama serve")
-        logger.info("Trying to continue anyway...")
+    # Test Groq connection
+    logger.info("Testing Groq API connection...")
+    if not os.getenv("GROQ_API_KEY"):
+        logger.error("GROQ_API_KEY environment variable not set!")
+        logger.error("Please set: export GROQ_API_KEY='your-api-key'")
+        logger.error("Get your API key from: https://console.groq.com/keys")
+        return
+    else:
+        logger.info("✓ GROQ_API_KEY found")
+        try:
+            from groq import Groq
+            client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+            # Test with a simple request
+            response = client.chat.completions.create(
+                model="llama-3.1-8b-instant",
+                messages=[{"role": "user", "content": "Say 'test'"}],
+                max_tokens=10
+            )
+            logger.info("✓ Groq API connection successful")
+        except Exception as e:
+            logger.error(f"Groq API connection failed: {e}")
+            logger.error("Please check your API key and network connection")
+            return
     
     # Run batch evaluation
     run_batch_evaluation(

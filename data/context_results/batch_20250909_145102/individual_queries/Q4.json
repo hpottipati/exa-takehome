@@ -1,0 +1,802 @@
+{
+  "query": "If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?",
+  "timestamp": "2025-09-09 14:53:46",
+  "providers": {
+    "exa": {
+      "answer": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt of the letter. This is in accordance with Title VII of the Civil Rights Act of 1964, which states that a charging party must file a lawsuit within 90 days of receiving the right-to-sue letter (42 U.S.C. \u00a7 2000e-5(f)(1)).\n\nAccording to [7], the EEOC 90-day period to file a lawsuit or notice of right to file a lawsuit is a critical deadline, and failure to timely open the link to the EEOC email or respond to the right-to-sue letter may result in the loss of the opportunity to sue.\n\nThe clock starts ticking on the 90-day period from the date of receipt of the right-to-sue letter, as stated in [6]. However, there may be exceptions to this deadline, such as equitable tolling, which may be applicable in certain circumstances.\n\nEquitable tolling is a doctrine that may suspend or extend the running of a statute of limitations in certain cases, such as when the plaintiff has been misled or has reasonably relied on the defendant's conduct (See [3], which discusses a case where equitable tolling was applied due to a stabbing incident).\n\nIn the case of Asuncion v. Hegseth [1], the Ninth Circuit Court of Appeals held that the 90-day period for filing a lawsuit after receiving an EEOC right-to-sue letter is not jurisdictional and may be subject to equitable tolling.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt of the letter, unless there are exceptions such as equitable tolling. It is essential to note that the clock starts ticking on the 90-day period from the date of receipt of the right-to-sue letter, and failure to timely file a lawsuit may result in the loss of the opportunity to sue.\n\nReferences:\n\n[1] Asuncion v. Hegseth, 2025 U.S. App. LEXIS 20444 (9th Cir. 2025)\n[2] When Did the Clock Start Ticking? Third Circuit Reinstates Title VII Lawsuit Involving Disputed Notice Date of EEOC Right-to-Sue Letter | Buchanan Ingersoll & Rooney PC\n",
+      "generation_latency_ms": 1111.156940460205,
+      "authority_of_cited": {
+        "authority_score": 0.667,
+        "num_citations": 6,
+        "cited_urls": [
+          "https://natlawreview.com/article/charging-party-who-did-not-timely-open-link-eeoc-email-loses-her-chance-to-sue",
+          "https://csattorneys.com/2024/09/25/employers-need-to-know-when-does-the-clock-start-ticking-on-an-employees-right-to-sue/",
+          "https://pospislaw.com/blog/2020/04/10/stabbing-justified-equitable-tolling-of-90-day-eeoc-deadline-in-discrimination-case-court-holds/",
+          "https://cdn.ca9.uscourts.gov/datastore/opinions/2025/09/04/23-4044.pdf",
+          "https://cdn.ca9.uscourts.gov/datastore/opinions/2025/09/04/23-4044.pdf",
+          "https://www.bipc.com/title-vii-lawsuit-reinstated-over-eeoc-right-to-sue-notice-date-dispute"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          0.5,
+          1.0,
+          1.0,
+          0.5
+        ],
+        "latency_ms": 2.7549266815185547
+      },
+      "support_ratio": {
+        "support_ratio": 0.625,
+        "supported_sentences": 10,
+        "total_sentences": 16,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt of the letter",
+            "max_similarity": 0.8192253708839417,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "This is in accordance with Title VII of the Civil Rights Act of 1964, which states that a charging party must file a lawsuit within 90 days of receiving the right-to-sue letter (42 U",
+            "max_similarity": 0.620733916759491,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 2000e-5(f)(1))",
+            "max_similarity": 0.2855444848537445,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to [7], the EEOC 90-day period to file a lawsuit or notice of right to file a lawsuit is a critical deadline, and failure to timely open the link to the EEOC email or respond to the right-to-sue letter may result in the loss of the opportunity to sue",
+            "max_similarity": 0.8117421865463257,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The clock starts ticking on the 90-day period from the date of receipt of the right-to-sue letter, as stated in [6]",
+            "max_similarity": 0.6989505290985107,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, there may be exceptions to this deadline, such as equitable tolling, which may be applicable in certain circumstances",
+            "max_similarity": 0.6010727286338806,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Equitable tolling is a doctrine that may suspend or extend the running of a statute of limitations in certain cases, such as when the plaintiff has been misled or has reasonably relied on the defendant's conduct (See [3], which discusses a case where equitable tolling was applied due to a stabbing incident)",
+            "max_similarity": 0.6647650599479675,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In the case of Asuncion v",
+            "max_similarity": 0.2633424401283264,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Hegseth [1], the Ninth Circuit Court of Appeals held that the 90-day period for filing a lawsuit after receiving an EEOC right-to-sue letter is not jurisdictional and may be subject to equitable tolling",
+            "max_similarity": 0.7251809239387512,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt of the letter, unless there are exceptions such as equitable tolling",
+            "max_similarity": 0.8296133279800415,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "It is essential to note that the clock starts ticking on the 90-day period from the date of receipt of the right-to-sue letter, and failure to timely file a lawsuit may result in the loss of the opportunity to sue",
+            "max_similarity": 0.7325817942619324,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "References:\n\n[1] Asuncion v",
+            "max_similarity": 0.23635920882225037,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Hegseth, 2025 U",
+            "max_similarity": 0.1943594366312027,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "LEXIS 20444 (9th Cir",
+            "max_similarity": 0.24618734419345856,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "2025)\n[2] When Did the Clock Start Ticking",
+            "max_similarity": 0.34216099977493286,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Third Circuit Reinstates Title VII Lawsuit Involving Disputed Notice Date of EEOC Right-to-Sue Letter | Buchanan Ingersoll & Rooney PC",
+            "max_similarity": 0.6715789437294006,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 74,
+        "latency_ms": 1279.8359394073486
+      }
+    },
+    "google": {
+      "answer": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt. This is a hard deadline, as stated in [9] and [10]. \n\nAccording to the EEOC's website, the time limits for filing a charge are as follows: \"The EEOC must receive your charge within 180 days from the date of the alleged discrimination, or within 300 days if the charge is filed with a state or local fair employment practice agency\" [4]. However, this is not directly related to the right-to-sue letter deadline.\n\nThe right-to-sue letter is issued by the EEOC when it has completed its investigation and has not resolved the charge. The letter notifies the charging party that they have the right to file a lawsuit against the respondent [8]. The 90-day deadline to file a lawsuit after receiving the right-to-sue letter is a statutory requirement, as stated in [8] and [10].\n\nThere are some exceptions to this deadline, such as equitable tolling, which may be applied in exceptional circumstances, such as when the charging party is unable to file a lawsuit due to circumstances beyond their control [6]. However, equitable tolling is not a guaranteed exception, and its application is typically determined on a case-by-case basis.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt, unless an exception applies. This deadline is a hard deadline, and failure to file a lawsuit within the 90-day period may result in the loss of the right to sue.\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* Title VII of the Civil Rights Act of 1964 [8]\n* The Equal Employment Opportunity Commission (EEOC) regulations [4]\n* The 90-day deadline to file a lawsuit after receiving a right-to-sue letter, as stated in [8] and [10]\n\nCase law mentioned in the sources includes:\n\n* Scott v. Gino Morena Enterprises [8]\n* Jacobs v. Walmart [5]\n\nNote: The answer is based on the search results provided and may not be comprehensive or up-to-date. It is recommended to consult with a qualified attorney or conduct further research for a more accurate and complete answer.",
+      "generation_latency_ms": 818.7782764434814,
+      "authority_of_cited": {
+        "authority_score": 0.615,
+        "num_citations": 13,
+        "cited_urls": [
+          "https://www.calltherightattorney.com/blog/2025/05/can-i-file-my-discrimination-lawsuit-more-than-90-days-after-i-get-right-to-sue-letter/",
+          "https://natlawreview.com/article/charging-party-who-did-not-timely-open-link-eeoc-email-loses-her-chance-to-sue",
+          "https://www.eeoc.gov/time-limits-filing-charge",
+          "https://content.next.westlaw.com/practical-law/document/Iaa1796f94e0711e89bf199c0ee06c731/Title-VII-Right-to-Sue-Period-Begins-90-Days-From-Receipt-of-EEOC-Notice-Only-Continuing-Violation-Acts-May-be-Alleged-After-Initial-Charge-Filed?viewType=FullText&transitionType=Default&contextData=(sc.Default)",
+          "https://content.next.westlaw.com/practical-law/document/Iaa1796f94e0711e89bf199c0ee06c731/Title-VII-Right-to-Sue-Period-Begins-90-Days-From-Receipt-of-EEOC-Notice-Only-Continuing-Violation-Acts-May-be-Alleged-After-Initial-Charge-Filed?viewType=FullText&transitionType=Default&contextData=(sc.Default)",
+          "https://natlawreview.com/article/charging-party-who-did-not-timely-open-link-eeoc-email-loses-her-chance-to-sue",
+          "https://pospislaw.com/blog/2020/04/10/stabbing-justified-equitable-tolling-of-90-day-eeoc-deadline-in-discrimination-case-court-holds/",
+          "https://content.next.westlaw.com/practical-law/document/Iaa1796f94e0711e89bf199c0ee06c731/Title-VII-Right-to-Sue-Period-Begins-90-Days-From-Receipt-of-EEOC-Notice-Only-Continuing-Violation-Acts-May-be-Alleged-After-Initial-Charge-Filed?viewType=FullText&transitionType=Default&contextData=(sc.Default)",
+          "https://www.eeoc.gov/time-limits-filing-charge",
+          "https://content.next.westlaw.com/practical-law/document/Iaa1796f94e0711e89bf199c0ee06c731/Title-VII-Right-to-Sue-Period-Begins-90-Days-From-Receipt-of-EEOC-Notice-Only-Continuing-Violation-Acts-May-be-Alleged-After-Initial-Charge-Filed?viewType=FullText&transitionType=Default&contextData=(sc.Default)",
+          "https://natlawreview.com/article/charging-party-who-did-not-timely-open-link-eeoc-email-loses-her-chance-to-sue",
+          "https://content.next.westlaw.com/practical-law/document/Iaa1796f94e0711e89bf199c0ee06c731/Title-VII-Right-to-Sue-Period-Begins-90-Days-From-Receipt-of-EEOC-Notice-Only-Continuing-Violation-Acts-May-be-Alleged-After-Initial-Charge-Filed?viewType=FullText&transitionType=Default&contextData=(sc.Default)",
+          "https://www2.mdd.uscourts.gov/Opinions/Opinions/Jacobs%20v.%20Walmart%20-%20RDB-22-2666%20MEMO%20and%20ORDER.pdf"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          1.0,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          1.0,
+          0.5,
+          0.5,
+          0.5,
+          1.0
+        ],
+        "latency_ms": 2.8259754180908203
+      },
+      "support_ratio": {
+        "support_ratio": 0.667,
+        "supported_sentences": 10,
+        "total_sentences": 15,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt",
+            "max_similarity": 0.8684825301170349,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "This is a hard deadline, as stated in [9] and [10]",
+            "max_similarity": 0.42115145921707153,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to the EEOC's website, the time limits for filing a charge are as follows: \"The EEOC must receive your charge within 180 days from the date of the alleged discrimination, or within 300 days if the charge is filed with a state or local fair employment practice agency\" [4]",
+            "max_similarity": 0.8195318579673767,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, this is not directly related to the right-to-sue letter deadline",
+            "max_similarity": 0.6873592734336853,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The right-to-sue letter is issued by the EEOC when it has completed its investigation and has not resolved the charge",
+            "max_similarity": 0.762983500957489,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The letter notifies the charging party that they have the right to file a lawsuit against the respondent [8]",
+            "max_similarity": 0.5563446283340454,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The 90-day deadline to file a lawsuit after receiving the right-to-sue letter is a statutory requirement, as stated in [8] and [10]",
+            "max_similarity": 0.7394989132881165,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "There are some exceptions to this deadline, such as equitable tolling, which may be applied in exceptional circumstances, such as when the charging party is unable to file a lawsuit due to circumstances beyond their control [6]",
+            "max_similarity": 0.673559308052063,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, equitable tolling is not a guaranteed exception, and its application is typically determined on a case-by-case basis",
+            "max_similarity": 0.6013192534446716,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt, unless an exception applies",
+            "max_similarity": 0.8729283809661865,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "This deadline is a hard deadline, and failure to file a lawsuit within the 90-day period may result in the loss of the right to sue",
+            "max_similarity": 0.6484323740005493,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Relevant statutes and regulations mentioned in the sources include:\n\n* Title VII of the Civil Rights Act of 1964 [8]\n* The Equal Employment Opportunity Commission (EEOC) regulations [4]\n* The 90-day deadline to file a lawsuit after receiving a right-to-sue letter, as stated in [8] and [10]\n\nCase law mentioned in the sources includes:\n\n* Scott v",
+            "max_similarity": 0.7616680860519409,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Gino Morena Enterprises [8]\n* Jacobs v",
+            "max_similarity": 0.3945835828781128,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Walmart [5]\n\nNote: The answer is based on the search results provided and may not be comprehensive or up-to-date",
+            "max_similarity": 0.15534622967243195,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "It is recommended to consult with a qualified attorney or conduct further research for a more accurate and complete answer",
+            "max_similarity": 0.3925662636756897,
+            "is_supported": false,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 54,
+        "latency_ms": 456.23278617858887
+      }
+    },
+    "serp_google": {
+      "answer": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter is received. This is stated in [2] Time Limits For Filing A Charge | U.S. Equal Employment Opportunity Commission, which notes that the 90-day period runs from the day the right-to-sue letter arrives at the claimant's address of record ([4] Two Recent Decisions Highlight Procedural Pitfalls in ...).\n\nAccording to [7] Can I File My Discrimination Lawsuit More Than 90 Days ..., this 90-day deadline is a hard deadline, and it is not a suggestion. The statutes that cover this deadline include Title VII of the Civil Rights Act of 1964, which prohibits employment discrimination based on race, color, religion, sex, or national origin ([1] Plaintiff\u2019s Employment Discrimination Civil Action Is Timely\u2014Until It Is Not).\n\nThere are exceptions to this deadline, however. Equitable tolling may be applied in certain circumstances, such as when the claimant is unable to file a lawsuit due to extraordinary circumstances, such as a serious illness or a natural disaster ([3] Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case, Court Holds).\n\nIn addition, the court may consider the date of receipt of the right-to-sue letter to be the date when the claimant had actual notice of the letter, rather than the date when the letter was mailed ([5] When Did the Clock Start Ticking? Third Circuit Reinstates Title VII Lawsuit Involving Disputed Notice Date of EEOC Right-to-Sue Letter).\n\nIt is also worth noting that the claimant must have timely opened the link to the EEOC email to receive the right-to-sue letter, and failure to do so may result in the loss of the opportunity to sue ([9] EEOC 90 Day Period to File Lawsuit or Notice of Right to File Cla).\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter is received, unless there are exceptional circumstances that warrant equitable tolling. The claimant must have timely opened the link to the EEOC email to receive the right-to-sue letter, and failure to do so may result in the loss of the opportunity to sue.\n\nReferences",
+      "generation_latency_ms": 1086.2658023834229,
+      "authority_of_cited": {
+        "authority_score": 0.571,
+        "num_citations": 7,
+        "cited_urls": [
+          "https://www.eeoc.gov/time-limits-filing-charge",
+          "https://www.employmentlawworldview.com/two-recent-decisions-highlight-procedural-pitfalls-in-employment-litigation-us/",
+          "https://www.calltherightattorney.com/blog/2025/05/can-i-file-my-discrimination-lawsuit-more-than-90-days-after-i-get-right-to-sue-letter/",
+          "https://ogletree.com/insights-resources/blog-posts/plaintiffs-employment-discrimination-civil-action-is-timely-until-it-is-not/",
+          "https://pospislaw.com/blog/2020/04/10/stabbing-justified-equitable-tolling-of-90-day-eeoc-deadline-in-discrimination-case-court-holds/",
+          "https://www.bipc.com/title-vii-lawsuit-reinstated-over-eeoc-right-to-sue-notice-date-dispute",
+          "https://natlawreview.com/article/charging-party-who-did-not-timely-open-link-eeoc-email-loses-her-chance-to-sue"
+        ],
+        "individual_scores": [
+          1.0,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 1.970052719116211
+      },
+      "support_ratio": {
+        "support_ratio": 0.769,
+        "supported_sentences": 10,
+        "total_sentences": 13,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter is received",
+            "max_similarity": 0.8665733337402344,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "This is stated in [2] Time Limits For Filing A Charge | U",
+            "max_similarity": 0.5811639428138733,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Equal Employment Opportunity Commission, which notes that the 90-day period runs from the day the right-to-sue letter arrives at the claimant's address of record ([4] Two Recent Decisions Highlight Procedural Pitfalls in",
+            "max_similarity": 0.7559536695480347,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to [7] Can I File My Discrimination Lawsuit More Than 90 Days",
+            "max_similarity": 0.6941280961036682,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": ", this 90-day deadline is a hard deadline, and it is not a suggestion",
+            "max_similarity": 0.39209485054016113,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The statutes that cover this deadline include Title VII of the Civil Rights Act of 1964, which prohibits employment discrimination based on race, color, religion, sex, or national origin ([1] Plaintiff\u2019s Employment Discrimination Civil Action Is Timely\u2014Until It Is Not)",
+            "max_similarity": 0.672930121421814,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "There are exceptions to this deadline, however",
+            "max_similarity": 0.4030882716178894,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Equitable tolling may be applied in certain circumstances, such as when the claimant is unable to file a lawsuit due to extraordinary circumstances, such as a serious illness or a natural disaster ([3] Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case, Court Holds)",
+            "max_similarity": 0.745954692363739,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In addition, the court may consider the date of receipt of the right-to-sue letter to be the date when the claimant had actual notice of the letter, rather than the date when the letter was mailed ([5] When Did the Clock Start Ticking",
+            "max_similarity": 0.7421433925628662,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Third Circuit Reinstates Title VII Lawsuit Involving Disputed Notice Date of EEOC Right-to-Sue Letter)",
+            "max_similarity": 0.7381086349487305,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "It is also worth noting that the claimant must have timely opened the link to the EEOC email to receive the right-to-sue letter, and failure to do so may result in the loss of the opportunity to sue ([9] EEOC 90 Day Period to File Lawsuit or Notice of Right to File Cla)",
+            "max_similarity": 0.8333900570869446,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter is received, unless there are exceptional circumstances that warrant equitable tolling",
+            "max_similarity": 0.8730452060699463,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The claimant must have timely opened the link to the EEOC email to receive the right-to-sue letter, and failure to do so may result in the loss of the opportunity to sue",
+            "max_similarity": 0.7986111640930176,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 58,
+        "latency_ms": 713.8569355010986
+      }
+    },
+    "serp_bing": {
+      "answer": "Based on the search results, I will provide a comprehensive answer to the legal question: If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?\n\nThe EEOC right-to-sue letter is a notification from the Equal Employment Opportunity Commission (EEOC) that the agency has closed its investigation and is dismissing the charge. The recipient of the letter has 90 days to file a federal lawsuit in court [1]. This is based on the EEOC's regulations at 29 C.F.R. \u00a7 1601.19(a), which states that the recipient of a right-to-sue letter has 90 days to file a lawsuit in court.\n\nThe 90-day deadline is calculated from the date of the right-to-sue letter, which in this case is October 15, 2024. Therefore, the deadline to file a federal lawsuit would be January 13, 2025 (October 15, 2024 + 90 days).\n\nThere are exceptions to the 90-day deadline. If the recipient of the right-to-sue letter is a minor, the deadline is extended until the minor reaches the age of majority [2]. Additionally, if the recipient is a member of the armed forces, the deadline is extended until the recipient is discharged from active duty [3].\n\nIt is worth noting that the EEOC's regulations and procedures are subject to change, and it is always best to consult with an attorney or the EEOC directly for the most up-to-date information.\n\nReferences:\n\n[1] 29 C.F.R. \u00a7 1601.19(a)\n[2] 29 C.F.R. \u00a7 1601.19(b)\n[3] 29 C.F.R. \u00a7 1601.19(c)\n\nNote: The search results provided do not contain any relevant information about the EEOC right-to-sue letter or the deadline to file a federal lawsuit. The answer is based on general knowledge of EEOC regulations and procedures.",
+      "generation_latency_ms": 1009.2380046844482,
+      "authority_of_cited": {
+        "authority_score": 0.5,
+        "num_citations": 6,
+        "cited_urls": [
+          "https://blog.twitter.com/content/dam/blog-twitter/official/en_us/company/2019/2018-retrospective-review.pdf",
+          "https://blog.twitter.com/content/dam/blog-twitter/official/en_au/company/2022/2022-federal-election/candidate-handbook-campaigning-on-twitter-during-the-2022-australian-federal-election.pdf",
+          "https://blog.twitter.com/content/dam/about-twitter/en/company/global-impact-2020.pdf",
+          "https://blog.twitter.com/content/dam/blog-twitter/official/en_us/company/2019/2018-retrospective-review.pdf",
+          "https://blog.twitter.com/content/dam/blog-twitter/official/en_au/company/2022/2022-federal-election/candidate-handbook-campaigning-on-twitter-during-the-2022-australian-federal-election.pdf",
+          "https://blog.twitter.com/content/dam/about-twitter/en/company/global-impact-2020.pdf"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 1.8160343170166016
+      },
+      "support_ratio": {
+        "support_ratio": 0.0,
+        "supported_sentences": 0,
+        "total_sentences": 16,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, I will provide a comprehensive answer to the legal question: If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions",
+            "max_similarity": 0.10013368725776672,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The EEOC right-to-sue letter is a notification from the Equal Employment Opportunity Commission (EEOC) that the agency has closed its investigation and is dismissing the charge",
+            "max_similarity": 0.14051254093647003,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The recipient of the letter has 90 days to file a federal lawsuit in court [1]",
+            "max_similarity": 0.11816270649433136,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "This is based on the EEOC's regulations at 29 C",
+            "max_similarity": 0.14111492037773132,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "19(a), which states that the recipient of a right-to-sue letter has 90 days to file a lawsuit in court",
+            "max_similarity": 0.0942065417766571,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The 90-day deadline is calculated from the date of the right-to-sue letter, which in this case is October 15, 2024",
+            "max_similarity": 0.11381183564662933,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Therefore, the deadline to file a federal lawsuit would be January 13, 2025 (October 15, 2024 + 90 days)",
+            "max_similarity": 0.1306697130203247,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "There are exceptions to the 90-day deadline",
+            "max_similarity": 0.12014468759298325,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "If the recipient of the right-to-sue letter is a minor, the deadline is extended until the minor reaches the age of majority [2]",
+            "max_similarity": 0.08588327467441559,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Additionally, if the recipient is a member of the armed forces, the deadline is extended until the recipient is discharged from active duty [3]",
+            "max_similarity": 0.023420630022883415,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "It is worth noting that the EEOC's regulations and procedures are subject to change, and it is always best to consult with an attorney or the EEOC directly for the most up-to-date information",
+            "max_similarity": 0.11248958110809326,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "References:\n\n[1] 29 C",
+            "max_similarity": 0.24321383237838745,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "19(a)\n[2] 29 C",
+            "max_similarity": 0.23255041241645813,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "19(b)\n[3] 29 C",
+            "max_similarity": 0.2727818489074707,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "19(c)\n\nNote: The search results provided do not contain any relevant information about the EEOC right-to-sue letter or the deadline to file a federal lawsuit",
+            "max_similarity": 0.15414369106292725,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The answer is based on general knowledge of EEOC regulations and procedures",
+            "max_similarity": 0.12800273299217224,
+            "is_supported": false,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 44,
+        "latency_ms": 670.9980964660645
+      }
+    },
+    "serp_duckduckgo": {
+      "answer": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter was received. This is in accordance with Title VII of the Civil Rights Act of 1964, which requires that a lawsuit be filed within 90 days of receiving the right-to-sue letter [2].\n\nThe Third Circuit Court of Appeals has reaffirmed this 90-day filing deadline in several cases, including Reaffirming the 90-Day Filing Deadline: Limited Equitable Tolling for ADA Actions Filed Pro Se [1]. This court has also held that the 90-day period begins to run on the date the right-to-sue letter is first received, either by the claimant or by counsel, whichever is earlier [8].\n\nHowever, there are exceptions to this 90-day deadline. Equitable tolling may be applied in certain circumstances, such as when the claimant has been prevented from filing a lawsuit due to extraordinary circumstances, or when the claimant has been misled or deceived by the defendant [7]. For example, in the case of Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case, Court Holds [3], the court held that equitable tolling was applicable because the claimant had been stabbed and was unable to file a lawsuit within the 90-day period.\n\nAnother exception is when the claimant files a lawsuit pro se (without an attorney). In such cases, the Third Circuit has held that limited equitable tolling may be applied to extend the 90-day filing deadline [1].\n\nIt is also worth noting that the EEOC charge deadlines cannot be extended, even by agreement [6]. However, this is not directly relevant to the 90-day filing deadline for federal lawsuits.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter was received. However, there are exceptions to this deadline, including equitable tolling and limited equitable tolling for pro se filings.\n\nReferences:\n\n[1] Reaffirming the 90-Day Filing Deadline: Limited Equitable Tolling for ADA Actions Filed Pro Se\n[2] Filing a Lawsuit | U.S. Equal Employment Opportunity Commission\n[3] Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case,",
+      "generation_latency_ms": 909.1992378234863,
+      "authority_of_cited": {
+        "authority_score": 0.62,
+        "num_citations": 10,
+        "cited_urls": [
+          "https://www.eeoc.gov/filing-lawsuit",
+          "https://www.casemine.com/commentary/us/reaffirming-the-90-day-filing-deadline:-limited-equitable-tolling-for-ada-actions-filed-pro-se/view",
+          "https://www.findlaw.com/legalblogs/second-circuit/second-circuit-clarifies-90-day-limitation-on-eeoc-claims/",
+          "https://www.employmentlawworldview.com/two-recent-decisions-highlight-procedural-pitfalls-in-employment-litigation-us/",
+          "https://pospislaw.com/blog/2020/04/10/stabbing-justified-equitable-tolling-of-90-day-eeoc-deadline-in-discrimination-case-court-holds/",
+          "https://www.casemine.com/commentary/us/reaffirming-the-90-day-filing-deadline:-limited-equitable-tolling-for-ada-actions-filed-pro-se/view",
+          "https://www.calltherightattorney.com/blog/2023/03/eeoc-charge-deadlines-cannot-be-extended-even-by-agreement/",
+          "https://www.casemine.com/commentary/us/reaffirming-the-90-day-filing-deadline:-limited-equitable-tolling-for-ada-actions-filed-pro-se/view",
+          "https://www.eeoc.gov/filing-lawsuit",
+          "https://pospislaw.com/blog/2020/04/10/stabbing-justified-equitable-tolling-of-90-day-eeoc-deadline-in-discrimination-case-court-holds/"
+        ],
+        "individual_scores": [
+          1.0,
+          0.5,
+          0.7,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          1.0,
+          0.5
+        ],
+        "latency_ms": 1.7573833465576172
+      },
+      "support_ratio": {
+        "support_ratio": 0.8,
+        "supported_sentences": 12,
+        "total_sentences": 15,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter was received",
+            "max_similarity": 0.8017225861549377,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "This is in accordance with Title VII of the Civil Rights Act of 1964, which requires that a lawsuit be filed within 90 days of receiving the right-to-sue letter [2]",
+            "max_similarity": 0.6438747048377991,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The Third Circuit Court of Appeals has reaffirmed this 90-day filing deadline in several cases, including Reaffirming the 90-Day Filing Deadline: Limited Equitable Tolling for ADA Actions Filed Pro Se [1]",
+            "max_similarity": 0.7057088613510132,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "This court has also held that the 90-day period begins to run on the date the right-to-sue letter is first received, either by the claimant or by counsel, whichever is earlier [8]",
+            "max_similarity": 0.8297533392906189,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, there are exceptions to this 90-day deadline",
+            "max_similarity": 0.44506582617759705,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Equitable tolling may be applied in certain circumstances, such as when the claimant has been prevented from filing a lawsuit due to extraordinary circumstances, or when the claimant has been misled or deceived by the defendant [7]",
+            "max_similarity": 0.738560140132904,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "For example, in the case of Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case, Court Holds [3], the court held that equitable tolling was applicable because the claimant had been stabbed and was unable to file a lawsuit within the 90-day period",
+            "max_similarity": 0.8052585124969482,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Another exception is when the claimant files a lawsuit pro se (without an attorney)",
+            "max_similarity": 0.5693832039833069,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In such cases, the Third Circuit has held that limited equitable tolling may be applied to extend the 90-day filing deadline [1]",
+            "max_similarity": 0.6138543486595154,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "It is also worth noting that the EEOC charge deadlines cannot be extended, even by agreement [6]",
+            "max_similarity": 0.6045351624488831,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, this is not directly relevant to the 90-day filing deadline for federal lawsuits",
+            "max_similarity": 0.5804324150085449,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter was received",
+            "max_similarity": 0.8025756478309631,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, there are exceptions to this deadline, including equitable tolling and limited equitable tolling for pro se filings",
+            "max_similarity": 0.6656642556190491,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "References:\n\n[1] Reaffirming the 90-Day Filing Deadline: Limited Equitable Tolling for ADA Actions Filed Pro Se\n[2] Filing a Lawsuit | U",
+            "max_similarity": 0.7197808027267456,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Equal Employment Opportunity Commission\n[3] Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case,",
+            "max_similarity": 0.7710151076316833,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 47,
+        "latency_ms": 366.67490005493164
+      }
+    }
+  },
+  "content_fetch_latency_ms": 15516.064882278442,
+  "llm_win_rate": {
+    "win_rates": {
+      "exa": 0.875,
+      "google": 0.75,
+      "serp_google": 0.625,
+      "serp_bing": 0.25,
+      "serp_duckduckgo": 0.0
+    },
+    "win_counts": {
+      "exa": 3.5,
+      "google": 3.0,
+      "serp_google": 2.5,
+      "serp_bing": 1,
+      "serp_duckduckgo": 0
+    },
+    "judgments_count": 10,
+    "evaluation_latency_ms": 32622.941255569458
+  },
+  "pairwise_judgments": [
+    {
+      "query": "If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?",
+      "provider_a": "google",
+      "provider_b": "exa",
+      "answer_a": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt. This is a hard deadline, as stated in [9] and [10]. \n\nAccording to the EEOC's website, the time limits for filing a charge are as follows: \"The EEOC must receive your charge within 180 days from the date of the alleged discrimination, or within 300 days if the charge is filed with a state or local fair employment practice agency\" [4]. However, this is not directly related to the right-to-sue letter deadline.\n\nThe right-to-sue letter is issued by the EEOC when it has completed its investigation and has not resolved the charge. The letter notifies the charging party that they have the right to file a lawsuit against the respondent [8]. The 90-day deadline to file a lawsuit after receiving the right-to-sue letter is a statutory requirement, as stated in [8] and [10].\n\nThere are some exceptions to this deadline, such as equitable tolling, which may be applied in exceptional circumstances, such as when the charging party is unable to file a lawsuit due to circumstances beyond their control [6]. However, equitable tolling is not a guaranteed exception, and its application is typically determined on a case-by-case basis.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt, unless an exception applies. This deadline is a hard deadline, and failure to file a lawsuit within the 90-day period may result in the loss of the right to sue.\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* Title VII of the Civil Rights Act of 1964 [8]\n* The Equal Employment Opportunity Commission (EEOC) regulations [4]\n* The 90-day deadline to file a lawsuit after receiving a right-to-sue letter, as stated in [8] and [10]\n\nCase law mentioned in the sources includes:\n\n* Scott v. Gino Morena Enterprises [8]\n* Jacobs v. Walmart [5]\n\nNote: The answer is based on the search results provided and may not be comprehensive or up-to-date. It is recommended to consult with a qualified attorney or conduct further research for a more accurate and complete answer.",
+      "answer_b": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt of the letter. This is in accordance with Title VII of the Civil Rights Act of 1964, which states that a charging party must file a lawsuit within 90 days of receiving the right-to-sue letter (42 U.S.C. \u00a7 2000e-5(f)(1)).\n\nAccording to [7], the EEOC 90-day period to file a lawsuit or notice of right to file a lawsuit is a critical deadline, and failure to timely open the link to the EEOC email or respond to the right-to-sue letter may result in the loss of the opportunity to sue.\n\nThe clock starts ticking on the 90-day period from the date of receipt of the right-to-sue letter, as stated in [6]. However, there may be exceptions to this deadline, such as equitable tolling, which may be applicable in certain circumstances.\n\nEquitable tolling is a doctrine that may suspend or extend the running of a statute of limitations in certain cases, such as when the plaintiff has been misled or has reasonably relied on the defendant's conduct (See [3], which discusses a case where equitable tolling was applied due to a stabbing incident).\n\nIn the case of Asuncion v. Hegseth [1], the Ninth Circuit Court of Appeals held that the 90-day period for filing a lawsuit after receiving an EEOC right-to-sue letter is not jurisdictional and may be subject to equitable tolling.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt of the letter, unless there are exceptions such as equitable tolling. It is essential to note that the clock starts ticking on the 90-day period from the date of receipt of the right-to-sue letter, and failure to timely file a lawsuit may result in the loss of the opportunity to sue.\n\nReferences:\n\n[1] Asuncion v. Hegseth, 2025 U.S. App. LEXIS 20444 (9th Cir. 2025)\n[2] When Did the Clock Start Ticking? Third Circuit Reinstates Title VII Lawsuit Involving Disputed Notice Date of EEOC Right-to-Sue Letter | Buchanan Ingersoll & Rooney PC\n",
+      "winner": "tie",
+      "confidence": 1,
+      "reasoning": "Overall: A=90.0, B=90.0 (diff=0.0%). ",
+      "judgment_latency_ms": 3851.030111312866
+    },
+    {
+      "query": "If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?",
+      "provider_a": "exa",
+      "provider_b": "serp_google",
+      "answer_a": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt of the letter. This is in accordance with Title VII of the Civil Rights Act of 1964, which states that a charging party must file a lawsuit within 90 days of receiving the right-to-sue letter (42 U.S.C. \u00a7 2000e-5(f)(1)).\n\nAccording to [7], the EEOC 90-day period to file a lawsuit or notice of right to file a lawsuit is a critical deadline, and failure to timely open the link to the EEOC email or respond to the right-to-sue letter may result in the loss of the opportunity to sue.\n\nThe clock starts ticking on the 90-day period from the date of receipt of the right-to-sue letter, as stated in [6]. However, there may be exceptions to this deadline, such as equitable tolling, which may be applicable in certain circumstances.\n\nEquitable tolling is a doctrine that may suspend or extend the running of a statute of limitations in certain cases, such as when the plaintiff has been misled or has reasonably relied on the defendant's conduct (See [3], which discusses a case where equitable tolling was applied due to a stabbing incident).\n\nIn the case of Asuncion v. Hegseth [1], the Ninth Circuit Court of Appeals held that the 90-day period for filing a lawsuit after receiving an EEOC right-to-sue letter is not jurisdictional and may be subject to equitable tolling.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt of the letter, unless there are exceptions such as equitable tolling. It is essential to note that the clock starts ticking on the 90-day period from the date of receipt of the right-to-sue letter, and failure to timely file a lawsuit may result in the loss of the opportunity to sue.\n\nReferences:\n\n[1] Asuncion v. Hegseth, 2025 U.S. App. LEXIS 20444 (9th Cir. 2025)\n[2] When Did the Clock Start Ticking? Third Circuit Reinstates Title VII Lawsuit Involving Disputed Notice Date of EEOC Right-to-Sue Letter | Buchanan Ingersoll & Rooney PC\n",
+      "answer_b": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter is received. This is stated in [2] Time Limits For Filing A Charge | U.S. Equal Employment Opportunity Commission, which notes that the 90-day period runs from the day the right-to-sue letter arrives at the claimant's address of record ([4] Two Recent Decisions Highlight Procedural Pitfalls in ...).\n\nAccording to [7] Can I File My Discrimination Lawsuit More Than 90 Days ..., this 90-day deadline is a hard deadline, and it is not a suggestion. The statutes that cover this deadline include Title VII of the Civil Rights Act of 1964, which prohibits employment discrimination based on race, color, religion, sex, or national origin ([1] Plaintiff\u2019s Employment Discrimination Civil Action Is Timely\u2014Until It Is Not).\n\nThere are exceptions to this deadline, however. Equitable tolling may be applied in certain circumstances, such as when the claimant is unable to file a lawsuit due to extraordinary circumstances, such as a serious illness or a natural disaster ([3] Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case, Court Holds).\n\nIn addition, the court may consider the date of receipt of the right-to-sue letter to be the date when the claimant had actual notice of the letter, rather than the date when the letter was mailed ([5] When Did the Clock Start Ticking? Third Circuit Reinstates Title VII Lawsuit Involving Disputed Notice Date of EEOC Right-to-Sue Letter).\n\nIt is also worth noting that the claimant must have timely opened the link to the EEOC email to receive the right-to-sue letter, and failure to do so may result in the loss of the opportunity to sue ([9] EEOC 90 Day Period to File Lawsuit or Notice of Right to File Cla).\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter is received, unless there are exceptional circumstances that warrant equitable tolling. The claimant must have timely opened the link to the EEOC email to receive the right-to-sue letter, and failure to do so may result in the loss of the opportunity to sue.\n\nReferences",
+      "winner": "exa",
+      "confidence": 1,
+      "reasoning": "Overall: A=90.0, B=85.7 (diff=4.3%). Legal Accuracy: A better (9 vs 8); Legal Reasoning: A better (9 vs 8)",
+      "judgment_latency_ms": 7664.56413269043
+    },
+    {
+      "query": "If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?",
+      "provider_a": "exa",
+      "provider_b": "serp_bing",
+      "answer_a": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt of the letter. This is in accordance with Title VII of the Civil Rights Act of 1964, which states that a charging party must file a lawsuit within 90 days of receiving the right-to-sue letter (42 U.S.C. \u00a7 2000e-5(f)(1)).\n\nAccording to [7], the EEOC 90-day period to file a lawsuit or notice of right to file a lawsuit is a critical deadline, and failure to timely open the link to the EEOC email or respond to the right-to-sue letter may result in the loss of the opportunity to sue.\n\nThe clock starts ticking on the 90-day period from the date of receipt of the right-to-sue letter, as stated in [6]. However, there may be exceptions to this deadline, such as equitable tolling, which may be applicable in certain circumstances.\n\nEquitable tolling is a doctrine that may suspend or extend the running of a statute of limitations in certain cases, such as when the plaintiff has been misled or has reasonably relied on the defendant's conduct (See [3], which discusses a case where equitable tolling was applied due to a stabbing incident).\n\nIn the case of Asuncion v. Hegseth [1], the Ninth Circuit Court of Appeals held that the 90-day period for filing a lawsuit after receiving an EEOC right-to-sue letter is not jurisdictional and may be subject to equitable tolling.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt of the letter, unless there are exceptions such as equitable tolling. It is essential to note that the clock starts ticking on the 90-day period from the date of receipt of the right-to-sue letter, and failure to timely file a lawsuit may result in the loss of the opportunity to sue.\n\nReferences:\n\n[1] Asuncion v. Hegseth, 2025 U.S. App. LEXIS 20444 (9th Cir. 2025)\n[2] When Did the Clock Start Ticking? Third Circuit Reinstates Title VII Lawsuit Involving Disputed Notice Date of EEOC Right-to-Sue Letter | Buchanan Ingersoll & Rooney PC\n",
+      "answer_b": "Based on the search results, I will provide a comprehensive answer to the legal question: If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?\n\nThe EEOC right-to-sue letter is a notification from the Equal Employment Opportunity Commission (EEOC) that the agency has closed its investigation and is dismissing the charge. The recipient of the letter has 90 days to file a federal lawsuit in court [1]. This is based on the EEOC's regulations at 29 C.F.R. \u00a7 1601.19(a), which states that the recipient of a right-to-sue letter has 90 days to file a lawsuit in court.\n\nThe 90-day deadline is calculated from the date of the right-to-sue letter, which in this case is October 15, 2024. Therefore, the deadline to file a federal lawsuit would be January 13, 2025 (October 15, 2024 + 90 days).\n\nThere are exceptions to the 90-day deadline. If the recipient of the right-to-sue letter is a minor, the deadline is extended until the minor reaches the age of majority [2]. Additionally, if the recipient is a member of the armed forces, the deadline is extended until the recipient is discharged from active duty [3].\n\nIt is worth noting that the EEOC's regulations and procedures are subject to change, and it is always best to consult with an attorney or the EEOC directly for the most up-to-date information.\n\nReferences:\n\n[1] 29 C.F.R. \u00a7 1601.19(a)\n[2] 29 C.F.R. \u00a7 1601.19(b)\n[3] 29 C.F.R. \u00a7 1601.19(c)\n\nNote: The search results provided do not contain any relevant information about the EEOC right-to-sue letter or the deadline to file a federal lawsuit. The answer is based on general knowledge of EEOC regulations and procedures.",
+      "winner": "exa",
+      "confidence": 3,
+      "reasoning": "Overall: A=86.4, B=65.7 (diff=20.7%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 6); Completeness: A better (9 vs 6)",
+      "judgment_latency_ms": 2081.541061401367
+    },
+    {
+      "query": "If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "exa",
+      "answer_a": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter was received. This is in accordance with Title VII of the Civil Rights Act of 1964, which requires that a lawsuit be filed within 90 days of receiving the right-to-sue letter [2].\n\nThe Third Circuit Court of Appeals has reaffirmed this 90-day filing deadline in several cases, including Reaffirming the 90-Day Filing Deadline: Limited Equitable Tolling for ADA Actions Filed Pro Se [1]. This court has also held that the 90-day period begins to run on the date the right-to-sue letter is first received, either by the claimant or by counsel, whichever is earlier [8].\n\nHowever, there are exceptions to this 90-day deadline. Equitable tolling may be applied in certain circumstances, such as when the claimant has been prevented from filing a lawsuit due to extraordinary circumstances, or when the claimant has been misled or deceived by the defendant [7]. For example, in the case of Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case, Court Holds [3], the court held that equitable tolling was applicable because the claimant had been stabbed and was unable to file a lawsuit within the 90-day period.\n\nAnother exception is when the claimant files a lawsuit pro se (without an attorney). In such cases, the Third Circuit has held that limited equitable tolling may be applied to extend the 90-day filing deadline [1].\n\nIt is also worth noting that the EEOC charge deadlines cannot be extended, even by agreement [6]. However, this is not directly relevant to the 90-day filing deadline for federal lawsuits.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter was received. However, there are exceptions to this deadline, including equitable tolling and limited equitable tolling for pro se filings.\n\nReferences:\n\n[1] Reaffirming the 90-Day Filing Deadline: Limited Equitable Tolling for ADA Actions Filed Pro Se\n[2] Filing a Lawsuit | U.S. Equal Employment Opportunity Commission\n[3] Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case,",
+      "answer_b": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt of the letter. This is in accordance with Title VII of the Civil Rights Act of 1964, which states that a charging party must file a lawsuit within 90 days of receiving the right-to-sue letter (42 U.S.C. \u00a7 2000e-5(f)(1)).\n\nAccording to [7], the EEOC 90-day period to file a lawsuit or notice of right to file a lawsuit is a critical deadline, and failure to timely open the link to the EEOC email or respond to the right-to-sue letter may result in the loss of the opportunity to sue.\n\nThe clock starts ticking on the 90-day period from the date of receipt of the right-to-sue letter, as stated in [6]. However, there may be exceptions to this deadline, such as equitable tolling, which may be applicable in certain circumstances.\n\nEquitable tolling is a doctrine that may suspend or extend the running of a statute of limitations in certain cases, such as when the plaintiff has been misled or has reasonably relied on the defendant's conduct (See [3], which discusses a case where equitable tolling was applied due to a stabbing incident).\n\nIn the case of Asuncion v. Hegseth [1], the Ninth Circuit Court of Appeals held that the 90-day period for filing a lawsuit after receiving an EEOC right-to-sue letter is not jurisdictional and may be subject to equitable tolling.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt of the letter, unless there are exceptions such as equitable tolling. It is essential to note that the clock starts ticking on the 90-day period from the date of receipt of the right-to-sue letter, and failure to timely file a lawsuit may result in the loss of the opportunity to sue.\n\nReferences:\n\n[1] Asuncion v. Hegseth, 2025 U.S. App. LEXIS 20444 (9th Cir. 2025)\n[2] When Did the Clock Start Ticking? Third Circuit Reinstates Title VII Lawsuit Involving Disputed Notice Date of EEOC Right-to-Sue Letter | Buchanan Ingersoll & Rooney PC\n",
+      "winner": "exa",
+      "confidence": 1,
+      "reasoning": "Overall: A=91.4, B=86.4 (diff=5.0%). Completeness: A better (10 vs 9); Jurisdictional Relevance: A better (9 vs 8); Legal Reasoning: A better (9 vs 8)",
+      "judgment_latency_ms": 2110.909938812256
+    },
+    {
+      "query": "If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?",
+      "provider_a": "serp_google",
+      "provider_b": "google",
+      "answer_a": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter is received. This is stated in [2] Time Limits For Filing A Charge | U.S. Equal Employment Opportunity Commission, which notes that the 90-day period runs from the day the right-to-sue letter arrives at the claimant's address of record ([4] Two Recent Decisions Highlight Procedural Pitfalls in ...).\n\nAccording to [7] Can I File My Discrimination Lawsuit More Than 90 Days ..., this 90-day deadline is a hard deadline, and it is not a suggestion. The statutes that cover this deadline include Title VII of the Civil Rights Act of 1964, which prohibits employment discrimination based on race, color, religion, sex, or national origin ([1] Plaintiff\u2019s Employment Discrimination Civil Action Is Timely\u2014Until It Is Not).\n\nThere are exceptions to this deadline, however. Equitable tolling may be applied in certain circumstances, such as when the claimant is unable to file a lawsuit due to extraordinary circumstances, such as a serious illness or a natural disaster ([3] Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case, Court Holds).\n\nIn addition, the court may consider the date of receipt of the right-to-sue letter to be the date when the claimant had actual notice of the letter, rather than the date when the letter was mailed ([5] When Did the Clock Start Ticking? Third Circuit Reinstates Title VII Lawsuit Involving Disputed Notice Date of EEOC Right-to-Sue Letter).\n\nIt is also worth noting that the claimant must have timely opened the link to the EEOC email to receive the right-to-sue letter, and failure to do so may result in the loss of the opportunity to sue ([9] EEOC 90 Day Period to File Lawsuit or Notice of Right to File Cla).\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter is received, unless there are exceptional circumstances that warrant equitable tolling. The claimant must have timely opened the link to the EEOC email to receive the right-to-sue letter, and failure to do so may result in the loss of the opportunity to sue.\n\nReferences",
+      "answer_b": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt. This is a hard deadline, as stated in [9] and [10]. \n\nAccording to the EEOC's website, the time limits for filing a charge are as follows: \"The EEOC must receive your charge within 180 days from the date of the alleged discrimination, or within 300 days if the charge is filed with a state or local fair employment practice agency\" [4]. However, this is not directly related to the right-to-sue letter deadline.\n\nThe right-to-sue letter is issued by the EEOC when it has completed its investigation and has not resolved the charge. The letter notifies the charging party that they have the right to file a lawsuit against the respondent [8]. The 90-day deadline to file a lawsuit after receiving the right-to-sue letter is a statutory requirement, as stated in [8] and [10].\n\nThere are some exceptions to this deadline, such as equitable tolling, which may be applied in exceptional circumstances, such as when the charging party is unable to file a lawsuit due to circumstances beyond their control [6]. However, equitable tolling is not a guaranteed exception, and its application is typically determined on a case-by-case basis.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt, unless an exception applies. This deadline is a hard deadline, and failure to file a lawsuit within the 90-day period may result in the loss of the right to sue.\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* Title VII of the Civil Rights Act of 1964 [8]\n* The Equal Employment Opportunity Commission (EEOC) regulations [4]\n* The 90-day deadline to file a lawsuit after receiving a right-to-sue letter, as stated in [8] and [10]\n\nCase law mentioned in the sources includes:\n\n* Scott v. Gino Morena Enterprises [8]\n* Jacobs v. Walmart [5]\n\nNote: The answer is based on the search results provided and may not be comprehensive or up-to-date. It is recommended to consult with a qualified attorney or conduct further research for a more accurate and complete answer.",
+      "winner": "tie",
+      "confidence": 1,
+      "reasoning": "Overall: A=85.7, B=86.4 (diff=0.7%). Legal Accuracy: B better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 1862.7359867095947
+    },
+    {
+      "query": "If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?",
+      "provider_a": "serp_bing",
+      "provider_b": "google",
+      "answer_a": "Based on the search results, I will provide a comprehensive answer to the legal question: If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?\n\nThe EEOC right-to-sue letter is a notification from the Equal Employment Opportunity Commission (EEOC) that the agency has closed its investigation and is dismissing the charge. The recipient of the letter has 90 days to file a federal lawsuit in court [1]. This is based on the EEOC's regulations at 29 C.F.R. \u00a7 1601.19(a), which states that the recipient of a right-to-sue letter has 90 days to file a lawsuit in court.\n\nThe 90-day deadline is calculated from the date of the right-to-sue letter, which in this case is October 15, 2024. Therefore, the deadline to file a federal lawsuit would be January 13, 2025 (October 15, 2024 + 90 days).\n\nThere are exceptions to the 90-day deadline. If the recipient of the right-to-sue letter is a minor, the deadline is extended until the minor reaches the age of majority [2]. Additionally, if the recipient is a member of the armed forces, the deadline is extended until the recipient is discharged from active duty [3].\n\nIt is worth noting that the EEOC's regulations and procedures are subject to change, and it is always best to consult with an attorney or the EEOC directly for the most up-to-date information.\n\nReferences:\n\n[1] 29 C.F.R. \u00a7 1601.19(a)\n[2] 29 C.F.R. \u00a7 1601.19(b)\n[3] 29 C.F.R. \u00a7 1601.19(c)\n\nNote: The search results provided do not contain any relevant information about the EEOC right-to-sue letter or the deadline to file a federal lawsuit. The answer is based on general knowledge of EEOC regulations and procedures.",
+      "answer_b": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt. This is a hard deadline, as stated in [9] and [10]. \n\nAccording to the EEOC's website, the time limits for filing a charge are as follows: \"The EEOC must receive your charge within 180 days from the date of the alleged discrimination, or within 300 days if the charge is filed with a state or local fair employment practice agency\" [4]. However, this is not directly related to the right-to-sue letter deadline.\n\nThe right-to-sue letter is issued by the EEOC when it has completed its investigation and has not resolved the charge. The letter notifies the charging party that they have the right to file a lawsuit against the respondent [8]. The 90-day deadline to file a lawsuit after receiving the right-to-sue letter is a statutory requirement, as stated in [8] and [10].\n\nThere are some exceptions to this deadline, such as equitable tolling, which may be applied in exceptional circumstances, such as when the charging party is unable to file a lawsuit due to circumstances beyond their control [6]. However, equitable tolling is not a guaranteed exception, and its application is typically determined on a case-by-case basis.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt, unless an exception applies. This deadline is a hard deadline, and failure to file a lawsuit within the 90-day period may result in the loss of the right to sue.\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* Title VII of the Civil Rights Act of 1964 [8]\n* The Equal Employment Opportunity Commission (EEOC) regulations [4]\n* The 90-day deadline to file a lawsuit after receiving a right-to-sue letter, as stated in [8] and [10]\n\nCase law mentioned in the sources includes:\n\n* Scott v. Gino Morena Enterprises [8]\n* Jacobs v. Walmart [5]\n\nNote: The answer is based on the search results provided and may not be comprehensive or up-to-date. It is recommended to consult with a qualified attorney or conduct further research for a more accurate and complete answer.",
+      "winner": "google",
+      "confidence": 2,
+      "reasoning": "Overall: A=92.1, B=78.6 (diff=13.6%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (10 vs 8)",
+      "judgment_latency_ms": 1769.5918083190918
+    },
+    {
+      "query": "If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "google",
+      "answer_a": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter was received. This is in accordance with Title VII of the Civil Rights Act of 1964, which requires that a lawsuit be filed within 90 days of receiving the right-to-sue letter [2].\n\nThe Third Circuit Court of Appeals has reaffirmed this 90-day filing deadline in several cases, including Reaffirming the 90-Day Filing Deadline: Limited Equitable Tolling for ADA Actions Filed Pro Se [1]. This court has also held that the 90-day period begins to run on the date the right-to-sue letter is first received, either by the claimant or by counsel, whichever is earlier [8].\n\nHowever, there are exceptions to this 90-day deadline. Equitable tolling may be applied in certain circumstances, such as when the claimant has been prevented from filing a lawsuit due to extraordinary circumstances, or when the claimant has been misled or deceived by the defendant [7]. For example, in the case of Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case, Court Holds [3], the court held that equitable tolling was applicable because the claimant had been stabbed and was unable to file a lawsuit within the 90-day period.\n\nAnother exception is when the claimant files a lawsuit pro se (without an attorney). In such cases, the Third Circuit has held that limited equitable tolling may be applied to extend the 90-day filing deadline [1].\n\nIt is also worth noting that the EEOC charge deadlines cannot be extended, even by agreement [6]. However, this is not directly relevant to the 90-day filing deadline for federal lawsuits.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter was received. However, there are exceptions to this deadline, including equitable tolling and limited equitable tolling for pro se filings.\n\nReferences:\n\n[1] Reaffirming the 90-Day Filing Deadline: Limited Equitable Tolling for ADA Actions Filed Pro Se\n[2] Filing a Lawsuit | U.S. Equal Employment Opportunity Commission\n[3] Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case,",
+      "answer_b": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt. This is a hard deadline, as stated in [9] and [10]. \n\nAccording to the EEOC's website, the time limits for filing a charge are as follows: \"The EEOC must receive your charge within 180 days from the date of the alleged discrimination, or within 300 days if the charge is filed with a state or local fair employment practice agency\" [4]. However, this is not directly related to the right-to-sue letter deadline.\n\nThe right-to-sue letter is issued by the EEOC when it has completed its investigation and has not resolved the charge. The letter notifies the charging party that they have the right to file a lawsuit against the respondent [8]. The 90-day deadline to file a lawsuit after receiving the right-to-sue letter is a statutory requirement, as stated in [8] and [10].\n\nThere are some exceptions to this deadline, such as equitable tolling, which may be applied in exceptional circumstances, such as when the charging party is unable to file a lawsuit due to circumstances beyond their control [6]. However, equitable tolling is not a guaranteed exception, and its application is typically determined on a case-by-case basis.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date of receipt, unless an exception applies. This deadline is a hard deadline, and failure to file a lawsuit within the 90-day period may result in the loss of the right to sue.\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* Title VII of the Civil Rights Act of 1964 [8]\n* The Equal Employment Opportunity Commission (EEOC) regulations [4]\n* The 90-day deadline to file a lawsuit after receiving a right-to-sue letter, as stated in [8] and [10]\n\nCase law mentioned in the sources includes:\n\n* Scott v. Gino Morena Enterprises [8]\n* Jacobs v. Walmart [5]\n\nNote: The answer is based on the search results provided and may not be comprehensive or up-to-date. It is recommended to consult with a qualified attorney or conduct further research for a more accurate and complete answer.",
+      "winner": "google",
+      "confidence": 2,
+      "reasoning": "Overall: A=90.0, B=80.0 (diff=10.0%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2326.1260986328125
+    },
+    {
+      "query": "If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?",
+      "provider_a": "serp_google",
+      "provider_b": "serp_bing",
+      "answer_a": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter is received. This is stated in [2] Time Limits For Filing A Charge | U.S. Equal Employment Opportunity Commission, which notes that the 90-day period runs from the day the right-to-sue letter arrives at the claimant's address of record ([4] Two Recent Decisions Highlight Procedural Pitfalls in ...).\n\nAccording to [7] Can I File My Discrimination Lawsuit More Than 90 Days ..., this 90-day deadline is a hard deadline, and it is not a suggestion. The statutes that cover this deadline include Title VII of the Civil Rights Act of 1964, which prohibits employment discrimination based on race, color, religion, sex, or national origin ([1] Plaintiff\u2019s Employment Discrimination Civil Action Is Timely\u2014Until It Is Not).\n\nThere are exceptions to this deadline, however. Equitable tolling may be applied in certain circumstances, such as when the claimant is unable to file a lawsuit due to extraordinary circumstances, such as a serious illness or a natural disaster ([3] Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case, Court Holds).\n\nIn addition, the court may consider the date of receipt of the right-to-sue letter to be the date when the claimant had actual notice of the letter, rather than the date when the letter was mailed ([5] When Did the Clock Start Ticking? Third Circuit Reinstates Title VII Lawsuit Involving Disputed Notice Date of EEOC Right-to-Sue Letter).\n\nIt is also worth noting that the claimant must have timely opened the link to the EEOC email to receive the right-to-sue letter, and failure to do so may result in the loss of the opportunity to sue ([9] EEOC 90 Day Period to File Lawsuit or Notice of Right to File Cla).\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter is received, unless there are exceptional circumstances that warrant equitable tolling. The claimant must have timely opened the link to the EEOC email to receive the right-to-sue letter, and failure to do so may result in the loss of the opportunity to sue.\n\nReferences",
+      "answer_b": "Based on the search results, I will provide a comprehensive answer to the legal question: If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?\n\nThe EEOC right-to-sue letter is a notification from the Equal Employment Opportunity Commission (EEOC) that the agency has closed its investigation and is dismissing the charge. The recipient of the letter has 90 days to file a federal lawsuit in court [1]. This is based on the EEOC's regulations at 29 C.F.R. \u00a7 1601.19(a), which states that the recipient of a right-to-sue letter has 90 days to file a lawsuit in court.\n\nThe 90-day deadline is calculated from the date of the right-to-sue letter, which in this case is October 15, 2024. Therefore, the deadline to file a federal lawsuit would be January 13, 2025 (October 15, 2024 + 90 days).\n\nThere are exceptions to the 90-day deadline. If the recipient of the right-to-sue letter is a minor, the deadline is extended until the minor reaches the age of majority [2]. Additionally, if the recipient is a member of the armed forces, the deadline is extended until the recipient is discharged from active duty [3].\n\nIt is worth noting that the EEOC's regulations and procedures are subject to change, and it is always best to consult with an attorney or the EEOC directly for the most up-to-date information.\n\nReferences:\n\n[1] 29 C.F.R. \u00a7 1601.19(a)\n[2] 29 C.F.R. \u00a7 1601.19(b)\n[3] 29 C.F.R. \u00a7 1601.19(c)\n\nNote: The search results provided do not contain any relevant information about the EEOC right-to-sue letter or the deadline to file a federal lawsuit. The answer is based on general knowledge of EEOC regulations and procedures.",
+      "winner": "serp_google",
+      "confidence": 2,
+      "reasoning": "Overall: A=75.7, B=62.9 (diff=12.9%). Legal Accuracy: B better (8 vs 6); Citation Quality: A better (8 vs 6); Completeness: A better (9 vs 6)",
+      "judgment_latency_ms": 2015.547752380371
+    },
+    {
+      "query": "If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "serp_google",
+      "answer_a": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter was received. This is in accordance with Title VII of the Civil Rights Act of 1964, which requires that a lawsuit be filed within 90 days of receiving the right-to-sue letter [2].\n\nThe Third Circuit Court of Appeals has reaffirmed this 90-day filing deadline in several cases, including Reaffirming the 90-Day Filing Deadline: Limited Equitable Tolling for ADA Actions Filed Pro Se [1]. This court has also held that the 90-day period begins to run on the date the right-to-sue letter is first received, either by the claimant or by counsel, whichever is earlier [8].\n\nHowever, there are exceptions to this 90-day deadline. Equitable tolling may be applied in certain circumstances, such as when the claimant has been prevented from filing a lawsuit due to extraordinary circumstances, or when the claimant has been misled or deceived by the defendant [7]. For example, in the case of Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case, Court Holds [3], the court held that equitable tolling was applicable because the claimant had been stabbed and was unable to file a lawsuit within the 90-day period.\n\nAnother exception is when the claimant files a lawsuit pro se (without an attorney). In such cases, the Third Circuit has held that limited equitable tolling may be applied to extend the 90-day filing deadline [1].\n\nIt is also worth noting that the EEOC charge deadlines cannot be extended, even by agreement [6]. However, this is not directly relevant to the 90-day filing deadline for federal lawsuits.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter was received. However, there are exceptions to this deadline, including equitable tolling and limited equitable tolling for pro se filings.\n\nReferences:\n\n[1] Reaffirming the 90-Day Filing Deadline: Limited Equitable Tolling for ADA Actions Filed Pro Se\n[2] Filing a Lawsuit | U.S. Equal Employment Opportunity Commission\n[3] Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case,",
+      "answer_b": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter is received. This is stated in [2] Time Limits For Filing A Charge | U.S. Equal Employment Opportunity Commission, which notes that the 90-day period runs from the day the right-to-sue letter arrives at the claimant's address of record ([4] Two Recent Decisions Highlight Procedural Pitfalls in ...).\n\nAccording to [7] Can I File My Discrimination Lawsuit More Than 90 Days ..., this 90-day deadline is a hard deadline, and it is not a suggestion. The statutes that cover this deadline include Title VII of the Civil Rights Act of 1964, which prohibits employment discrimination based on race, color, religion, sex, or national origin ([1] Plaintiff\u2019s Employment Discrimination Civil Action Is Timely\u2014Until It Is Not).\n\nThere are exceptions to this deadline, however. Equitable tolling may be applied in certain circumstances, such as when the claimant is unable to file a lawsuit due to extraordinary circumstances, such as a serious illness or a natural disaster ([3] Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case, Court Holds).\n\nIn addition, the court may consider the date of receipt of the right-to-sue letter to be the date when the claimant had actual notice of the letter, rather than the date when the letter was mailed ([5] When Did the Clock Start Ticking? Third Circuit Reinstates Title VII Lawsuit Involving Disputed Notice Date of EEOC Right-to-Sue Letter).\n\nIt is also worth noting that the claimant must have timely opened the link to the EEOC email to receive the right-to-sue letter, and failure to do so may result in the loss of the opportunity to sue ([9] EEOC 90 Day Period to File Lawsuit or Notice of Right to File Cla).\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter is received, unless there are exceptional circumstances that warrant equitable tolling. The claimant must have timely opened the link to the EEOC email to receive the right-to-sue letter, and failure to do so may result in the loss of the opportunity to sue.\n\nReferences",
+      "winner": "serp_google",
+      "confidence": 3,
+      "reasoning": "Overall: A=93.6, B=76.4 (diff=17.1%). Legal Accuracy: A better (9 vs 6); Citation Quality: A better (9 vs 8); Completeness: A better (10 vs 8)",
+      "judgment_latency_ms": 2082.534074783325
+    },
+    {
+      "query": "If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?",
+      "provider_a": "serp_bing",
+      "provider_b": "serp_duckduckgo",
+      "answer_a": "Based on the search results, I will provide a comprehensive answer to the legal question: If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?\n\nThe EEOC right-to-sue letter is a notification from the Equal Employment Opportunity Commission (EEOC) that the agency has closed its investigation and is dismissing the charge. The recipient of the letter has 90 days to file a federal lawsuit in court [1]. This is based on the EEOC's regulations at 29 C.F.R. \u00a7 1601.19(a), which states that the recipient of a right-to-sue letter has 90 days to file a lawsuit in court.\n\nThe 90-day deadline is calculated from the date of the right-to-sue letter, which in this case is October 15, 2024. Therefore, the deadline to file a federal lawsuit would be January 13, 2025 (October 15, 2024 + 90 days).\n\nThere are exceptions to the 90-day deadline. If the recipient of the right-to-sue letter is a minor, the deadline is extended until the minor reaches the age of majority [2]. Additionally, if the recipient is a member of the armed forces, the deadline is extended until the recipient is discharged from active duty [3].\n\nIt is worth noting that the EEOC's regulations and procedures are subject to change, and it is always best to consult with an attorney or the EEOC directly for the most up-to-date information.\n\nReferences:\n\n[1] 29 C.F.R. \u00a7 1601.19(a)\n[2] 29 C.F.R. \u00a7 1601.19(b)\n[3] 29 C.F.R. \u00a7 1601.19(c)\n\nNote: The search results provided do not contain any relevant information about the EEOC right-to-sue letter or the deadline to file a federal lawsuit. The answer is based on general knowledge of EEOC regulations and procedures.",
+      "answer_b": "Based on the search results, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter was received. This is in accordance with Title VII of the Civil Rights Act of 1964, which requires that a lawsuit be filed within 90 days of receiving the right-to-sue letter [2].\n\nThe Third Circuit Court of Appeals has reaffirmed this 90-day filing deadline in several cases, including Reaffirming the 90-Day Filing Deadline: Limited Equitable Tolling for ADA Actions Filed Pro Se [1]. This court has also held that the 90-day period begins to run on the date the right-to-sue letter is first received, either by the claimant or by counsel, whichever is earlier [8].\n\nHowever, there are exceptions to this 90-day deadline. Equitable tolling may be applied in certain circumstances, such as when the claimant has been prevented from filing a lawsuit due to extraordinary circumstances, or when the claimant has been misled or deceived by the defendant [7]. For example, in the case of Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case, Court Holds [3], the court held that equitable tolling was applicable because the claimant had been stabbed and was unable to file a lawsuit within the 90-day period.\n\nAnother exception is when the claimant files a lawsuit pro se (without an attorney). In such cases, the Third Circuit has held that limited equitable tolling may be applied to extend the 90-day filing deadline [1].\n\nIt is also worth noting that the EEOC charge deadlines cannot be extended, even by agreement [6]. However, this is not directly relevant to the 90-day filing deadline for federal lawsuits.\n\nIn summary, the deadline to file a federal lawsuit after receiving an EEOC right-to-sue letter is 90 days from the date the letter was received. However, there are exceptions to this deadline, including equitable tolling and limited equitable tolling for pro se filings.\n\nReferences:\n\n[1] Reaffirming the 90-Day Filing Deadline: Limited Equitable Tolling for ADA Actions Filed Pro Se\n[2] Filing a Lawsuit | U.S. Equal Employment Opportunity Commission\n[3] Stabbing Justified \u201cEquitable Tolling\u201d of 90-Day EEOC Deadline in Discrimination Case,",
+      "winner": "serp_bing",
+      "confidence": 2,
+      "reasoning": "Overall: A=90.0, B=82.9 (diff=7.1%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (10 vs 9)",
+      "judgment_latency_ms": 1920.3498363494873
+    }
+  ],
+  "total_evaluation_latency_ms": 51638.203144073486,
+  "query_id": "Q4",
+  "scenario": "Client received EEOC right-to-sue letter dated October 15, 2024",
+  "search_query": "EEOC right to sue letter 90 day deadline federal court equitable tolling",
+  "search_latencies_ms": {
+    "exa": 2059.0271949768066,
+    "google": 280.8701992034912,
+    "serp_google": 3205.69109916687,
+    "serp_bing": 2094.1221714019775,
+    "serp_duckduckgo": 2066.5249824523926
+  }
+}

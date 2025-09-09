@@ -15,6 +15,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from urllib.parse import urlparse
 from groq import Groq
+from sentence_transformers import SentenceTransformer
 
 from .authority_scorer import AuthorityScorer
 from ..utils.content_fetcher import ContentFetcher
@@ -449,12 +450,19 @@ Return ONLY the JSON evaluation:"""
 class ContextEvaluator:
     """Main context evaluation class implementing the three metrics"""
     
-    def __init__(self, groq_model: str = "llama-3.1-8b-instant", use_fetched_content: bool = True):
+    def __init__(self, groq_model: str = "llama-3.1-8b-instant", use_fetched_content: bool = True, use_semantic_similarity: bool = True):
         self.groq_client = GroqClient(model=groq_model)
         self.authority_scorer = AuthorityScorer()
         self.vectorizer = TfidfVectorizer(max_features=1000, stop_words='english')
         self.content_fetcher = ContentFetcher()
         self.use_fetched_content = use_fetched_content
+        self.use_semantic_similarity = use_semantic_similarity
+        
+        # Initialize semantic similarity model if requested
+        if self.use_semantic_similarity:
+            logger.info("Loading semantic similarity model...")
+            self.semantic_model = SentenceTransformer('all-MiniLM-L6-v2')
+            logger.info("Semantic similarity model loaded")
     
     def standardize_and_fetch_content(self, providers_results: Dict[str, List[Dict]]) -> Dict[str, List[StandardizedSearchResult]]:
         """
@@ -501,6 +509,110 @@ class ContextEvaluator:
             logger.info(f"Successfully fetched {successful_fetches}/{len(unique_urls)} URLs")
         
         return standardized
+    
+    def calculate_semantic_support_ratio(self, answer: str, documents: List[Dict]) -> Dict:
+        """
+        Calculate support ratio using semantic similarity instead of TF-IDF.
+        Much better for long documents with mixed content.
+        """
+        if not answer or not documents:
+            return {
+                'support_ratio': 0.0,
+                'supported_sentences': 0,
+                'total_sentences': 0
+            }
+        
+        # Split answer into sentences
+        sentences = re.split(r'[.!?]+', answer)
+        sentences = [s.strip() for s in sentences if s.strip() and len(s.strip()) > 10]
+        
+        if not sentences:
+            return {
+                'support_ratio': 0.0,
+                'supported_sentences': 0,
+                'total_sentences': 0
+            }
+        
+        # Prepare document texts with intelligent chunking
+        doc_chunks = []
+        for doc in documents[:10]:  # Use top 10 documents
+            text = doc.get('text', '').strip() or doc.get('snippet', '').strip() or doc.get('content', '').strip()
+            if not text:
+                continue
+            
+            # For semantic similarity, we can handle longer chunks but still need to be reasonable
+            # Break very long documents into overlapping chunks
+            if len(text) > 3000:
+                # Split into 1500-char chunks with 300-char overlap
+                words = text.split()
+                chunk_size = 250  # ~1500 chars
+                overlap = 50      # ~300 chars
+                
+                for i in range(0, len(words), chunk_size - overlap):
+                    chunk_words = words[i:i + chunk_size]
+                    if len(chunk_words) < 30:  # Skip very short chunks
+                        break
+                    doc_chunks.append(' '.join(chunk_words))
+            else:
+                doc_chunks.append(text)
+        
+        if not doc_chunks:
+            return {
+                'support_ratio': 0.0,
+                'supported_sentences': 0,
+                'total_sentences': len(sentences)
+            }
+        
+        try:
+            # Encode sentences and document chunks
+            logger.info(f"Encoding {len(sentences)} sentences and {len(doc_chunks)} document chunks for semantic similarity...")
+            sentence_embeddings = self.semantic_model.encode(sentences, show_progress_bar=False)
+            doc_embeddings = self.semantic_model.encode(doc_chunks, show_progress_bar=False)
+            
+            # Calculate cosine similarity
+            similarities = cosine_similarity(sentence_embeddings, doc_embeddings)
+            
+            # Count supported sentences with semantic similarity threshold
+            # Semantic similarities are typically higher than TF-IDF, so we can use a higher threshold
+            semantic_threshold = 0.6  # Higher threshold for semantic similarity
+            supported_count = 0
+            sentence_support = []
+            
+            for i, sentence in enumerate(sentences):
+                max_similarity = similarities[i].max() if similarities[i].size > 0 else 0
+                is_supported = max_similarity >= semantic_threshold
+                supported_count += int(is_supported)
+                
+                sentence_support.append({
+                    'sentence': sentence,
+                    'max_similarity': float(max_similarity),
+                    'is_supported': bool(is_supported),
+                    'method': 'semantic'
+                })
+            
+            support_ratio = supported_count / len(sentences) if sentences else 0.0
+            
+            logger.info(f"Semantic similarity: {supported_count}/{len(sentences)} sentences supported")
+            
+            return {
+                'support_ratio': round(support_ratio, 3),
+                'supported_sentences': supported_count,
+                'total_sentences': len(sentences),
+                'sentence_details': sentence_support,
+                'method': 'semantic',
+                'threshold': semantic_threshold,
+                'num_doc_chunks': len(doc_chunks)
+            }
+            
+        except Exception as e:
+            logger.error(f"Error in semantic similarity calculation: {e}")
+            return {
+                'support_ratio': 0.0,
+                'supported_sentences': 0,
+                'total_sentences': len(sentences),
+                'error': str(e),
+                'method': 'semantic'
+            }
         
     def evaluate_llm_win_rate(self, query: str, providers_results: Dict[str, List[Dict]]) -> Dict:
         """
@@ -659,7 +771,13 @@ class ContextEvaluator:
     def calculate_support_ratio(self, answer: str, documents: List[Dict]) -> Dict:
         """
         Metric 3: SupportRatio - How much of the answer is backed by retrieved documents
+        Uses semantic similarity (preferred) or TF-IDF similarity
         """
+        # Use semantic similarity if available and enabled
+        if hasattr(self, 'use_semantic_similarity') and self.use_semantic_similarity and hasattr(self, 'semantic_model'):
+            return self.calculate_semantic_support_ratio(answer, documents)
+        
+        # Fall back to TF-IDF approach
         if not answer or not documents:
             return {
                 'support_ratio': 0.0,
