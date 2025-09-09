@@ -102,39 +102,28 @@ Instructions:
             latency_ms = (time.time() - start_time) * 1000
             return f"Error generating answer: {str(e)}", latency_ms
     
-    def judge_pairwise(self, query: str, answer_a: str, answer_b: str, 
-                      provider_a: str, provider_b: str) -> Tuple[Dict, float]:
-        """
-        Compare two answers and determine which is better
-        Returns: (judgment_dict, latency_ms)
-        """
-        prompt = f"""You are an impartial legal research evaluator comparing two answers.
+    def evaluate_legal_accuracy(self, query: str, answer_a: str, answer_b: str) -> Dict:
+        """Evaluate only legal accuracy and correctness"""
+        prompt = f"""You are evaluating ONLY legal accuracy. Ignore citations, writing style, and length.
 
-EVALUATION CRITERIA:
-1. Legal accuracy and correctness
-2. Quality and relevance of citations
-3. Completeness of legal analysis
-4. Clear legal reasoning
-5. Proper identification of applicable laws/regulations
+SCORING CRITERIA:
+- 10: Perfect legal accuracy, all statements correct
+- 8-9: Generally accurate with minor imprecisions
+- 6-7: Mostly correct with some notable errors
+- 4-5: Mix of correct and incorrect legal information
+- 2-3: Multiple significant legal errors
+- 0-1: Fundamentally wrong legal understanding
 
-SCORING:
-- Winner A: Answer A is clearly superior (more accurate, better citations, legally sound)
-- Winner B: Answer B is clearly superior
-- Tie: Both answers are equally good or equally poor
-
-IMPORTANT: 
-- Ignore answer length - focus on legal quality
-- Base judgment on legal merit, not writing style
-- Consider citation quality over quantity
-
-Output ONLY valid JSON in this exact format:
+Evaluate each answer and return JSON:
 {{
-  "winner": "A" or "B" or "tie",
-  "confidence": 1 or 2 or 3,
-  "reasoning": "step-by-step explanation of why this answer wins"
+    "score_a": [0-10],
+    "score_b": [0-10],
+    "errors_a": ["list specific legal errors, or empty if none"],
+    "errors_b": ["list specific legal errors, or empty if none"],
+    "explanation": "brief explanation of the scores"
 }}
 
-LEGAL QUESTION: {query}
+QUESTION: {query}
 
 ANSWER A:
 {answer_a}
@@ -142,130 +131,303 @@ ANSWER A:
 ANSWER B:
 {answer_b}
 
-Provide your evaluation as JSON:"""
-
-        start_time = time.time()
+Return ONLY the JSON evaluation:"""
+        
         try:
             response = ollama.generate(
                 model=self.model,
                 prompt=prompt,
-                options={
-                    "temperature": 0.1,  # Low temperature for consistency
-                    "num_predict": 300
-                }
+                options={"temperature": 0.1, "num_predict": 300}
             )
+            return json.loads(response['response'].strip())
+        except Exception as e:
+            logger.error(f"Error in legal accuracy evaluation: {e}")
+            return {"score_a": 5, "score_b": 5, "errors_a": [], "errors_b": [], "explanation": str(e)}
+    
+    def evaluate_citation_quality(self, query: str, answer_a: str, answer_b: str) -> Dict:
+        """Evaluate only citation quality and source relevance"""
+        prompt = f"""You are evaluating ONLY citation quality. Focus on sources cited and their relevance.
+
+SCORING CRITERIA:
+- 10: Excellent citations from authoritative primary sources (statutes, regulations, cases)
+- 8-9: Good mix of primary and quality secondary sources
+- 6-7: Some relevant sources but missing key authorities
+- 4-5: Few citations or mostly weak secondary sources
+- 2-3: Poor quality sources or irrelevant citations
+- 0-1: No citations or completely irrelevant sources
+
+Count and evaluate citations. Return JSON:
+{{
+    "score_a": [0-10],
+    "score_b": [0-10],
+    "primary_sources_a": 0,
+    "primary_sources_b": 0,
+    "quality_assessment": "brief assessment of citation quality"
+}}
+
+QUESTION: {query}
+
+ANSWER A:
+{answer_a}
+
+ANSWER B:
+{answer_b}
+
+Return ONLY the JSON evaluation:"""
+        
+        try:
+            response = ollama.generate(
+                model=self.model,
+                prompt=prompt,
+                options={"temperature": 0.1, "num_predict": 200}
+            )
+            return json.loads(response['response'].strip())
+        except Exception as e:
+            logger.error(f"Error in citation quality evaluation: {e}")
+            return {"score_a": 5, "score_b": 5, "primary_sources_a": 0, "primary_sources_b": 0, "quality_assessment": str(e)}
+    
+    def evaluate_completeness(self, query: str, answer_a: str, answer_b: str) -> Dict:
+        """Evaluate completeness of coverage"""
+        prompt = f"""You are evaluating ONLY completeness. Does the answer address all parts of the question?
+
+SCORING CRITERIA:
+- 10: Comprehensive, addresses every aspect of the question
+- 8-9: Most aspects covered with minor omissions
+- 6-7: About 70% of important points covered
+- 4-5: About half the important points covered
+- 2-3: Significant gaps, many aspects missing
+- 0-1: Barely addresses the question
+
+Return JSON:
+{{
+    "score_a": [0-10],
+    "score_b": [0-10],
+    "missing_aspects_a": ["list what's missing"],
+    "missing_aspects_b": ["list what's missing"],
+    "coverage_assessment": "brief assessment"
+}}
+
+QUESTION: {query}
+
+ANSWER A:
+{answer_a}
+
+ANSWER B:
+{answer_b}
+
+Return ONLY the JSON evaluation:"""
+        
+        try:
+            response = ollama.generate(
+                model=self.model,
+                prompt=prompt,
+                options={"temperature": 0.1, "num_predict": 250}
+            )
+            return json.loads(response['response'].strip())
+        except Exception as e:
+            logger.error(f"Error in completeness evaluation: {e}")
+            return {"score_a": 5, "score_b": 5, "missing_aspects_a": [], "missing_aspects_b": [], "coverage_assessment": str(e)}
+    
+    def evaluate_jurisdictional_relevance(self, query: str, answer_a: str, answer_b: str) -> Dict:
+        """Evaluate correct identification of applicable jurisdictions and laws"""
+        prompt = f"""You are evaluating ONLY jurisdictional relevance. Focus on proper identification of applicable laws.
+
+SCORING CRITERIA:
+- 10: All relevant jurisdictions correctly identified with specific laws
+- 8-9: Most jurisdictions correct with minor issues
+- 6-7: Some jurisdictions correct, some missed
+- 4-5: Mixed - some right, some wrong jurisdictions
+- 2-3: Major jurisdictional errors or confusion
+- 0-1: Wrong jurisdictions or none identified
+
+Evaluate jurisdictional accuracy. Return JSON:
+{{
+    "score_a": [0-10],
+    "score_b": [0-10],
+    "jurisdictions_a": ["list identified jurisdictions"],
+    "jurisdictions_b": ["list identified jurisdictions"],
+    "jurisdiction_assessment": "brief assessment"
+}}
+
+QUESTION: {query}
+
+ANSWER A:
+{answer_a}
+
+ANSWER B:
+{answer_b}
+
+Return ONLY the JSON evaluation:"""
+        
+        try:
+            response = ollama.generate(
+                model=self.model,
+                prompt=prompt,
+                options={"temperature": 0.1, "num_predict": 250}
+            )
+            return json.loads(response['response'].strip())
+        except Exception as e:
+            logger.error(f"Error in jurisdictional evaluation: {e}")
+            return {"score_a": 5, "score_b": 5, "jurisdictions_a": [], "jurisdictions_b": [], "jurisdiction_assessment": str(e)}
+    
+    def evaluate_legal_reasoning(self, query: str, answer_a: str, answer_b: str) -> Dict:
+        """Evaluate logical flow and legal argumentation"""
+        prompt = f"""You are evaluating ONLY legal reasoning quality. Focus on logical flow and argumentation.
+
+SCORING CRITERIA:
+- 10: Exceptional logical flow, clear legal methodology
+- 8-9: Good reasoning with minor logical gaps
+- 6-7: Decent reasoning but some confusion
+- 4-5: Basic reasoning with notable flaws
+- 2-3: Poor logical structure, hard to follow
+- 0-1: No clear reasoning or illogical
+
+Evaluate reasoning quality. Return JSON:
+{{
+    "score_a": [0-10],
+    "score_b": [0-10],
+    "strengths_a": ["list reasoning strengths"],
+    "strengths_b": ["list reasoning strengths"],
+    "reasoning_assessment": "brief assessment"
+}}
+
+QUESTION: {query}
+
+ANSWER A:
+{answer_a}
+
+ANSWER B:
+{answer_b}
+
+Return ONLY the JSON evaluation:"""
+        
+        try:
+            response = ollama.generate(
+                model=self.model,
+                prompt=prompt,
+                options={"temperature": 0.1, "num_predict": 250}
+            )
+            return json.loads(response['response'].strip())
+        except Exception as e:
+            logger.error(f"Error in reasoning evaluation: {e}")
+            return {"score_a": 5, "score_b": 5, "strengths_a": [], "strengths_b": [], "reasoning_assessment": str(e)}
+    
+    def judge_pairwise(self, query: str, answer_a: str, answer_b: str, 
+                      provider_a: str, provider_b: str) -> Tuple[Dict, float]:
+        """
+        Enhanced pairwise comparison using multiple specialized evaluations.
+        Returns: (judgment_dict, latency_ms)
+        """
+        start_time = time.time()
+        
+        try:
+            # Run all 5 category evaluations
+            logger.debug(f"Running multi-category evaluation for {provider_a} vs {provider_b}")
+            
+            evaluations = {
+                'legal_accuracy': self.evaluate_legal_accuracy(query, answer_a, answer_b),
+                'citation_quality': self.evaluate_citation_quality(query, answer_a, answer_b),
+                'completeness': self.evaluate_completeness(query, answer_a, answer_b),
+                'jurisdictional_relevance': self.evaluate_jurisdictional_relevance(query, answer_a, answer_b),
+                'legal_reasoning': self.evaluate_legal_reasoning(query, answer_a, answer_b)
+            }
+            
+            # Configurable weights for different aspects (sum doesn't need to be 1)
+            weights = {
+                'legal_accuracy': 2.0,           # Most important for legal research
+                'citation_quality': 1.5,         # Very important for credibility
+                'completeness': 1.0,             # Standard importance
+                'jurisdictional_relevance': 1.5, # Critical for legal applicability
+                'legal_reasoning': 1.0           # Standard importance
+            }
+            
+            # Calculate weighted scores
+            total_weight = sum(weights.values())
+            
+            # Extract scores and calculate weighted totals
+            score_a = 0
+            score_b = 0
+            
+            for category, eval_result in evaluations.items():
+                # Get scores with fallback to 5 if missing
+                cat_score_a = eval_result.get('score_a', 5)
+                cat_score_b = eval_result.get('score_b', 5)
+                
+                # Apply weights
+                score_a += cat_score_a * weights[category]
+                score_b += cat_score_b * weights[category]
+            
+            # Normalize to 0-100 scale
+            score_a = (score_a / (total_weight * 10)) * 100
+            score_b = (score_b / (total_weight * 10)) * 100
+            
+            # Determine winner with 2% buffer for ties
+            score_diff = abs(score_a - score_b)
+            
+            if score_a > score_b + 2:  # 2% buffer
+                winner = "A"
+            elif score_b > score_a + 2:
+                winner = "B"
+            else:
+                winner = "tie"
+            
+            # Calculate confidence based on score difference
+            # Confidence levels with clear definitions:
+            # 1 = Low: Very close (≤5% difference)
+            # 2 = Medium: Clear winner (6-15% difference)  
+            # 3 = High: Decisive victory (>15% difference)
+            if score_diff <= 5:
+                confidence = 1
+            elif score_diff <= 15:
+                confidence = 2
+            else:
+                confidence = 3
+            
+            # Build detailed reasoning from category evaluations
+            reasoning_parts = []
+            for category, eval_result in evaluations.items():
+                cat_score_a = eval_result.get('score_a', 5)
+                cat_score_b = eval_result.get('score_b', 5)
+                if cat_score_a > cat_score_b:
+                    reasoning_parts.append(f"{category.replace('_', ' ').title()}: A better ({cat_score_a} vs {cat_score_b})")
+                elif cat_score_b > cat_score_a:
+                    reasoning_parts.append(f"{category.replace('_', ' ').title()}: B better ({cat_score_b} vs {cat_score_a})")
+            
+            detailed_reasoning = f"Overall: A={score_a:.1f}, B={score_b:.1f} (diff={score_diff:.1f}%). " + "; ".join(reasoning_parts[:3])
             
             latency_ms = (time.time() - start_time) * 1000
             
-            # Parse JSON response
-            response_text = response['response'].strip()
+            judgment = {
+                "winner": winner,
+                "confidence": confidence,
+                "reasoning": detailed_reasoning,
+                "detailed_scores": {
+                    "answer_a": {cat: evaluations[cat].get('score_a', 5) for cat in evaluations},
+                    "answer_b": {cat: evaluations[cat].get('score_b', 5) for cat in evaluations},
+                    "weighted_total_a": round(score_a, 1),
+                    "weighted_total_b": round(score_b, 1),
+                    "score_difference": round(score_diff, 1)
+                },
+                "category_evaluations": evaluations,
+                "weights_used": weights
+            }
             
-            # Clean the response text to handle control characters
-            # Replace unescaped control characters with escaped versions
-            def clean_json_string(text):
-                """Clean a string that should contain JSON by escaping control characters"""
-                # First, try to find the JSON object boundaries
-                start_idx = text.find('{')
-                end_idx = -1
-                
-                if start_idx != -1:
-                    # Count braces to find the matching closing brace
-                    brace_count = 0
-                    in_string = False
-                    escape_next = False
-                    
-                    for i in range(start_idx, len(text)):
-                        char = text[i]
-                        
-                        # Track if we're inside a string
-                        if char == '"' and not escape_next:
-                            in_string = not in_string
-                        elif char == '\\':
-                            escape_next = not escape_next
-                            continue
-                        
-                        escape_next = False
-                        
-                        # Count braces only outside of strings
-                        if not in_string:
-                            if char == '{':
-                                brace_count += 1
-                            elif char == '}':
-                                brace_count -= 1
-                                if brace_count == 0:
-                                    end_idx = i
-                                    break
-                    
-                    if end_idx > start_idx:
-                        # Extract just the JSON part
-                        json_str = text[start_idx:end_idx+1]
-                        
-                        # Replace unescaped control characters within string values
-                        # This regex finds string values and processes them
-                        def escape_string_value(match):
-                            value = match.group(1)
-                            # Replace actual newlines, tabs, etc. with escaped versions
-                            value = value.replace('\n', '\\n')
-                            value = value.replace('\r', '\\r')
-                            value = value.replace('\t', '\\t')
-                            # Remove other control characters
-                            value = ''.join(char if ord(char) >= 32 or char in '\n\r\t' else ' ' for char in value)
-                            return f'"{value}"'
-                        
-                        # Process string values in the JSON
-                        json_str = re.sub(r'"([^"\\]*(?:\\.[^"\\]*)*)"', escape_string_value, json_str)
-                        return json_str
-                
-                return text
+            logger.debug(f"Judgment complete: {winner} (confidence: {confidence}, diff: {score_diff:.1f}%)")
             
-            # Try to parse the response directly first
-            try:
-                judgment = json.loads(response_text)
-            except json.JSONDecodeError:
-                # Clean the response and try again
-                cleaned_text = clean_json_string(response_text)
-                try:
-                    judgment = json.loads(cleaned_text)
-                except json.JSONDecodeError as e:
-                    # If still failing, raise the error
-                    raise json.JSONDecodeError(f"Failed after cleaning: {str(e)}", cleaned_text, 0)
-            
-            # Validate required fields
-            if 'winner' not in judgment or 'confidence' not in judgment or 'reasoning' not in judgment:
-                raise ValueError("Missing required fields in judgment")
-            
-            # Normalize winner value
-            winner = judgment['winner'].upper()
-            if winner not in ['A', 'B', 'TIE']:
-                winner = 'TIE'
-            judgment['winner'] = winner
-            
-            # Ensure confidence is int 1-3
-            try:
-                confidence = int(judgment['confidence'])
-                judgment['confidence'] = max(1, min(3, confidence))
-            except:
-                judgment['confidence'] = 2
-                
             return judgment, latency_ms
             
-        except (json.JSONDecodeError, ValueError) as e:
-            logger.error(f"Failed to parse judge response as JSON: {str(e)}")
-            logger.debug(f"Response text (first 500 chars): {response_text[:500]}")
-            # Return default judgment on parse error
-            return {
-                "winner": "tie",
-                "confidence": 1,
-                "reasoning": f"Parse error: {str(e)}"
-            }, latency_ms
-                
         except Exception as e:
-            logger.error(f"Error in pairwise judgment: {e}")
+            logger.error(f"Error in multi-prompt pairwise judgment: {e}")
             latency_ms = (time.time() - start_time) * 1000
+            
+            # Fallback to simple judgment
             return {
                 "winner": "tie",
                 "confidence": 1,
-                "reasoning": f"Judgment error: {str(e)}"
+                "reasoning": f"Evaluation error: {str(e)}",
+                "detailed_scores": {},
+                "category_evaluations": {},
+                "weights_used": {}
             }, latency_ms
 
 
