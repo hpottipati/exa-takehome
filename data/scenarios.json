@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "id": "Q1",
+      "scenario": "Company wants to implement AI resume screening in NYC, California, and Illinois offices",
+      "question": "What are the compliance requirements for using AI in hiring across NYC, California, and Illinois?",
+      "search_query": "AI hiring screening compliance requirements NYC Local Law 144 California Illinois",
+      "task_type": "multi_jurisdiction_compliance",
+      "freshness_sensitive": true,
+      "freshness_cutoff": 2022,
+      "jurisdictions": ["federal", "nyc", "california", "illinois"],
+      "complexity_factors": ["recent_laws", "multi_jurisdiction", "local_ordinances"]
+    },
+    {
+      "id": "Q2", 
+      "scenario": "Employee fired for social media post criticizing company's DEI policies outside work hours",
+      "question": "What are the potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media?",
+      "search_query": "employee fired social media DEI criticism wrongful termination NLRA First Amendment at-will",
+      "task_type": "employment_law_analysis",
+      "freshness_sensitive": true,
+      "freshness_cutoff": 2020,
+      "jurisdictions": ["federal", "state_variations"],
+      "complexity_factors": ["intersecting_laws", "recent_precedent", "constitutional_issues"]
+    },
+    {
+      "id": "Q3",
+      "scenario": "Startup wants to issue equity compensation to contractors in multiple states",
+      "question": "What securities law compliance is required for issuing equity compensation to independent contractors across multiple states?",
+      "search_query": "equity compensation independent contractors securities law Rule 701 state blue sky",
+      "task_type": "securities_compliance",
+      "freshness_sensitive": true,
+      "freshness_cutoff": 2021,
+      "jurisdictions": ["federal", "multi_state"],
+      "complexity_factors": ["federal_state_interaction", "exemption_rules", "gig_economy"]
+    },
+    {
+      "id": "Q4",
+      "scenario": "Client received EEOC right-to-sue letter dated October 15, 2024",
+      "question": "If someone received an EEOC right-to-sue letter on October 15, 2024, what is the deadline to file a federal lawsuit and what are the exceptions?",
+      "search_query": "EEOC right to sue letter 90 day deadline federal court equitable tolling",
+      "task_type": "procedural_deadline",
+      "freshness_sensitive": true,
+      "freshness_cutoff": 2020,
+      "jurisdictions": ["federal"],
+      "complexity_factors": ["strict_deadlines", "exceptions", "calculation_methods"]
+    },
+    {
+      "id": "Q5",
+      "scenario": "Company data breach exposed customer SSNs and medical information",
+      "question": "What are the notification requirements for a data breach involving both SSNs and medical information in California, and what are the penalties for non-compliance?",
+      "search_query": "data breach notification California SSN medical information CCPA CMIA HIPAA penalties",
+      "task_type": "privacy_compliance", 
+      "freshness_sensitive": true,
+      "freshness_cutoff": 2020,
+      "jurisdictions": ["federal", "california"],
+      "complexity_factors": ["overlapping_regulations", "different_requirements", "penalty_calculations"]
+    },
+    {
+      "id": "Q6",
+      "scenario": "Non-profit organization wants to lobby for climate legislation",
+      "question": "What are the federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy?",
+      "search_query": "501c3 nonprofit lobbying registration LDA federal reporting requirements advocacy",
+      "task_type": "regulatory_compliance",
+      "freshness_sensitive": false,
+      "freshness_cutoff": null,
+      "jurisdictions": ["federal"],
+      "complexity_factors": ["exemption_thresholds", "reporting_schedules", "advocacy_limits"]
+    },
+    {
+      "id": "Q7",
+      "scenario": "Tech company planning IPO with dual-class share structure",
+      "question": "What are the SEC disclosure requirements and stock exchange rules for companies going public with dual-class voting structures?",
+      "search_query": "dual class share structure IPO SEC disclosure NYSE NASDAQ listing requirements",
+      "task_type": "securities_disclosure",
+      "freshness_sensitive": true,
+      "freshness_cutoff": 2019,
+      "jurisdictions": ["federal"],
+      "complexity_factors": ["exchange_rules", "investor_protection", "governance_standards"]
+    },
+    {
+      "id": "Q8",
+      "scenario": "Healthcare provider implementing telemedicine across state lines",
+      "question": "What are the licensing and malpractice insurance requirements for physicians providing telemedicine services across state borders?",
+      "search_query": "telemedicine licensing requirements interstate medical practice malpractice insurance",
+      "task_type": "professional_licensing",
+      "freshness_sensitive": true,
+      "freshness_cutoff": 2020,
+      "jurisdictions": ["multi_state", "federal"],
+      "complexity_factors": ["state_variations", "cross_border_practice", "pandemic_changes"]
+    },
+    {
+      "id": "Q9",
+      "scenario": "Contractor classification audit by Department of Labor",
+      "question": "What is the current federal standard for independent contractor classification and what are the penalties for misclassification?",
+      "search_query": "independent contractor classification DOL federal standard penalties misclassification",
+      "task_type": "employment_classification",
+      "freshness_sensitive": true,
+      "freshness_cutoff": 2021,
+      "jurisdictions": ["federal"],
+      "complexity_factors": ["evolving_standards", "agency_guidance", "penalty_structure"]
+    },
+    {
+      "id": "Q10",
+      "scenario": "International company establishing US subsidiary",
+      "question": "What are the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup?",
+      "search_query": "CFIUS foreign investment notification Chinese technology AI startup acquisition requirements",
+      "task_type": "foreign_investment",
+      "freshness_sensitive": true,
+      "freshness_cutoff": 2018,
+      "jurisdictions": ["federal"],
+      "complexity_factors": ["national_security", "sector_specific_rules", "filing_thresholds"]
+    }
+  ],
+  "evaluation_framework": {
+    "authority_scoring": {
+      "domains": {
+        ".gov": 1.0,
+        "law.cornell.edu": 0.9,
+        "oyez.org": 0.9,
+        "justia.com": 0.7,
+        "findlaw.com": 0.7,
+        "other": 0.5
+      },
+      "citation_bonus": "0.3 + min(0.7, legal_citations_per_100_words * 20)"
+    },
+    "rag_evaluation": {
+      "support_ratio": "fraction of answer sentences supported by retrieved docs (cosine similarity >= 0.6)",
+      "authority_of_cited": "mean authority score of documents actually cited in answer", 
+      "llm_judge": "pairwise comparison for completeness and accuracy using GPT-4",
+      "freshness_check": "for freshness_sensitive queries, check if answer reflects recent law"
+    },
+    "metrics": {
+      "authority_metrics": ["Authority@3", "HighAuthHit@3", "UtilityScore@10"],
+      "rag_metrics": ["SupportRatio", "AuthorityOfCited", "LLMWinRate", "AvgJudgeScore", "FreshHitRate"]
+    }
+  },
+  "task_categories": {
+    "multi_jurisdiction_compliance": "Questions requiring analysis across multiple jurisdictions",
+    "employment_law_analysis": "Workplace law questions with constitutional/statutory intersections", 
+    "securities_compliance": "Financial regulation and disclosure requirements",
+    "procedural_deadline": "Time-sensitive legal procedures and deadlines",
+    "privacy_compliance": "Data protection and privacy law requirements",
+    "regulatory_compliance": "Industry-specific regulatory requirements",
+    "securities_disclosure": "Public company disclosure and governance rules",
+    "professional_licensing": "Professional practice licensing across jurisdictions",
+    "employment_classification": "Worker classification and labor standards",
+    "foreign_investment": "International business and security regulations"
+  }
+}

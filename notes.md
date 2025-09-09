@@ -22,3 +22,5 @@ Compare Exa vs 5 Competitors
 Dataset (queries + cases)
 Evaluation harness (run + eval)
 Possibly something to run queries in parallel with live results and evaluation
+
+# "Can someone use the results to answer their legal research question correctly and efficiently
