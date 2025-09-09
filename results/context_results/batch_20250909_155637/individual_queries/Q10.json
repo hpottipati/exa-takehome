@@ -1,0 +1,761 @@
+{
+  "query": "What are the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup?",
+  "timestamp": "2025-09-09 16:04:03",
+  "providers": {
+    "exa": {
+      "answer": "Based on the search results, the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **CFIUS Notification Requirements**: The CFIUS review process is triggered when a foreign person acquires control of a US business, including a US AI startup [9]. The Chinese technology company must notify CFIUS of the proposed acquisition, providing detailed information about the transaction, including the identity of the parties involved, the structure of the transaction, and the potential national security implications [8].\n2. **Outbound Investment Screening Rule**: The US Government's outbound investment rule, which took effect on January 2, 2025, imposes restrictions on investments in certain advanced electronic technologies by US investors in certain entities or persons in the greater China area [3]. This rule may also apply to the Chinese technology company's acquisition of the US AI startup, depending on the specific circumstances of the transaction.\n3. **Reverse CFIUS Review**: In some cases, a US business may be subject to a \"reverse\" CFIUS review, where the US business is the foreign person and the Chinese technology company is the US person [5]. This can occur when a US business is acquired by a foreign person, and the transaction is subject to CFIUS review.\n4. **National Security Implications**: The CFIUS review process is focused on national security implications, and the Chinese technology company's acquisition of the US AI startup may be subject to review if it raises national security concerns [1, 2]. The US Government may consider factors such as the potential for the Chinese technology company to access sensitive US technology or data, or the potential for the transaction to compromise US national security.\n5. **Penalties for Non-Compliance**: Failure to notify CFIUS of a proposed acquisition or to comply with the CFIUS review process can result in significant penalties, including fines and reputational damage [10].\n\nIn summary, the Chinese technology company acquiring a US AI startup must notify CFIUS of the proposed acquisition and comply with the CFIUS review process, which may involve a review of the national security implications of the transaction. The outbound investment screening rule may also apply to the transaction, depending on the specific circumstances.\n\nReferences:\n\n[1] Treasury's Latest Moves: Fast-Track for Foreign Investors & Outbound AI Investment Inquiry | Regulatory & Compliance\n[2]",
+      "generation_latency_ms": 1060.6021881103516,
+      "authority_of_cited": {
+        "authority_score": 0.5,
+        "num_citations": 7,
+        "cited_urls": [
+          "https://federal-lawyer.com/national-security/cfius/common-triggers/",
+          "https://www.fenwick.com/insights/publications/cfius-common-faqs-by-startup-founders-and-investors",
+          "https://www.foxrothschild.com/publications/investments-in-chinese-technology-companies-limited-by-new-us-outbound-investment-rule",
+          "https://www.loeb.com/en/insights/publications/2025/01/eo-14105-and-reverse-cfius",
+          "https://www.cooley.com/news/insight/2025/2025-05-19-cfius-non-notified-transaction-enforcement-cooleys-five-year-lookback",
+          "https://www.regulatoryandcompliance.com/2025/06/treasurys-latest-moves-fast-track-for-foreign-investors-outbound-ai-investment-inquiry/",
+          "https://www.proskauer.com/blog/treasurys-latest-moves-fast-track-for-foreign-investors-and-outbound-ai-investment-inquiry"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 1.8739700317382812
+      },
+      "support_ratio": {
+        "support_ratio": 0.769,
+        "supported_sentences": 10,
+        "total_sentences": 13,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup are as follows:\n\n1",
+            "max_similarity": 0.6832433938980103,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**CFIUS Notification Requirements**: The CFIUS review process is triggered when a foreign person acquires control of a US business, including a US AI startup [9]",
+            "max_similarity": 0.6773228645324707,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The Chinese technology company must notify CFIUS of the proposed acquisition, providing detailed information about the transaction, including the identity of the parties involved, the structure of the transaction, and the potential national security implications [8]",
+            "max_similarity": 0.5886494517326355,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Outbound Investment Screening Rule**: The US Government's outbound investment rule, which took effect on January 2, 2025, imposes restrictions on investments in certain advanced electronic technologies by US investors in certain entities or persons in the greater China area [3]",
+            "max_similarity": 0.8200939893722534,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "This rule may also apply to the Chinese technology company's acquisition of the US AI startup, depending on the specific circumstances of the transaction",
+            "max_similarity": 0.592097282409668,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Reverse CFIUS Review**: In some cases, a US business may be subject to a \"reverse\" CFIUS review, where the US business is the foreign person and the Chinese technology company is the US person [5]",
+            "max_similarity": 0.5866993069648743,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "This can occur when a US business is acquired by a foreign person, and the transaction is subject to CFIUS review",
+            "max_similarity": 0.6975800395011902,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**National Security Implications**: The CFIUS review process is focused on national security implications, and the Chinese technology company's acquisition of the US AI startup may be subject to review if it raises national security concerns [1, 2]",
+            "max_similarity": 0.70627760887146,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The US Government may consider factors such as the potential for the Chinese technology company to access sensitive US technology or data, or the potential for the transaction to compromise US national security",
+            "max_similarity": 0.684808075428009,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Penalties for Non-Compliance**: Failure to notify CFIUS of a proposed acquisition or to comply with the CFIUS review process can result in significant penalties, including fines and reputational damage [10]",
+            "max_similarity": 0.6065551042556763,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In summary, the Chinese technology company acquiring a US AI startup must notify CFIUS of the proposed acquisition and comply with the CFIUS review process, which may involve a review of the national security implications of the transaction",
+            "max_similarity": 0.6492741107940674,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The outbound investment screening rule may also apply to the transaction, depending on the specific circumstances",
+            "max_similarity": 0.6300987601280212,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "References:\n\n[1] Treasury's Latest Moves: Fast-Track for Foreign Investors & Outbound AI Investment Inquiry | Regulatory & Compliance\n[2]",
+            "max_similarity": 0.8573441505432129,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 76,
+        "latency_ms": 642.5957679748535
+      }
+    },
+    "google": {
+      "answer": "Based on the search results, the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **CFIUS Review**: The CFIUS review process is triggered when a foreign person acquires control of a US business, including a US AI startup. [3]\n2. **Notification Requirements**: The Chinese technology company must notify CFIUS of the proposed acquisition, providing detailed information about the transaction, including the identity of the parties involved, the structure of the transaction, and the potential national security implications. [3]\n3. **Expanded Monitoring**: In 2024, the Biden Administration expanded monitoring of foreign investments, especially in Chinese tech, which may lead to increased scrutiny of the proposed acquisition. [1]\n4. **Outbound Investment Security Program**: The Biden Administration has implemented a new outbound investment security program (OISP) that prohibits and imposes notification requirements on certain types of investments by U.S. persons in China, including investments in AI technology. [5]\n5. **National Security Considerations**: The CFIUS review process will consider national security implications of the proposed acquisition, including the potential for the Chinese technology company to access sensitive US AI technology or data. [7]\n6. **Fast-Track Review**: The Treasury Department has introduced a fast-track review process for foreign investors, which may expedite the review process for certain transactions, including those involving Chinese technology companies. [2]\n7. **Country-Specific Restrictions**: The Trump Administration has directed CFIUS to tighten restrictions on investment from certain countries, including China, while easing national security reviews of investments from allies and partners. [9]\n\nRelevant statutes and regulations include:\n\n* The Foreign Investment and National Security Act of 2007 (FINSA)\n* The Committee on Foreign Investment in the United States (CFIUS) regulations (31 CFR Part 800)\n* The Export Control Reform Act of 2018 (ECRA)\n* The Foreign Investment Risk Review Modernization Act of 2018 (FIRRMA)\n\nIn conclusion, a Chinese technology company acquiring a US AI startup must comply with the CFIUS review process, which includes notification requirements, expanded monitoring, and national security considerations. The company must also comply with the Outbound Investment Security Program and country-specific restrictions imposed by the Trump Administration.",
+      "generation_latency_ms": 849.822998046875,
+      "authority_of_cited": {
+        "authority_score": 0.643,
+        "num_citations": 7,
+        "cited_urls": [
+          "https://home.treasury.gov/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius",
+          "https://home.treasury.gov/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius",
+          "https://www.wilmerhale.com/en/insights/publications/20250210-cfius-under-trump",
+          "https://www.omm.com/insights/alerts-publications/biden-administration-implements-new-outbound-investment-security-program/",
+          "https://www.skadden.com/insights/publications/2025/06/insights-june-2025/ma-in-the-ai-era",
+          "https://www.regulatoryandcompliance.com/2025/06/treasurys-latest-moves-fast-track-for-foreign-investors-outbound-ai-investment-inquiry/",
+          "https://www.klgates.com/Trump-Administration-Directs-CFIUS-to-Tighten-Restrictions-on-Investment-From-Certain-Countries-While-Easing-National-Security-Reviews-of-Investments-From-Allies-and-Partners-2-26-2025"
+        ],
+        "individual_scores": [
+          1.0,
+          1.0,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 1.4450550079345703
+      },
+      "support_ratio": {
+        "support_ratio": 0.818,
+        "supported_sentences": 9,
+        "total_sentences": 11,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup are as follows:\n\n1",
+            "max_similarity": 0.6884719133377075,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**CFIUS Review**: The CFIUS review process is triggered when a foreign person acquires control of a US business, including a US AI startup",
+            "max_similarity": 0.5899626612663269,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Notification Requirements**: The Chinese technology company must notify CFIUS of the proposed acquisition, providing detailed information about the transaction, including the identity of the parties involved, the structure of the transaction, and the potential national security implications",
+            "max_similarity": 0.647734522819519,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Expanded Monitoring**: In 2024, the Biden Administration expanded monitoring of foreign investments, especially in Chinese tech, which may lead to increased scrutiny of the proposed acquisition",
+            "max_similarity": 0.8010693788528442,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Outbound Investment Security Program**: The Biden Administration has implemented a new outbound investment security program (OISP) that prohibits and imposes notification requirements on certain types of investments by U",
+            "max_similarity": 0.8077244162559509,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "persons in China, including investments in AI technology",
+            "max_similarity": 0.5313451886177063,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**National Security Considerations**: The CFIUS review process will consider national security implications of the proposed acquisition, including the potential for the Chinese technology company to access sensitive US AI technology or data",
+            "max_similarity": 0.6815784573554993,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Fast-Track Review**: The Treasury Department has introduced a fast-track review process for foreign investors, which may expedite the review process for certain transactions, including those involving Chinese technology companies",
+            "max_similarity": 0.6757346391677856,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Country-Specific Restrictions**: The Trump Administration has directed CFIUS to tighten restrictions on investment from certain countries, including China, while easing national security reviews of investments from allies and partners",
+            "max_similarity": 0.8114703893661499,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "[9]\n\nRelevant statutes and regulations include:\n\n* The Foreign Investment and National Security Act of 2007 (FINSA)\n* The Committee on Foreign Investment in the United States (CFIUS) regulations (31 CFR Part 800)\n* The Export Control Reform Act of 2018 (ECRA)\n* The Foreign Investment Risk Review Modernization Act of 2018 (FIRRMA)\n\nIn conclusion, a Chinese technology company acquiring a US AI startup must comply with the CFIUS review process, which includes notification requirements, expanded monitoring, and national security considerations",
+            "max_similarity": 0.6956708431243896,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The company must also comply with the Outbound Investment Security Program and country-specific restrictions imposed by the Trump Administration",
+            "max_similarity": 0.6662848591804504,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 65,
+        "latency_ms": 555.8416843414307
+      }
+    },
+    "serp_google": {
+      "answer": "Based on the search results, the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup can be summarized as follows:\n\n**Mandatory Notification Requirements:**\n\nAccording to [10], a mandatory notification to CFIUS may be required for certain types of foreign investments into US businesses that produce, design, test, manufacture, or use \"emerging and foundational technologies\" (EFTs), which include AI. This is in accordance with the Committee on Foreign Investment in the United States (CFIUS) regulations, specifically 31 CFR \u00a7 800.401.\n\n**Threshold Requirements:**\n\nTo trigger a mandatory notification, the foreign investment must meet certain threshold requirements, including:\n\n* The foreign investor must be a foreign person, as defined in 31 CFR \u00a7 800.205.\n* The transaction must involve the acquisition of control of a US business that produces, designs, tests, manufactures, or uses EFTs.\n* The transaction must involve a foreign person that is a member of a covered transaction, as defined in 31 CFR \u00a7 800.403.\n\n**Exemptions and Exceptions:**\n\nWhile mandatory notification is required for certain types of foreign investments, there are exemptions and exceptions that may apply. For example, [2] notes that some investments are prohibited, while others require post-closing notification to the U.S. Treasury Department.\n\n**Outbound Investment Screening Rule:**\n\nIn addition to the CFIUS regulations, the Outbound Investment Screening Rule, which went into effect on January 10, 2025, targets U.S. investment in Chinese or Chinese-owned companies, including those involved in AI research and development. According to [9], this rule requires U.S. investors to screen their investments in Chinese or Chinese-owned companies for potential national security risks.\n\n**Executive Order:**\n\nOn July 21, 2025, an Executive Order was issued requiring Chinese owners to divest from U.S. technology companies, including those involved in AI research and development. According to [7], this Executive Order aims to prevent Chinese companies from acquiring U.S. technology companies that produce EFTs.\n\n**Conclusion:**\n\nIn summary, a Chinese technology company acquiring a US AI startup may be required to notify CFIUS under the CFIUS regulations, specifically 31 CFR \u00a7 800.401, if the transaction meets the threshold requirements and involves a foreign person that is a member of a covered transaction. Additionally, the Outbound Investment Screening",
+      "generation_latency_ms": 888.8599872589111,
+      "authority_of_cited": {
+        "authority_score": 0.5,
+        "num_citations": 4,
+        "cited_urls": [
+          "https://www.wilmerhale.com/en/insights/publications/20250210-cfius-under-trump",
+          "https://www.foxrothschild.com/publications/investments-in-chinese-technology-companies-limited-by-new-us-outbound-investment-rule",
+          "https://www.hklaw.com/en/insights/publications/2025/01/outbound-investment-screening-rule-goes-into-effect",
+          "https://www.paulweiss.com/insights/client-memos/executive-order-requires-chinese-owners-to-divest-from-us-technology-company"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 0.8587837219238281
+      },
+      "support_ratio": {
+        "support_ratio": 0.579,
+        "supported_sentences": 11,
+        "total_sentences": 19,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup can be summarized as follows:\n\n**Mandatory Notification Requirements:**\n\nAccording to [10], a mandatory notification to CFIUS may be required for certain types of foreign investments into US businesses that produce, design, test, manufacture, or use \"emerging and foundational technologies\" (EFTs), which include AI",
+            "max_similarity": 0.8045322895050049,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "This is in accordance with the Committee on Foreign Investment in the United States (CFIUS) regulations, specifically 31 CFR \u00a7 800",
+            "max_similarity": 0.7043626308441162,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Threshold Requirements:**\n\nTo trigger a mandatory notification, the foreign investment must meet certain threshold requirements, including:\n\n* The foreign investor must be a foreign person, as defined in 31 CFR \u00a7 800",
+            "max_similarity": 0.6981117725372314,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* The transaction must involve the acquisition of control of a US business that produces, designs, tests, manufactures, or uses EFTs",
+            "max_similarity": 0.48781514167785645,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* The transaction must involve a foreign person that is a member of a covered transaction, as defined in 31 CFR \u00a7 800",
+            "max_similarity": 0.5438829064369202,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Exemptions and Exceptions:**\n\nWhile mandatory notification is required for certain types of foreign investments, there are exemptions and exceptions that may apply",
+            "max_similarity": 0.6630648374557495,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "For example, [2] notes that some investments are prohibited, while others require post-closing notification to the U",
+            "max_similarity": 0.7884292006492615,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Treasury Department",
+            "max_similarity": 0.5100163817405701,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Outbound Investment Screening Rule:**\n\nIn addition to the CFIUS regulations, the Outbound Investment Screening Rule, which went into effect on January 10, 2025, targets U",
+            "max_similarity": 0.7327501773834229,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "investment in Chinese or Chinese-owned companies, including those involved in AI research and development",
+            "max_similarity": 0.584270179271698,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to [9], this rule requires U",
+            "max_similarity": 0.27597954869270325,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "investors to screen their investments in Chinese or Chinese-owned companies for potential national security risks",
+            "max_similarity": 0.6865184307098389,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Executive Order:**\n\nOn July 21, 2025, an Executive Order was issued requiring Chinese owners to divest from U",
+            "max_similarity": 0.605243444442749,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "technology companies, including those involved in AI research and development",
+            "max_similarity": 0.4115085005760193,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to [7], this Executive Order aims to prevent Chinese companies from acquiring U",
+            "max_similarity": 0.6471819877624512,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "technology companies that produce EFTs",
+            "max_similarity": 0.3188735544681549,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Conclusion:**\n\nIn summary, a Chinese technology company acquiring a US AI startup may be required to notify CFIUS under the CFIUS regulations, specifically 31 CFR \u00a7 800",
+            "max_similarity": 0.6878871321678162,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "401, if the transaction meets the threshold requirements and involves a foreign person that is a member of a covered transaction",
+            "max_similarity": 0.46432608366012573,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Additionally, the Outbound Investment Screening",
+            "max_similarity": 0.6544450521469116,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 51,
+        "latency_ms": 437.4051094055176
+      }
+    },
+    "serp_bing": {
+      "answer": "Based on the search results provided, it appears that there is no direct information related to the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup. However, I can provide some general information on CFIUS and its requirements.\n\nCFIUS is a US government agency responsible for reviewing and approving foreign investments in the United States. The agency's primary goal is to ensure that foreign investments do not pose a risk to national security.\n\nTo determine whether a foreign investment requires CFIUS review, the following factors are considered:\n\n1. The type of investment: CFIUS reviews investments in US businesses that involve critical technologies, infrastructure, or sensitive information.\n2. The nationality of the investor: CFIUS reviews investments by foreign entities, including those from China.\n3. The potential impact on national security: CFIUS reviews investments that may pose a risk to national security, such as those involving critical technologies or sensitive information.\n\nIf a Chinese technology company is acquiring a US AI startup, the investment may be subject to CFIUS review. The company would need to file a voluntary notice with CFIUS, providing detailed information about the investment, including the type of technology involved, the potential impact on national security, and the nationality of the investor.\n\nThe CFIUS review process typically involves the following steps:\n\n1. Filing a notice: The foreign investor files a notice with CFIUS, providing detailed information about the investment.\n2. Review: CFIUS reviews the notice and determines whether the investment requires further review.\n3. Investigation: If the investment requires further review, CFIUS conducts an investigation to determine whether the investment poses a risk to national security.\n4. Approval: If the investment does not pose a risk to national security, CFIUS approves the investment.\n\nThe relevant statutes and regulations governing CFIUS include:\n\n* The Foreign Investment and National Security Act of 2007 (FINSA)\n* The Committee on Foreign Investment in the United States (CFIUS) Regulations (31 CFR Part 800)\n* The Executive Order on Protecting American Intellectual Property (E.O. 13873)\n\nIn conclusion, while the search results provided do not directly address the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup, the general information on CFIUS and its requirements can be applied to this scenario. The company would need to file a",
+      "generation_latency_ms": 1002.8011798858643,
+      "authority_of_cited": {
+        "authority_score": 0.0,
+        "num_citations": 0,
+        "cited_urls": [],
+        "latency_ms": 0.0247955322265625
+      },
+      "support_ratio": {
+        "support_ratio": 0.0,
+        "supported_sentences": 0,
+        "total_sentences": 18,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results provided, it appears that there is no direct information related to the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup",
+            "max_similarity": 0.1463320255279541,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, I can provide some general information on CFIUS and its requirements",
+            "max_similarity": 0.2042311280965805,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "CFIUS is a US government agency responsible for reviewing and approving foreign investments in the United States",
+            "max_similarity": 0.16397051513195038,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The agency's primary goal is to ensure that foreign investments do not pose a risk to national security",
+            "max_similarity": 0.23466143012046814,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "To determine whether a foreign investment requires CFIUS review, the following factors are considered:\n\n1",
+            "max_similarity": 0.28521037101745605,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The type of investment: CFIUS reviews investments in US businesses that involve critical technologies, infrastructure, or sensitive information",
+            "max_similarity": 0.17340406775474548,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The nationality of the investor: CFIUS reviews investments by foreign entities, including those from China",
+            "max_similarity": 0.16270582377910614,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The potential impact on national security: CFIUS reviews investments that may pose a risk to national security, such as those involving critical technologies or sensitive information",
+            "max_similarity": 0.1446867138147354,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "If a Chinese technology company is acquiring a US AI startup, the investment may be subject to CFIUS review",
+            "max_similarity": 0.12829412519931793,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The company would need to file a voluntary notice with CFIUS, providing detailed information about the investment, including the type of technology involved, the potential impact on national security, and the nationality of the investor",
+            "max_similarity": 0.2498658448457718,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The CFIUS review process typically involves the following steps:\n\n1",
+            "max_similarity": 0.2237621396780014,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Filing a notice: The foreign investor files a notice with CFIUS, providing detailed information about the investment",
+            "max_similarity": 0.27211129665374756,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Review: CFIUS reviews the notice and determines whether the investment requires further review",
+            "max_similarity": 0.21529924869537354,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Investigation: If the investment requires further review, CFIUS conducts an investigation to determine whether the investment poses a risk to national security",
+            "max_similarity": 0.18832151591777802,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Approval: If the investment does not pose a risk to national security, CFIUS approves the investment",
+            "max_similarity": 0.17325037717819214,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The relevant statutes and regulations governing CFIUS include:\n\n* The Foreign Investment and National Security Act of 2007 (FINSA)\n* The Committee on Foreign Investment in the United States (CFIUS) Regulations (31 CFR Part 800)\n* The Executive Order on Protecting American Intellectual Property (E",
+            "max_similarity": 0.19275565445423126,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "13873)\n\nIn conclusion, while the search results provided do not directly address the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup, the general information on CFIUS and its requirements can be applied to this scenario",
+            "max_similarity": 0.18450380861759186,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The company would need to file a",
+            "max_similarity": 0.13895879685878754,
+            "is_supported": false,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 46,
+        "latency_ms": 399.7011184692383
+      }
+    },
+    "serp_duckduckgo": {
+      "answer": "Based on the search results, the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **Mandatory Notification Requirement**: The Chinese technology company must file a notification with the Committee on Foreign Investment in the United States (CFIUS) within 30 days of the investment's closing, if the investment involves a Chinese AI or semiconductor business ([2], [5], [9]).\n2. **Detailed Disclosures**: The notification must include detailed disclosures on the foreign investor's origin, control rights, and AI technology sensitivity under export controls ([5], [10]).\n3. **Control and Critical AI Technology**: CFIUS reviews foreign acquisitions of US AI companies, focusing on control, critical AI technology, and dual-use algorithm risks to national security ([5], [9]).\n4. **Outbound Investment Security Program**: The Biden Administration has implemented a new outbound investment security program (OISP) that prohibits and imposes notification requirements on certain types of investments by US persons in Chinese technology companies ([8], [6]).\n5. **Proposed Legislation**: Congress is considering legislation to curtail US investments in Chinese technology, including the Comprehensive Outbound Investment National Security Act of 2024 (COINS ACT), which would legislatively mandate requirements similar to the Final Rule ([6], [1]).\n\n**Relevant Statutes and Regulations**:\n\n* The Committee on Foreign Investment in the United States (CFIUS) is an interagency committee housed at the Department of Treasury that serves as an investment screening board for companies or individuals from foreign countries who seek to purchase land or businesses in the United States ([9], [10]).\n* The CFIUS Handbook provides guidance on the CFIUS review process and the types of investments that are subject to review ([10]).\n\n**Conclusion**:\n\nIn summary, a Chinese technology company acquiring a US AI startup must file a notification with CFIUS within 30 days of the investment's closing, including detailed disclosures on the foreign investor's origin, control rights, and AI technology sensitivity under export controls. The CFIUS review process focuses on control, critical AI technology, and dual-use algorithm risks to national security. Additionally, the Biden Administration's OISP and proposed legislation, such as the COINS ACT, may impose further requirements on US investments in Chinese technology companies.",
+      "generation_latency_ms": 820.4171657562256,
+      "authority_of_cited": {
+        "authority_score": 0.5,
+        "num_citations": 14,
+        "cited_urls": [
+          "https://www.wilmerhale.com/en/insights/publications/20250210-cfius-under-trump",
+          "https://aaronhall.com/cfius-compliance-for-ai-algorithm-acquisitions/",
+          "https://www.americafirstpolicy.com/issues/screening-chinese-acquisitions-the-committee-on-foreign-investment-in-the-united-states",
+          "https://aaronhall.com/cfius-compliance-for-ai-algorithm-acquisitions/",
+          "https://www.bipc.com/assets/PDFs/Insights/CFIUS%20Handbook%20April%202025%20FINAL%20WEB%20REV.pdf",
+          "https://aaronhall.com/cfius-compliance-for-ai-algorithm-acquisitions/",
+          "https://www.americafirstpolicy.com/issues/screening-chinese-acquisitions-the-committee-on-foreign-investment-in-the-united-states",
+          "https://www.omm.com/insights/alerts-publications/biden-administration-implements-new-outbound-investment-security-program/",
+          "https://www.foxrothschild.com/publications/investments-in-chinese-technology-companies-limited-by-new-us-outbound-investment-rule",
+          "https://www.foxrothschild.com/publications/investments-in-chinese-technology-companies-limited-by-new-us-outbound-investment-rule",
+          "https://www.skadden.com/insights/publications/2024/11/us-treasury-creates-the-reverse-cfius-program",
+          "https://www.americafirstpolicy.com/issues/screening-chinese-acquisitions-the-committee-on-foreign-investment-in-the-united-states",
+          "https://www.bipc.com/assets/PDFs/Insights/CFIUS%20Handbook%20April%202025%20FINAL%20WEB%20REV.pdf",
+          "https://www.bipc.com/assets/PDFs/Insights/CFIUS%20Handbook%20April%202025%20FINAL%20WEB%20REV.pdf"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 3.088235855102539
+      },
+      "support_ratio": {
+        "support_ratio": 0.909,
+        "supported_sentences": 10,
+        "total_sentences": 11,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup are as follows:\n\n1",
+            "max_similarity": 0.7502930760383606,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Mandatory Notification Requirement**: The Chinese technology company must file a notification with the Committee on Foreign Investment in the United States (CFIUS) within 30 days of the investment's closing, if the investment involves a Chinese AI or semiconductor business ([2], [5], [9])",
+            "max_similarity": 0.767345130443573,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Detailed Disclosures**: The notification must include detailed disclosures on the foreign investor's origin, control rights, and AI technology sensitivity under export controls ([5], [10])",
+            "max_similarity": 0.562440812587738,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Control and Critical AI Technology**: CFIUS reviews foreign acquisitions of US AI companies, focusing on control, critical AI technology, and dual-use algorithm risks to national security ([5], [9])",
+            "max_similarity": 0.8868837356567383,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Outbound Investment Security Program**: The Biden Administration has implemented a new outbound investment security program (OISP) that prohibits and imposes notification requirements on certain types of investments by US persons in Chinese technology companies ([8], [6])",
+            "max_similarity": 0.8496122360229492,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Proposed Legislation**: Congress is considering legislation to curtail US investments in Chinese technology, including the Comprehensive Outbound Investment National Security Act of 2024 (COINS ACT), which would legislatively mandate requirements similar to the Final Rule ([6], [1])",
+            "max_similarity": 0.9598556756973267,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Relevant Statutes and Regulations**:\n\n* The Committee on Foreign Investment in the United States (CFIUS) is an interagency committee housed at the Department of Treasury that serves as an investment screening board for companies or individuals from foreign countries who seek to purchase land or businesses in the United States ([9], [10])",
+            "max_similarity": 0.9421334266662598,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* The CFIUS Handbook provides guidance on the CFIUS review process and the types of investments that are subject to review ([10])",
+            "max_similarity": 0.6781880259513855,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Conclusion**:\n\nIn summary, a Chinese technology company acquiring a US AI startup must file a notification with CFIUS within 30 days of the investment's closing, including detailed disclosures on the foreign investor's origin, control rights, and AI technology sensitivity under export controls",
+            "max_similarity": 0.7308183908462524,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The CFIUS review process focuses on control, critical AI technology, and dual-use algorithm risks to national security",
+            "max_similarity": 0.6812066435813904,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Additionally, the Biden Administration's OISP and proposed legislation, such as the COINS ACT, may impose further requirements on US investments in Chinese technology companies",
+            "max_similarity": 0.7660166025161743,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 48,
+        "latency_ms": 371.48308753967285
+      }
+    }
+  },
+  "content_fetch_latency_ms": 5228.794097900391,
+  "llm_win_rate": {
+    "win_rates": {
+      "exa": 0.5,
+      "google": 0.375,
+      "serp_google": 0.75,
+      "serp_bing": 0.25,
+      "serp_duckduckgo": 0.625
+    },
+    "win_counts": {
+      "exa": 2,
+      "google": 1.5,
+      "serp_google": 3.0,
+      "serp_bing": 1,
+      "serp_duckduckgo": 2.5
+    },
+    "judgments_count": 10,
+    "evaluation_latency_ms": 26159.43193435669
+  },
+  "pairwise_judgments": [
+    {
+      "query": "What are the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup?",
+      "provider_a": "google",
+      "provider_b": "exa",
+      "answer_a": "Based on the search results, the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **CFIUS Review**: The CFIUS review process is triggered when a foreign person acquires control of a US business, including a US AI startup. [3]\n2. **Notification Requirements**: The Chinese technology company must notify CFIUS of the proposed acquisition, providing detailed information about the transaction, including the identity of the parties involved, the structure of the transaction, and the potential national security implications. [3]\n3. **Expanded Monitoring**: In 2024, the Biden Administration expanded monitoring of foreign investments, especially in Chinese tech, which may lead to increased scrutiny of the proposed acquisition. [1]\n4. **Outbound Investment Security Program**: The Biden Administration has implemented a new outbound investment security program (OISP) that prohibits and imposes notification requirements on certain types of investments by U.S. persons in China, including investments in AI technology. [5]\n5. **National Security Considerations**: The CFIUS review process will consider national security implications of the proposed acquisition, including the potential for the Chinese technology company to access sensitive US AI technology or data. [7]\n6. **Fast-Track Review**: The Treasury Department has introduced a fast-track review process for foreign investors, which may expedite the review process for certain transactions, including those involving Chinese technology companies. [2]\n7. **Country-Specific Restrictions**: The Trump Administration has directed CFIUS to tighten restrictions on investment from certain countries, including China, while easing national security reviews of investments from allies and partners. [9]\n\nRelevant statutes and regulations include:\n\n* The Foreign Investment and National Security Act of 2007 (FINSA)\n* The Committee on Foreign Investment in the United States (CFIUS) regulations (31 CFR Part 800)\n* The Export Control Reform Act of 2018 (ECRA)\n* The Foreign Investment Risk Review Modernization Act of 2018 (FIRRMA)\n\nIn conclusion, a Chinese technology company acquiring a US AI startup must comply with the CFIUS review process, which includes notification requirements, expanded monitoring, and national security considerations. The company must also comply with the Outbound Investment Security Program and country-specific restrictions imposed by the Trump Administration.",
+      "answer_b": "Based on the search results, the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **CFIUS Notification Requirements**: The CFIUS review process is triggered when a foreign person acquires control of a US business, including a US AI startup [9]. The Chinese technology company must notify CFIUS of the proposed acquisition, providing detailed information about the transaction, including the identity of the parties involved, the structure of the transaction, and the potential national security implications [8].\n2. **Outbound Investment Screening Rule**: The US Government's outbound investment rule, which took effect on January 2, 2025, imposes restrictions on investments in certain advanced electronic technologies by US investors in certain entities or persons in the greater China area [3]. This rule may also apply to the Chinese technology company's acquisition of the US AI startup, depending on the specific circumstances of the transaction.\n3. **Reverse CFIUS Review**: In some cases, a US business may be subject to a \"reverse\" CFIUS review, where the US business is the foreign person and the Chinese technology company is the US person [5]. This can occur when a US business is acquired by a foreign person, and the transaction is subject to CFIUS review.\n4. **National Security Implications**: The CFIUS review process is focused on national security implications, and the Chinese technology company's acquisition of the US AI startup may be subject to review if it raises national security concerns [1, 2]. The US Government may consider factors such as the potential for the Chinese technology company to access sensitive US technology or data, or the potential for the transaction to compromise US national security.\n5. **Penalties for Non-Compliance**: Failure to notify CFIUS of a proposed acquisition or to comply with the CFIUS review process can result in significant penalties, including fines and reputational damage [10].\n\nIn summary, the Chinese technology company acquiring a US AI startup must notify CFIUS of the proposed acquisition and comply with the CFIUS review process, which may involve a review of the national security implications of the transaction. The outbound investment screening rule may also apply to the transaction, depending on the specific circumstances.\n\nReferences:\n\n[1] Treasury's Latest Moves: Fast-Track for Foreign Investors & Outbound AI Investment Inquiry | Regulatory & Compliance\n[2]",
+      "winner": "exa",
+      "confidence": 1,
+      "reasoning": "Overall: A=85.7, B=81.4 (diff=4.3%). Legal Accuracy: B better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2682.528018951416
+    },
+    {
+      "query": "What are the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup?",
+      "provider_a": "exa",
+      "provider_b": "serp_google",
+      "answer_a": "Based on the search results, the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **CFIUS Notification Requirements**: The CFIUS review process is triggered when a foreign person acquires control of a US business, including a US AI startup [9]. The Chinese technology company must notify CFIUS of the proposed acquisition, providing detailed information about the transaction, including the identity of the parties involved, the structure of the transaction, and the potential national security implications [8].\n2. **Outbound Investment Screening Rule**: The US Government's outbound investment rule, which took effect on January 2, 2025, imposes restrictions on investments in certain advanced electronic technologies by US investors in certain entities or persons in the greater China area [3]. This rule may also apply to the Chinese technology company's acquisition of the US AI startup, depending on the specific circumstances of the transaction.\n3. **Reverse CFIUS Review**: In some cases, a US business may be subject to a \"reverse\" CFIUS review, where the US business is the foreign person and the Chinese technology company is the US person [5]. This can occur when a US business is acquired by a foreign person, and the transaction is subject to CFIUS review.\n4. **National Security Implications**: The CFIUS review process is focused on national security implications, and the Chinese technology company's acquisition of the US AI startup may be subject to review if it raises national security concerns [1, 2]. The US Government may consider factors such as the potential for the Chinese technology company to access sensitive US technology or data, or the potential for the transaction to compromise US national security.\n5. **Penalties for Non-Compliance**: Failure to notify CFIUS of a proposed acquisition or to comply with the CFIUS review process can result in significant penalties, including fines and reputational damage [10].\n\nIn summary, the Chinese technology company acquiring a US AI startup must notify CFIUS of the proposed acquisition and comply with the CFIUS review process, which may involve a review of the national security implications of the transaction. The outbound investment screening rule may also apply to the transaction, depending on the specific circumstances.\n\nReferences:\n\n[1] Treasury's Latest Moves: Fast-Track for Foreign Investors & Outbound AI Investment Inquiry | Regulatory & Compliance\n[2]",
+      "answer_b": "Based on the search results, the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup can be summarized as follows:\n\n**Mandatory Notification Requirements:**\n\nAccording to [10], a mandatory notification to CFIUS may be required for certain types of foreign investments into US businesses that produce, design, test, manufacture, or use \"emerging and foundational technologies\" (EFTs), which include AI. This is in accordance with the Committee on Foreign Investment in the United States (CFIUS) regulations, specifically 31 CFR \u00a7 800.401.\n\n**Threshold Requirements:**\n\nTo trigger a mandatory notification, the foreign investment must meet certain threshold requirements, including:\n\n* The foreign investor must be a foreign person, as defined in 31 CFR \u00a7 800.205.\n* The transaction must involve the acquisition of control of a US business that produces, designs, tests, manufactures, or uses EFTs.\n* The transaction must involve a foreign person that is a member of a covered transaction, as defined in 31 CFR \u00a7 800.403.\n\n**Exemptions and Exceptions:**\n\nWhile mandatory notification is required for certain types of foreign investments, there are exemptions and exceptions that may apply. For example, [2] notes that some investments are prohibited, while others require post-closing notification to the U.S. Treasury Department.\n\n**Outbound Investment Screening Rule:**\n\nIn addition to the CFIUS regulations, the Outbound Investment Screening Rule, which went into effect on January 10, 2025, targets U.S. investment in Chinese or Chinese-owned companies, including those involved in AI research and development. According to [9], this rule requires U.S. investors to screen their investments in Chinese or Chinese-owned companies for potential national security risks.\n\n**Executive Order:**\n\nOn July 21, 2025, an Executive Order was issued requiring Chinese owners to divest from U.S. technology companies, including those involved in AI research and development. According to [7], this Executive Order aims to prevent Chinese companies from acquiring U.S. technology companies that produce EFTs.\n\n**Conclusion:**\n\nIn summary, a Chinese technology company acquiring a US AI startup may be required to notify CFIUS under the CFIUS regulations, specifically 31 CFR \u00a7 800.401, if the transaction meets the threshold requirements and involves a foreign person that is a member of a covered transaction. Additionally, the Outbound Investment Screening",
+      "winner": "serp_google",
+      "confidence": 3,
+      "reasoning": "Overall: A=72.1, B=87.9 (diff=15.7%). Legal Accuracy: B better (8 vs 4); Citation Quality: B better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2414.5119190216064
+    },
+    {
+      "query": "What are the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup?",
+      "provider_a": "exa",
+      "provider_b": "serp_bing",
+      "answer_a": "Based on the search results, the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **CFIUS Notification Requirements**: The CFIUS review process is triggered when a foreign person acquires control of a US business, including a US AI startup [9]. The Chinese technology company must notify CFIUS of the proposed acquisition, providing detailed information about the transaction, including the identity of the parties involved, the structure of the transaction, and the potential national security implications [8].\n2. **Outbound Investment Screening Rule**: The US Government's outbound investment rule, which took effect on January 2, 2025, imposes restrictions on investments in certain advanced electronic technologies by US investors in certain entities or persons in the greater China area [3]. This rule may also apply to the Chinese technology company's acquisition of the US AI startup, depending on the specific circumstances of the transaction.\n3. **Reverse CFIUS Review**: In some cases, a US business may be subject to a \"reverse\" CFIUS review, where the US business is the foreign person and the Chinese technology company is the US person [5]. This can occur when a US business is acquired by a foreign person, and the transaction is subject to CFIUS review.\n4. **National Security Implications**: The CFIUS review process is focused on national security implications, and the Chinese technology company's acquisition of the US AI startup may be subject to review if it raises national security concerns [1, 2]. The US Government may consider factors such as the potential for the Chinese technology company to access sensitive US technology or data, or the potential for the transaction to compromise US national security.\n5. **Penalties for Non-Compliance**: Failure to notify CFIUS of a proposed acquisition or to comply with the CFIUS review process can result in significant penalties, including fines and reputational damage [10].\n\nIn summary, the Chinese technology company acquiring a US AI startup must notify CFIUS of the proposed acquisition and comply with the CFIUS review process, which may involve a review of the national security implications of the transaction. The outbound investment screening rule may also apply to the transaction, depending on the specific circumstances.\n\nReferences:\n\n[1] Treasury's Latest Moves: Fast-Track for Foreign Investors & Outbound AI Investment Inquiry | Regulatory & Compliance\n[2]",
+      "answer_b": "Based on the search results provided, it appears that there is no direct information related to the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup. However, I can provide some general information on CFIUS and its requirements.\n\nCFIUS is a US government agency responsible for reviewing and approving foreign investments in the United States. The agency's primary goal is to ensure that foreign investments do not pose a risk to national security.\n\nTo determine whether a foreign investment requires CFIUS review, the following factors are considered:\n\n1. The type of investment: CFIUS reviews investments in US businesses that involve critical technologies, infrastructure, or sensitive information.\n2. The nationality of the investor: CFIUS reviews investments by foreign entities, including those from China.\n3. The potential impact on national security: CFIUS reviews investments that may pose a risk to national security, such as those involving critical technologies or sensitive information.\n\nIf a Chinese technology company is acquiring a US AI startup, the investment may be subject to CFIUS review. The company would need to file a voluntary notice with CFIUS, providing detailed information about the investment, including the type of technology involved, the potential impact on national security, and the nationality of the investor.\n\nThe CFIUS review process typically involves the following steps:\n\n1. Filing a notice: The foreign investor files a notice with CFIUS, providing detailed information about the investment.\n2. Review: CFIUS reviews the notice and determines whether the investment requires further review.\n3. Investigation: If the investment requires further review, CFIUS conducts an investigation to determine whether the investment poses a risk to national security.\n4. Approval: If the investment does not pose a risk to national security, CFIUS approves the investment.\n\nThe relevant statutes and regulations governing CFIUS include:\n\n* The Foreign Investment and National Security Act of 2007 (FINSA)\n* The Committee on Foreign Investment in the United States (CFIUS) Regulations (31 CFR Part 800)\n* The Executive Order on Protecting American Intellectual Property (E.O. 13873)\n\nIn conclusion, while the search results provided do not directly address the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup, the general information on CFIUS and its requirements can be applied to this scenario. The company would need to file a",
+      "winner": "exa",
+      "confidence": 3,
+      "reasoning": "Overall: A=83.6, B=55.7 (diff=27.9%). Legal Accuracy: A better (8 vs 6); Citation Quality: A better (8 vs 4); Completeness: A better (9 vs 6)",
+      "judgment_latency_ms": 2039.3688678741455
+    },
+    {
+      "query": "What are the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup?",
+      "provider_a": "exa",
+      "provider_b": "serp_duckduckgo",
+      "answer_a": "Based on the search results, the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **CFIUS Notification Requirements**: The CFIUS review process is triggered when a foreign person acquires control of a US business, including a US AI startup [9]. The Chinese technology company must notify CFIUS of the proposed acquisition, providing detailed information about the transaction, including the identity of the parties involved, the structure of the transaction, and the potential national security implications [8].\n2. **Outbound Investment Screening Rule**: The US Government's outbound investment rule, which took effect on January 2, 2025, imposes restrictions on investments in certain advanced electronic technologies by US investors in certain entities or persons in the greater China area [3]. This rule may also apply to the Chinese technology company's acquisition of the US AI startup, depending on the specific circumstances of the transaction.\n3. **Reverse CFIUS Review**: In some cases, a US business may be subject to a \"reverse\" CFIUS review, where the US business is the foreign person and the Chinese technology company is the US person [5]. This can occur when a US business is acquired by a foreign person, and the transaction is subject to CFIUS review.\n4. **National Security Implications**: The CFIUS review process is focused on national security implications, and the Chinese technology company's acquisition of the US AI startup may be subject to review if it raises national security concerns [1, 2]. The US Government may consider factors such as the potential for the Chinese technology company to access sensitive US technology or data, or the potential for the transaction to compromise US national security.\n5. **Penalties for Non-Compliance**: Failure to notify CFIUS of a proposed acquisition or to comply with the CFIUS review process can result in significant penalties, including fines and reputational damage [10].\n\nIn summary, the Chinese technology company acquiring a US AI startup must notify CFIUS of the proposed acquisition and comply with the CFIUS review process, which may involve a review of the national security implications of the transaction. The outbound investment screening rule may also apply to the transaction, depending on the specific circumstances.\n\nReferences:\n\n[1] Treasury's Latest Moves: Fast-Track for Foreign Investors & Outbound AI Investment Inquiry | Regulatory & Compliance\n[2]",
+      "answer_b": "Based on the search results, the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **Mandatory Notification Requirement**: The Chinese technology company must file a notification with the Committee on Foreign Investment in the United States (CFIUS) within 30 days of the investment's closing, if the investment involves a Chinese AI or semiconductor business ([2], [5], [9]).\n2. **Detailed Disclosures**: The notification must include detailed disclosures on the foreign investor's origin, control rights, and AI technology sensitivity under export controls ([5], [10]).\n3. **Control and Critical AI Technology**: CFIUS reviews foreign acquisitions of US AI companies, focusing on control, critical AI technology, and dual-use algorithm risks to national security ([5], [9]).\n4. **Outbound Investment Security Program**: The Biden Administration has implemented a new outbound investment security program (OISP) that prohibits and imposes notification requirements on certain types of investments by US persons in Chinese technology companies ([8], [6]).\n5. **Proposed Legislation**: Congress is considering legislation to curtail US investments in Chinese technology, including the Comprehensive Outbound Investment National Security Act of 2024 (COINS ACT), which would legislatively mandate requirements similar to the Final Rule ([6], [1]).\n\n**Relevant Statutes and Regulations**:\n\n* The Committee on Foreign Investment in the United States (CFIUS) is an interagency committee housed at the Department of Treasury that serves as an investment screening board for companies or individuals from foreign countries who seek to purchase land or businesses in the United States ([9], [10]).\n* The CFIUS Handbook provides guidance on the CFIUS review process and the types of investments that are subject to review ([10]).\n\n**Conclusion**:\n\nIn summary, a Chinese technology company acquiring a US AI startup must file a notification with CFIUS within 30 days of the investment's closing, including detailed disclosures on the foreign investor's origin, control rights, and AI technology sensitivity under export controls. The CFIUS review process focuses on control, critical AI technology, and dual-use algorithm risks to national security. Additionally, the Biden Administration's OISP and proposed legislation, such as the COINS ACT, may impose further requirements on US investments in Chinese technology companies.",
+      "winner": "serp_duckduckgo",
+      "confidence": 3,
+      "reasoning": "Overall: A=65.7, B=88.6 (diff=22.9%). Legal Accuracy: B better (8 vs 4); Citation Quality: B better (9 vs 8); Completeness: B better (10 vs 9)",
+      "judgment_latency_ms": 1779.7110080718994
+    },
+    {
+      "query": "What are the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup?",
+      "provider_a": "google",
+      "provider_b": "serp_google",
+      "answer_a": "Based on the search results, the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **CFIUS Review**: The CFIUS review process is triggered when a foreign person acquires control of a US business, including a US AI startup. [3]\n2. **Notification Requirements**: The Chinese technology company must notify CFIUS of the proposed acquisition, providing detailed information about the transaction, including the identity of the parties involved, the structure of the transaction, and the potential national security implications. [3]\n3. **Expanded Monitoring**: In 2024, the Biden Administration expanded monitoring of foreign investments, especially in Chinese tech, which may lead to increased scrutiny of the proposed acquisition. [1]\n4. **Outbound Investment Security Program**: The Biden Administration has implemented a new outbound investment security program (OISP) that prohibits and imposes notification requirements on certain types of investments by U.S. persons in China, including investments in AI technology. [5]\n5. **National Security Considerations**: The CFIUS review process will consider national security implications of the proposed acquisition, including the potential for the Chinese technology company to access sensitive US AI technology or data. [7]\n6. **Fast-Track Review**: The Treasury Department has introduced a fast-track review process for foreign investors, which may expedite the review process for certain transactions, including those involving Chinese technology companies. [2]\n7. **Country-Specific Restrictions**: The Trump Administration has directed CFIUS to tighten restrictions on investment from certain countries, including China, while easing national security reviews of investments from allies and partners. [9]\n\nRelevant statutes and regulations include:\n\n* The Foreign Investment and National Security Act of 2007 (FINSA)\n* The Committee on Foreign Investment in the United States (CFIUS) regulations (31 CFR Part 800)\n* The Export Control Reform Act of 2018 (ECRA)\n* The Foreign Investment Risk Review Modernization Act of 2018 (FIRRMA)\n\nIn conclusion, a Chinese technology company acquiring a US AI startup must comply with the CFIUS review process, which includes notification requirements, expanded monitoring, and national security considerations. The company must also comply with the Outbound Investment Security Program and country-specific restrictions imposed by the Trump Administration.",
+      "answer_b": "Based on the search results, the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup can be summarized as follows:\n\n**Mandatory Notification Requirements:**\n\nAccording to [10], a mandatory notification to CFIUS may be required for certain types of foreign investments into US businesses that produce, design, test, manufacture, or use \"emerging and foundational technologies\" (EFTs), which include AI. This is in accordance with the Committee on Foreign Investment in the United States (CFIUS) regulations, specifically 31 CFR \u00a7 800.401.\n\n**Threshold Requirements:**\n\nTo trigger a mandatory notification, the foreign investment must meet certain threshold requirements, including:\n\n* The foreign investor must be a foreign person, as defined in 31 CFR \u00a7 800.205.\n* The transaction must involve the acquisition of control of a US business that produces, designs, tests, manufactures, or uses EFTs.\n* The transaction must involve a foreign person that is a member of a covered transaction, as defined in 31 CFR \u00a7 800.403.\n\n**Exemptions and Exceptions:**\n\nWhile mandatory notification is required for certain types of foreign investments, there are exemptions and exceptions that may apply. For example, [2] notes that some investments are prohibited, while others require post-closing notification to the U.S. Treasury Department.\n\n**Outbound Investment Screening Rule:**\n\nIn addition to the CFIUS regulations, the Outbound Investment Screening Rule, which went into effect on January 10, 2025, targets U.S. investment in Chinese or Chinese-owned companies, including those involved in AI research and development. According to [9], this rule requires U.S. investors to screen their investments in Chinese or Chinese-owned companies for potential national security risks.\n\n**Executive Order:**\n\nOn July 21, 2025, an Executive Order was issued requiring Chinese owners to divest from U.S. technology companies, including those involved in AI research and development. According to [7], this Executive Order aims to prevent Chinese companies from acquiring U.S. technology companies that produce EFTs.\n\n**Conclusion:**\n\nIn summary, a Chinese technology company acquiring a US AI startup may be required to notify CFIUS under the CFIUS regulations, specifically 31 CFR \u00a7 800.401, if the transaction meets the threshold requirements and involves a foreign person that is a member of a covered transaction. Additionally, the Outbound Investment Screening",
+      "winner": "tie",
+      "confidence": 1,
+      "reasoning": "Overall: A=80.0, B=81.4 (diff=1.4%). Legal Accuracy: B better (8 vs 6); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2200.082778930664
+    },
+    {
+      "query": "What are the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup?",
+      "provider_a": "google",
+      "provider_b": "serp_bing",
+      "answer_a": "Based on the search results, the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **CFIUS Review**: The CFIUS review process is triggered when a foreign person acquires control of a US business, including a US AI startup. [3]\n2. **Notification Requirements**: The Chinese technology company must notify CFIUS of the proposed acquisition, providing detailed information about the transaction, including the identity of the parties involved, the structure of the transaction, and the potential national security implications. [3]\n3. **Expanded Monitoring**: In 2024, the Biden Administration expanded monitoring of foreign investments, especially in Chinese tech, which may lead to increased scrutiny of the proposed acquisition. [1]\n4. **Outbound Investment Security Program**: The Biden Administration has implemented a new outbound investment security program (OISP) that prohibits and imposes notification requirements on certain types of investments by U.S. persons in China, including investments in AI technology. [5]\n5. **National Security Considerations**: The CFIUS review process will consider national security implications of the proposed acquisition, including the potential for the Chinese technology company to access sensitive US AI technology or data. [7]\n6. **Fast-Track Review**: The Treasury Department has introduced a fast-track review process for foreign investors, which may expedite the review process for certain transactions, including those involving Chinese technology companies. [2]\n7. **Country-Specific Restrictions**: The Trump Administration has directed CFIUS to tighten restrictions on investment from certain countries, including China, while easing national security reviews of investments from allies and partners. [9]\n\nRelevant statutes and regulations include:\n\n* The Foreign Investment and National Security Act of 2007 (FINSA)\n* The Committee on Foreign Investment in the United States (CFIUS) regulations (31 CFR Part 800)\n* The Export Control Reform Act of 2018 (ECRA)\n* The Foreign Investment Risk Review Modernization Act of 2018 (FIRRMA)\n\nIn conclusion, a Chinese technology company acquiring a US AI startup must comply with the CFIUS review process, which includes notification requirements, expanded monitoring, and national security considerations. The company must also comply with the Outbound Investment Security Program and country-specific restrictions imposed by the Trump Administration.",
+      "answer_b": "Based on the search results provided, it appears that there is no direct information related to the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup. However, I can provide some general information on CFIUS and its requirements.\n\nCFIUS is a US government agency responsible for reviewing and approving foreign investments in the United States. The agency's primary goal is to ensure that foreign investments do not pose a risk to national security.\n\nTo determine whether a foreign investment requires CFIUS review, the following factors are considered:\n\n1. The type of investment: CFIUS reviews investments in US businesses that involve critical technologies, infrastructure, or sensitive information.\n2. The nationality of the investor: CFIUS reviews investments by foreign entities, including those from China.\n3. The potential impact on national security: CFIUS reviews investments that may pose a risk to national security, such as those involving critical technologies or sensitive information.\n\nIf a Chinese technology company is acquiring a US AI startup, the investment may be subject to CFIUS review. The company would need to file a voluntary notice with CFIUS, providing detailed information about the investment, including the type of technology involved, the potential impact on national security, and the nationality of the investor.\n\nThe CFIUS review process typically involves the following steps:\n\n1. Filing a notice: The foreign investor files a notice with CFIUS, providing detailed information about the investment.\n2. Review: CFIUS reviews the notice and determines whether the investment requires further review.\n3. Investigation: If the investment requires further review, CFIUS conducts an investigation to determine whether the investment poses a risk to national security.\n4. Approval: If the investment does not pose a risk to national security, CFIUS approves the investment.\n\nThe relevant statutes and regulations governing CFIUS include:\n\n* The Foreign Investment and National Security Act of 2007 (FINSA)\n* The Committee on Foreign Investment in the United States (CFIUS) Regulations (31 CFR Part 800)\n* The Executive Order on Protecting American Intellectual Property (E.O. 13873)\n\nIn conclusion, while the search results provided do not directly address the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup, the general information on CFIUS and its requirements can be applied to this scenario. The company would need to file a",
+      "winner": "google",
+      "confidence": 3,
+      "reasoning": "Overall: A=85.7, B=57.1 (diff=28.6%). Legal Accuracy: A better (8 vs 6); Citation Quality: A better (8 vs 4); Completeness: A better (9 vs 6)",
+      "judgment_latency_ms": 1814.8832321166992
+    },
+    {
+      "query": "What are the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup?",
+      "provider_a": "google",
+      "provider_b": "serp_duckduckgo",
+      "answer_a": "Based on the search results, the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **CFIUS Review**: The CFIUS review process is triggered when a foreign person acquires control of a US business, including a US AI startup. [3]\n2. **Notification Requirements**: The Chinese technology company must notify CFIUS of the proposed acquisition, providing detailed information about the transaction, including the identity of the parties involved, the structure of the transaction, and the potential national security implications. [3]\n3. **Expanded Monitoring**: In 2024, the Biden Administration expanded monitoring of foreign investments, especially in Chinese tech, which may lead to increased scrutiny of the proposed acquisition. [1]\n4. **Outbound Investment Security Program**: The Biden Administration has implemented a new outbound investment security program (OISP) that prohibits and imposes notification requirements on certain types of investments by U.S. persons in China, including investments in AI technology. [5]\n5. **National Security Considerations**: The CFIUS review process will consider national security implications of the proposed acquisition, including the potential for the Chinese technology company to access sensitive US AI technology or data. [7]\n6. **Fast-Track Review**: The Treasury Department has introduced a fast-track review process for foreign investors, which may expedite the review process for certain transactions, including those involving Chinese technology companies. [2]\n7. **Country-Specific Restrictions**: The Trump Administration has directed CFIUS to tighten restrictions on investment from certain countries, including China, while easing national security reviews of investments from allies and partners. [9]\n\nRelevant statutes and regulations include:\n\n* The Foreign Investment and National Security Act of 2007 (FINSA)\n* The Committee on Foreign Investment in the United States (CFIUS) regulations (31 CFR Part 800)\n* The Export Control Reform Act of 2018 (ECRA)\n* The Foreign Investment Risk Review Modernization Act of 2018 (FIRRMA)\n\nIn conclusion, a Chinese technology company acquiring a US AI startup must comply with the CFIUS review process, which includes notification requirements, expanded monitoring, and national security considerations. The company must also comply with the Outbound Investment Security Program and country-specific restrictions imposed by the Trump Administration.",
+      "answer_b": "Based on the search results, the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **Mandatory Notification Requirement**: The Chinese technology company must file a notification with the Committee on Foreign Investment in the United States (CFIUS) within 30 days of the investment's closing, if the investment involves a Chinese AI or semiconductor business ([2], [5], [9]).\n2. **Detailed Disclosures**: The notification must include detailed disclosures on the foreign investor's origin, control rights, and AI technology sensitivity under export controls ([5], [10]).\n3. **Control and Critical AI Technology**: CFIUS reviews foreign acquisitions of US AI companies, focusing on control, critical AI technology, and dual-use algorithm risks to national security ([5], [9]).\n4. **Outbound Investment Security Program**: The Biden Administration has implemented a new outbound investment security program (OISP) that prohibits and imposes notification requirements on certain types of investments by US persons in Chinese technology companies ([8], [6]).\n5. **Proposed Legislation**: Congress is considering legislation to curtail US investments in Chinese technology, including the Comprehensive Outbound Investment National Security Act of 2024 (COINS ACT), which would legislatively mandate requirements similar to the Final Rule ([6], [1]).\n\n**Relevant Statutes and Regulations**:\n\n* The Committee on Foreign Investment in the United States (CFIUS) is an interagency committee housed at the Department of Treasury that serves as an investment screening board for companies or individuals from foreign countries who seek to purchase land or businesses in the United States ([9], [10]).\n* The CFIUS Handbook provides guidance on the CFIUS review process and the types of investments that are subject to review ([10]).\n\n**Conclusion**:\n\nIn summary, a Chinese technology company acquiring a US AI startup must file a notification with CFIUS within 30 days of the investment's closing, including detailed disclosures on the foreign investor's origin, control rights, and AI technology sensitivity under export controls. The CFIUS review process focuses on control, critical AI technology, and dual-use algorithm risks to national security. Additionally, the Biden Administration's OISP and proposed legislation, such as the COINS ACT, may impose further requirements on US investments in Chinese technology companies.",
+      "winner": "serp_duckduckgo",
+      "confidence": 2,
+      "reasoning": "Overall: A=77.9, B=85.7 (diff=7.9%). Legal Accuracy: B better (8 vs 6); Citation Quality: B better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2180.112838745117
+    },
+    {
+      "query": "What are the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup?",
+      "provider_a": "serp_google",
+      "provider_b": "serp_bing",
+      "answer_a": "Based on the search results, the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup can be summarized as follows:\n\n**Mandatory Notification Requirements:**\n\nAccording to [10], a mandatory notification to CFIUS may be required for certain types of foreign investments into US businesses that produce, design, test, manufacture, or use \"emerging and foundational technologies\" (EFTs), which include AI. This is in accordance with the Committee on Foreign Investment in the United States (CFIUS) regulations, specifically 31 CFR \u00a7 800.401.\n\n**Threshold Requirements:**\n\nTo trigger a mandatory notification, the foreign investment must meet certain threshold requirements, including:\n\n* The foreign investor must be a foreign person, as defined in 31 CFR \u00a7 800.205.\n* The transaction must involve the acquisition of control of a US business that produces, designs, tests, manufactures, or uses EFTs.\n* The transaction must involve a foreign person that is a member of a covered transaction, as defined in 31 CFR \u00a7 800.403.\n\n**Exemptions and Exceptions:**\n\nWhile mandatory notification is required for certain types of foreign investments, there are exemptions and exceptions that may apply. For example, [2] notes that some investments are prohibited, while others require post-closing notification to the U.S. Treasury Department.\n\n**Outbound Investment Screening Rule:**\n\nIn addition to the CFIUS regulations, the Outbound Investment Screening Rule, which went into effect on January 10, 2025, targets U.S. investment in Chinese or Chinese-owned companies, including those involved in AI research and development. According to [9], this rule requires U.S. investors to screen their investments in Chinese or Chinese-owned companies for potential national security risks.\n\n**Executive Order:**\n\nOn July 21, 2025, an Executive Order was issued requiring Chinese owners to divest from U.S. technology companies, including those involved in AI research and development. According to [7], this Executive Order aims to prevent Chinese companies from acquiring U.S. technology companies that produce EFTs.\n\n**Conclusion:**\n\nIn summary, a Chinese technology company acquiring a US AI startup may be required to notify CFIUS under the CFIUS regulations, specifically 31 CFR \u00a7 800.401, if the transaction meets the threshold requirements and involves a foreign person that is a member of a covered transaction. Additionally, the Outbound Investment Screening",
+      "answer_b": "Based on the search results provided, it appears that there is no direct information related to the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup. However, I can provide some general information on CFIUS and its requirements.\n\nCFIUS is a US government agency responsible for reviewing and approving foreign investments in the United States. The agency's primary goal is to ensure that foreign investments do not pose a risk to national security.\n\nTo determine whether a foreign investment requires CFIUS review, the following factors are considered:\n\n1. The type of investment: CFIUS reviews investments in US businesses that involve critical technologies, infrastructure, or sensitive information.\n2. The nationality of the investor: CFIUS reviews investments by foreign entities, including those from China.\n3. The potential impact on national security: CFIUS reviews investments that may pose a risk to national security, such as those involving critical technologies or sensitive information.\n\nIf a Chinese technology company is acquiring a US AI startup, the investment may be subject to CFIUS review. The company would need to file a voluntary notice with CFIUS, providing detailed information about the investment, including the type of technology involved, the potential impact on national security, and the nationality of the investor.\n\nThe CFIUS review process typically involves the following steps:\n\n1. Filing a notice: The foreign investor files a notice with CFIUS, providing detailed information about the investment.\n2. Review: CFIUS reviews the notice and determines whether the investment requires further review.\n3. Investigation: If the investment requires further review, CFIUS conducts an investigation to determine whether the investment poses a risk to national security.\n4. Approval: If the investment does not pose a risk to national security, CFIUS approves the investment.\n\nThe relevant statutes and regulations governing CFIUS include:\n\n* The Foreign Investment and National Security Act of 2007 (FINSA)\n* The Committee on Foreign Investment in the United States (CFIUS) Regulations (31 CFR Part 800)\n* The Executive Order on Protecting American Intellectual Property (E.O. 13873)\n\nIn conclusion, while the search results provided do not directly address the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup, the general information on CFIUS and its requirements can be applied to this scenario. The company would need to file a",
+      "winner": "serp_google",
+      "confidence": 3,
+      "reasoning": "Overall: A=87.9, B=50.0 (diff=37.9%). Legal Accuracy: A better (8 vs 6); Citation Quality: A better (9 vs 4); Completeness: A better (9 vs 4)",
+      "judgment_latency_ms": 2087.224006652832
+    },
+    {
+      "query": "What are the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "serp_google",
+      "answer_a": "Based on the search results, the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **Mandatory Notification Requirement**: The Chinese technology company must file a notification with the Committee on Foreign Investment in the United States (CFIUS) within 30 days of the investment's closing, if the investment involves a Chinese AI or semiconductor business ([2], [5], [9]).\n2. **Detailed Disclosures**: The notification must include detailed disclosures on the foreign investor's origin, control rights, and AI technology sensitivity under export controls ([5], [10]).\n3. **Control and Critical AI Technology**: CFIUS reviews foreign acquisitions of US AI companies, focusing on control, critical AI technology, and dual-use algorithm risks to national security ([5], [9]).\n4. **Outbound Investment Security Program**: The Biden Administration has implemented a new outbound investment security program (OISP) that prohibits and imposes notification requirements on certain types of investments by US persons in Chinese technology companies ([8], [6]).\n5. **Proposed Legislation**: Congress is considering legislation to curtail US investments in Chinese technology, including the Comprehensive Outbound Investment National Security Act of 2024 (COINS ACT), which would legislatively mandate requirements similar to the Final Rule ([6], [1]).\n\n**Relevant Statutes and Regulations**:\n\n* The Committee on Foreign Investment in the United States (CFIUS) is an interagency committee housed at the Department of Treasury that serves as an investment screening board for companies or individuals from foreign countries who seek to purchase land or businesses in the United States ([9], [10]).\n* The CFIUS Handbook provides guidance on the CFIUS review process and the types of investments that are subject to review ([10]).\n\n**Conclusion**:\n\nIn summary, a Chinese technology company acquiring a US AI startup must file a notification with CFIUS within 30 days of the investment's closing, including detailed disclosures on the foreign investor's origin, control rights, and AI technology sensitivity under export controls. The CFIUS review process focuses on control, critical AI technology, and dual-use algorithm risks to national security. Additionally, the Biden Administration's OISP and proposed legislation, such as the COINS ACT, may impose further requirements on US investments in Chinese technology companies.",
+      "answer_b": "Based on the search results, the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup can be summarized as follows:\n\n**Mandatory Notification Requirements:**\n\nAccording to [10], a mandatory notification to CFIUS may be required for certain types of foreign investments into US businesses that produce, design, test, manufacture, or use \"emerging and foundational technologies\" (EFTs), which include AI. This is in accordance with the Committee on Foreign Investment in the United States (CFIUS) regulations, specifically 31 CFR \u00a7 800.401.\n\n**Threshold Requirements:**\n\nTo trigger a mandatory notification, the foreign investment must meet certain threshold requirements, including:\n\n* The foreign investor must be a foreign person, as defined in 31 CFR \u00a7 800.205.\n* The transaction must involve the acquisition of control of a US business that produces, designs, tests, manufactures, or uses EFTs.\n* The transaction must involve a foreign person that is a member of a covered transaction, as defined in 31 CFR \u00a7 800.403.\n\n**Exemptions and Exceptions:**\n\nWhile mandatory notification is required for certain types of foreign investments, there are exemptions and exceptions that may apply. For example, [2] notes that some investments are prohibited, while others require post-closing notification to the U.S. Treasury Department.\n\n**Outbound Investment Screening Rule:**\n\nIn addition to the CFIUS regulations, the Outbound Investment Screening Rule, which went into effect on January 10, 2025, targets U.S. investment in Chinese or Chinese-owned companies, including those involved in AI research and development. According to [9], this rule requires U.S. investors to screen their investments in Chinese or Chinese-owned companies for potential national security risks.\n\n**Executive Order:**\n\nOn July 21, 2025, an Executive Order was issued requiring Chinese owners to divest from U.S. technology companies, including those involved in AI research and development. According to [7], this Executive Order aims to prevent Chinese companies from acquiring U.S. technology companies that produce EFTs.\n\n**Conclusion:**\n\nIn summary, a Chinese technology company acquiring a US AI startup may be required to notify CFIUS under the CFIUS regulations, specifically 31 CFR \u00a7 800.401, if the transaction meets the threshold requirements and involves a foreign person that is a member of a covered transaction. Additionally, the Outbound Investment Screening",
+      "winner": "tie",
+      "confidence": 1,
+      "reasoning": "Overall: A=81.4, B=80.0 (diff=1.4%). Legal Accuracy: B better (8 vs 6); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2084.8488807678223
+    },
+    {
+      "query": "What are the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "serp_bing",
+      "answer_a": "Based on the search results, the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup are as follows:\n\n1. **Mandatory Notification Requirement**: The Chinese technology company must file a notification with the Committee on Foreign Investment in the United States (CFIUS) within 30 days of the investment's closing, if the investment involves a Chinese AI or semiconductor business ([2], [5], [9]).\n2. **Detailed Disclosures**: The notification must include detailed disclosures on the foreign investor's origin, control rights, and AI technology sensitivity under export controls ([5], [10]).\n3. **Control and Critical AI Technology**: CFIUS reviews foreign acquisitions of US AI companies, focusing on control, critical AI technology, and dual-use algorithm risks to national security ([5], [9]).\n4. **Outbound Investment Security Program**: The Biden Administration has implemented a new outbound investment security program (OISP) that prohibits and imposes notification requirements on certain types of investments by US persons in Chinese technology companies ([8], [6]).\n5. **Proposed Legislation**: Congress is considering legislation to curtail US investments in Chinese technology, including the Comprehensive Outbound Investment National Security Act of 2024 (COINS ACT), which would legislatively mandate requirements similar to the Final Rule ([6], [1]).\n\n**Relevant Statutes and Regulations**:\n\n* The Committee on Foreign Investment in the United States (CFIUS) is an interagency committee housed at the Department of Treasury that serves as an investment screening board for companies or individuals from foreign countries who seek to purchase land or businesses in the United States ([9], [10]).\n* The CFIUS Handbook provides guidance on the CFIUS review process and the types of investments that are subject to review ([10]).\n\n**Conclusion**:\n\nIn summary, a Chinese technology company acquiring a US AI startup must file a notification with CFIUS within 30 days of the investment's closing, including detailed disclosures on the foreign investor's origin, control rights, and AI technology sensitivity under export controls. The CFIUS review process focuses on control, critical AI technology, and dual-use algorithm risks to national security. Additionally, the Biden Administration's OISP and proposed legislation, such as the COINS ACT, may impose further requirements on US investments in Chinese technology companies.",
+      "answer_b": "Based on the search results provided, it appears that there is no direct information related to the foreign investment notification requirements under the Committee on Foreign Investment in the United States (CFIUS) for a Chinese technology company acquiring a US AI startup. However, I can provide some general information on CFIUS and its requirements.\n\nCFIUS is a US government agency responsible for reviewing and approving foreign investments in the United States. The agency's primary goal is to ensure that foreign investments do not pose a risk to national security.\n\nTo determine whether a foreign investment requires CFIUS review, the following factors are considered:\n\n1. The type of investment: CFIUS reviews investments in US businesses that involve critical technologies, infrastructure, or sensitive information.\n2. The nationality of the investor: CFIUS reviews investments by foreign entities, including those from China.\n3. The potential impact on national security: CFIUS reviews investments that may pose a risk to national security, such as those involving critical technologies or sensitive information.\n\nIf a Chinese technology company is acquiring a US AI startup, the investment may be subject to CFIUS review. The company would need to file a voluntary notice with CFIUS, providing detailed information about the investment, including the type of technology involved, the potential impact on national security, and the nationality of the investor.\n\nThe CFIUS review process typically involves the following steps:\n\n1. Filing a notice: The foreign investor files a notice with CFIUS, providing detailed information about the investment.\n2. Review: CFIUS reviews the notice and determines whether the investment requires further review.\n3. Investigation: If the investment requires further review, CFIUS conducts an investigation to determine whether the investment poses a risk to national security.\n4. Approval: If the investment does not pose a risk to national security, CFIUS approves the investment.\n\nThe relevant statutes and regulations governing CFIUS include:\n\n* The Foreign Investment and National Security Act of 2007 (FINSA)\n* The Committee on Foreign Investment in the United States (CFIUS) Regulations (31 CFR Part 800)\n* The Executive Order on Protecting American Intellectual Property (E.O. 13873)\n\nIn conclusion, while the search results provided do not directly address the foreign investment notification requirements under CFIUS for a Chinese technology company acquiring a US AI startup, the general information on CFIUS and its requirements can be applied to this scenario. The company would need to file a",
+      "winner": "serp_bing",
+      "confidence": 3,
+      "reasoning": "Overall: A=83.6, B=52.9 (diff=30.7%). Legal Accuracy: A better (8 vs 6); Citation Quality: A better (8 vs 4); Completeness: A better (9 vs 6)",
+      "judgment_latency_ms": 2251.2168884277344
+    }
+  ],
+  "total_evaluation_latency_ms": 33802.8450012207,
+  "query_id": "Q10",
+  "scenario": "International company establishing US subsidiary",
+  "search_query": "CFIUS foreign investment notification Chinese technology AI startup acquisition requirements",
+  "search_latencies_ms": {
+    "exa": 2116.434097290039,
+    "google": 278.6991596221924,
+    "serp_google": 2347.1758365631104,
+    "serp_bing": 1794.1009998321533,
+    "serp_duckduckgo": 2398.293972015381
+  }
+}

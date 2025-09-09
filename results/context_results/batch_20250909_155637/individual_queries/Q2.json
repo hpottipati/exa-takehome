@@ -1,0 +1,839 @@
+{
+  "query": "What are the potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media?",
+  "timestamp": "2025-09-09 15:57:25",
+  "providers": {
+    "exa": {
+      "answer": "An employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The National Labor Relations Act (NLRA) protects employees from retaliation for engaging in concerted activities, including discussing working conditions and criticizing company policies (Guidance for Employers on Dealing with Controversial Commentary [6]).\n\nHowever, the NLRA does not protect employees from being fired for making statements that are deemed defamatory or that harm the company's reputation (Can Employees Be Fired for Social Media Posts By Employers? [7]). Additionally, employees may be subject to termination for violating company social media policies, which may be enforceable under employment contracts or company policies (The Legal Implications of Employee Social Media Use [1]).\n\nIn the United States, employees generally do not have a constitutional right to free speech in the workplace, and employers may terminate employees for making statements that are deemed to be contrary to company policies or that harm the company's reputation (You Can\u2019t Fire Me For A Facebook Post! I Have A Right To Free Speech! (US) [10]).\n\nHowever, employees may have claims under state laws, such as California's Labor Code, which prohibits employers from terminating employees for engaging in protected activities, including discussing working conditions and criticizing company policies (Can Your Employer Fire You Over Social Media Posts? [8]).\n\nTo determine whether an employee has a valid wrongful termination claim, it is essential to consider the specific facts and circumstances of the case, including the nature of the social media posts, the company's social media policies, and any applicable state or federal laws (Social Media And Wrongful Termination [9]).\n\nIn summary, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims under the NLRA, state laws, or other applicable laws. However, the employee's claims may be subject to various defenses, including the company's social media policies and the employee's failure to comply with those policies.\n\nReferences:\n\n[1] The Legal Implications of Employee Social Media Use\n[2] Can you lose your job for what you post on social media? Here\u2019s what the experts say\n[3] Can You Get Fired For Social Media Posts? Here's What The Law Says\n[4] Be careful with what you post: Can you be fired for what you write on social media?\n[5] No Longer Available\n[6] Guidance for Employers on Dealing with Cont",
+      "generation_latency_ms": 1080.8961391448975,
+      "authority_of_cited": {
+        "authority_score": 0.517,
+        "num_citations": 12,
+        "cited_urls": [
+          "https://natlawreview.com/article/dealing-controversial-commentary-some-guidance-and-guardrails-employers",
+          "https://www.ferretly.com/blog/can-employees-be-fired-for-social-media-posts-by-employers",
+          "https://dcemploymentlawblog.com/2025/03/20/the-legal-implications-of-employee-social-media-use/",
+          "https://www.employmentlawworldview.com/you-cant-fire-me-for-a-facebook-post-i-have-a-right-to-free-speech-us/",
+          "https://calljustice.com/can-your-employer-fire-you-over-social-media-posts-in-california/",
+          "https://www.mcgoniglelaw.com/resources/post/blog/social-media-and-wrongful-termination",
+          "https://dcemploymentlawblog.com/2025/03/20/the-legal-implications-of-employee-social-media-use/",
+          "https://edition.cnn.com/2025/03/15/tech/can-you-lose-job-for-social-media-post/index.html",
+          "https://www.ibtimes.com/can-you-get-fired-social-media-posts-heres-what-law-says-3766549",
+          "https://en.as.com/latest_news/be-careful-with-what-you-post-can-you-be-fired-for-what-you-write-on-social-media-n/",
+          "https://www.4029tv.com/article/employee-social-media-rights-tesla-firing/64194465",
+          "https://natlawreview.com/article/dealing-controversial-commentary-some-guidance-and-guardrails-employers"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.7,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 3.5369396209716797
+      },
+      "support_ratio": {
+        "support_ratio": 0.857,
+        "supported_sentences": 12,
+        "total_sentences": 14,
+        "sentence_details": [
+          {
+            "sentence": "An employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims",
+            "max_similarity": 0.717303454875946,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The National Labor Relations Act (NLRA) protects employees from retaliation for engaging in concerted activities, including discussing working conditions and criticizing company policies (Guidance for Employers on Dealing with Controversial Commentary [6])",
+            "max_similarity": 0.7046006321907043,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, the NLRA does not protect employees from being fired for making statements that are deemed defamatory or that harm the company's reputation (Can Employees Be Fired for Social Media Posts By Employers",
+            "max_similarity": 0.7324424386024475,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Additionally, employees may be subject to termination for violating company social media policies, which may be enforceable under employment contracts or company policies (The Legal Implications of Employee Social Media Use [1])",
+            "max_similarity": 0.8163822889328003,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In the United States, employees generally do not have a constitutional right to free speech in the workplace, and employers may terminate employees for making statements that are deemed to be contrary to company policies or that harm the company's reputation (You Can\u2019t Fire Me For A Facebook Post",
+            "max_similarity": 0.7071478962898254,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "I Have A Right To Free Speech",
+            "max_similarity": 0.4728730320930481,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, employees may have claims under state laws, such as California's Labor Code, which prohibits employers from terminating employees for engaging in protected activities, including discussing working conditions and criticizing company policies (Can Your Employer Fire You Over Social Media Posts",
+            "max_similarity": 0.8383901119232178,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "To determine whether an employee has a valid wrongful termination claim, it is essential to consider the specific facts and circumstances of the case, including the nature of the social media posts, the company's social media policies, and any applicable state or federal laws (Social Media And Wrongful Termination [9])",
+            "max_similarity": 0.7736068367958069,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In summary, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims under the NLRA, state laws, or other applicable laws",
+            "max_similarity": 0.7306345105171204,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, the employee's claims may be subject to various defenses, including the company's social media policies and the employee's failure to comply with those policies",
+            "max_similarity": 0.6758742928504944,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "References:\n\n[1] The Legal Implications of Employee Social Media Use\n[2] Can you lose your job for what you post on social media",
+            "max_similarity": 0.7942702770233154,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Here\u2019s what the experts say\n[3] Can You Get Fired For Social Media Posts",
+            "max_similarity": 0.7151525020599365,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Here's What The Law Says\n[4] Be careful with what you post: Can you be fired for what you write on social media",
+            "max_similarity": 0.739326000213623,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "[5] No Longer Available\n[6] Guidance for Employers on Dealing with Cont",
+            "max_similarity": 0.4945584833621979,
+            "is_supported": false,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 69,
+        "latency_ms": 823.8797187805176
+      }
+    },
+    "google": {
+      "answer": "An employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The analysis of the search results reveals that the employee's First Amendment rights may be implicated, as well as potential claims under Title VII of the Civil Rights Act of 1964.\n\nThe First Amendment protects employees from government interference with their speech, but it does not necessarily protect them from private employer retaliation [8]. However, some courts have recognized that employees have a limited right to engage in off-duty speech that is not directly related to their employment [5]. In Swindol v. Aero Products International, Inc., the court held that an employee's off-duty speech was protected by the First Amendment, but only if it was not directly related to the employee's employment [5].\n\nTitle VII of the Civil Rights Act of 1964 prohibits employers from discriminating against employees based on their protected characteristics, including their association with a particular group or ideology [7]. If the employee's criticism of the company's DEI policies was motivated by a protected characteristic, such as their association with a particular racial or ethnic group, they may have a claim under Title VII.\n\nIn addition, some courts have recognized that employees have a right to engage in political activity outside of work, including on social media [4]. However, employers may still impose limits on this activity if it is deemed to be interfering with the employee's work or creating a hostile work environment [3].\n\nTo determine whether the employee's termination was wrongful, it would be necessary to examine the specific facts of the case, including the employee's speech, the employer's policies, and the employer's motivations for terminating the employee. If the employee can show that their termination was motivated by their protected speech or association, they may have a claim for wrongful termination.\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims under the First Amendment and Title VII of the Civil Rights Act of 1964. The analysis of the search results reveals that the employee's speech may be protected, and that employers may have limited ability to regulate employee conduct outside of work.\n\nReferences:\n\n[1] Jackson Spencer Law, Can Your Boss Fire You for Your Social Media Posts in Texas?\n[2] Foster Swift, Can (or Should) Employers Regulate Employee Conduct Outside of Work?\n[3] Epstein Becker Green, Dealing with Controversial Commentary? Some Guidance and Guardrails for Employ",
+      "generation_latency_ms": 1039.9081707000732,
+      "authority_of_cited": {
+        "authority_score": 0.556,
+        "num_citations": 9,
+        "cited_urls": [
+          "https://www.workplaceethicsadvice.com/2022/02/can-employees-be-fired-for-using-social-media-at-work.html",
+          "https://www.employmentlawworldview.com/two-recent-federal-court-decisions-explore-the-limits-of-the-at-will-employment-doctrine/",
+          "https://www.employmentlawworldview.com/two-recent-federal-court-decisions-explore-the-limits-of-the-at-will-employment-doctrine/",
+          "https://www.eeoc.gov/statutes/title-vii-civil-rights-act-1964",
+          "https://www.laborrelationslawinsider.com/2020/10/understanding-employers-right-to-impose-limits-on-political-activities-in-the-workplace/",
+          "https://www.ebglaw.com/insights/publications/dealing-with-controversial-commentary-some-guidance-and-guardrails-for-employers",
+          "https://jacksonspencerlaw.com/getting-fired-for-social-media/",
+          "https://www.fosterswift.com/newsroom/publications/Employers-Regulate-Employee-Outside-Work",
+          "https://www.ebglaw.com/insights/publications/dealing-with-controversial-commentary-some-guidance-and-guardrails-for-employers"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          0.5,
+          1.0,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 2.0492076873779297
+      },
+      "support_ratio": {
+        "support_ratio": 0.684,
+        "supported_sentences": 13,
+        "total_sentences": 19,
+        "sentence_details": [
+          {
+            "sentence": "An employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims",
+            "max_similarity": 0.6089118123054504,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The analysis of the search results reveals that the employee's First Amendment rights may be implicated, as well as potential claims under Title VII of the Civil Rights Act of 1964",
+            "max_similarity": 0.6338186860084534,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The First Amendment protects employees from government interference with their speech, but it does not necessarily protect them from private employer retaliation [8]",
+            "max_similarity": 0.7348843812942505,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, some courts have recognized that employees have a limited right to engage in off-duty speech that is not directly related to their employment [5]",
+            "max_similarity": 0.6385368704795837,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In Swindol v",
+            "max_similarity": 0.42847907543182373,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Aero Products International, Inc",
+            "max_similarity": 0.19706661999225616,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": ", the court held that an employee's off-duty speech was protected by the First Amendment, but only if it was not directly related to the employee's employment [5]",
+            "max_similarity": 0.6678088903427124,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Title VII of the Civil Rights Act of 1964 prohibits employers from discriminating against employees based on their protected characteristics, including their association with a particular group or ideology [7]",
+            "max_similarity": 0.7071818113327026,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "If the employee's criticism of the company's DEI policies was motivated by a protected characteristic, such as their association with a particular racial or ethnic group, they may have a claim under Title VII",
+            "max_similarity": 0.45283374190330505,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In addition, some courts have recognized that employees have a right to engage in political activity outside of work, including on social media [4]",
+            "max_similarity": 0.6823846101760864,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, employers may still impose limits on this activity if it is deemed to be interfering with the employee's work or creating a hostile work environment [3]",
+            "max_similarity": 0.6135829091072083,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "To determine whether the employee's termination was wrongful, it would be necessary to examine the specific facts of the case, including the employee's speech, the employer's policies, and the employer's motivations for terminating the employee",
+            "max_similarity": 0.5926374197006226,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "If the employee can show that their termination was motivated by their protected speech or association, they may have a claim for wrongful termination",
+            "max_similarity": 0.6403950452804565,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims under the First Amendment and Title VII of the Civil Rights Act of 1964",
+            "max_similarity": 0.6782510280609131,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The analysis of the search results reveals that the employee's speech may be protected, and that employers may have limited ability to regulate employee conduct outside of work",
+            "max_similarity": 0.7041643261909485,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "References:\n\n[1] Jackson Spencer Law, Can Your Boss Fire You for Your Social Media Posts in Texas",
+            "max_similarity": 0.7359587550163269,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "[2] Foster Swift, Can (or Should) Employers Regulate Employee Conduct Outside of Work",
+            "max_similarity": 0.6931582093238831,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "[3] Epstein Becker Green, Dealing with Controversial Commentary",
+            "max_similarity": 0.42202889919281006,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Some Guidance and Guardrails for Employ",
+            "max_similarity": 0.3877323567867279,
+            "is_supported": false,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 63,
+        "latency_ms": 383.3460807800293
+      }
+    },
+    "serp_google": {
+      "answer": "Based on the search results, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. However, the outcome depends on various factors, including the content of the post, the employer's social media policy, and applicable labor laws.\n\nIn the United States, employees generally have the right to free speech, but this right is not absolute [2]. The National Labor Relations Act (NLRA) protects employees from retaliation for engaging in concerted activities, including discussing working conditions and criticizing management [6]. However, the NLRA does not protect employees from being fired for making malicious or reckless statements that harm the employer's reputation [10].\n\nCourts have consistently held that employees cannot succeed on free speech violation claims against private employers for criticizing the company on social media [2]. For example, in a recent case, the Ohio Court of Appeals ruled that an employee's Facebook post criticizing the company's management was not protected by the First Amendment [2].\n\nHowever, employees may have a claim for wrongful termination if the employer's social media policy is overly broad or violates labor laws [10]. For instance, the NLRA prohibits employers from maintaining policies that prohibit employees from discussing wages, working conditions, or other terms and conditions of employment [6].\n\nIn addition, employees may have a claim for retaliation under the NLRA if they are fired for engaging in protected concerted activities, such as criticizing the company's DEI policies [6]. The NLRA prohibits employers from retaliating against employees for engaging in protected activities, including filing complaints with the NLRB [6].\n\nTo determine whether an employee has a valid wrongful termination claim, it is essential to consider the specific facts and circumstances of the case, including the content of the social media post, the employer's social media policy, and applicable labor laws.\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* National Labor Relations Act (NLRA)\n* First Amendment to the United States Constitution\n* National Labor Relations Board (NLRB) regulations\n\nRelevant case law mentioned in the sources includes:\n\n* Ohio Court of Appeals decision (cited in [2])\n* NLRB complaints and decisions (cited in [6] and [8])\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims, but the outcome depends on various factors, including the content of the post, the employer's social media policy, and applicable labor laws.",
+      "generation_latency_ms": 1109.241247177124,
+      "authority_of_cited": {
+        "authority_score": 0.5,
+        "num_citations": 12,
+        "cited_urls": [
+          "https://www.employmentlawworldview.com/you-cant-fire-me-for-a-facebook-post-i-have-a-right-to-free-speech-us/",
+          "https://ogletree.com/insights-resources/blog-posts/the-nlrb-is-making-clear-its-position-regarding-social-media-communications/",
+          "https://www.americanbar.org/news/abanews/publications/youraba/2019/december-2019/does-your-social-media-policy-violate-labor-law-/",
+          "https://www.employmentlawworldview.com/you-cant-fire-me-for-a-facebook-post-i-have-a-right-to-free-speech-us/",
+          "https://www.employmentlawworldview.com/you-cant-fire-me-for-a-facebook-post-i-have-a-right-to-free-speech-us/",
+          "https://www.americanbar.org/news/abanews/publications/youraba/2019/december-2019/does-your-social-media-policy-violate-labor-law-/",
+          "https://ogletree.com/insights-resources/blog-posts/the-nlrb-is-making-clear-its-position-regarding-social-media-communications/",
+          "https://ogletree.com/insights-resources/blog-posts/the-nlrb-is-making-clear-its-position-regarding-social-media-communications/",
+          "https://ogletree.com/insights-resources/blog-posts/the-nlrb-is-making-clear-its-position-regarding-social-media-communications/",
+          "https://www.employmentlawworldview.com/you-cant-fire-me-for-a-facebook-post-i-have-a-right-to-free-speech-us/",
+          "https://ogletree.com/insights-resources/blog-posts/the-nlrb-is-making-clear-its-position-regarding-social-media-communications/",
+          "https://www.thenjemploymentlawfirmblog.com/nlrb-complaint-alleges-unlawful-firing-by-social-media-company/"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 3.3719539642333984
+      },
+      "support_ratio": {
+        "support_ratio": 0.846,
+        "supported_sentences": 11,
+        "total_sentences": 13,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims",
+            "max_similarity": 0.7513782978057861,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, the outcome depends on various factors, including the content of the post, the employer's social media policy, and applicable labor laws",
+            "max_similarity": 0.6198810935020447,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In the United States, employees generally have the right to free speech, but this right is not absolute [2]",
+            "max_similarity": 0.7758275866508484,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The National Labor Relations Act (NLRA) protects employees from retaliation for engaging in concerted activities, including discussing working conditions and criticizing management [6]",
+            "max_similarity": 0.6707382202148438,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, the NLRA does not protect employees from being fired for making malicious or reckless statements that harm the employer's reputation [10]",
+            "max_similarity": 0.5680946707725525,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Courts have consistently held that employees cannot succeed on free speech violation claims against private employers for criticizing the company on social media [2]",
+            "max_similarity": 0.715731680393219,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "For example, in a recent case, the Ohio Court of Appeals ruled that an employee's Facebook post criticizing the company's management was not protected by the First Amendment [2]",
+            "max_similarity": 0.6575425267219543,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, employees may have a claim for wrongful termination if the employer's social media policy is overly broad or violates labor laws [10]",
+            "max_similarity": 0.7784975171089172,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "For instance, the NLRA prohibits employers from maintaining policies that prohibit employees from discussing wages, working conditions, or other terms and conditions of employment [6]",
+            "max_similarity": 0.5803176164627075,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In addition, employees may have a claim for retaliation under the NLRA if they are fired for engaging in protected concerted activities, such as criticizing the company's DEI policies [6]",
+            "max_similarity": 0.6302553415298462,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The NLRA prohibits employers from retaliating against employees for engaging in protected activities, including filing complaints with the NLRB [6]",
+            "max_similarity": 0.7109550833702087,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "To determine whether an employee has a valid wrongful termination claim, it is essential to consider the specific facts and circumstances of the case, including the content of the social media post, the employer's social media policy, and applicable labor laws",
+            "max_similarity": 0.7362138628959656,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Relevant statutes and regulations mentioned in the sources include:\n\n* National Labor Relations Act (NLRA)\n* First Amendment to the United States Constitution\n* National Labor Relations Board (NLRB) regulations\n\nRelevant case law mentioned in the sources includes:\n\n* Ohio Court of Appeals decision (cited in [2])\n* NLRB complaints and decisions (cited in [6] and [8])\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims, but the outcome depends on various factors, including the content of the post, the employer's social media policy, and applicable labor laws",
+            "max_similarity": 0.7074493765830994,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 61,
+        "latency_ms": 398.85592460632324
+      }
+    },
+    "serp_bing": {
+      "answer": "Based on the search results, it appears that the provided links are related to the Employee Express system, which is an automated system for federal employees to manage their payroll and personnel information. However, these sources do not directly address the legal question of potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media.\n\nTo answer the legal question, we need to look beyond the provided search results and consider relevant statutes, regulations, and case law. \n\nIn the United States, federal employees are protected by Title VII of the Civil Rights Act of 1964, which prohibits employment discrimination based on race, color, national origin, sex, or religion (42 U.S.C. \u00a7 2000e-2). The First Amendment also protects federal employees' free speech rights, including their right to express opinions on matters of public concern (Pickering v. Board of Education, 391 U.S. 563 (1968)).\n\nHowever, the First Amendment does not protect speech that is \"on the job\" or \"pursuant to official duties\" (Connick v. Myers, 461 U.S. 138 (1983)). Additionally, federal employees may be subject to the Hatch Act, which prohibits certain forms of political activity by federal employees (5 U.S.C. \u00a7 7324).\n\nRegarding DEI policies, federal agencies are required to implement policies and procedures to promote diversity, equity, and inclusion in the workplace (Executive Order 13950, 86 Fed. Reg. 37, 011 (July 26, 2021)). However, these policies must be implemented in a manner that respects employees' free speech rights.\n\nIn the context of criticizing company DEI policies on personal social media, an employee may have a potential wrongful termination claim if they can show that their speech was protected by the First Amendment and that the termination was motivated by the speech (Garcetti v. Ceballos, 547 U.S. 410 (2006)).\n\nTo establish a wrongful termination claim, the employee would need to demonstrate that:\n\n1. The speech was protected by the First Amendment (e.g., it was on a matter of public concern and not \"on the job\" or \"pursuant to official duties\").\n2. The speech was a motivating factor in the termination decision (e.g., the employer knew about the speech and terminated the employee in retaliation).\n3. The employer would not have terminated the employee but for the",
+      "generation_latency_ms": 920.8700656890869,
+      "authority_of_cited": {
+        "authority_score": 0.0,
+        "num_citations": 0,
+        "cited_urls": [],
+        "latency_ms": 0.041961669921875
+      },
+      "support_ratio": {
+        "support_ratio": 0.043,
+        "supported_sentences": 1,
+        "total_sentences": 23,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, it appears that the provided links are related to the Employee Express system, which is an automated system for federal employees to manage their payroll and personnel information",
+            "max_similarity": 0.7005866765975952,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, these sources do not directly address the legal question of potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media",
+            "max_similarity": 0.26718735694885254,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "To answer the legal question, we need to look beyond the provided search results and consider relevant statutes, regulations, and case law",
+            "max_similarity": 0.22172091901302338,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In the United States, federal employees are protected by Title VII of the Civil Rights Act of 1964, which prohibits employment discrimination based on race, color, national origin, sex, or religion (42 U",
+            "max_similarity": 0.34762731194496155,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The First Amendment also protects federal employees' free speech rights, including their right to express opinions on matters of public concern (Pickering v",
+            "max_similarity": 0.27293017506599426,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Board of Education, 391 U",
+            "max_similarity": 0.18934763967990875,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "563 (1968))",
+            "max_similarity": 0.05963870882987976,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, the First Amendment does not protect speech that is \"on the job\" or \"pursuant to official duties\" (Connick v",
+            "max_similarity": 0.20231591165065765,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Myers, 461 U",
+            "max_similarity": 0.1784968227148056,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "138 (1983))",
+            "max_similarity": 0.0678434669971466,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Additionally, federal employees may be subject to the Hatch Act, which prohibits certain forms of political activity by federal employees (5 U",
+            "max_similarity": 0.4035423994064331,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Regarding DEI policies, federal agencies are required to implement policies and procedures to promote diversity, equity, and inclusion in the workplace (Executive Order 13950, 86 Fed",
+            "max_similarity": 0.38393986225128174,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "37, 011 (July 26, 2021))",
+            "max_similarity": 0.09006303548812866,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, these policies must be implemented in a manner that respects employees' free speech rights",
+            "max_similarity": 0.3198819160461426,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In the context of criticizing company DEI policies on personal social media, an employee may have a potential wrongful termination claim if they can show that their speech was protected by the First Amendment and that the termination was motivated by the speech (Garcetti v",
+            "max_similarity": 0.1861373633146286,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Ceballos, 547 U",
+            "max_similarity": 0.23625656962394714,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "410 (2006))",
+            "max_similarity": 0.16813044250011444,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "To establish a wrongful termination claim, the employee would need to demonstrate that:\n\n1",
+            "max_similarity": 0.2662794291973114,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The speech was protected by the First Amendment (e",
+            "max_similarity": 0.15376707911491394,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": ", it was on a matter of public concern and not \"on the job\" or \"pursuant to official duties\")",
+            "max_similarity": 0.2581726610660553,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The speech was a motivating factor in the termination decision (e",
+            "max_similarity": 0.1364012360572815,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": ", the employer knew about the speech and terminated the employee in retaliation)",
+            "max_similarity": 0.2345355749130249,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The employer would not have terminated the employee but for the",
+            "max_similarity": 0.23310597240924835,
+            "is_supported": false,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 10,
+        "latency_ms": 145.78700065612793
+      }
+    },
+    "serp_duckduckgo": {
+      "answer": "Based on the search results, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The National Labor Relations Act (NLRA) protects employees' rights to engage in concerted activities, including discussing working conditions and criticizing company policies, as long as such activities are not disloyal or maliciously false [4].\n\nThe NLRA prohibits employers from disciplining or terminating employees for engaging in protected concerted activities, including social media posts that criticize company policies [4, 6]. However, employers may have legitimate reasons to discipline or terminate employees for social media posts that are not protected by the NLRA, such as posts that are harassing, discriminatory, or disloyal [8].\n\nTo determine whether an employee's social media post is protected by the NLRA, employers should consider the following factors:\n\n1. Whether the post is related to a term or condition of employment [1].\n2. Whether the post is made in a personal capacity or as part of a concerted activity [2].\n3. Whether the post is critical of the employer or its policies [3].\n\nEmployers should also consider having a social media policy that is carefully crafted to comply with the NLRA [10]. Such a policy should require employees to adhere to other relevant company policies, such as codes of conduct or anti-discrimination and anti-harassment policies, when posting on social media [8].\n\nIn the case of an employee who is fired for criticizing company DEI policies on personal social media, the employee may have a potential wrongful termination claim if the employer's actions were motivated by a desire to suppress the employee's protected concerted activity [4, 6]. The employee may also have a claim if the employer's social media policy is overly broad or does not provide adequate notice to employees of what is expected of them [10].\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* National Labor Relations Act (NLRA) [4, 6]\n* National Labor Relations Board (NLRB) decisions and guidance [1, 2, 6, 10]\n\nRelevant case law mentioned in the sources includes:\n\n* NLRB decisions and guidance on social media and the NLRA [1, 2, 6, 10]\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims if the employer's actions were motivated by a desire to suppress the employee's protected concerted",
+      "generation_latency_ms": 896.1732387542725,
+      "authority_of_cited": {
+        "authority_score": 0.5,
+        "num_citations": 8,
+        "cited_urls": [
+          "https://natlawreview.com/article/can-you-terminate-employee-facebook-posts-criticizing-your-company",
+          "https://www.herrick.com/publications/employee-social-media-use-and-disciplinary-action/",
+          "https://www.pillsburylaw.com/en/news-and-insights/first-nlrb-decisions-on-social-media-give-employers-cause-to.html",
+          "https://www.gfrlaw.com/what-we-do/insights/facebook-firing-revisited-nlrbs-social-media-agenda",
+          "https://www.mcgoniglelaw.com/resources/post/blog/social-media-and-wrongful-termination",
+          "https://natlawreview.com/article/labor-board-approves-carefully-crafted-social-media-policies",
+          "https://www.herrick.com/publications/employee-social-media-use-and-disciplinary-action/",
+          "https://natlawreview.com/article/labor-board-approves-carefully-crafted-social-media-policies"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 1.5370845794677734
+      },
+      "support_ratio": {
+        "support_ratio": 0.769,
+        "supported_sentences": 10,
+        "total_sentences": 13,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims",
+            "max_similarity": 0.7108021974563599,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The National Labor Relations Act (NLRA) protects employees' rights to engage in concerted activities, including discussing working conditions and criticizing company policies, as long as such activities are not disloyal or maliciously false [4]",
+            "max_similarity": 0.6563087701797485,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The NLRA prohibits employers from disciplining or terminating employees for engaging in protected concerted activities, including social media posts that criticize company policies [4, 6]",
+            "max_similarity": 0.7770216464996338,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, employers may have legitimate reasons to discipline or terminate employees for social media posts that are not protected by the NLRA, such as posts that are harassing, discriminatory, or disloyal [8]",
+            "max_similarity": 0.7859576344490051,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "To determine whether an employee's social media post is protected by the NLRA, employers should consider the following factors:\n\n1",
+            "max_similarity": 0.7475234866142273,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Whether the post is related to a term or condition of employment [1]",
+            "max_similarity": 0.42811939120292664,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Whether the post is made in a personal capacity or as part of a concerted activity [2]",
+            "max_similarity": 0.3554701507091522,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Whether the post is critical of the employer or its policies [3]",
+            "max_similarity": 0.532590389251709,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Employers should also consider having a social media policy that is carefully crafted to comply with the NLRA [10]",
+            "max_similarity": 0.7320924997329712,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Such a policy should require employees to adhere to other relevant company policies, such as codes of conduct or anti-discrimination and anti-harassment policies, when posting on social media [8]",
+            "max_similarity": 0.7604526877403259,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In the case of an employee who is fired for criticizing company DEI policies on personal social media, the employee may have a potential wrongful termination claim if the employer's actions were motivated by a desire to suppress the employee's protected concerted activity [4, 6]",
+            "max_similarity": 0.7293729186058044,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The employee may also have a claim if the employer's social media policy is overly broad or does not provide adequate notice to employees of what is expected of them [10]",
+            "max_similarity": 0.7034650444984436,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Relevant statutes and regulations mentioned in the sources include:\n\n* National Labor Relations Act (NLRA) [4, 6]\n* National Labor Relations Board (NLRB) decisions and guidance [1, 2, 6, 10]\n\nRelevant case law mentioned in the sources includes:\n\n* NLRB decisions and guidance on social media and the NLRA [1, 2, 6, 10]\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims if the employer's actions were motivated by a desire to suppress the employee's protected concerted",
+            "max_similarity": 0.7606176733970642,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 53,
+        "latency_ms": 363.58094215393066
+      }
+    }
+  },
+  "content_fetch_latency_ms": 4585.427761077881,
+  "llm_win_rate": {
+    "win_rates": {
+      "exa": 0.75,
+      "google": 0.75,
+      "serp_google": 0.5,
+      "serp_bing": 0.25,
+      "serp_duckduckgo": 0.25
+    },
+    "win_counts": {
+      "exa": 3,
+      "google": 3,
+      "serp_google": 2,
+      "serp_bing": 1,
+      "serp_duckduckgo": 1
+    },
+    "judgments_count": 10,
+    "evaluation_latency_ms": 35750.64492225647
+  },
+  "pairwise_judgments": [
+    {
+      "query": "What are the potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media?",
+      "provider_a": "exa",
+      "provider_b": "google",
+      "answer_a": "An employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The National Labor Relations Act (NLRA) protects employees from retaliation for engaging in concerted activities, including discussing working conditions and criticizing company policies (Guidance for Employers on Dealing with Controversial Commentary [6]).\n\nHowever, the NLRA does not protect employees from being fired for making statements that are deemed defamatory or that harm the company's reputation (Can Employees Be Fired for Social Media Posts By Employers? [7]). Additionally, employees may be subject to termination for violating company social media policies, which may be enforceable under employment contracts or company policies (The Legal Implications of Employee Social Media Use [1]).\n\nIn the United States, employees generally do not have a constitutional right to free speech in the workplace, and employers may terminate employees for making statements that are deemed to be contrary to company policies or that harm the company's reputation (You Can\u2019t Fire Me For A Facebook Post! I Have A Right To Free Speech! (US) [10]).\n\nHowever, employees may have claims under state laws, such as California's Labor Code, which prohibits employers from terminating employees for engaging in protected activities, including discussing working conditions and criticizing company policies (Can Your Employer Fire You Over Social Media Posts? [8]).\n\nTo determine whether an employee has a valid wrongful termination claim, it is essential to consider the specific facts and circumstances of the case, including the nature of the social media posts, the company's social media policies, and any applicable state or federal laws (Social Media And Wrongful Termination [9]).\n\nIn summary, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims under the NLRA, state laws, or other applicable laws. However, the employee's claims may be subject to various defenses, including the company's social media policies and the employee's failure to comply with those policies.\n\nReferences:\n\n[1] The Legal Implications of Employee Social Media Use\n[2] Can you lose your job for what you post on social media? Here\u2019s what the experts say\n[3] Can You Get Fired For Social Media Posts? Here's What The Law Says\n[4] Be careful with what you post: Can you be fired for what you write on social media?\n[5] No Longer Available\n[6] Guidance for Employers on Dealing with Cont",
+      "answer_b": "An employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The analysis of the search results reveals that the employee's First Amendment rights may be implicated, as well as potential claims under Title VII of the Civil Rights Act of 1964.\n\nThe First Amendment protects employees from government interference with their speech, but it does not necessarily protect them from private employer retaliation [8]. However, some courts have recognized that employees have a limited right to engage in off-duty speech that is not directly related to their employment [5]. In Swindol v. Aero Products International, Inc., the court held that an employee's off-duty speech was protected by the First Amendment, but only if it was not directly related to the employee's employment [5].\n\nTitle VII of the Civil Rights Act of 1964 prohibits employers from discriminating against employees based on their protected characteristics, including their association with a particular group or ideology [7]. If the employee's criticism of the company's DEI policies was motivated by a protected characteristic, such as their association with a particular racial or ethnic group, they may have a claim under Title VII.\n\nIn addition, some courts have recognized that employees have a right to engage in political activity outside of work, including on social media [4]. However, employers may still impose limits on this activity if it is deemed to be interfering with the employee's work or creating a hostile work environment [3].\n\nTo determine whether the employee's termination was wrongful, it would be necessary to examine the specific facts of the case, including the employee's speech, the employer's policies, and the employer's motivations for terminating the employee. If the employee can show that their termination was motivated by their protected speech or association, they may have a claim for wrongful termination.\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims under the First Amendment and Title VII of the Civil Rights Act of 1964. The analysis of the search results reveals that the employee's speech may be protected, and that employers may have limited ability to regulate employee conduct outside of work.\n\nReferences:\n\n[1] Jackson Spencer Law, Can Your Boss Fire You for Your Social Media Posts in Texas?\n[2] Foster Swift, Can (or Should) Employers Regulate Employee Conduct Outside of Work?\n[3] Epstein Becker Green, Dealing with Controversial Commentary? Some Guidance and Guardrails for Employ",
+      "winner": "exa",
+      "confidence": 2,
+      "reasoning": "Overall: A=87.9, B=82.1 (diff=5.7%). Legal Accuracy: A better (9 vs 8); Citation Quality: B better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 4312.247037887573
+    },
+    {
+      "query": "What are the potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media?",
+      "provider_a": "exa",
+      "provider_b": "serp_google",
+      "answer_a": "An employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The National Labor Relations Act (NLRA) protects employees from retaliation for engaging in concerted activities, including discussing working conditions and criticizing company policies (Guidance for Employers on Dealing with Controversial Commentary [6]).\n\nHowever, the NLRA does not protect employees from being fired for making statements that are deemed defamatory or that harm the company's reputation (Can Employees Be Fired for Social Media Posts By Employers? [7]). Additionally, employees may be subject to termination for violating company social media policies, which may be enforceable under employment contracts or company policies (The Legal Implications of Employee Social Media Use [1]).\n\nIn the United States, employees generally do not have a constitutional right to free speech in the workplace, and employers may terminate employees for making statements that are deemed to be contrary to company policies or that harm the company's reputation (You Can\u2019t Fire Me For A Facebook Post! I Have A Right To Free Speech! (US) [10]).\n\nHowever, employees may have claims under state laws, such as California's Labor Code, which prohibits employers from terminating employees for engaging in protected activities, including discussing working conditions and criticizing company policies (Can Your Employer Fire You Over Social Media Posts? [8]).\n\nTo determine whether an employee has a valid wrongful termination claim, it is essential to consider the specific facts and circumstances of the case, including the nature of the social media posts, the company's social media policies, and any applicable state or federal laws (Social Media And Wrongful Termination [9]).\n\nIn summary, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims under the NLRA, state laws, or other applicable laws. However, the employee's claims may be subject to various defenses, including the company's social media policies and the employee's failure to comply with those policies.\n\nReferences:\n\n[1] The Legal Implications of Employee Social Media Use\n[2] Can you lose your job for what you post on social media? Here\u2019s what the experts say\n[3] Can You Get Fired For Social Media Posts? Here's What The Law Says\n[4] Be careful with what you post: Can you be fired for what you write on social media?\n[5] No Longer Available\n[6] Guidance for Employers on Dealing with Cont",
+      "answer_b": "Based on the search results, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. However, the outcome depends on various factors, including the content of the post, the employer's social media policy, and applicable labor laws.\n\nIn the United States, employees generally have the right to free speech, but this right is not absolute [2]. The National Labor Relations Act (NLRA) protects employees from retaliation for engaging in concerted activities, including discussing working conditions and criticizing management [6]. However, the NLRA does not protect employees from being fired for making malicious or reckless statements that harm the employer's reputation [10].\n\nCourts have consistently held that employees cannot succeed on free speech violation claims against private employers for criticizing the company on social media [2]. For example, in a recent case, the Ohio Court of Appeals ruled that an employee's Facebook post criticizing the company's management was not protected by the First Amendment [2].\n\nHowever, employees may have a claim for wrongful termination if the employer's social media policy is overly broad or violates labor laws [10]. For instance, the NLRA prohibits employers from maintaining policies that prohibit employees from discussing wages, working conditions, or other terms and conditions of employment [6].\n\nIn addition, employees may have a claim for retaliation under the NLRA if they are fired for engaging in protected concerted activities, such as criticizing the company's DEI policies [6]. The NLRA prohibits employers from retaliating against employees for engaging in protected activities, including filing complaints with the NLRB [6].\n\nTo determine whether an employee has a valid wrongful termination claim, it is essential to consider the specific facts and circumstances of the case, including the content of the social media post, the employer's social media policy, and applicable labor laws.\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* National Labor Relations Act (NLRA)\n* First Amendment to the United States Constitution\n* National Labor Relations Board (NLRB) regulations\n\nRelevant case law mentioned in the sources includes:\n\n* Ohio Court of Appeals decision (cited in [2])\n* NLRB complaints and decisions (cited in [6] and [8])\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims, but the outcome depends on various factors, including the content of the post, the employer's social media policy, and applicable labor laws.",
+      "winner": "exa",
+      "confidence": 1,
+      "reasoning": "Overall: A=86.4, B=84.3 (diff=2.1%). Legal Accuracy: A better (9 vs 8); Citation Quality: B better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2052.722930908203
+    },
+    {
+      "query": "What are the potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media?",
+      "provider_a": "exa",
+      "provider_b": "serp_bing",
+      "answer_a": "An employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The National Labor Relations Act (NLRA) protects employees from retaliation for engaging in concerted activities, including discussing working conditions and criticizing company policies (Guidance for Employers on Dealing with Controversial Commentary [6]).\n\nHowever, the NLRA does not protect employees from being fired for making statements that are deemed defamatory or that harm the company's reputation (Can Employees Be Fired for Social Media Posts By Employers? [7]). Additionally, employees may be subject to termination for violating company social media policies, which may be enforceable under employment contracts or company policies (The Legal Implications of Employee Social Media Use [1]).\n\nIn the United States, employees generally do not have a constitutional right to free speech in the workplace, and employers may terminate employees for making statements that are deemed to be contrary to company policies or that harm the company's reputation (You Can\u2019t Fire Me For A Facebook Post! I Have A Right To Free Speech! (US) [10]).\n\nHowever, employees may have claims under state laws, such as California's Labor Code, which prohibits employers from terminating employees for engaging in protected activities, including discussing working conditions and criticizing company policies (Can Your Employer Fire You Over Social Media Posts? [8]).\n\nTo determine whether an employee has a valid wrongful termination claim, it is essential to consider the specific facts and circumstances of the case, including the nature of the social media posts, the company's social media policies, and any applicable state or federal laws (Social Media And Wrongful Termination [9]).\n\nIn summary, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims under the NLRA, state laws, or other applicable laws. However, the employee's claims may be subject to various defenses, including the company's social media policies and the employee's failure to comply with those policies.\n\nReferences:\n\n[1] The Legal Implications of Employee Social Media Use\n[2] Can you lose your job for what you post on social media? Here\u2019s what the experts say\n[3] Can You Get Fired For Social Media Posts? Here's What The Law Says\n[4] Be careful with what you post: Can you be fired for what you write on social media?\n[5] No Longer Available\n[6] Guidance for Employers on Dealing with Cont",
+      "answer_b": "Based on the search results, it appears that the provided links are related to the Employee Express system, which is an automated system for federal employees to manage their payroll and personnel information. However, these sources do not directly address the legal question of potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media.\n\nTo answer the legal question, we need to look beyond the provided search results and consider relevant statutes, regulations, and case law. \n\nIn the United States, federal employees are protected by Title VII of the Civil Rights Act of 1964, which prohibits employment discrimination based on race, color, national origin, sex, or religion (42 U.S.C. \u00a7 2000e-2). The First Amendment also protects federal employees' free speech rights, including their right to express opinions on matters of public concern (Pickering v. Board of Education, 391 U.S. 563 (1968)).\n\nHowever, the First Amendment does not protect speech that is \"on the job\" or \"pursuant to official duties\" (Connick v. Myers, 461 U.S. 138 (1983)). Additionally, federal employees may be subject to the Hatch Act, which prohibits certain forms of political activity by federal employees (5 U.S.C. \u00a7 7324).\n\nRegarding DEI policies, federal agencies are required to implement policies and procedures to promote diversity, equity, and inclusion in the workplace (Executive Order 13950, 86 Fed. Reg. 37, 011 (July 26, 2021)). However, these policies must be implemented in a manner that respects employees' free speech rights.\n\nIn the context of criticizing company DEI policies on personal social media, an employee may have a potential wrongful termination claim if they can show that their speech was protected by the First Amendment and that the termination was motivated by the speech (Garcetti v. Ceballos, 547 U.S. 410 (2006)).\n\nTo establish a wrongful termination claim, the employee would need to demonstrate that:\n\n1. The speech was protected by the First Amendment (e.g., it was on a matter of public concern and not \"on the job\" or \"pursuant to official duties\").\n2. The speech was a motivating factor in the termination decision (e.g., the employer knew about the speech and terminated the employee in retaliation).\n3. The employer would not have terminated the employee but for the",
+      "winner": "exa",
+      "confidence": 2,
+      "reasoning": "Overall: A=87.9, B=82.1 (diff=5.7%). Legal Accuracy: A better (9 vs 8); Citation Quality: B better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 1951.6549110412598
+    },
+    {
+      "query": "What are the potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media?",
+      "provider_a": "exa",
+      "provider_b": "serp_duckduckgo",
+      "answer_a": "An employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The National Labor Relations Act (NLRA) protects employees from retaliation for engaging in concerted activities, including discussing working conditions and criticizing company policies (Guidance for Employers on Dealing with Controversial Commentary [6]).\n\nHowever, the NLRA does not protect employees from being fired for making statements that are deemed defamatory or that harm the company's reputation (Can Employees Be Fired for Social Media Posts By Employers? [7]). Additionally, employees may be subject to termination for violating company social media policies, which may be enforceable under employment contracts or company policies (The Legal Implications of Employee Social Media Use [1]).\n\nIn the United States, employees generally do not have a constitutional right to free speech in the workplace, and employers may terminate employees for making statements that are deemed to be contrary to company policies or that harm the company's reputation (You Can\u2019t Fire Me For A Facebook Post! I Have A Right To Free Speech! (US) [10]).\n\nHowever, employees may have claims under state laws, such as California's Labor Code, which prohibits employers from terminating employees for engaging in protected activities, including discussing working conditions and criticizing company policies (Can Your Employer Fire You Over Social Media Posts? [8]).\n\nTo determine whether an employee has a valid wrongful termination claim, it is essential to consider the specific facts and circumstances of the case, including the nature of the social media posts, the company's social media policies, and any applicable state or federal laws (Social Media And Wrongful Termination [9]).\n\nIn summary, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims under the NLRA, state laws, or other applicable laws. However, the employee's claims may be subject to various defenses, including the company's social media policies and the employee's failure to comply with those policies.\n\nReferences:\n\n[1] The Legal Implications of Employee Social Media Use\n[2] Can you lose your job for what you post on social media? Here\u2019s what the experts say\n[3] Can You Get Fired For Social Media Posts? Here's What The Law Says\n[4] Be careful with what you post: Can you be fired for what you write on social media?\n[5] No Longer Available\n[6] Guidance for Employers on Dealing with Cont",
+      "answer_b": "Based on the search results, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The National Labor Relations Act (NLRA) protects employees' rights to engage in concerted activities, including discussing working conditions and criticizing company policies, as long as such activities are not disloyal or maliciously false [4].\n\nThe NLRA prohibits employers from disciplining or terminating employees for engaging in protected concerted activities, including social media posts that criticize company policies [4, 6]. However, employers may have legitimate reasons to discipline or terminate employees for social media posts that are not protected by the NLRA, such as posts that are harassing, discriminatory, or disloyal [8].\n\nTo determine whether an employee's social media post is protected by the NLRA, employers should consider the following factors:\n\n1. Whether the post is related to a term or condition of employment [1].\n2. Whether the post is made in a personal capacity or as part of a concerted activity [2].\n3. Whether the post is critical of the employer or its policies [3].\n\nEmployers should also consider having a social media policy that is carefully crafted to comply with the NLRA [10]. Such a policy should require employees to adhere to other relevant company policies, such as codes of conduct or anti-discrimination and anti-harassment policies, when posting on social media [8].\n\nIn the case of an employee who is fired for criticizing company DEI policies on personal social media, the employee may have a potential wrongful termination claim if the employer's actions were motivated by a desire to suppress the employee's protected concerted activity [4, 6]. The employee may also have a claim if the employer's social media policy is overly broad or does not provide adequate notice to employees of what is expected of them [10].\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* National Labor Relations Act (NLRA) [4, 6]\n* National Labor Relations Board (NLRB) decisions and guidance [1, 2, 6, 10]\n\nRelevant case law mentioned in the sources includes:\n\n* NLRB decisions and guidance on social media and the NLRA [1, 2, 6, 10]\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims if the employer's actions were motivated by a desire to suppress the employee's protected concerted",
+      "winner": "serp_duckduckgo",
+      "confidence": 1,
+      "reasoning": "Overall: A=85.7, B=88.6 (diff=2.9%). Legal Accuracy: B better (9 vs 8); Completeness: A better (9 vs 8); Legal Reasoning: B better (9 vs 8)",
+      "judgment_latency_ms": 2368.3340549468994
+    },
+    {
+      "query": "What are the potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media?",
+      "provider_a": "serp_google",
+      "provider_b": "google",
+      "answer_a": "Based on the search results, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. However, the outcome depends on various factors, including the content of the post, the employer's social media policy, and applicable labor laws.\n\nIn the United States, employees generally have the right to free speech, but this right is not absolute [2]. The National Labor Relations Act (NLRA) protects employees from retaliation for engaging in concerted activities, including discussing working conditions and criticizing management [6]. However, the NLRA does not protect employees from being fired for making malicious or reckless statements that harm the employer's reputation [10].\n\nCourts have consistently held that employees cannot succeed on free speech violation claims against private employers for criticizing the company on social media [2]. For example, in a recent case, the Ohio Court of Appeals ruled that an employee's Facebook post criticizing the company's management was not protected by the First Amendment [2].\n\nHowever, employees may have a claim for wrongful termination if the employer's social media policy is overly broad or violates labor laws [10]. For instance, the NLRA prohibits employers from maintaining policies that prohibit employees from discussing wages, working conditions, or other terms and conditions of employment [6].\n\nIn addition, employees may have a claim for retaliation under the NLRA if they are fired for engaging in protected concerted activities, such as criticizing the company's DEI policies [6]. The NLRA prohibits employers from retaliating against employees for engaging in protected activities, including filing complaints with the NLRB [6].\n\nTo determine whether an employee has a valid wrongful termination claim, it is essential to consider the specific facts and circumstances of the case, including the content of the social media post, the employer's social media policy, and applicable labor laws.\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* National Labor Relations Act (NLRA)\n* First Amendment to the United States Constitution\n* National Labor Relations Board (NLRB) regulations\n\nRelevant case law mentioned in the sources includes:\n\n* Ohio Court of Appeals decision (cited in [2])\n* NLRB complaints and decisions (cited in [6] and [8])\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims, but the outcome depends on various factors, including the content of the post, the employer's social media policy, and applicable labor laws.",
+      "answer_b": "An employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The analysis of the search results reveals that the employee's First Amendment rights may be implicated, as well as potential claims under Title VII of the Civil Rights Act of 1964.\n\nThe First Amendment protects employees from government interference with their speech, but it does not necessarily protect them from private employer retaliation [8]. However, some courts have recognized that employees have a limited right to engage in off-duty speech that is not directly related to their employment [5]. In Swindol v. Aero Products International, Inc., the court held that an employee's off-duty speech was protected by the First Amendment, but only if it was not directly related to the employee's employment [5].\n\nTitle VII of the Civil Rights Act of 1964 prohibits employers from discriminating against employees based on their protected characteristics, including their association with a particular group or ideology [7]. If the employee's criticism of the company's DEI policies was motivated by a protected characteristic, such as their association with a particular racial or ethnic group, they may have a claim under Title VII.\n\nIn addition, some courts have recognized that employees have a right to engage in political activity outside of work, including on social media [4]. However, employers may still impose limits on this activity if it is deemed to be interfering with the employee's work or creating a hostile work environment [3].\n\nTo determine whether the employee's termination was wrongful, it would be necessary to examine the specific facts of the case, including the employee's speech, the employer's policies, and the employer's motivations for terminating the employee. If the employee can show that their termination was motivated by their protected speech or association, they may have a claim for wrongful termination.\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims under the First Amendment and Title VII of the Civil Rights Act of 1964. The analysis of the search results reveals that the employee's speech may be protected, and that employers may have limited ability to regulate employee conduct outside of work.\n\nReferences:\n\n[1] Jackson Spencer Law, Can Your Boss Fire You for Your Social Media Posts in Texas?\n[2] Foster Swift, Can (or Should) Employers Regulate Employee Conduct Outside of Work?\n[3] Epstein Becker Green, Dealing with Controversial Commentary? Some Guidance and Guardrails for Employ",
+      "winner": "google",
+      "confidence": 2,
+      "reasoning": "Overall: A=90.0, B=80.0 (diff=10.0%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 7769.181966781616
+    },
+    {
+      "query": "What are the potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media?",
+      "provider_a": "google",
+      "provider_b": "serp_bing",
+      "answer_a": "An employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The analysis of the search results reveals that the employee's First Amendment rights may be implicated, as well as potential claims under Title VII of the Civil Rights Act of 1964.\n\nThe First Amendment protects employees from government interference with their speech, but it does not necessarily protect them from private employer retaliation [8]. However, some courts have recognized that employees have a limited right to engage in off-duty speech that is not directly related to their employment [5]. In Swindol v. Aero Products International, Inc., the court held that an employee's off-duty speech was protected by the First Amendment, but only if it was not directly related to the employee's employment [5].\n\nTitle VII of the Civil Rights Act of 1964 prohibits employers from discriminating against employees based on their protected characteristics, including their association with a particular group or ideology [7]. If the employee's criticism of the company's DEI policies was motivated by a protected characteristic, such as their association with a particular racial or ethnic group, they may have a claim under Title VII.\n\nIn addition, some courts have recognized that employees have a right to engage in political activity outside of work, including on social media [4]. However, employers may still impose limits on this activity if it is deemed to be interfering with the employee's work or creating a hostile work environment [3].\n\nTo determine whether the employee's termination was wrongful, it would be necessary to examine the specific facts of the case, including the employee's speech, the employer's policies, and the employer's motivations for terminating the employee. If the employee can show that their termination was motivated by their protected speech or association, they may have a claim for wrongful termination.\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims under the First Amendment and Title VII of the Civil Rights Act of 1964. The analysis of the search results reveals that the employee's speech may be protected, and that employers may have limited ability to regulate employee conduct outside of work.\n\nReferences:\n\n[1] Jackson Spencer Law, Can Your Boss Fire You for Your Social Media Posts in Texas?\n[2] Foster Swift, Can (or Should) Employers Regulate Employee Conduct Outside of Work?\n[3] Epstein Becker Green, Dealing with Controversial Commentary? Some Guidance and Guardrails for Employ",
+      "answer_b": "Based on the search results, it appears that the provided links are related to the Employee Express system, which is an automated system for federal employees to manage their payroll and personnel information. However, these sources do not directly address the legal question of potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media.\n\nTo answer the legal question, we need to look beyond the provided search results and consider relevant statutes, regulations, and case law. \n\nIn the United States, federal employees are protected by Title VII of the Civil Rights Act of 1964, which prohibits employment discrimination based on race, color, national origin, sex, or religion (42 U.S.C. \u00a7 2000e-2). The First Amendment also protects federal employees' free speech rights, including their right to express opinions on matters of public concern (Pickering v. Board of Education, 391 U.S. 563 (1968)).\n\nHowever, the First Amendment does not protect speech that is \"on the job\" or \"pursuant to official duties\" (Connick v. Myers, 461 U.S. 138 (1983)). Additionally, federal employees may be subject to the Hatch Act, which prohibits certain forms of political activity by federal employees (5 U.S.C. \u00a7 7324).\n\nRegarding DEI policies, federal agencies are required to implement policies and procedures to promote diversity, equity, and inclusion in the workplace (Executive Order 13950, 86 Fed. Reg. 37, 011 (July 26, 2021)). However, these policies must be implemented in a manner that respects employees' free speech rights.\n\nIn the context of criticizing company DEI policies on personal social media, an employee may have a potential wrongful termination claim if they can show that their speech was protected by the First Amendment and that the termination was motivated by the speech (Garcetti v. Ceballos, 547 U.S. 410 (2006)).\n\nTo establish a wrongful termination claim, the employee would need to demonstrate that:\n\n1. The speech was protected by the First Amendment (e.g., it was on a matter of public concern and not \"on the job\" or \"pursuant to official duties\").\n2. The speech was a motivating factor in the termination decision (e.g., the employer knew about the speech and terminated the employee in retaliation).\n3. The employer would not have terminated the employee but for the",
+      "winner": "google",
+      "confidence": 2,
+      "reasoning": "Overall: A=89.3, B=82.1 (diff=7.1%). Legal Accuracy: A better (9 vs 8); Citation Quality: B better (9 vs 8); Completeness: A better (10 vs 8)",
+      "judgment_latency_ms": 2655.165910720825
+    },
+    {
+      "query": "What are the potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "google",
+      "answer_a": "Based on the search results, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The National Labor Relations Act (NLRA) protects employees' rights to engage in concerted activities, including discussing working conditions and criticizing company policies, as long as such activities are not disloyal or maliciously false [4].\n\nThe NLRA prohibits employers from disciplining or terminating employees for engaging in protected concerted activities, including social media posts that criticize company policies [4, 6]. However, employers may have legitimate reasons to discipline or terminate employees for social media posts that are not protected by the NLRA, such as posts that are harassing, discriminatory, or disloyal [8].\n\nTo determine whether an employee's social media post is protected by the NLRA, employers should consider the following factors:\n\n1. Whether the post is related to a term or condition of employment [1].\n2. Whether the post is made in a personal capacity or as part of a concerted activity [2].\n3. Whether the post is critical of the employer or its policies [3].\n\nEmployers should also consider having a social media policy that is carefully crafted to comply with the NLRA [10]. Such a policy should require employees to adhere to other relevant company policies, such as codes of conduct or anti-discrimination and anti-harassment policies, when posting on social media [8].\n\nIn the case of an employee who is fired for criticizing company DEI policies on personal social media, the employee may have a potential wrongful termination claim if the employer's actions were motivated by a desire to suppress the employee's protected concerted activity [4, 6]. The employee may also have a claim if the employer's social media policy is overly broad or does not provide adequate notice to employees of what is expected of them [10].\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* National Labor Relations Act (NLRA) [4, 6]\n* National Labor Relations Board (NLRB) decisions and guidance [1, 2, 6, 10]\n\nRelevant case law mentioned in the sources includes:\n\n* NLRB decisions and guidance on social media and the NLRA [1, 2, 6, 10]\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims if the employer's actions were motivated by a desire to suppress the employee's protected concerted",
+      "answer_b": "An employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The analysis of the search results reveals that the employee's First Amendment rights may be implicated, as well as potential claims under Title VII of the Civil Rights Act of 1964.\n\nThe First Amendment protects employees from government interference with their speech, but it does not necessarily protect them from private employer retaliation [8]. However, some courts have recognized that employees have a limited right to engage in off-duty speech that is not directly related to their employment [5]. In Swindol v. Aero Products International, Inc., the court held that an employee's off-duty speech was protected by the First Amendment, but only if it was not directly related to the employee's employment [5].\n\nTitle VII of the Civil Rights Act of 1964 prohibits employers from discriminating against employees based on their protected characteristics, including their association with a particular group or ideology [7]. If the employee's criticism of the company's DEI policies was motivated by a protected characteristic, such as their association with a particular racial or ethnic group, they may have a claim under Title VII.\n\nIn addition, some courts have recognized that employees have a right to engage in political activity outside of work, including on social media [4]. However, employers may still impose limits on this activity if it is deemed to be interfering with the employee's work or creating a hostile work environment [3].\n\nTo determine whether the employee's termination was wrongful, it would be necessary to examine the specific facts of the case, including the employee's speech, the employer's policies, and the employer's motivations for terminating the employee. If the employee can show that their termination was motivated by their protected speech or association, they may have a claim for wrongful termination.\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims under the First Amendment and Title VII of the Civil Rights Act of 1964. The analysis of the search results reveals that the employee's speech may be protected, and that employers may have limited ability to regulate employee conduct outside of work.\n\nReferences:\n\n[1] Jackson Spencer Law, Can Your Boss Fire You for Your Social Media Posts in Texas?\n[2] Foster Swift, Can (or Should) Employers Regulate Employee Conduct Outside of Work?\n[3] Epstein Becker Green, Dealing with Controversial Commentary? Some Guidance and Guardrails for Employ",
+      "winner": "google",
+      "confidence": 2,
+      "reasoning": "Overall: A=90.0, B=80.0 (diff=10.0%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 3099.2112159729004
+    },
+    {
+      "query": "What are the potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media?",
+      "provider_a": "serp_bing",
+      "provider_b": "serp_google",
+      "answer_a": "Based on the search results, it appears that the provided links are related to the Employee Express system, which is an automated system for federal employees to manage their payroll and personnel information. However, these sources do not directly address the legal question of potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media.\n\nTo answer the legal question, we need to look beyond the provided search results and consider relevant statutes, regulations, and case law. \n\nIn the United States, federal employees are protected by Title VII of the Civil Rights Act of 1964, which prohibits employment discrimination based on race, color, national origin, sex, or religion (42 U.S.C. \u00a7 2000e-2). The First Amendment also protects federal employees' free speech rights, including their right to express opinions on matters of public concern (Pickering v. Board of Education, 391 U.S. 563 (1968)).\n\nHowever, the First Amendment does not protect speech that is \"on the job\" or \"pursuant to official duties\" (Connick v. Myers, 461 U.S. 138 (1983)). Additionally, federal employees may be subject to the Hatch Act, which prohibits certain forms of political activity by federal employees (5 U.S.C. \u00a7 7324).\n\nRegarding DEI policies, federal agencies are required to implement policies and procedures to promote diversity, equity, and inclusion in the workplace (Executive Order 13950, 86 Fed. Reg. 37, 011 (July 26, 2021)). However, these policies must be implemented in a manner that respects employees' free speech rights.\n\nIn the context of criticizing company DEI policies on personal social media, an employee may have a potential wrongful termination claim if they can show that their speech was protected by the First Amendment and that the termination was motivated by the speech (Garcetti v. Ceballos, 547 U.S. 410 (2006)).\n\nTo establish a wrongful termination claim, the employee would need to demonstrate that:\n\n1. The speech was protected by the First Amendment (e.g., it was on a matter of public concern and not \"on the job\" or \"pursuant to official duties\").\n2. The speech was a motivating factor in the termination decision (e.g., the employer knew about the speech and terminated the employee in retaliation).\n3. The employer would not have terminated the employee but for the",
+      "answer_b": "Based on the search results, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. However, the outcome depends on various factors, including the content of the post, the employer's social media policy, and applicable labor laws.\n\nIn the United States, employees generally have the right to free speech, but this right is not absolute [2]. The National Labor Relations Act (NLRA) protects employees from retaliation for engaging in concerted activities, including discussing working conditions and criticizing management [6]. However, the NLRA does not protect employees from being fired for making malicious or reckless statements that harm the employer's reputation [10].\n\nCourts have consistently held that employees cannot succeed on free speech violation claims against private employers for criticizing the company on social media [2]. For example, in a recent case, the Ohio Court of Appeals ruled that an employee's Facebook post criticizing the company's management was not protected by the First Amendment [2].\n\nHowever, employees may have a claim for wrongful termination if the employer's social media policy is overly broad or violates labor laws [10]. For instance, the NLRA prohibits employers from maintaining policies that prohibit employees from discussing wages, working conditions, or other terms and conditions of employment [6].\n\nIn addition, employees may have a claim for retaliation under the NLRA if they are fired for engaging in protected concerted activities, such as criticizing the company's DEI policies [6]. The NLRA prohibits employers from retaliating against employees for engaging in protected activities, including filing complaints with the NLRB [6].\n\nTo determine whether an employee has a valid wrongful termination claim, it is essential to consider the specific facts and circumstances of the case, including the content of the social media post, the employer's social media policy, and applicable labor laws.\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* National Labor Relations Act (NLRA)\n* First Amendment to the United States Constitution\n* National Labor Relations Board (NLRB) regulations\n\nRelevant case law mentioned in the sources includes:\n\n* Ohio Court of Appeals decision (cited in [2])\n* NLRB complaints and decisions (cited in [6] and [8])\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims, but the outcome depends on various factors, including the content of the post, the employer's social media policy, and applicable labor laws.",
+      "winner": "serp_google",
+      "confidence": 2,
+      "reasoning": "Overall: A=87.9, B=77.9 (diff=10.0%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 6); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2218.256950378418
+    },
+    {
+      "query": "What are the potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "serp_google",
+      "answer_a": "Based on the search results, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The National Labor Relations Act (NLRA) protects employees' rights to engage in concerted activities, including discussing working conditions and criticizing company policies, as long as such activities are not disloyal or maliciously false [4].\n\nThe NLRA prohibits employers from disciplining or terminating employees for engaging in protected concerted activities, including social media posts that criticize company policies [4, 6]. However, employers may have legitimate reasons to discipline or terminate employees for social media posts that are not protected by the NLRA, such as posts that are harassing, discriminatory, or disloyal [8].\n\nTo determine whether an employee's social media post is protected by the NLRA, employers should consider the following factors:\n\n1. Whether the post is related to a term or condition of employment [1].\n2. Whether the post is made in a personal capacity or as part of a concerted activity [2].\n3. Whether the post is critical of the employer or its policies [3].\n\nEmployers should also consider having a social media policy that is carefully crafted to comply with the NLRA [10]. Such a policy should require employees to adhere to other relevant company policies, such as codes of conduct or anti-discrimination and anti-harassment policies, when posting on social media [8].\n\nIn the case of an employee who is fired for criticizing company DEI policies on personal social media, the employee may have a potential wrongful termination claim if the employer's actions were motivated by a desire to suppress the employee's protected concerted activity [4, 6]. The employee may also have a claim if the employer's social media policy is overly broad or does not provide adequate notice to employees of what is expected of them [10].\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* National Labor Relations Act (NLRA) [4, 6]\n* National Labor Relations Board (NLRB) decisions and guidance [1, 2, 6, 10]\n\nRelevant case law mentioned in the sources includes:\n\n* NLRB decisions and guidance on social media and the NLRA [1, 2, 6, 10]\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims if the employer's actions were motivated by a desire to suppress the employee's protected concerted",
+      "answer_b": "Based on the search results, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. However, the outcome depends on various factors, including the content of the post, the employer's social media policy, and applicable labor laws.\n\nIn the United States, employees generally have the right to free speech, but this right is not absolute [2]. The National Labor Relations Act (NLRA) protects employees from retaliation for engaging in concerted activities, including discussing working conditions and criticizing management [6]. However, the NLRA does not protect employees from being fired for making malicious or reckless statements that harm the employer's reputation [10].\n\nCourts have consistently held that employees cannot succeed on free speech violation claims against private employers for criticizing the company on social media [2]. For example, in a recent case, the Ohio Court of Appeals ruled that an employee's Facebook post criticizing the company's management was not protected by the First Amendment [2].\n\nHowever, employees may have a claim for wrongful termination if the employer's social media policy is overly broad or violates labor laws [10]. For instance, the NLRA prohibits employers from maintaining policies that prohibit employees from discussing wages, working conditions, or other terms and conditions of employment [6].\n\nIn addition, employees may have a claim for retaliation under the NLRA if they are fired for engaging in protected concerted activities, such as criticizing the company's DEI policies [6]. The NLRA prohibits employers from retaliating against employees for engaging in protected activities, including filing complaints with the NLRB [6].\n\nTo determine whether an employee has a valid wrongful termination claim, it is essential to consider the specific facts and circumstances of the case, including the content of the social media post, the employer's social media policy, and applicable labor laws.\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* National Labor Relations Act (NLRA)\n* First Amendment to the United States Constitution\n* National Labor Relations Board (NLRB) regulations\n\nRelevant case law mentioned in the sources includes:\n\n* Ohio Court of Appeals decision (cited in [2])\n* NLRB complaints and decisions (cited in [6] and [8])\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims, but the outcome depends on various factors, including the content of the post, the employer's social media policy, and applicable labor laws.",
+      "winner": "serp_google",
+      "confidence": 2,
+      "reasoning": "Overall: A=90.0, B=80.0 (diff=10.0%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2291.792869567871
+    },
+    {
+      "query": "What are the potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "serp_bing",
+      "answer_a": "Based on the search results, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims. The National Labor Relations Act (NLRA) protects employees' rights to engage in concerted activities, including discussing working conditions and criticizing company policies, as long as such activities are not disloyal or maliciously false [4].\n\nThe NLRA prohibits employers from disciplining or terminating employees for engaging in protected concerted activities, including social media posts that criticize company policies [4, 6]. However, employers may have legitimate reasons to discipline or terminate employees for social media posts that are not protected by the NLRA, such as posts that are harassing, discriminatory, or disloyal [8].\n\nTo determine whether an employee's social media post is protected by the NLRA, employers should consider the following factors:\n\n1. Whether the post is related to a term or condition of employment [1].\n2. Whether the post is made in a personal capacity or as part of a concerted activity [2].\n3. Whether the post is critical of the employer or its policies [3].\n\nEmployers should also consider having a social media policy that is carefully crafted to comply with the NLRA [10]. Such a policy should require employees to adhere to other relevant company policies, such as codes of conduct or anti-discrimination and anti-harassment policies, when posting on social media [8].\n\nIn the case of an employee who is fired for criticizing company DEI policies on personal social media, the employee may have a potential wrongful termination claim if the employer's actions were motivated by a desire to suppress the employee's protected concerted activity [4, 6]. The employee may also have a claim if the employer's social media policy is overly broad or does not provide adequate notice to employees of what is expected of them [10].\n\nRelevant statutes and regulations mentioned in the sources include:\n\n* National Labor Relations Act (NLRA) [4, 6]\n* National Labor Relations Board (NLRB) decisions and guidance [1, 2, 6, 10]\n\nRelevant case law mentioned in the sources includes:\n\n* NLRB decisions and guidance on social media and the NLRA [1, 2, 6, 10]\n\nIn conclusion, an employee who is fired for criticizing company DEI policies on personal social media may have potential wrongful termination claims if the employer's actions were motivated by a desire to suppress the employee's protected concerted",
+      "answer_b": "Based on the search results, it appears that the provided links are related to the Employee Express system, which is an automated system for federal employees to manage their payroll and personnel information. However, these sources do not directly address the legal question of potential wrongful termination claims for an employee fired for criticizing company DEI policies on personal social media.\n\nTo answer the legal question, we need to look beyond the provided search results and consider relevant statutes, regulations, and case law. \n\nIn the United States, federal employees are protected by Title VII of the Civil Rights Act of 1964, which prohibits employment discrimination based on race, color, national origin, sex, or religion (42 U.S.C. \u00a7 2000e-2). The First Amendment also protects federal employees' free speech rights, including their right to express opinions on matters of public concern (Pickering v. Board of Education, 391 U.S. 563 (1968)).\n\nHowever, the First Amendment does not protect speech that is \"on the job\" or \"pursuant to official duties\" (Connick v. Myers, 461 U.S. 138 (1983)). Additionally, federal employees may be subject to the Hatch Act, which prohibits certain forms of political activity by federal employees (5 U.S.C. \u00a7 7324).\n\nRegarding DEI policies, federal agencies are required to implement policies and procedures to promote diversity, equity, and inclusion in the workplace (Executive Order 13950, 86 Fed. Reg. 37, 011 (July 26, 2021)). However, these policies must be implemented in a manner that respects employees' free speech rights.\n\nIn the context of criticizing company DEI policies on personal social media, an employee may have a potential wrongful termination claim if they can show that their speech was protected by the First Amendment and that the termination was motivated by the speech (Garcetti v. Ceballos, 547 U.S. 410 (2006)).\n\nTo establish a wrongful termination claim, the employee would need to demonstrate that:\n\n1. The speech was protected by the First Amendment (e.g., it was on a matter of public concern and not \"on the job\" or \"pursuant to official duties\").\n2. The speech was a motivating factor in the termination decision (e.g., the employer knew about the speech and terminated the employee in retaliation).\n3. The employer would not have terminated the employee but for the",
+      "winner": "serp_bing",
+      "confidence": 2,
+      "reasoning": "Overall: A=90.0, B=80.0 (diff=10.0%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 1982.9366207122803
+    }
+  ],
+  "total_evaluation_latency_ms": 42462.42904663086,
+  "query_id": "Q2",
+  "scenario": "Employee fired for social media post criticizing company's DEI policies outside work hours",
+  "search_query": "employee fired social media DEI criticism wrongful termination NLRA First Amendment at-will",
+  "search_latencies_ms": {
+    "exa": 1357.3579788208008,
+    "google": 288.44690322875977,
+    "serp_google": 214.5090103149414,
+    "serp_bing": 222.49865531921387,
+    "serp_duckduckgo": 207.3969841003418
+  }
+}

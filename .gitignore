@@ -1,0 +1,6 @@
+.env
+/.venv
+/src/search/__pycache__
+/src/search
+*.pyc
+/.content_cache

@@ -1,0 +1,458 @@
+{
+  "timestamp": "20250909_164005",
+  "provider": "serp_bing",
+  "queries": [
+    {
+      "query_id": "Q1",
+      "query_text": "AI hiring screening compliance requirements NYC Local Law 144 California Illinois",
+      "providers": {
+        "serp_bing": {
+          "metrics": {
+            "authority_at_3": 0.267,
+            "high_auth_hit_at_3": false,
+            "utility_score_at_10": 0.684,
+            "latency_stats": {
+              "total_fetch_time_ms": 2839.5,
+              "avg_fetch_time_ms": 283.9,
+              "min_fetch_time_ms": 66.0,
+              "max_fetch_time_ms": 508.1,
+              "urls_evaluated": 10
+            }
+          },
+          "search_api_latency_ms": 0.0,
+          "evaluation_time_ms": 8416.1,
+          "total_time_ms": 8416.1,
+          "detailed_results": [
+            {
+              "url": "https://openai.com/",
+              "rank": 1,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 0,
+              "fetch_latency_ms": 252.73489952087402
+            },
+            {
+              "url": "https://deepai.org/chat/what-is-ai",
+              "rank": 2,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 328,
+              "fetch_latency_ms": 188.1399154663086
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+              "rank": 3,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 35,
+              "page_length": 36679,
+              "fetch_latency_ms": 508.09192657470703
+            },
+            {
+              "url": "https://www.britannica.com/technology/artificial-intelligence",
+              "rank": 4,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1481,
+              "fetch_latency_ms": 396.4722156524658
+            },
+            {
+              "url": "https://ai.google/",
+              "rank": 5,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 10,
+              "fetch_latency_ms": 333.5702419281006
+            },
+            {
+              "url": "https://www.coursera.org/articles/what-is-artificial-intelligence",
+              "rank": 6,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 2219,
+              "fetch_latency_ms": 490.30303955078125
+            },
+            {
+              "url": "https://www.ibm.com/think/topics/artificial-intelligence",
+              "rank": 7,
+              "authority_score": 0.3850176263219741,
+              "domain_score": 0.5,
+              "citation_bonus": 0.7700352526439482,
+              "citation_count": 1,
+              "page_length": 4255,
+              "fetch_latency_ms": 185.76383590698242
+            },
+            {
+              "url": "https://cloud.google.com/learn/what-is-artificial-intelligence?hl=en",
+              "rank": 8,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 2146,
+              "fetch_latency_ms": 337.53395080566406
+            },
+            {
+              "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+              "rank": 9,
+              "authority_score": 1.0,
+              "domain_score": 1.0,
+              "citation_bonus": 1.0,
+              "citation_count": 1,
+              "page_length": 1267,
+              "fetch_latency_ms": 80.91187477111816
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/c2l799gxjjpo",
+              "rank": 10,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1442,
+              "fetch_latency_ms": 65.97089767456055
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": "Q2",
+      "query_text": "employee fired social media DEI criticism wrongful termination NLRA First Amendment at-will",
+      "providers": {
+        "serp_bing": {
+          "metrics": {
+            "authority_at_3": 1.0,
+            "high_auth_hit_at_3": true,
+            "utility_score_at_10": 2.929,
+            "latency_stats": {
+              "total_fetch_time_ms": 2755.3,
+              "avg_fetch_time_ms": 275.5,
+              "min_fetch_time_ms": 121.9,
+              "max_fetch_time_ms": 808.3,
+              "urls_evaluated": 10
+            }
+          },
+          "search_api_latency_ms": 0.0,
+          "evaluation_time_ms": 4093.1,
+          "total_time_ms": 4093.1,
+          "detailed_results": [
+            {
+              "url": "https://www.employeeexpress.gov/Contact",
+              "rank": 1,
+              "authority_score": 1.0,
+              "domain_score": 1.0,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 878,
+              "fetch_latency_ms": 149.17492866516113
+            },
+            {
+              "url": "https://www.employeeexpress.gov/DefaultLogin.aspx.",
+              "rank": 2,
+              "authority_score": 1.0,
+              "domain_score": 1.0,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 889,
+              "fetch_latency_ms": 403.1190872192383
+            },
+            {
+              "url": "https://www.employeeexpress.gov/",
+              "rank": 3,
+              "authority_score": 1.0,
+              "domain_score": 1.0,
+              "citation_bonus": 1.0,
+              "citation_count": 2,
+              "page_length": 1198,
+              "fetch_latency_ms": 198.69065284729004
+            },
+            {
+              "url": "https://www.employeeexpress.gov/Authentication/Register",
+              "rank": 4,
+              "authority_score": 1.0,
+              "domain_score": 1.0,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 68,
+              "fetch_latency_ms": 121.92511558532715
+            },
+            {
+              "url": "https://www.employeeexpress.gov/RelatedLinks",
+              "rank": 5,
+              "authority_score": 1.0,
+              "domain_score": 1.0,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 890,
+              "fetch_latency_ms": 415.87305068969727
+            },
+            {
+              "url": "https://www.employeeexpress.gov/About",
+              "rank": 6,
+              "authority_score": 1.0,
+              "domain_score": 1.0,
+              "citation_bonus": 1.0,
+              "citation_count": 1,
+              "page_length": 1500,
+              "fetch_latency_ms": 219.97809410095215
+            },
+            {
+              "url": "https://www.employeeexpress.gov/AgencyList.aspx",
+              "rank": 7,
+              "authority_score": 1.0,
+              "domain_score": 1.0,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1319,
+              "fetch_latency_ms": 147.5048065185547
+            },
+            {
+              "url": "https://www.employeeexpress.gov/Authentication?selectionType=PIV",
+              "rank": 8,
+              "authority_score": 1.0,
+              "domain_score": 1.0,
+              "citation_bonus": 1.0,
+              "citation_count": 2,
+              "page_length": 933,
+              "fetch_latency_ms": 808.3481788635254
+            },
+            {
+              "url": "https://www.employeeexpress.gov/SecurityInfo",
+              "rank": 9,
+              "authority_score": 1.0,
+              "domain_score": 1.0,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1491,
+              "fetch_latency_ms": 165.3158664703369
+            },
+            {
+              "url": "https://www.employeeexpress.gov/Authentication/HelpDeskRequest",
+              "rank": 10,
+              "authority_score": 1.0,
+              "domain_score": 1.0,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 599,
+              "fetch_latency_ms": 125.35810470581055
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": "Q3",
+      "query_text": "equity compensation independent contractors securities law Rule 701 state blue sky",
+      "providers": {
+        "serp_bing": {
+          "metrics": {
+            "authority_at_3": 0.267,
+            "high_auth_hit_at_3": false,
+            "utility_score_at_10": 0.877,
+            "latency_stats": {
+              "total_fetch_time_ms": 4195.3,
+              "avg_fetch_time_ms": 419.5,
+              "min_fetch_time_ms": 98.3,
+              "max_fetch_time_ms": 1363.5,
+              "urls_evaluated": 10
+            }
+          },
+          "search_api_latency_ms": 0.0,
+          "evaluation_time_ms": 5486.7,
+          "total_time_ms": 5486.7,
+          "detailed_results": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/equity",
+              "rank": 1,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 5,
+              "page_length": 1689,
+              "fetch_latency_ms": 156.6908359527588
+            },
+            {
+              "url": "https://onlinepublichealth.gwu.edu/resources/equity-vs-equality/",
+              "rank": 2,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1484,
+              "fetch_latency_ms": 98.32620620727539
+            },
+            {
+              "url": "https://www.investopedia.com/terms/e/equity.asp",
+              "rank": 3,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 3519,
+              "fetch_latency_ms": 520.8430290222168
+            },
+            {
+              "url": "https://www.dictionary.com/browse/equity",
+              "rank": 4,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 1,
+              "page_length": 709,
+              "fetch_latency_ms": 248.52871894836426
+            },
+            {
+              "url": "https://dictionary.cambridge.org/dictionary/english/equity",
+              "rank": 5,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1777,
+              "fetch_latency_ms": 546.4520454406738
+            },
+            {
+              "url": "https://www.financestrategists.com/wealth-management/financial-statements/equity/",
+              "rank": 6,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 0,
+              "fetch_latency_ms": 266.36695861816406
+            },
+            {
+              "url": "https://usdictionary.com/definitions/equity/",
+              "rank": 7,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1436,
+              "fetch_latency_ms": 529.2952060699463
+            },
+            {
+              "url": "https://oxford-review.com/the-oxford-review-dei-diversity-equity-and-inclusion-dictionary/equity-definition-and-explanation/",
+              "rank": 8,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 0,
+              "fetch_latency_ms": 1363.4910583496094
+            },
+            {
+              "url": "https://investinganswers.com/dictionary/e/equity",
+              "rank": 9,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 0,
+              "fetch_latency_ms": 261.3213062286377
+            },
+            {
+              "url": "https://www.indeed.com/career-advice/career-development/equity-definition",
+              "rank": 10,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 0,
+              "fetch_latency_ms": 203.9940357208252
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "aggregate_report": {
+    "summary": {
+      "serp_bing": {
+        "authority_at_3": 0.511,
+        "high_auth_hit_rate": 0.333,
+        "avg_utility_score_at_10": 1.497,
+        "queries_evaluated": 3,
+        "latency_summary": {
+          "avg_search_api_latency_ms": 0.0,
+          "avg_evaluation_time_ms": 5998.6,
+          "avg_total_time_ms": 5998.6,
+          "fetch_time_stats": {
+            "avg_per_url_ms": 326.3,
+            "min_fetch_time_ms": 66.0,
+            "max_fetch_time_ms": 1363.5,
+            "total_urls_evaluated": 30
+          }
+        }
+      }
+    },
+    "detailed_comparison": [
+      {
+        "query_id": "Q1",
+        "query_text": "AI hiring screening compliance requirements NYC Local Law 144 California Illinois",
+        "provider_metrics": {
+          "serp_bing": {
+            "authority_at_3": 0.267,
+            "high_auth_hit_at_3": false,
+            "utility_score_at_10": 0.684,
+            "latency_stats": {
+              "total_fetch_time_ms": 2839.5,
+              "avg_fetch_time_ms": 283.9,
+              "min_fetch_time_ms": 66.0,
+              "max_fetch_time_ms": 508.1,
+              "urls_evaluated": 10
+            }
+          }
+        }
+      },
+      {
+        "query_id": "Q2",
+        "query_text": "employee fired social media DEI criticism wrongful termination NLRA First Amendment at-will",
+        "provider_metrics": {
+          "serp_bing": {
+            "authority_at_3": 1.0,
+            "high_auth_hit_at_3": true,
+            "utility_score_at_10": 2.929,
+            "latency_stats": {
+              "total_fetch_time_ms": 2755.3,
+              "avg_fetch_time_ms": 275.5,
+              "min_fetch_time_ms": 121.9,
+              "max_fetch_time_ms": 808.3,
+              "urls_evaluated": 10
+            }
+          }
+        }
+      },
+      {
+        "query_id": "Q3",
+        "query_text": "equity compensation independent contractors securities law Rule 701 state blue sky",
+        "provider_metrics": {
+          "serp_bing": {
+            "authority_at_3": 0.267,
+            "high_auth_hit_at_3": false,
+            "utility_score_at_10": 0.877,
+            "latency_stats": {
+              "total_fetch_time_ms": 4195.3,
+              "avg_fetch_time_ms": 419.5,
+              "min_fetch_time_ms": 98.3,
+              "max_fetch_time_ms": 1363.5,
+              "urls_evaluated": 10
+            }
+          }
+        }
+      }
+    ]
+  }
+}

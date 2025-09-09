@@ -1,0 +1,779 @@
+{
+  "query": "What are the compliance requirements for using AI in hiring across NYC, California, and Illinois?",
+  "timestamp": "2025-09-09 15:19:47",
+  "providers": {
+    "exa": {
+      "answer": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC Local Law 144 requires employers to conduct a bias audit of their AI hiring tools to ensure they do not discriminate against protected classes [1]. The law also requires employers to provide notice to applicants and employees about the use of AI in the hiring process.\n\n**California**\n\nCalifornia has set new standards for AI use in employment, including a requirement that employers use AI tools that are designed to prevent bias and ensure equal employment opportunities [2]. California SB 7 also requires employers to provide notice to applicants and employees about the use of AI in the hiring process and to disclose the use of AI in background checks [7].\n\n**Illinois**\n\nIllinois has joined Colorado and NYC in restricting the use of generative AI in HR, including AI hiring tools [10]. The law requires employers to conduct a bias audit of their AI hiring tools and to provide notice to applicants and employees about the use of AI in the hiring process.\n\n**Best Practices**\n\nTo mitigate the risk of AI hiring tool noncompliance with antidiscrimination statutes, employers should follow best practices such as:\n\n* Conducting regular bias audits of AI hiring tools [4]\n* Using AI tools that are designed to prevent bias and ensure equal employment opportunities [2]\n* Providing notice to applicants and employees about the use of AI in the hiring process [1, 2, 7]\n* Disclosing the use of AI in background checks [7]\n* Ensuring that AI hiring tools are transparent and explainable [8]\n\n**Regulatory Landscape**\n\nThe regulatory landscape for AI in hiring is rapidly evolving, with new laws and regulations being enacted at the state and local level [5, 9]. Employers should stay up-to-date on the latest developments and ensure that their AI hiring tools comply with all applicable laws and regulations.\n\nIn conclusion, the compliance requirements for using AI in hiring across NYC, California, and Illinois are complex and multifaceted. Employers must conduct regular bias audits, use AI tools that are designed to prevent bias, provide notice to applicants and employees, and disclose the use of AI in background checks. By following best practices and staying up-to-date on the latest regulatory developments, employers can ensure that their AI hiring tools comply with all applicable laws and regulations.\n\nReferences:\n\n[1] NYC Local Law 144 and Bias Audit Regulation\n[2",
+      "generation_latency_ms": 971.3380336761475,
+      "authority_of_cited": {
+        "authority_score": 0.5,
+        "num_citations": 9,
+        "cited_urls": [
+          "https://www.lumenova.ai/blog/new-york-city-local-law-144-bias-audit-regulation/",
+          "https://www.nixonpeabody.com/insights/alerts/2025/07/29/california-sets-new-standards-for-ai-use-in-employment",
+          "https://www.hireright.com/blog/california-sb-7-how-ai-hiring-rules-could-impact-background-checks",
+          "https://www.theemployerreport.com/2024/08/illinois-joins-colorado-and-nyc-in-restricting-generative-ai-in-hr-a-comprehensive-look-at-us-and-global-laws-on-algorithmic-bias-in-the-workplace/",
+          "https://blogs.duanemorris.com/classactiondefense/2025/04/29/best-practices-to-mitigate-the-risk-of-ai-hiring-tool-noncompliance-with-antidiscrimination-statutes/",
+          "https://www.nixonpeabody.com/insights/alerts/2025/07/29/california-sets-new-standards-for-ai-use-in-employment",
+          "https://www.hireright.com/blog/california-sb-7-how-ai-hiring-rules-could-impact-background-checks",
+          "https://www.troutman.com/insights/ai-and-hr-navigating-legal-challenges-in-recruiting-and-hiring.html",
+          "https://www.lumenova.ai/blog/new-york-city-local-law-144-bias-audit-regulation/"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 4.076719284057617
+      },
+      "support_ratio": {
+        "support_ratio": 0.917,
+        "supported_sentences": 11,
+        "total_sentences": 12,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC Local Law 144 requires employers to conduct a bias audit of their AI hiring tools to ensure they do not discriminate against protected classes [1]",
+            "max_similarity": 0.743736743927002,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The law also requires employers to provide notice to applicants and employees about the use of AI in the hiring process",
+            "max_similarity": 0.6768636107444763,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**California**\n\nCalifornia has set new standards for AI use in employment, including a requirement that employers use AI tools that are designed to prevent bias and ensure equal employment opportunities [2]",
+            "max_similarity": 0.791330873966217,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "California SB 7 also requires employers to provide notice to applicants and employees about the use of AI in the hiring process and to disclose the use of AI in background checks [7]",
+            "max_similarity": 0.7887046337127686,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Illinois**\n\nIllinois has joined Colorado and NYC in restricting the use of generative AI in HR, including AI hiring tools [10]",
+            "max_similarity": 0.8312018513679504,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The law requires employers to conduct a bias audit of their AI hiring tools and to provide notice to applicants and employees about the use of AI in the hiring process",
+            "max_similarity": 0.7251599431037903,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Best Practices**\n\nTo mitigate the risk of AI hiring tool noncompliance with antidiscrimination statutes, employers should follow best practices such as:\n\n* Conducting regular bias audits of AI hiring tools [4]\n* Using AI tools that are designed to prevent bias and ensure equal employment opportunities [2]\n* Providing notice to applicants and employees about the use of AI in the hiring process [1, 2, 7]\n* Disclosing the use of AI in background checks [7]\n* Ensuring that AI hiring tools are transparent and explainable [8]\n\n**Regulatory Landscape**\n\nThe regulatory landscape for AI in hiring is rapidly evolving, with new laws and regulations being enacted at the state and local level [5, 9]",
+            "max_similarity": 0.818930447101593,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Employers should stay up-to-date on the latest developments and ensure that their AI hiring tools comply with all applicable laws and regulations",
+            "max_similarity": 0.6938015818595886,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In conclusion, the compliance requirements for using AI in hiring across NYC, California, and Illinois are complex and multifaceted",
+            "max_similarity": 0.7451606392860413,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Employers must conduct regular bias audits, use AI tools that are designed to prevent bias, provide notice to applicants and employees, and disclose the use of AI in background checks",
+            "max_similarity": 0.7501274347305298,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "By following best practices and staying up-to-date on the latest regulatory developments, employers can ensure that their AI hiring tools comply with all applicable laws and regulations",
+            "max_similarity": 0.7253847122192383,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "References:\n\n[1] NYC Local Law 144 and Bias Audit Regulation\n[2",
+            "max_similarity": 0.5749310851097107,
+            "is_supported": false,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 65,
+        "latency_ms": 976.7780303955078
+      }
+    },
+    "google": {
+      "answer": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC has implemented a law, Local Law 144, which restricts the use of generative AI in hiring. The law requires employers to disclose the use of AI in hiring decisions and to provide a way for applicants to request an explanation of the AI decision-making process [3]. Enforcement of this law began on July 5, 2023 [3]. Additionally, NYC has provided guidance on the use of AI in hiring, which includes requirements for bias audits and testing [4].\n\n**California**\n\nCalifornia has enacted a law, Assembly Bill 2282, which requires employers to disclose the use of automated employment decision tools (AE DTs) in hiring decisions [5]. The law also requires employers to provide a way for applicants to request an explanation of the AE DT decision-making process.\n\n**Illinois**\n\nIllinois has joined Colorado and NYC in restricting the use of generative AI in HR [1]. However, the specific compliance requirements for Illinois are not explicitly stated in the search results.\n\n**General Requirements**\n\nThe use of AI in hiring is subject to various federal and state laws, including the Equal Employment Opportunity Commission (EEOC) guidelines on AI and employment [6]. Employers must ensure that their AI systems are fair, transparent, and unbiased, and that they comply with applicable laws and regulations.\n\n**Recommendations**\n\nTo comply with the compliance requirements for using AI in hiring across NYC, California, and Illinois, employers should:\n\n1. Disclose the use of AI in hiring decisions and provide a way for applicants to request an explanation of the AI decision-making process [3, 5].\n2. Conduct bias audits and testing to ensure that AI systems are fair and unbiased [4, 10].\n3. Ensure that AI systems comply with applicable laws and regulations, including the EEOC guidelines on AI and employment [6].\n4. Provide training to employees on the use of AI in hiring and the importance of ensuring that AI systems are fair and unbiased.\n\nReferences:\n\n[1] Illinois Joins Colorado and NYC in Restricting Generative AI in HR (Plus a Quick Survey of the Legal Landscape Across the US and Globally) | The Employer Report\n[2] Automated Decision Making Emerges as an Early Target of State AI Regulation | White & Case LLP\n[3] Enforcement of New",
+      "generation_latency_ms": 836.4570140838623,
+      "authority_of_cited": {
+        "authority_score": 0.5,
+        "num_citations": 10,
+        "cited_urls": [
+          "https://www.theemployerreport.com/2023/05/enforcement-of-new-york-citys-artificial-intelligence-rule-begins-july-5-2023-heres-what-employers-need-to-know/",
+          "https://www.theemployerreport.com/2023/05/enforcement-of-new-york-citys-artificial-intelligence-rule-begins-july-5-2023-heres-what-employers-need-to-know/",
+          "https://www.employmentlawworldview.com/new-york-update-nys-amends-warn-regulations-and-nyc-provides-guidance-on-new-law-concerning-use-of-ai-in-hiring-us/",
+          "https://www.purduegloballawschool.edu/blog/news/automated-employment-decision-tools",
+          "https://www.theemployerreport.com/2024/08/illinois-joins-colorado-and-nyc-in-restricting-generative-ai-in-hr-a-comprehensive-look-at-us-and-global-laws-on-algorithmic-bias-in-the-workplace/",
+          "https://www.fisherphillips.com/en/news-insights/comprehensive-review-of-ai-workplace-law-and-litigation-as-we-enter-2025.html",
+          "https://www.fisherphillips.com/en/news-insights/comprehensive-review-of-ai-workplace-law-and-litigation-as-we-enter-2025.html",
+          "https://www.theemployerreport.com/2024/08/illinois-joins-colorado-and-nyc-in-restricting-generative-ai-in-hr-a-comprehensive-look-at-us-and-global-laws-on-algorithmic-bias-in-the-workplace/",
+          "https://www.whitecase.com/insight-alert/automated-decision-making-emerges-early-target-state-ai-regulation",
+          "https://www.theemployerreport.com/2023/05/enforcement-of-new-york-citys-artificial-intelligence-rule-begins-july-5-2023-heres-what-employers-need-to-know/"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 2.665996551513672
+      },
+      "support_ratio": {
+        "support_ratio": 0.688,
+        "supported_sentences": 11,
+        "total_sentences": 16,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC has implemented a law, Local Law 144, which restricts the use of generative AI in hiring",
+            "max_similarity": 0.7690249681472778,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The law requires employers to disclose the use of AI in hiring decisions and to provide a way for applicants to request an explanation of the AI decision-making process [3]",
+            "max_similarity": 0.6921238899230957,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Enforcement of this law began on July 5, 2023 [3]",
+            "max_similarity": 0.5735719799995422,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Additionally, NYC has provided guidance on the use of AI in hiring, which includes requirements for bias audits and testing [4]",
+            "max_similarity": 0.7151991724967957,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**California**\n\nCalifornia has enacted a law, Assembly Bill 2282, which requires employers to disclose the use of automated employment decision tools (AE DTs) in hiring decisions [5]",
+            "max_similarity": 0.6525766849517822,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The law also requires employers to provide a way for applicants to request an explanation of the AE DT decision-making process",
+            "max_similarity": 0.5585739612579346,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Illinois**\n\nIllinois has joined Colorado and NYC in restricting the use of generative AI in HR [1]",
+            "max_similarity": 0.7775922417640686,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, the specific compliance requirements for Illinois are not explicitly stated in the search results",
+            "max_similarity": 0.5403940677642822,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**General Requirements**\n\nThe use of AI in hiring is subject to various federal and state laws, including the Equal Employment Opportunity Commission (EEOC) guidelines on AI and employment [6]",
+            "max_similarity": 0.677017867565155,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Employers must ensure that their AI systems are fair, transparent, and unbiased, and that they comply with applicable laws and regulations",
+            "max_similarity": 0.6802444458007812,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Recommendations**\n\nTo comply with the compliance requirements for using AI in hiring across NYC, California, and Illinois, employers should:\n\n1",
+            "max_similarity": 0.752320408821106,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Disclose the use of AI in hiring decisions and provide a way for applicants to request an explanation of the AI decision-making process [3, 5]",
+            "max_similarity": 0.5905430912971497,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Conduct bias audits and testing to ensure that AI systems are fair and unbiased [4, 10]",
+            "max_similarity": 0.5981115698814392,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Ensure that AI systems comply with applicable laws and regulations, including the EEOC guidelines on AI and employment [6]",
+            "max_similarity": 0.660749614238739,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Provide training to employees on the use of AI in hiring and the importance of ensuring that AI systems are fair and unbiased",
+            "max_similarity": 0.6304332613945007,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "References:\n\n[1] Illinois Joins Colorado and NYC in Restricting Generative AI in HR (Plus a Quick Survey of the Legal Landscape Across the US and Globally) | The Employer Report\n[2] Automated Decision Making Emerges as an Early Target of State AI Regulation | White & Case LLP\n[3] Enforcement of New",
+            "max_similarity": 0.8777768611907959,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 75,
+        "latency_ms": 451.2667655944824
+      }
+    },
+    "serp_google": {
+      "answer": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC has enacted a law regulating the use of Automated Employment Decision Tools (AEDTs) in hiring. AEDTs are defined as \"any algorithm or computational process, including but not limited to, machine learning, natural language processing, or predictive analytics, that is used to evaluate a candidate's qualifications, skills, or other characteristics for employment purposes\" [10]. Employers using AEDTs in NYC must provide candidates with a clear and concise disclosure of the use of AEDTs, including the type of AEDT used, the data used to train the AEDT, and the criteria used to evaluate candidates [10]. Additionally, employers must provide candidates with the opportunity to opt-out of the AEDT process and have their application reviewed by a human [10].\n\n**California**\n\nCalifornia has enacted a law regulating the use of AI in hiring, specifically the use of AEDTs. The law requires employers to disclose to candidates that an AEDT is being used in the hiring process and to provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates [4]. Additionally, California has established a new standard for AI use in employment, which requires employers to ensure that AI systems are fair, transparent, and unbiased [4].\n\n**Illinois**\n\nIllinois has enacted a law regulating the use of AI in hiring, specifically the use of AEDTs. The law requires employers to disclose to candidates that an AEDT is being used in the hiring process and to provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates [1]. Additionally, Illinois has joined Colorado and NYC in restricting the use of generative AI in HR [1].\n\n**Common Requirements**\n\nAll three jurisdictions require employers to provide candidates with clear and concise disclosure of the use of AEDTs in the hiring process. Employers must also provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates. Additionally, employers must ensure that AI systems are fair, transparent, and unbiased.\n\n**Statutes and Regulations**\n\n* NYC: NYC Administrative Code \u00a7 22-1103 [10]\n* California: California",
+      "generation_latency_ms": 953.1309604644775,
+      "authority_of_cited": {
+        "authority_score": 0.5,
+        "num_citations": 8,
+        "cited_urls": [
+          "https://www.dciconsult.com/nyc-automated-employment-decision-tools-bill",
+          "https://www.dciconsult.com/nyc-automated-employment-decision-tools-bill",
+          "https://www.dciconsult.com/nyc-automated-employment-decision-tools-bill",
+          "https://www.nixonpeabody.com/insights/alerts/2025/07/29/california-sets-new-standards-for-ai-use-in-employment",
+          "https://www.nixonpeabody.com/insights/alerts/2025/07/29/california-sets-new-standards-for-ai-use-in-employment",
+          "https://www.theemployerreport.com/2024/08/illinois-joins-colorado-and-nyc-in-restricting-generative-ai-in-hr-a-comprehensive-look-at-us-and-global-laws-on-algorithmic-bias-in-the-workplace/",
+          "https://www.theemployerreport.com/2024/08/illinois-joins-colorado-and-nyc-in-restricting-generative-ai-in-hr-a-comprehensive-look-at-us-and-global-laws-on-algorithmic-bias-in-the-workplace/",
+          "https://www.dciconsult.com/nyc-automated-employment-decision-tools-bill"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 2.039194107055664
+      },
+      "support_ratio": {
+        "support_ratio": 0.929,
+        "supported_sentences": 13,
+        "total_sentences": 14,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC has enacted a law regulating the use of Automated Employment Decision Tools (AEDTs) in hiring",
+            "max_similarity": 0.7680275440216064,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "AEDTs are defined as \"any algorithm or computational process, including but not limited to, machine learning, natural language processing, or predictive analytics, that is used to evaluate a candidate's qualifications, skills, or other characteristics for employment purposes\" [10]",
+            "max_similarity": 0.6015042066574097,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Employers using AEDTs in NYC must provide candidates with a clear and concise disclosure of the use of AEDTs, including the type of AEDT used, the data used to train the AEDT, and the criteria used to evaluate candidates [10]",
+            "max_similarity": 0.7052004337310791,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Additionally, employers must provide candidates with the opportunity to opt-out of the AEDT process and have their application reviewed by a human [10]",
+            "max_similarity": 0.6015309691429138,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**California**\n\nCalifornia has enacted a law regulating the use of AI in hiring, specifically the use of AEDTs",
+            "max_similarity": 0.7151297330856323,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The law requires employers to disclose to candidates that an AEDT is being used in the hiring process and to provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates [4]",
+            "max_similarity": 0.6773411631584167,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Additionally, California has established a new standard for AI use in employment, which requires employers to ensure that AI systems are fair, transparent, and unbiased [4]",
+            "max_similarity": 0.7786843180656433,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Illinois**\n\nIllinois has enacted a law regulating the use of AI in hiring, specifically the use of AEDTs",
+            "max_similarity": 0.7133978009223938,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The law requires employers to disclose to candidates that an AEDT is being used in the hiring process and to provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates [1]",
+            "max_similarity": 0.675240695476532,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Additionally, Illinois has joined Colorado and NYC in restricting the use of generative AI in HR [1]",
+            "max_similarity": 0.8186301589012146,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Common Requirements**\n\nAll three jurisdictions require employers to provide candidates with clear and concise disclosure of the use of AEDTs in the hiring process",
+            "max_similarity": 0.6531997323036194,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Employers must also provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates",
+            "max_similarity": 0.6637557148933411,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Additionally, employers must ensure that AI systems are fair, transparent, and unbiased",
+            "max_similarity": 0.6604894399642944,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Statutes and Regulations**\n\n* NYC: NYC Administrative Code \u00a7 22-1103 [10]\n* California: California",
+            "max_similarity": 0.4796825051307678,
+            "is_supported": false,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 73,
+        "latency_ms": 430.8509826660156
+      }
+    },
+    "serp_bing": {
+      "answer": "Based on the search results provided, it appears that the question is asking about the compliance requirements for using AI in hiring across NYC, California, and Illinois. However, the search results do not directly address this question. Instead, they provide information about Google's AI journey, products, and principles.\n\nTo answer the question, we need to look beyond the search results provided and consider relevant statutes, regulations, and case law related to AI in hiring. Here are some general guidelines and requirements for using AI in hiring in NYC, California, and Illinois:\n\n**New York City (NYC)**\n\n* NYC has enacted the Stop Sexual Harassment in NYC Act, which requires employers to provide training on preventing sexual harassment in the workplace, including training on AI-powered hiring tools (NYC Admin. Code \u00a7 8-107(15)).\n* The NYC Human Rights Law prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (NYC Admin. Code \u00a7 8-107(1)).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (NYC Admin. Code \u00a7 8-107(15)).\n\n**California**\n\n* California has enacted the Fair Employment and Housing Act (FEHA), which prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (Cal. Gov. Code \u00a7 12940).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (Cal. Gov. Code \u00a7 12940).\n* The California Department of Fair Employment and Housing (DFEH) has issued guidelines on the use of AI in hiring, emphasizing the importance of ensuring that AI-powered hiring tools are fair, transparent, and unbiased (DFEH, \"Guidelines on the Use of Artificial Intelligence in Hiring\").\n\n**Illinois**\n\n* Illinois has enacted the Illinois Human Rights Act, which prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (775 ILCS 5/1-101).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (775 ILCS 5/1-101).\n* The Illinois Department of Human Rights has issued guidelines on the use of AI in hiring, emphasizing the importance of ensuring that AI-powered hiring tools are fair, transparent, and unbiased (IDHR, \"Guid",
+      "generation_latency_ms": 845.6218242645264,
+      "authority_of_cited": {
+        "authority_score": 0.0,
+        "num_citations": 0,
+        "cited_urls": [],
+        "latency_ms": 0.02193450927734375
+      },
+      "support_ratio": {
+        "support_ratio": 0.056,
+        "supported_sentences": 1,
+        "total_sentences": 18,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results provided, it appears that the question is asking about the compliance requirements for using AI in hiring across NYC, California, and Illinois",
+            "max_similarity": 0.5196857452392578,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, the search results do not directly address this question",
+            "max_similarity": 0.25163331627845764,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Instead, they provide information about Google's AI journey, products, and principles",
+            "max_similarity": 0.6481958031654358,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "To answer the question, we need to look beyond the search results provided and consider relevant statutes, regulations, and case law related to AI in hiring",
+            "max_similarity": 0.426064133644104,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Here are some general guidelines and requirements for using AI in hiring in NYC, California, and Illinois:\n\n**New York City (NYC)**\n\n* NYC has enacted the Stop Sexual Harassment in NYC Act, which requires employers to provide training on preventing sexual harassment in the workplace, including training on AI-powered hiring tools (NYC Admin",
+            "max_similarity": 0.4474979341030121,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Code \u00a7 8-107(15))",
+            "max_similarity": 0.2758199870586395,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* The NYC Human Rights Law prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (NYC Admin",
+            "max_similarity": 0.20264598727226257,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Code \u00a7 8-107(1))",
+            "max_similarity": 0.2856549918651581,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (NYC Admin",
+            "max_similarity": 0.41034337878227234,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Code \u00a7 8-107(15))",
+            "max_similarity": 0.2758199870586395,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**California**\n\n* California has enacted the Fair Employment and Housing Act (FEHA), which prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (Cal",
+            "max_similarity": 0.16797441244125366,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Code \u00a7 12940)",
+            "max_similarity": 0.27163165807724,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (Cal",
+            "max_similarity": 0.42113080620765686,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Code \u00a7 12940)",
+            "max_similarity": 0.27163165807724,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* The California Department of Fair Employment and Housing (DFEH) has issued guidelines on the use of AI in hiring, emphasizing the importance of ensuring that AI-powered hiring tools are fair, transparent, and unbiased (DFEH, \"Guidelines on the Use of Artificial Intelligence in Hiring\")",
+            "max_similarity": 0.5230711102485657,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Illinois**\n\n* Illinois has enacted the Illinois Human Rights Act, which prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (775 ILCS 5/1-101)",
+            "max_similarity": 0.19803878664970398,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (775 ILCS 5/1-101)",
+            "max_similarity": 0.4219074845314026,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "* The Illinois Department of Human Rights has issued guidelines on the use of AI in hiring, emphasizing the importance of ensuring that AI-powered hiring tools are fair, transparent, and unbiased (IDHR, \"Guid",
+            "max_similarity": 0.5153154134750366,
+            "is_supported": false,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 78,
+        "latency_ms": 434.11803245544434
+      }
+    },
+    "serp_duckduckgo": {
+      "answer": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC's Local Law 144, also known as the Automated Employment Decision Tools Law, regulates the use of AI in hiring and promotion decisions. The law requires employers to:\n\n1. Provide notice to applicants and employees that AI is being used in the hiring process [9].\n2. Conduct bias audits on AI-driven hiring tools to ensure they are fair and unbiased [6].\n3. Implement procedures to address and mitigate bias in AI-driven hiring tools [10].\n4. Ensure that AI-driven hiring tools are transparent and explainable [1].\n5. Comply with the NYC Human Rights Law, which prohibits discriminatory practices in employment [2].\n\nThe final regulations on the use of AI in hiring and promotion were adopted by the NYC Commission on Human Rights in 2023, and the enforcement date was extended to July 5, 2023 [3].\n\n**California**\n\nCalifornia has not enacted a specific law regulating the use of AI in hiring, but employers must comply with the California Fair Employment and Housing Act (FEHA), which prohibits discriminatory practices in employment [not mentioned in the search results].\n\n**Illinois**\n\nIllinois has not enacted a specific law regulating the use of AI in hiring, but employers must comply with the Illinois Human Rights Act, which prohibits discriminatory practices in employment [not mentioned in the search results].\n\nIn summary, while there is no specific law regulating the use of AI in hiring in California and Illinois, employers in these states must still comply with federal and state anti-discrimination laws. In contrast, NYC's Local Law 144 provides specific requirements for the use of AI in hiring and promotion decisions.\n\nReferences:\n\n[1] Dorf Nelson & Zauderer LLP, \"Use of AI in HR - NY City Law 144\" (2024)\n[2] National Law Review, \"NYC's Local Law 144 and Final Regulations: Regulation of AI-Driven Hiring Tools in the United States\" (2025)\n[3] Littler, \"New York City Adopts Final Regulations on Use of AI in Hiring and Promotion, Extends Enforcement Date to July 5, 2023\" (2023)\n[6] EtiCAS AI, \"Lessons from Automating Bias Detection in AI Hiring Systems for NYC Law 144 Compliance\" (2024)\n[9] Crown",
+      "generation_latency_ms": 895.9512710571289,
+      "authority_of_cited": {
+        "authority_score": 0.5,
+        "num_citations": 11,
+        "cited_urls": [
+          "https://crownhudsonlaw.com/nyc-ai-hiring-law-ll144-bias-audit-notice-employer/",
+          "https://eticas.ai/wp-content/uploads/2024/12/Lessons-from-Automating-Bias-Detection-in-AI-Hiring-for-NYC-Law-144-Compliance.pdf",
+          "https://blog.stackaware.com/p/new-york-city-local-law-144-automated-employment-decision-tool-compliance-procedure-ai-governance",
+          "https://www.dorflaw.com/use-of-ai-in-hr-ny-city-law-144/",
+          "https://natlawreview.com/article/nyc-s-local-law-144-and-final-regulations-regulation-ai-driven-hiring-tools-united",
+          "https://www.littler.com/news-analysis/asap/new-york-city-adopts-final-regulations-use-ai-hiring-and-promotion-extends",
+          "https://www.dorflaw.com/use-of-ai-in-hr-ny-city-law-144/",
+          "https://natlawreview.com/article/nyc-s-local-law-144-and-final-regulations-regulation-ai-driven-hiring-tools-united",
+          "https://www.littler.com/news-analysis/asap/new-york-city-adopts-final-regulations-use-ai-hiring-and-promotion-extends",
+          "https://eticas.ai/wp-content/uploads/2024/12/Lessons-from-Automating-Bias-Detection-in-AI-Hiring-for-NYC-Law-144-Compliance.pdf",
+          "https://crownhudsonlaw.com/nyc-ai-hiring-law-ll144-bias-audit-notice-employer/"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 2.6929378509521484
+      },
+      "support_ratio": {
+        "support_ratio": 0.846,
+        "supported_sentences": 11,
+        "total_sentences": 13,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC's Local Law 144, also known as the Automated Employment Decision Tools Law, regulates the use of AI in hiring and promotion decisions",
+            "max_similarity": 0.7995087504386902,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The law requires employers to:\n\n1",
+            "max_similarity": 0.5035523176193237,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Provide notice to applicants and employees that AI is being used in the hiring process [9]",
+            "max_similarity": 0.5813403129577637,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Conduct bias audits on AI-driven hiring tools to ensure they are fair and unbiased [6]",
+            "max_similarity": 0.7459671497344971,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Implement procedures to address and mitigate bias in AI-driven hiring tools [10]",
+            "max_similarity": 0.670199990272522,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Ensure that AI-driven hiring tools are transparent and explainable [1]",
+            "max_similarity": 0.6051391363143921,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Comply with the NYC Human Rights Law, which prohibits discriminatory practices in employment [2]",
+            "max_similarity": 0.6283374428749084,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The final regulations on the use of AI in hiring and promotion were adopted by the NYC Commission on Human Rights in 2023, and the enforcement date was extended to July 5, 2023 [3]",
+            "max_similarity": 0.7089863419532776,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**California**\n\nCalifornia has not enacted a specific law regulating the use of AI in hiring, but employers must comply with the California Fair Employment and Housing Act (FEHA), which prohibits discriminatory practices in employment [not mentioned in the search results]",
+            "max_similarity": 0.6398442387580872,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Illinois**\n\nIllinois has not enacted a specific law regulating the use of AI in hiring, but employers must comply with the Illinois Human Rights Act, which prohibits discriminatory practices in employment [not mentioned in the search results]",
+            "max_similarity": 0.6430033445358276,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In summary, while there is no specific law regulating the use of AI in hiring in California and Illinois, employers in these states must still comply with federal and state anti-discrimination laws",
+            "max_similarity": 0.6818966269493103,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In contrast, NYC's Local Law 144 provides specific requirements for the use of AI in hiring and promotion decisions",
+            "max_similarity": 0.7498059272766113,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "References:\n\n[1] Dorf Nelson & Zauderer LLP, \"Use of AI in HR - NY City Law 144\" (2024)\n[2] National Law Review, \"NYC's Local Law 144 and Final Regulations: Regulation of AI-Driven Hiring Tools in the United States\" (2025)\n[3] Littler, \"New York City Adopts Final Regulations on Use of AI in Hiring and Promotion, Extends Enforcement Date to July 5, 2023\" (2023)\n[6] EtiCAS AI, \"Lessons from Automating Bias Detection in AI Hiring Systems for NYC Law 144 Compliance\" (2024)\n[9] Crown",
+            "max_similarity": 0.8381034135818481,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 71,
+        "latency_ms": 440.0930404663086
+      }
+    }
+  },
+  "content_fetch_latency_ms": 1038.132905960083,
+  "llm_win_rate": {
+    "win_rates": {
+      "exa": 0.0,
+      "google": 0.375,
+      "serp_google": 0.625,
+      "serp_bing": 0.75,
+      "serp_duckduckgo": 0.75
+    },
+    "win_counts": {
+      "exa": 0,
+      "google": 1.5,
+      "serp_google": 2.5,
+      "serp_bing": 3,
+      "serp_duckduckgo": 3
+    },
+    "judgments_count": 10,
+    "evaluation_latency_ms": 25363.938808441162
+  },
+  "pairwise_judgments": [
+    {
+      "query": "What are the compliance requirements for using AI in hiring across NYC, California, and Illinois?",
+      "provider_a": "google",
+      "provider_b": "exa",
+      "answer_a": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC has implemented a law, Local Law 144, which restricts the use of generative AI in hiring. The law requires employers to disclose the use of AI in hiring decisions and to provide a way for applicants to request an explanation of the AI decision-making process [3]. Enforcement of this law began on July 5, 2023 [3]. Additionally, NYC has provided guidance on the use of AI in hiring, which includes requirements for bias audits and testing [4].\n\n**California**\n\nCalifornia has enacted a law, Assembly Bill 2282, which requires employers to disclose the use of automated employment decision tools (AE DTs) in hiring decisions [5]. The law also requires employers to provide a way for applicants to request an explanation of the AE DT decision-making process.\n\n**Illinois**\n\nIllinois has joined Colorado and NYC in restricting the use of generative AI in HR [1]. However, the specific compliance requirements for Illinois are not explicitly stated in the search results.\n\n**General Requirements**\n\nThe use of AI in hiring is subject to various federal and state laws, including the Equal Employment Opportunity Commission (EEOC) guidelines on AI and employment [6]. Employers must ensure that their AI systems are fair, transparent, and unbiased, and that they comply with applicable laws and regulations.\n\n**Recommendations**\n\nTo comply with the compliance requirements for using AI in hiring across NYC, California, and Illinois, employers should:\n\n1. Disclose the use of AI in hiring decisions and provide a way for applicants to request an explanation of the AI decision-making process [3, 5].\n2. Conduct bias audits and testing to ensure that AI systems are fair and unbiased [4, 10].\n3. Ensure that AI systems comply with applicable laws and regulations, including the EEOC guidelines on AI and employment [6].\n4. Provide training to employees on the use of AI in hiring and the importance of ensuring that AI systems are fair and unbiased.\n\nReferences:\n\n[1] Illinois Joins Colorado and NYC in Restricting Generative AI in HR (Plus a Quick Survey of the Legal Landscape Across the US and Globally) | The Employer Report\n[2] Automated Decision Making Emerges as an Early Target of State AI Regulation | White & Case LLP\n[3] Enforcement of New",
+      "answer_b": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC Local Law 144 requires employers to conduct a bias audit of their AI hiring tools to ensure they do not discriminate against protected classes [1]. The law also requires employers to provide notice to applicants and employees about the use of AI in the hiring process.\n\n**California**\n\nCalifornia has set new standards for AI use in employment, including a requirement that employers use AI tools that are designed to prevent bias and ensure equal employment opportunities [2]. California SB 7 also requires employers to provide notice to applicants and employees about the use of AI in the hiring process and to disclose the use of AI in background checks [7].\n\n**Illinois**\n\nIllinois has joined Colorado and NYC in restricting the use of generative AI in HR, including AI hiring tools [10]. The law requires employers to conduct a bias audit of their AI hiring tools and to provide notice to applicants and employees about the use of AI in the hiring process.\n\n**Best Practices**\n\nTo mitigate the risk of AI hiring tool noncompliance with antidiscrimination statutes, employers should follow best practices such as:\n\n* Conducting regular bias audits of AI hiring tools [4]\n* Using AI tools that are designed to prevent bias and ensure equal employment opportunities [2]\n* Providing notice to applicants and employees about the use of AI in the hiring process [1, 2, 7]\n* Disclosing the use of AI in background checks [7]\n* Ensuring that AI hiring tools are transparent and explainable [8]\n\n**Regulatory Landscape**\n\nThe regulatory landscape for AI in hiring is rapidly evolving, with new laws and regulations being enacted at the state and local level [5, 9]. Employers should stay up-to-date on the latest developments and ensure that their AI hiring tools comply with all applicable laws and regulations.\n\nIn conclusion, the compliance requirements for using AI in hiring across NYC, California, and Illinois are complex and multifaceted. Employers must conduct regular bias audits, use AI tools that are designed to prevent bias, provide notice to applicants and employees, and disclose the use of AI in background checks. By following best practices and staying up-to-date on the latest regulatory developments, employers can ensure that their AI hiring tools comply with all applicable laws and regulations.\n\nReferences:\n\n[1] NYC Local Law 144 and Bias Audit Regulation\n[2",
+      "winner": "google",
+      "confidence": 2,
+      "reasoning": "Overall: A=82.1, B=87.9 (diff=5.7%). Legal Accuracy: B better (9 vs 8); Citation Quality: B better (9 vs 8); Completeness: B better (9 vs 8)",
+      "judgment_latency_ms": 2005.7551860809326
+    },
+    {
+      "query": "What are the compliance requirements for using AI in hiring across NYC, California, and Illinois?",
+      "provider_a": "exa",
+      "provider_b": "serp_google",
+      "answer_a": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC Local Law 144 requires employers to conduct a bias audit of their AI hiring tools to ensure they do not discriminate against protected classes [1]. The law also requires employers to provide notice to applicants and employees about the use of AI in the hiring process.\n\n**California**\n\nCalifornia has set new standards for AI use in employment, including a requirement that employers use AI tools that are designed to prevent bias and ensure equal employment opportunities [2]. California SB 7 also requires employers to provide notice to applicants and employees about the use of AI in the hiring process and to disclose the use of AI in background checks [7].\n\n**Illinois**\n\nIllinois has joined Colorado and NYC in restricting the use of generative AI in HR, including AI hiring tools [10]. The law requires employers to conduct a bias audit of their AI hiring tools and to provide notice to applicants and employees about the use of AI in the hiring process.\n\n**Best Practices**\n\nTo mitigate the risk of AI hiring tool noncompliance with antidiscrimination statutes, employers should follow best practices such as:\n\n* Conducting regular bias audits of AI hiring tools [4]\n* Using AI tools that are designed to prevent bias and ensure equal employment opportunities [2]\n* Providing notice to applicants and employees about the use of AI in the hiring process [1, 2, 7]\n* Disclosing the use of AI in background checks [7]\n* Ensuring that AI hiring tools are transparent and explainable [8]\n\n**Regulatory Landscape**\n\nThe regulatory landscape for AI in hiring is rapidly evolving, with new laws and regulations being enacted at the state and local level [5, 9]. Employers should stay up-to-date on the latest developments and ensure that their AI hiring tools comply with all applicable laws and regulations.\n\nIn conclusion, the compliance requirements for using AI in hiring across NYC, California, and Illinois are complex and multifaceted. Employers must conduct regular bias audits, use AI tools that are designed to prevent bias, provide notice to applicants and employees, and disclose the use of AI in background checks. By following best practices and staying up-to-date on the latest regulatory developments, employers can ensure that their AI hiring tools comply with all applicable laws and regulations.\n\nReferences:\n\n[1] NYC Local Law 144 and Bias Audit Regulation\n[2",
+      "answer_b": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC has enacted a law regulating the use of Automated Employment Decision Tools (AEDTs) in hiring. AEDTs are defined as \"any algorithm or computational process, including but not limited to, machine learning, natural language processing, or predictive analytics, that is used to evaluate a candidate's qualifications, skills, or other characteristics for employment purposes\" [10]. Employers using AEDTs in NYC must provide candidates with a clear and concise disclosure of the use of AEDTs, including the type of AEDT used, the data used to train the AEDT, and the criteria used to evaluate candidates [10]. Additionally, employers must provide candidates with the opportunity to opt-out of the AEDT process and have their application reviewed by a human [10].\n\n**California**\n\nCalifornia has enacted a law regulating the use of AI in hiring, specifically the use of AEDTs. The law requires employers to disclose to candidates that an AEDT is being used in the hiring process and to provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates [4]. Additionally, California has established a new standard for AI use in employment, which requires employers to ensure that AI systems are fair, transparent, and unbiased [4].\n\n**Illinois**\n\nIllinois has enacted a law regulating the use of AI in hiring, specifically the use of AEDTs. The law requires employers to disclose to candidates that an AEDT is being used in the hiring process and to provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates [1]. Additionally, Illinois has joined Colorado and NYC in restricting the use of generative AI in HR [1].\n\n**Common Requirements**\n\nAll three jurisdictions require employers to provide candidates with clear and concise disclosure of the use of AEDTs in the hiring process. Employers must also provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates. Additionally, employers must ensure that AI systems are fair, transparent, and unbiased.\n\n**Statutes and Regulations**\n\n* NYC: NYC Administrative Code \u00a7 22-1103 [10]\n* California: California",
+      "winner": "serp_google",
+      "confidence": 2,
+      "reasoning": "Overall: A=77.9, B=90.7 (diff=12.9%). Legal Accuracy: B better (9 vs 6); Citation Quality: B better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 1967.9388999938965
+    },
+    {
+      "query": "What are the compliance requirements for using AI in hiring across NYC, California, and Illinois?",
+      "provider_a": "serp_bing",
+      "provider_b": "exa",
+      "answer_a": "Based on the search results provided, it appears that the question is asking about the compliance requirements for using AI in hiring across NYC, California, and Illinois. However, the search results do not directly address this question. Instead, they provide information about Google's AI journey, products, and principles.\n\nTo answer the question, we need to look beyond the search results provided and consider relevant statutes, regulations, and case law related to AI in hiring. Here are some general guidelines and requirements for using AI in hiring in NYC, California, and Illinois:\n\n**New York City (NYC)**\n\n* NYC has enacted the Stop Sexual Harassment in NYC Act, which requires employers to provide training on preventing sexual harassment in the workplace, including training on AI-powered hiring tools (NYC Admin. Code \u00a7 8-107(15)).\n* The NYC Human Rights Law prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (NYC Admin. Code \u00a7 8-107(1)).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (NYC Admin. Code \u00a7 8-107(15)).\n\n**California**\n\n* California has enacted the Fair Employment and Housing Act (FEHA), which prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (Cal. Gov. Code \u00a7 12940).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (Cal. Gov. Code \u00a7 12940).\n* The California Department of Fair Employment and Housing (DFEH) has issued guidelines on the use of AI in hiring, emphasizing the importance of ensuring that AI-powered hiring tools are fair, transparent, and unbiased (DFEH, \"Guidelines on the Use of Artificial Intelligence in Hiring\").\n\n**Illinois**\n\n* Illinois has enacted the Illinois Human Rights Act, which prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (775 ILCS 5/1-101).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (775 ILCS 5/1-101).\n* The Illinois Department of Human Rights has issued guidelines on the use of AI in hiring, emphasizing the importance of ensuring that AI-powered hiring tools are fair, transparent, and unbiased (IDHR, \"Guid",
+      "answer_b": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC Local Law 144 requires employers to conduct a bias audit of their AI hiring tools to ensure they do not discriminate against protected classes [1]. The law also requires employers to provide notice to applicants and employees about the use of AI in the hiring process.\n\n**California**\n\nCalifornia has set new standards for AI use in employment, including a requirement that employers use AI tools that are designed to prevent bias and ensure equal employment opportunities [2]. California SB 7 also requires employers to provide notice to applicants and employees about the use of AI in the hiring process and to disclose the use of AI in background checks [7].\n\n**Illinois**\n\nIllinois has joined Colorado and NYC in restricting the use of generative AI in HR, including AI hiring tools [10]. The law requires employers to conduct a bias audit of their AI hiring tools and to provide notice to applicants and employees about the use of AI in the hiring process.\n\n**Best Practices**\n\nTo mitigate the risk of AI hiring tool noncompliance with antidiscrimination statutes, employers should follow best practices such as:\n\n* Conducting regular bias audits of AI hiring tools [4]\n* Using AI tools that are designed to prevent bias and ensure equal employment opportunities [2]\n* Providing notice to applicants and employees about the use of AI in the hiring process [1, 2, 7]\n* Disclosing the use of AI in background checks [7]\n* Ensuring that AI hiring tools are transparent and explainable [8]\n\n**Regulatory Landscape**\n\nThe regulatory landscape for AI in hiring is rapidly evolving, with new laws and regulations being enacted at the state and local level [5, 9]. Employers should stay up-to-date on the latest developments and ensure that their AI hiring tools comply with all applicable laws and regulations.\n\nIn conclusion, the compliance requirements for using AI in hiring across NYC, California, and Illinois are complex and multifaceted. Employers must conduct regular bias audits, use AI tools that are designed to prevent bias, provide notice to applicants and employees, and disclose the use of AI in background checks. By following best practices and staying up-to-date on the latest regulatory developments, employers can ensure that their AI hiring tools comply with all applicable laws and regulations.\n\nReferences:\n\n[1] NYC Local Law 144 and Bias Audit Regulation\n[2",
+      "winner": "serp_bing",
+      "confidence": 2,
+      "reasoning": "Overall: A=83.6, B=89.3 (diff=5.7%). Legal Accuracy: B better (9 vs 8); Citation Quality: B better (9 vs 8); Completeness: B better (10 vs 9)",
+      "judgment_latency_ms": 2156.621217727661
+    },
+    {
+      "query": "What are the compliance requirements for using AI in hiring across NYC, California, and Illinois?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "exa",
+      "answer_a": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC's Local Law 144, also known as the Automated Employment Decision Tools Law, regulates the use of AI in hiring and promotion decisions. The law requires employers to:\n\n1. Provide notice to applicants and employees that AI is being used in the hiring process [9].\n2. Conduct bias audits on AI-driven hiring tools to ensure they are fair and unbiased [6].\n3. Implement procedures to address and mitigate bias in AI-driven hiring tools [10].\n4. Ensure that AI-driven hiring tools are transparent and explainable [1].\n5. Comply with the NYC Human Rights Law, which prohibits discriminatory practices in employment [2].\n\nThe final regulations on the use of AI in hiring and promotion were adopted by the NYC Commission on Human Rights in 2023, and the enforcement date was extended to July 5, 2023 [3].\n\n**California**\n\nCalifornia has not enacted a specific law regulating the use of AI in hiring, but employers must comply with the California Fair Employment and Housing Act (FEHA), which prohibits discriminatory practices in employment [not mentioned in the search results].\n\n**Illinois**\n\nIllinois has not enacted a specific law regulating the use of AI in hiring, but employers must comply with the Illinois Human Rights Act, which prohibits discriminatory practices in employment [not mentioned in the search results].\n\nIn summary, while there is no specific law regulating the use of AI in hiring in California and Illinois, employers in these states must still comply with federal and state anti-discrimination laws. In contrast, NYC's Local Law 144 provides specific requirements for the use of AI in hiring and promotion decisions.\n\nReferences:\n\n[1] Dorf Nelson & Zauderer LLP, \"Use of AI in HR - NY City Law 144\" (2024)\n[2] National Law Review, \"NYC's Local Law 144 and Final Regulations: Regulation of AI-Driven Hiring Tools in the United States\" (2025)\n[3] Littler, \"New York City Adopts Final Regulations on Use of AI in Hiring and Promotion, Extends Enforcement Date to July 5, 2023\" (2023)\n[6] EtiCAS AI, \"Lessons from Automating Bias Detection in AI Hiring Systems for NYC Law 144 Compliance\" (2024)\n[9] Crown",
+      "answer_b": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC Local Law 144 requires employers to conduct a bias audit of their AI hiring tools to ensure they do not discriminate against protected classes [1]. The law also requires employers to provide notice to applicants and employees about the use of AI in the hiring process.\n\n**California**\n\nCalifornia has set new standards for AI use in employment, including a requirement that employers use AI tools that are designed to prevent bias and ensure equal employment opportunities [2]. California SB 7 also requires employers to provide notice to applicants and employees about the use of AI in the hiring process and to disclose the use of AI in background checks [7].\n\n**Illinois**\n\nIllinois has joined Colorado and NYC in restricting the use of generative AI in HR, including AI hiring tools [10]. The law requires employers to conduct a bias audit of their AI hiring tools and to provide notice to applicants and employees about the use of AI in the hiring process.\n\n**Best Practices**\n\nTo mitigate the risk of AI hiring tool noncompliance with antidiscrimination statutes, employers should follow best practices such as:\n\n* Conducting regular bias audits of AI hiring tools [4]\n* Using AI tools that are designed to prevent bias and ensure equal employment opportunities [2]\n* Providing notice to applicants and employees about the use of AI in the hiring process [1, 2, 7]\n* Disclosing the use of AI in background checks [7]\n* Ensuring that AI hiring tools are transparent and explainable [8]\n\n**Regulatory Landscape**\n\nThe regulatory landscape for AI in hiring is rapidly evolving, with new laws and regulations being enacted at the state and local level [5, 9]. Employers should stay up-to-date on the latest developments and ensure that their AI hiring tools comply with all applicable laws and regulations.\n\nIn conclusion, the compliance requirements for using AI in hiring across NYC, California, and Illinois are complex and multifaceted. Employers must conduct regular bias audits, use AI tools that are designed to prevent bias, provide notice to applicants and employees, and disclose the use of AI in background checks. By following best practices and staying up-to-date on the latest regulatory developments, employers can ensure that their AI hiring tools comply with all applicable laws and regulations.\n\nReferences:\n\n[1] NYC Local Law 144 and Bias Audit Regulation\n[2",
+      "winner": "serp_duckduckgo",
+      "confidence": 2,
+      "reasoning": "Overall: A=83.6, B=89.3 (diff=5.7%). Legal Accuracy: B better (9 vs 8); Citation Quality: B better (9 vs 8); Completeness: B better (10 vs 9)",
+      "judgment_latency_ms": 2261.754035949707
+    },
+    {
+      "query": "What are the compliance requirements for using AI in hiring across NYC, California, and Illinois?",
+      "provider_a": "serp_google",
+      "provider_b": "google",
+      "answer_a": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC has enacted a law regulating the use of Automated Employment Decision Tools (AEDTs) in hiring. AEDTs are defined as \"any algorithm or computational process, including but not limited to, machine learning, natural language processing, or predictive analytics, that is used to evaluate a candidate's qualifications, skills, or other characteristics for employment purposes\" [10]. Employers using AEDTs in NYC must provide candidates with a clear and concise disclosure of the use of AEDTs, including the type of AEDT used, the data used to train the AEDT, and the criteria used to evaluate candidates [10]. Additionally, employers must provide candidates with the opportunity to opt-out of the AEDT process and have their application reviewed by a human [10].\n\n**California**\n\nCalifornia has enacted a law regulating the use of AI in hiring, specifically the use of AEDTs. The law requires employers to disclose to candidates that an AEDT is being used in the hiring process and to provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates [4]. Additionally, California has established a new standard for AI use in employment, which requires employers to ensure that AI systems are fair, transparent, and unbiased [4].\n\n**Illinois**\n\nIllinois has enacted a law regulating the use of AI in hiring, specifically the use of AEDTs. The law requires employers to disclose to candidates that an AEDT is being used in the hiring process and to provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates [1]. Additionally, Illinois has joined Colorado and NYC in restricting the use of generative AI in HR [1].\n\n**Common Requirements**\n\nAll three jurisdictions require employers to provide candidates with clear and concise disclosure of the use of AEDTs in the hiring process. Employers must also provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates. Additionally, employers must ensure that AI systems are fair, transparent, and unbiased.\n\n**Statutes and Regulations**\n\n* NYC: NYC Administrative Code \u00a7 22-1103 [10]\n* California: California",
+      "answer_b": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC has implemented a law, Local Law 144, which restricts the use of generative AI in hiring. The law requires employers to disclose the use of AI in hiring decisions and to provide a way for applicants to request an explanation of the AI decision-making process [3]. Enforcement of this law began on July 5, 2023 [3]. Additionally, NYC has provided guidance on the use of AI in hiring, which includes requirements for bias audits and testing [4].\n\n**California**\n\nCalifornia has enacted a law, Assembly Bill 2282, which requires employers to disclose the use of automated employment decision tools (AE DTs) in hiring decisions [5]. The law also requires employers to provide a way for applicants to request an explanation of the AE DT decision-making process.\n\n**Illinois**\n\nIllinois has joined Colorado and NYC in restricting the use of generative AI in HR [1]. However, the specific compliance requirements for Illinois are not explicitly stated in the search results.\n\n**General Requirements**\n\nThe use of AI in hiring is subject to various federal and state laws, including the Equal Employment Opportunity Commission (EEOC) guidelines on AI and employment [6]. Employers must ensure that their AI systems are fair, transparent, and unbiased, and that they comply with applicable laws and regulations.\n\n**Recommendations**\n\nTo comply with the compliance requirements for using AI in hiring across NYC, California, and Illinois, employers should:\n\n1. Disclose the use of AI in hiring decisions and provide a way for applicants to request an explanation of the AI decision-making process [3, 5].\n2. Conduct bias audits and testing to ensure that AI systems are fair and unbiased [4, 10].\n3. Ensure that AI systems comply with applicable laws and regulations, including the EEOC guidelines on AI and employment [6].\n4. Provide training to employees on the use of AI in hiring and the importance of ensuring that AI systems are fair and unbiased.\n\nReferences:\n\n[1] Illinois Joins Colorado and NYC in Restricting Generative AI in HR (Plus a Quick Survey of the Legal Landscape Across the US and Globally) | The Employer Report\n[2] Automated Decision Making Emerges as an Early Target of State AI Regulation | White & Case LLP\n[3] Enforcement of New",
+      "winner": "tie",
+      "confidence": 1,
+      "reasoning": "Overall: A=77.9, B=77.1 (diff=0.7%). Legal Accuracy: B better (8 vs 6); Citation Quality: A better (8 vs 6); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2043.4701442718506
+    },
+    {
+      "query": "What are the compliance requirements for using AI in hiring across NYC, California, and Illinois?",
+      "provider_a": "serp_bing",
+      "provider_b": "google",
+      "answer_a": "Based on the search results provided, it appears that the question is asking about the compliance requirements for using AI in hiring across NYC, California, and Illinois. However, the search results do not directly address this question. Instead, they provide information about Google's AI journey, products, and principles.\n\nTo answer the question, we need to look beyond the search results provided and consider relevant statutes, regulations, and case law related to AI in hiring. Here are some general guidelines and requirements for using AI in hiring in NYC, California, and Illinois:\n\n**New York City (NYC)**\n\n* NYC has enacted the Stop Sexual Harassment in NYC Act, which requires employers to provide training on preventing sexual harassment in the workplace, including training on AI-powered hiring tools (NYC Admin. Code \u00a7 8-107(15)).\n* The NYC Human Rights Law prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (NYC Admin. Code \u00a7 8-107(1)).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (NYC Admin. Code \u00a7 8-107(15)).\n\n**California**\n\n* California has enacted the Fair Employment and Housing Act (FEHA), which prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (Cal. Gov. Code \u00a7 12940).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (Cal. Gov. Code \u00a7 12940).\n* The California Department of Fair Employment and Housing (DFEH) has issued guidelines on the use of AI in hiring, emphasizing the importance of ensuring that AI-powered hiring tools are fair, transparent, and unbiased (DFEH, \"Guidelines on the Use of Artificial Intelligence in Hiring\").\n\n**Illinois**\n\n* Illinois has enacted the Illinois Human Rights Act, which prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (775 ILCS 5/1-101).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (775 ILCS 5/1-101).\n* The Illinois Department of Human Rights has issued guidelines on the use of AI in hiring, emphasizing the importance of ensuring that AI-powered hiring tools are fair, transparent, and unbiased (IDHR, \"Guid",
+      "answer_b": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC has implemented a law, Local Law 144, which restricts the use of generative AI in hiring. The law requires employers to disclose the use of AI in hiring decisions and to provide a way for applicants to request an explanation of the AI decision-making process [3]. Enforcement of this law began on July 5, 2023 [3]. Additionally, NYC has provided guidance on the use of AI in hiring, which includes requirements for bias audits and testing [4].\n\n**California**\n\nCalifornia has enacted a law, Assembly Bill 2282, which requires employers to disclose the use of automated employment decision tools (AE DTs) in hiring decisions [5]. The law also requires employers to provide a way for applicants to request an explanation of the AE DT decision-making process.\n\n**Illinois**\n\nIllinois has joined Colorado and NYC in restricting the use of generative AI in HR [1]. However, the specific compliance requirements for Illinois are not explicitly stated in the search results.\n\n**General Requirements**\n\nThe use of AI in hiring is subject to various federal and state laws, including the Equal Employment Opportunity Commission (EEOC) guidelines on AI and employment [6]. Employers must ensure that their AI systems are fair, transparent, and unbiased, and that they comply with applicable laws and regulations.\n\n**Recommendations**\n\nTo comply with the compliance requirements for using AI in hiring across NYC, California, and Illinois, employers should:\n\n1. Disclose the use of AI in hiring decisions and provide a way for applicants to request an explanation of the AI decision-making process [3, 5].\n2. Conduct bias audits and testing to ensure that AI systems are fair and unbiased [4, 10].\n3. Ensure that AI systems comply with applicable laws and regulations, including the EEOC guidelines on AI and employment [6].\n4. Provide training to employees on the use of AI in hiring and the importance of ensuring that AI systems are fair and unbiased.\n\nReferences:\n\n[1] Illinois Joins Colorado and NYC in Restricting Generative AI in HR (Plus a Quick Survey of the Legal Landscape Across the US and Globally) | The Employer Report\n[2] Automated Decision Making Emerges as an Early Target of State AI Regulation | White & Case LLP\n[3] Enforcement of New",
+      "winner": "serp_bing",
+      "confidence": 2,
+      "reasoning": "Overall: A=81.4, B=88.6 (diff=7.1%). Legal Accuracy: B better (9 vs 8); Citation Quality: B better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2034.2519283294678
+    },
+    {
+      "query": "What are the compliance requirements for using AI in hiring across NYC, California, and Illinois?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "google",
+      "answer_a": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC's Local Law 144, also known as the Automated Employment Decision Tools Law, regulates the use of AI in hiring and promotion decisions. The law requires employers to:\n\n1. Provide notice to applicants and employees that AI is being used in the hiring process [9].\n2. Conduct bias audits on AI-driven hiring tools to ensure they are fair and unbiased [6].\n3. Implement procedures to address and mitigate bias in AI-driven hiring tools [10].\n4. Ensure that AI-driven hiring tools are transparent and explainable [1].\n5. Comply with the NYC Human Rights Law, which prohibits discriminatory practices in employment [2].\n\nThe final regulations on the use of AI in hiring and promotion were adopted by the NYC Commission on Human Rights in 2023, and the enforcement date was extended to July 5, 2023 [3].\n\n**California**\n\nCalifornia has not enacted a specific law regulating the use of AI in hiring, but employers must comply with the California Fair Employment and Housing Act (FEHA), which prohibits discriminatory practices in employment [not mentioned in the search results].\n\n**Illinois**\n\nIllinois has not enacted a specific law regulating the use of AI in hiring, but employers must comply with the Illinois Human Rights Act, which prohibits discriminatory practices in employment [not mentioned in the search results].\n\nIn summary, while there is no specific law regulating the use of AI in hiring in California and Illinois, employers in these states must still comply with federal and state anti-discrimination laws. In contrast, NYC's Local Law 144 provides specific requirements for the use of AI in hiring and promotion decisions.\n\nReferences:\n\n[1] Dorf Nelson & Zauderer LLP, \"Use of AI in HR - NY City Law 144\" (2024)\n[2] National Law Review, \"NYC's Local Law 144 and Final Regulations: Regulation of AI-Driven Hiring Tools in the United States\" (2025)\n[3] Littler, \"New York City Adopts Final Regulations on Use of AI in Hiring and Promotion, Extends Enforcement Date to July 5, 2023\" (2023)\n[6] EtiCAS AI, \"Lessons from Automating Bias Detection in AI Hiring Systems for NYC Law 144 Compliance\" (2024)\n[9] Crown",
+      "answer_b": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC has implemented a law, Local Law 144, which restricts the use of generative AI in hiring. The law requires employers to disclose the use of AI in hiring decisions and to provide a way for applicants to request an explanation of the AI decision-making process [3]. Enforcement of this law began on July 5, 2023 [3]. Additionally, NYC has provided guidance on the use of AI in hiring, which includes requirements for bias audits and testing [4].\n\n**California**\n\nCalifornia has enacted a law, Assembly Bill 2282, which requires employers to disclose the use of automated employment decision tools (AE DTs) in hiring decisions [5]. The law also requires employers to provide a way for applicants to request an explanation of the AE DT decision-making process.\n\n**Illinois**\n\nIllinois has joined Colorado and NYC in restricting the use of generative AI in HR [1]. However, the specific compliance requirements for Illinois are not explicitly stated in the search results.\n\n**General Requirements**\n\nThe use of AI in hiring is subject to various federal and state laws, including the Equal Employment Opportunity Commission (EEOC) guidelines on AI and employment [6]. Employers must ensure that their AI systems are fair, transparent, and unbiased, and that they comply with applicable laws and regulations.\n\n**Recommendations**\n\nTo comply with the compliance requirements for using AI in hiring across NYC, California, and Illinois, employers should:\n\n1. Disclose the use of AI in hiring decisions and provide a way for applicants to request an explanation of the AI decision-making process [3, 5].\n2. Conduct bias audits and testing to ensure that AI systems are fair and unbiased [4, 10].\n3. Ensure that AI systems comply with applicable laws and regulations, including the EEOC guidelines on AI and employment [6].\n4. Provide training to employees on the use of AI in hiring and the importance of ensuring that AI systems are fair and unbiased.\n\nReferences:\n\n[1] Illinois Joins Colorado and NYC in Restricting Generative AI in HR (Plus a Quick Survey of the Legal Landscape Across the US and Globally) | The Employer Report\n[2] Automated Decision Making Emerges as an Early Target of State AI Regulation | White & Case LLP\n[3] Enforcement of New",
+      "winner": "serp_duckduckgo",
+      "confidence": 2,
+      "reasoning": "Overall: A=81.4, B=88.6 (diff=7.1%). Legal Accuracy: B better (9 vs 8); Citation Quality: B better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2159.5330238342285
+    },
+    {
+      "query": "What are the compliance requirements for using AI in hiring across NYC, California, and Illinois?",
+      "provider_a": "serp_google",
+      "provider_b": "serp_bing",
+      "answer_a": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC has enacted a law regulating the use of Automated Employment Decision Tools (AEDTs) in hiring. AEDTs are defined as \"any algorithm or computational process, including but not limited to, machine learning, natural language processing, or predictive analytics, that is used to evaluate a candidate's qualifications, skills, or other characteristics for employment purposes\" [10]. Employers using AEDTs in NYC must provide candidates with a clear and concise disclosure of the use of AEDTs, including the type of AEDT used, the data used to train the AEDT, and the criteria used to evaluate candidates [10]. Additionally, employers must provide candidates with the opportunity to opt-out of the AEDT process and have their application reviewed by a human [10].\n\n**California**\n\nCalifornia has enacted a law regulating the use of AI in hiring, specifically the use of AEDTs. The law requires employers to disclose to candidates that an AEDT is being used in the hiring process and to provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates [4]. Additionally, California has established a new standard for AI use in employment, which requires employers to ensure that AI systems are fair, transparent, and unbiased [4].\n\n**Illinois**\n\nIllinois has enacted a law regulating the use of AI in hiring, specifically the use of AEDTs. The law requires employers to disclose to candidates that an AEDT is being used in the hiring process and to provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates [1]. Additionally, Illinois has joined Colorado and NYC in restricting the use of generative AI in HR [1].\n\n**Common Requirements**\n\nAll three jurisdictions require employers to provide candidates with clear and concise disclosure of the use of AEDTs in the hiring process. Employers must also provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates. Additionally, employers must ensure that AI systems are fair, transparent, and unbiased.\n\n**Statutes and Regulations**\n\n* NYC: NYC Administrative Code \u00a7 22-1103 [10]\n* California: California",
+      "answer_b": "Based on the search results provided, it appears that the question is asking about the compliance requirements for using AI in hiring across NYC, California, and Illinois. However, the search results do not directly address this question. Instead, they provide information about Google's AI journey, products, and principles.\n\nTo answer the question, we need to look beyond the search results provided and consider relevant statutes, regulations, and case law related to AI in hiring. Here are some general guidelines and requirements for using AI in hiring in NYC, California, and Illinois:\n\n**New York City (NYC)**\n\n* NYC has enacted the Stop Sexual Harassment in NYC Act, which requires employers to provide training on preventing sexual harassment in the workplace, including training on AI-powered hiring tools (NYC Admin. Code \u00a7 8-107(15)).\n* The NYC Human Rights Law prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (NYC Admin. Code \u00a7 8-107(1)).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (NYC Admin. Code \u00a7 8-107(15)).\n\n**California**\n\n* California has enacted the Fair Employment and Housing Act (FEHA), which prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (Cal. Gov. Code \u00a7 12940).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (Cal. Gov. Code \u00a7 12940).\n* The California Department of Fair Employment and Housing (DFEH) has issued guidelines on the use of AI in hiring, emphasizing the importance of ensuring that AI-powered hiring tools are fair, transparent, and unbiased (DFEH, \"Guidelines on the Use of Artificial Intelligence in Hiring\").\n\n**Illinois**\n\n* Illinois has enacted the Illinois Human Rights Act, which prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (775 ILCS 5/1-101).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (775 ILCS 5/1-101).\n* The Illinois Department of Human Rights has issued guidelines on the use of AI in hiring, emphasizing the importance of ensuring that AI-powered hiring tools are fair, transparent, and unbiased (IDHR, \"Guid",
+      "winner": "serp_google",
+      "confidence": 3,
+      "reasoning": "Overall: A=74.3, B=51.4 (diff=22.9%). Legal Accuracy: B better (8 vs 6); Citation Quality: A better (8 vs 4); Completeness: A better (8 vs 4)",
+      "judgment_latency_ms": 2131.2460899353027
+    },
+    {
+      "query": "What are the compliance requirements for using AI in hiring across NYC, California, and Illinois?",
+      "provider_a": "serp_google",
+      "provider_b": "serp_duckduckgo",
+      "answer_a": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC has enacted a law regulating the use of Automated Employment Decision Tools (AEDTs) in hiring. AEDTs are defined as \"any algorithm or computational process, including but not limited to, machine learning, natural language processing, or predictive analytics, that is used to evaluate a candidate's qualifications, skills, or other characteristics for employment purposes\" [10]. Employers using AEDTs in NYC must provide candidates with a clear and concise disclosure of the use of AEDTs, including the type of AEDT used, the data used to train the AEDT, and the criteria used to evaluate candidates [10]. Additionally, employers must provide candidates with the opportunity to opt-out of the AEDT process and have their application reviewed by a human [10].\n\n**California**\n\nCalifornia has enacted a law regulating the use of AI in hiring, specifically the use of AEDTs. The law requires employers to disclose to candidates that an AEDT is being used in the hiring process and to provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates [4]. Additionally, California has established a new standard for AI use in employment, which requires employers to ensure that AI systems are fair, transparent, and unbiased [4].\n\n**Illinois**\n\nIllinois has enacted a law regulating the use of AI in hiring, specifically the use of AEDTs. The law requires employers to disclose to candidates that an AEDT is being used in the hiring process and to provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates [1]. Additionally, Illinois has joined Colorado and NYC in restricting the use of generative AI in HR [1].\n\n**Common Requirements**\n\nAll three jurisdictions require employers to provide candidates with clear and concise disclosure of the use of AEDTs in the hiring process. Employers must also provide candidates with information about the AEDT, including the data used to train the AEDT and the criteria used to evaluate candidates. Additionally, employers must ensure that AI systems are fair, transparent, and unbiased.\n\n**Statutes and Regulations**\n\n* NYC: NYC Administrative Code \u00a7 22-1103 [10]\n* California: California",
+      "answer_b": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC's Local Law 144, also known as the Automated Employment Decision Tools Law, regulates the use of AI in hiring and promotion decisions. The law requires employers to:\n\n1. Provide notice to applicants and employees that AI is being used in the hiring process [9].\n2. Conduct bias audits on AI-driven hiring tools to ensure they are fair and unbiased [6].\n3. Implement procedures to address and mitigate bias in AI-driven hiring tools [10].\n4. Ensure that AI-driven hiring tools are transparent and explainable [1].\n5. Comply with the NYC Human Rights Law, which prohibits discriminatory practices in employment [2].\n\nThe final regulations on the use of AI in hiring and promotion were adopted by the NYC Commission on Human Rights in 2023, and the enforcement date was extended to July 5, 2023 [3].\n\n**California**\n\nCalifornia has not enacted a specific law regulating the use of AI in hiring, but employers must comply with the California Fair Employment and Housing Act (FEHA), which prohibits discriminatory practices in employment [not mentioned in the search results].\n\n**Illinois**\n\nIllinois has not enacted a specific law regulating the use of AI in hiring, but employers must comply with the Illinois Human Rights Act, which prohibits discriminatory practices in employment [not mentioned in the search results].\n\nIn summary, while there is no specific law regulating the use of AI in hiring in California and Illinois, employers in these states must still comply with federal and state anti-discrimination laws. In contrast, NYC's Local Law 144 provides specific requirements for the use of AI in hiring and promotion decisions.\n\nReferences:\n\n[1] Dorf Nelson & Zauderer LLP, \"Use of AI in HR - NY City Law 144\" (2024)\n[2] National Law Review, \"NYC's Local Law 144 and Final Regulations: Regulation of AI-Driven Hiring Tools in the United States\" (2025)\n[3] Littler, \"New York City Adopts Final Regulations on Use of AI in Hiring and Promotion, Extends Enforcement Date to July 5, 2023\" (2023)\n[6] EtiCAS AI, \"Lessons from Automating Bias Detection in AI Hiring Systems for NYC Law 144 Compliance\" (2024)\n[9] Crown",
+      "winner": "serp_duckduckgo",
+      "confidence": 2,
+      "reasoning": "Overall: A=75.7, B=82.1 (diff=6.4%). Legal Accuracy: B better (9 vs 6); Citation Quality: A better (8 vs 6); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2000.3740787506104
+    },
+    {
+      "query": "What are the compliance requirements for using AI in hiring across NYC, California, and Illinois?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "serp_bing",
+      "answer_a": "Based on the search results, the compliance requirements for using AI in hiring across NYC, California, and Illinois are as follows:\n\n**New York City (NYC)**\n\nNYC's Local Law 144, also known as the Automated Employment Decision Tools Law, regulates the use of AI in hiring and promotion decisions. The law requires employers to:\n\n1. Provide notice to applicants and employees that AI is being used in the hiring process [9].\n2. Conduct bias audits on AI-driven hiring tools to ensure they are fair and unbiased [6].\n3. Implement procedures to address and mitigate bias in AI-driven hiring tools [10].\n4. Ensure that AI-driven hiring tools are transparent and explainable [1].\n5. Comply with the NYC Human Rights Law, which prohibits discriminatory practices in employment [2].\n\nThe final regulations on the use of AI in hiring and promotion were adopted by the NYC Commission on Human Rights in 2023, and the enforcement date was extended to July 5, 2023 [3].\n\n**California**\n\nCalifornia has not enacted a specific law regulating the use of AI in hiring, but employers must comply with the California Fair Employment and Housing Act (FEHA), which prohibits discriminatory practices in employment [not mentioned in the search results].\n\n**Illinois**\n\nIllinois has not enacted a specific law regulating the use of AI in hiring, but employers must comply with the Illinois Human Rights Act, which prohibits discriminatory practices in employment [not mentioned in the search results].\n\nIn summary, while there is no specific law regulating the use of AI in hiring in California and Illinois, employers in these states must still comply with federal and state anti-discrimination laws. In contrast, NYC's Local Law 144 provides specific requirements for the use of AI in hiring and promotion decisions.\n\nReferences:\n\n[1] Dorf Nelson & Zauderer LLP, \"Use of AI in HR - NY City Law 144\" (2024)\n[2] National Law Review, \"NYC's Local Law 144 and Final Regulations: Regulation of AI-Driven Hiring Tools in the United States\" (2025)\n[3] Littler, \"New York City Adopts Final Regulations on Use of AI in Hiring and Promotion, Extends Enforcement Date to July 5, 2023\" (2023)\n[6] EtiCAS AI, \"Lessons from Automating Bias Detection in AI Hiring Systems for NYC Law 144 Compliance\" (2024)\n[9] Crown",
+      "answer_b": "Based on the search results provided, it appears that the question is asking about the compliance requirements for using AI in hiring across NYC, California, and Illinois. However, the search results do not directly address this question. Instead, they provide information about Google's AI journey, products, and principles.\n\nTo answer the question, we need to look beyond the search results provided and consider relevant statutes, regulations, and case law related to AI in hiring. Here are some general guidelines and requirements for using AI in hiring in NYC, California, and Illinois:\n\n**New York City (NYC)**\n\n* NYC has enacted the Stop Sexual Harassment in NYC Act, which requires employers to provide training on preventing sexual harassment in the workplace, including training on AI-powered hiring tools (NYC Admin. Code \u00a7 8-107(15)).\n* The NYC Human Rights Law prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (NYC Admin. Code \u00a7 8-107(1)).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (NYC Admin. Code \u00a7 8-107(15)).\n\n**California**\n\n* California has enacted the Fair Employment and Housing Act (FEHA), which prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (Cal. Gov. Code \u00a7 12940).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (Cal. Gov. Code \u00a7 12940).\n* The California Department of Fair Employment and Housing (DFEH) has issued guidelines on the use of AI in hiring, emphasizing the importance of ensuring that AI-powered hiring tools are fair, transparent, and unbiased (DFEH, \"Guidelines on the Use of Artificial Intelligence in Hiring\").\n\n**Illinois**\n\n* Illinois has enacted the Illinois Human Rights Act, which prohibits employment discrimination based on various protected characteristics, including age, sex, and disability (775 ILCS 5/1-101).\n* Employers using AI-powered hiring tools must ensure that these tools do not perpetuate or exacerbate existing biases and discriminatory practices (775 ILCS 5/1-101).\n* The Illinois Department of Human Rights has issued guidelines on the use of AI in hiring, emphasizing the importance of ensuring that AI-powered hiring tools are fair, transparent, and unbiased (IDHR, \"Guid",
+      "winner": "serp_bing",
+      "confidence": 3,
+      "reasoning": "Overall: A=81.4, B=64.3 (diff=17.1%). Legal Accuracy: B better (9 vs 8); Citation Quality: A better (8 vs 4); Completeness: A better (9 vs 6)",
+      "judgment_latency_ms": 2097.569704055786
+    }
+  ],
+  "total_evaluation_latency_ms": 29147.10307121277,
+  "query_id": "Q1",
+  "scenario": "Company wants to implement AI resume screening in NYC, California, and Illinois offices",
+  "search_query": "AI hiring screening compliance requirements NYC Local Law 144 California Illinois",
+  "search_latencies_ms": {
+    "exa": 1589.4291400909424,
+    "google": 317.2578811645508,
+    "serp_google": 228.97100448608398,
+    "serp_bing": 188.5528564453125,
+    "serp_duckduckgo": 227.54526138305664
+  }
+}
