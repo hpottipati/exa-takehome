@@ -1,0 +1,458 @@
+{
+  "timestamp": "20250909_021818",
+  "provider": "serp_bing",
+  "queries": [
+    {
+      "query_id": "Q1",
+      "query_text": "AI hiring screening compliance requirements NYC Local Law 144 California Illinois",
+      "providers": {
+        "serp_bing": {
+          "metrics": {
+            "authority_at_3": 0.267,
+            "high_auth_hit_at_3": false,
+            "utility_score_at_10": 0.661,
+            "latency_stats": {
+              "total_fetch_time_ms": 1703.9,
+              "avg_fetch_time_ms": 170.4,
+              "min_fetch_time_ms": 53.3,
+              "max_fetch_time_ms": 876.2,
+              "urls_evaluated": 10
+            }
+          },
+          "search_api_latency_ms": 0.0,
+          "evaluation_time_ms": 3936.1,
+          "total_time_ms": 3936.1,
+          "detailed_results": [
+            {
+              "url": "https://news.mit.edu/2025/using-generative-ai-researchers-design-compounds-kill-drug-resistant-bacteria-0814",
+              "rank": 1,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 2027,
+              "fetch_latency_ms": 122.0400333404541
+            },
+            {
+              "url": "https://news.mit.edu/topic/artificial-intelligence2",
+              "rank": 2,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 804,
+              "fetch_latency_ms": 65.14978408813477
+            },
+            {
+              "url": "https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117",
+              "rank": 3,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 2,
+              "page_length": 2303,
+              "fetch_latency_ms": 53.28202247619629
+            },
+            {
+              "url": "https://news.mit.edu/2024/mit-researchers-introduce-generative-ai-databases-0708",
+              "rank": 4,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1947,
+              "fetch_latency_ms": 118.22795867919922
+            },
+            {
+              "url": "https://news.mit.edu/2024/generative-ai-lacks-coherent-world-understanding-1105",
+              "rank": 5,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 1,
+              "page_length": 1747,
+              "fetch_latency_ms": 105.3628921508789
+            },
+            {
+              "url": "https://news.mit.edu/2024/mit-researchers-develop-efficiency-training-more-reliable-ai-agents-1122",
+              "rank": 6,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1734,
+              "fetch_latency_ms": 69.9460506439209
+            },
+            {
+              "url": "https://news.mit.edu/2024/graph-based-ai-model-maps-future-innovation-1112",
+              "rank": 7,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1593,
+              "fetch_latency_ms": 98.96612167358398
+            },
+            {
+              "url": "https://news.mit.edu/2025/can-ai-really-code-study-maps-roadblocks-to-autonomous-software-engineering-0716",
+              "rank": 8,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1934,
+              "fetch_latency_ms": 76.23791694641113
+            },
+            {
+              "url": "https://news.mit.edu/2025/machine-learning-periodic-table-could-fuel-ai-discovery-0423",
+              "rank": 9,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1711,
+              "fetch_latency_ms": 118.4239387512207
+            },
+            {
+              "url": "https://news.mit.edu/2024/what-do-we-know-about-economics-ai-1206",
+              "rank": 10,
+              "authority_score": 0.49590107229332414,
+              "domain_score": 0.5,
+              "citation_bonus": 0.9918021445866483,
+              "citation_count": 1,
+              "page_length": 2891,
+              "fetch_latency_ms": 876.2269020080566
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": "Q2",
+      "query_text": "employee fired social media DEI criticism wrongful termination NLRA First Amendment at-will",
+      "providers": {
+        "serp_bing": {
+          "metrics": {
+            "authority_at_3": 0.5,
+            "high_auth_hit_at_3": false,
+            "utility_score_at_10": 1.273,
+            "latency_stats": {
+              "total_fetch_time_ms": 11914.8,
+              "avg_fetch_time_ms": 1191.5,
+              "min_fetch_time_ms": 114.3,
+              "max_fetch_time_ms": 8013.9,
+              "urls_evaluated": 10
+            }
+          },
+          "search_api_latency_ms": 0.0,
+          "evaluation_time_ms": 14054.9,
+          "total_time_ms": 14054.9,
+          "detailed_results": [
+            {
+              "url": "https://support.microsoft.com/en-us/meetwindows11",
+              "rank": 1,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 1,
+              "page_length": 947,
+              "fetch_latency_ms": 204.99682426452637
+            },
+            {
+              "url": "https://support.microsoft.com/en-us/windows",
+              "rank": 2,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 3,
+              "page_length": 446,
+              "fetch_latency_ms": 114.30597305297852
+            },
+            {
+              "url": "https://support.microsoft.com/en-us/windows/ways-to-install-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e",
+              "rank": 3,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 4,
+              "page_length": 2564,
+              "fetch_latency_ms": 121.69599533081055
+            },
+            {
+              "url": "https://support.microsoft.com/en-us/windows/getting-ready-for-the-windows-11-upgrade-eb50813f-c7da-4cf8-89a3-6ba0d33b2773",
+              "rank": 4,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 1,
+              "page_length": 1250,
+              "fetch_latency_ms": 204.7739028930664
+            },
+            {
+              "url": "https://support.microsoft.com/en-us/windows/running-troubleshooters-in-get-help-23bddffd-5495-47f6-a419-7efe166bf1a8",
+              "rank": 5,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 423,
+              "fetch_latency_ms": 225.72994232177734
+            },
+            {
+              "url": "https://support.microsoft.com/en-us/windows/troubleshoot-problems-updating-windows-188c2b0f-10a7-d72f-65b8-32d177eb136c",
+              "rank": 6,
+              "authority_score": 0.3308972503617945,
+              "domain_score": 0.5,
+              "citation_bonus": 0.661794500723589,
+              "citation_count": 1,
+              "page_length": 5528,
+              "fetch_latency_ms": 8013.852834701538
+            },
+            {
+              "url": "https://support.microsoft.com/en-us",
+              "rank": 7,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 392,
+              "fetch_latency_ms": 2301.064968109131
+            },
+            {
+              "url": "https://support.microsoft.com/en-us/windows/fix-sound-or-audio-problems-in-windows-73025246-b61c-40fb-671a-2535c7cd56c8",
+              "rank": 8,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 4891,
+              "fetch_latency_ms": 145.982027053833
+            },
+            {
+              "url": "https://support.microsoft.com/en-us/contactus",
+              "rank": 9,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 1,
+              "page_length": 217,
+              "fetch_latency_ms": 441.6499137878418
+            },
+            {
+              "url": "https://support.microsoft.com/en-us/windows/upgrade-to-windows-11-faq-fb6206a2-1a0f-448a-80f1-8668ee5b2bf9",
+              "rank": 10,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 2,
+              "page_length": 1517,
+              "fetch_latency_ms": 140.733003616333
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": "Q3",
+      "query_text": "equity compensation independent contractors securities law Rule 701 state blue sky",
+      "providers": {
+        "serp_bing": {
+          "metrics": {
+            "authority_at_3": 0.267,
+            "high_auth_hit_at_3": false,
+            "utility_score_at_10": 0.883,
+            "latency_stats": {
+              "total_fetch_time_ms": 2862.1,
+              "avg_fetch_time_ms": 286.2,
+              "min_fetch_time_ms": 102.2,
+              "max_fetch_time_ms": 585.3,
+              "urls_evaluated": 10
+            }
+          },
+          "search_api_latency_ms": 0.0,
+          "evaluation_time_ms": 4594.1,
+          "total_time_ms": 4594.1,
+          "detailed_results": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/equity",
+              "rank": 1,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 5,
+              "page_length": 1689,
+              "fetch_latency_ms": 217.36693382263184
+            },
+            {
+              "url": "https://www.merriam-webster.com/grammar/equality-vs-equity-difference",
+              "rank": 2,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1319,
+              "fetch_latency_ms": 260.1008415222168
+            },
+            {
+              "url": "https://www.equitybank.com/",
+              "rank": 3,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 390,
+              "fetch_latency_ms": 183.95376205444336
+            },
+            {
+              "url": "https://www.investopedia.com/terms/e/equity.asp",
+              "rank": 4,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 3520,
+              "fetch_latency_ms": 411.70406341552734
+            },
+            {
+              "url": "https://onlinepublichealth.gwu.edu/resources/equity-vs-equality/",
+              "rank": 5,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1484,
+              "fetch_latency_ms": 102.18000411987305
+            },
+            {
+              "url": "https://www.dictionary.com/browse/equity",
+              "rank": 6,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 1,
+              "page_length": 706,
+              "fetch_latency_ms": 250.7188320159912
+            },
+            {
+              "url": "https://dictionary.cambridge.org/dictionary/english/equity",
+              "rank": 7,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1777,
+              "fetch_latency_ms": 469.88582611083984
+            },
+            {
+              "url": "https://www.financestrategists.com/wealth-management/financial-statements/equity/",
+              "rank": 8,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 0,
+              "fetch_latency_ms": 193.48931312561035
+            },
+            {
+              "url": "https://corporatefinanceinstitute.com/resources/valuation/equity/",
+              "rank": 9,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1573,
+              "fetch_latency_ms": 585.3159427642822
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/Equity_(finance)",
+              "rank": 10,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 1,
+              "page_length": 2076,
+              "fetch_latency_ms": 187.42895126342773
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "aggregate_report": {
+    "summary": {
+      "serp_bing": {
+        "authority_at_3": 0.345,
+        "high_auth_hit_rate": 0.0,
+        "avg_utility_score_at_10": 0.939,
+        "queries_evaluated": 3,
+        "latency_summary": {
+          "avg_search_api_latency_ms": 0.0,
+          "avg_evaluation_time_ms": 7528.4,
+          "avg_total_time_ms": 7528.4,
+          "fetch_time_stats": {
+            "avg_per_url_ms": 549.4,
+            "min_fetch_time_ms": 53.3,
+            "max_fetch_time_ms": 8013.9,
+            "total_urls_evaluated": 30
+          }
+        }
+      }
+    },
+    "detailed_comparison": [
+      {
+        "query_id": "Q1",
+        "query_text": "AI hiring screening compliance requirements NYC Local Law 144 California Illinois",
+        "provider_metrics": {
+          "serp_bing": {
+            "authority_at_3": 0.267,
+            "high_auth_hit_at_3": false,
+            "utility_score_at_10": 0.661,
+            "latency_stats": {
+              "total_fetch_time_ms": 1703.9,
+              "avg_fetch_time_ms": 170.4,
+              "min_fetch_time_ms": 53.3,
+              "max_fetch_time_ms": 876.2,
+              "urls_evaluated": 10
+            }
+          }
+        }
+      },
+      {
+        "query_id": "Q2",
+        "query_text": "employee fired social media DEI criticism wrongful termination NLRA First Amendment at-will",
+        "provider_metrics": {
+          "serp_bing": {
+            "authority_at_3": 0.5,
+            "high_auth_hit_at_3": false,
+            "utility_score_at_10": 1.273,
+            "latency_stats": {
+              "total_fetch_time_ms": 11914.8,
+              "avg_fetch_time_ms": 1191.5,
+              "min_fetch_time_ms": 114.3,
+              "max_fetch_time_ms": 8013.9,
+              "urls_evaluated": 10
+            }
+          }
+        }
+      },
+      {
+        "query_id": "Q3",
+        "query_text": "equity compensation independent contractors securities law Rule 701 state blue sky",
+        "provider_metrics": {
+          "serp_bing": {
+            "authority_at_3": 0.267,
+            "high_auth_hit_at_3": false,
+            "utility_score_at_10": 0.883,
+            "latency_stats": {
+              "total_fetch_time_ms": 2862.1,
+              "avg_fetch_time_ms": 286.2,
+              "min_fetch_time_ms": 102.2,
+              "max_fetch_time_ms": 585.3,
+              "urls_evaluated": 10
+            }
+          }
+        }
+      }
+    ]
+  }
+}
