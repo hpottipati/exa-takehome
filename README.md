@@ -1,7 +1,9 @@
 # Legal Search Benchmark
 
 **TLDR**: A set of evals to answer the question — *Which search provider delivers the most authoritative and useful results for legal research?*
-**LOOM VIDEO** :
+
+
+**VIDEO** : https://youtu.be/4f00BbR9jLc
 ---
 ## The Problem
 
