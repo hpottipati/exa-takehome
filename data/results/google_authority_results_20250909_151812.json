@@ -1,5 +1,5 @@
 {
-  "timestamp": "20250909_021731",
+  "timestamp": "20250909_151812",
   "queries": [
     {
       "query_id": "Q1",
@@ -11,16 +11,16 @@
             "high_auth_hit_at_3": false,
             "utility_score_at_10": 1.464,
             "latency_stats": {
-              "total_fetch_time_ms": 3953.1,
-              "avg_fetch_time_ms": 395.3,
-              "min_fetch_time_ms": 99.3,
-              "max_fetch_time_ms": 1466.5,
+              "total_fetch_time_ms": 6407.4,
+              "avg_fetch_time_ms": 640.7,
+              "min_fetch_time_ms": 201.8,
+              "max_fetch_time_ms": 1375.3,
               "urls_evaluated": 10
             }
           },
-          "search_api_latency_ms": 353.0,
-          "evaluation_time_ms": 7656.8,
-          "total_time_ms": 8009.8,
+          "search_api_latency_ms": 978.4,
+          "evaluation_time_ms": 10161.7,
+          "total_time_ms": 11140.1,
           "detailed_results": [
             {
               "url": "https://www.theemployerreport.com/2024/08/illinois-joins-colorado-and-nyc-in-restricting-generative-ai-in-hr-a-comprehensive-look-at-us-and-global-laws-on-algorithmic-bias-in-the-workplace/",
@@ -30,7 +30,7 @@
               "citation_bonus": 1.0,
               "citation_count": 2,
               "page_length": 1874,
-              "fetch_latency_ms": 251.78217887878418
+              "fetch_latency_ms": 504.34303283691406
             },
             {
               "url": "https://www.whitecase.com/insight-alert/automated-decision-making-emerges-early-target-state-ai-regulation",
@@ -40,7 +40,7 @@
               "citation_bonus": 1.0,
               "citation_count": 10,
               "page_length": 2799,
-              "fetch_latency_ms": 230.84402084350586
+              "fetch_latency_ms": 1375.333309173584
             },
             {
               "url": "https://www.theemployerreport.com/2023/05/enforcement-of-new-york-citys-artificial-intelligence-rule-begins-july-5-2023-heres-what-employers-need-to-know/",
@@ -50,7 +50,7 @@
               "citation_bonus": 1.0,
               "citation_count": 2,
               "page_length": 1246,
-              "fetch_latency_ms": 248.26312065124512
+              "fetch_latency_ms": 476.84216499328613
             },
             {
               "url": "https://www.employmentlawworldview.com/new-york-update-nys-amends-warn-regulations-and-nyc-provides-guidance-on-new-law-concerning-use-of-ai-in-hiring-us/",
@@ -60,7 +60,7 @@
               "citation_bonus": 1.0,
               "citation_count": 11,
               "page_length": 1649,
-              "fetch_latency_ms": 261.7628574371338
+              "fetch_latency_ms": 525.0568389892578
             },
             {
               "url": "https://www.purduegloballawschool.edu/blog/news/automated-employment-decision-tools",
@@ -70,7 +70,7 @@
               "citation_bonus": 1.0,
               "citation_count": 13,
               "page_length": 1712,
-              "fetch_latency_ms": 1466.4912223815918
+              "fetch_latency_ms": 898.2410430908203
             },
             {
               "url": "https://www.fisherphillips.com/en/news-insights/comprehensive-review-of-ai-workplace-law-and-litigation-as-we-enter-2025.html",
@@ -80,47 +80,47 @@
               "citation_bonus": 1.0,
               "citation_count": 3,
               "page_length": 2072,
-              "fetch_latency_ms": 388.3068561553955
+              "fetch_latency_ms": 507.21192359924316
+            },
+            {
+              "url": "https://www.ebglaw.com/insights/events/the-employment-law-hr-summit-automated-hiring-tools-legal-and-ethical-risks",
+              "rank": 7,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 2,
+              "page_length": 617,
+              "fetch_latency_ms": 1370.676040649414
             },
             {
               "url": "https://www.workforcebulletin.com/category/artificial-intelligence",
-              "rank": 7,
+              "rank": 8,
               "authority_score": 0.5,
               "domain_score": 0.5,
               "citation_bonus": 1.0,
               "citation_count": 20,
               "page_length": 11736,
-              "fetch_latency_ms": 263.9749050140381
+              "fetch_latency_ms": 303.80868911743164
             },
             {
               "url": "https://iprospectcheck.com/ai-recruiting/",
-              "rank": 8,
+              "rank": 9,
               "authority_score": 0.5,
               "domain_score": 0.5,
               "citation_bonus": 1.0,
               "citation_count": 4,
               "page_length": 3601,
-              "fetch_latency_ms": 99.2579460144043
+              "fetch_latency_ms": 201.8289566040039
             },
             {
               "url": "https://www.holisticai.com/blog/compare-nyc-and-new-jersey-bias-audit-laws",
-              "rank": 9,
+              "rank": 10,
               "authority_score": 0.5,
               "domain_score": 0.5,
               "citation_bonus": 1.0,
               "citation_count": 22,
               "page_length": 2842,
-              "fetch_latency_ms": 259.7320079803467
-            },
-            {
-              "url": "https://www.hklaw.com/en/insights/publications/2025/03/artificial-intelligence-in-hiring-diverging-federal-state-perspectives",
-              "rank": 10,
-              "authority_score": 0.5,
-              "domain_score": 0.5,
-              "citation_bonus": 1.0,
-              "citation_count": 7,
-              "page_length": 1596,
-              "fetch_latency_ms": 482.64312744140625
+              "fetch_latency_ms": 244.03882026672363
             }
           ]
         }
@@ -136,16 +136,16 @@
             "high_auth_hit_at_3": false,
             "utility_score_at_10": 0.735,
             "latency_stats": {
-              "total_fetch_time_ms": 3021.0,
-              "avg_fetch_time_ms": 302.1,
-              "min_fetch_time_ms": 188.4,
-              "max_fetch_time_ms": 660.7,
+              "total_fetch_time_ms": 5275.0,
+              "avg_fetch_time_ms": 527.5,
+              "min_fetch_time_ms": 181.3,
+              "max_fetch_time_ms": 1157.2,
               "urls_evaluated": 10
             }
           },
-          "search_api_latency_ms": 283.7,
-          "evaluation_time_ms": 7923.4,
-          "total_time_ms": 8207.1,
+          "search_api_latency_ms": 694.0,
+          "evaluation_time_ms": 10480.5,
+          "total_time_ms": 11174.4,
           "detailed_results": [
             {
               "url": "https://jacksonspencerlaw.com/getting-fired-for-social-media/",
@@ -155,7 +155,7 @@
               "citation_bonus": 0.3,
               "citation_count": 0,
               "page_length": 2539,
-              "fetch_latency_ms": 288.5398864746094
+              "fetch_latency_ms": 444.11420822143555
             },
             {
               "url": "https://www.fosterswift.com/newsroom/publications/Employers-Regulate-Employee-Outside-Work",
@@ -165,7 +165,7 @@
               "citation_bonus": 0.3,
               "citation_count": 0,
               "page_length": 1160,
-              "fetch_latency_ms": 273.0281352996826
+              "fetch_latency_ms": 411.41819953918457
             },
             {
               "url": "https://www.ebglaw.com/insights/publications/dealing-with-controversial-commentary-some-guidance-and-guardrails-for-employers",
@@ -175,7 +175,7 @@
               "citation_bonus": 1.0,
               "citation_count": 3,
               "page_length": 3169,
-              "fetch_latency_ms": 188.39621543884277
+              "fetch_latency_ms": 181.30898475646973
             },
             {
               "url": "https://www.laborrelationslawinsider.com/2020/10/understanding-employers-right-to-impose-limits-on-political-activities-in-the-workplace/",
@@ -185,7 +185,7 @@
               "citation_bonus": 1.0,
               "citation_count": 7,
               "page_length": 2170,
-              "fetch_latency_ms": 249.50194358825684
+              "fetch_latency_ms": 336.58909797668457
             },
             {
               "url": "https://www.employmentlawworldview.com/two-recent-federal-court-decisions-explore-the-limits-of-the-at-will-employment-doctrine/",
@@ -195,7 +195,7 @@
               "citation_bonus": 1.0,
               "citation_count": 5,
               "page_length": 595,
-              "fetch_latency_ms": 261.1978054046631
+              "fetch_latency_ms": 456.75015449523926
             },
             {
               "url": "https://www.shrm.org/topics-tools/employment-law-compliance/fired-political-affiliation-activity",
@@ -205,7 +205,7 @@
               "citation_bonus": 0.3,
               "citation_count": 0,
               "page_length": 14,
-              "fetch_latency_ms": 239.7599220275879
+              "fetch_latency_ms": 1157.1600437164307
             },
             {
               "url": "https://www.eeoc.gov/statutes/title-vii-civil-rights-act-1964",
@@ -215,7 +215,7 @@
               "citation_bonus": 0.3,
               "citation_count": 0,
               "page_length": 67,
-              "fetch_latency_ms": 309.7851276397705
+              "fetch_latency_ms": 289.3650531768799
             },
             {
               "url": "https://www.workplaceethicsadvice.com/2022/02/can-employees-be-fired-for-using-social-media-at-work.html",
@@ -225,7 +225,7 @@
               "citation_bonus": 0.3,
               "citation_count": 0,
               "page_length": 0,
-              "fetch_latency_ms": 192.62218475341797
+              "fetch_latency_ms": 194.64111328125
             },
             {
               "url": "https://illinoislawrev.web.illinois.edu/wp-content/uploads/2020/10/Melzer.pdf",
@@ -235,7 +235,7 @@
               "citation_bonus": 0.3,
               "citation_count": 0,
               "page_length": 8266,
-              "fetch_latency_ms": 660.653829574585
+              "fetch_latency_ms": 898.1702327728271
             },
             {
               "url": "https://www.fclr.org/fclr/articles/html/2010/robbins.pdf",
@@ -245,7 +245,7 @@
               "citation_bonus": 0.3,
               "citation_count": 0,
               "page_length": 12622,
-              "fetch_latency_ms": 357.4681282043457
+              "fetch_latency_ms": 905.4837226867676
             }
           ]
         }
@@ -261,16 +261,16 @@
             "high_auth_hit_at_3": false,
             "utility_score_at_10": 1.276,
             "latency_stats": {
-              "total_fetch_time_ms": 5150.2,
-              "avg_fetch_time_ms": 515.0,
-              "min_fetch_time_ms": 98.8,
-              "max_fetch_time_ms": 2913.2,
+              "total_fetch_time_ms": 3665.6,
+              "avg_fetch_time_ms": 366.6,
+              "min_fetch_time_ms": 93.8,
+              "max_fetch_time_ms": 828.0,
               "urls_evaluated": 10
             }
           },
-          "search_api_latency_ms": 466.7,
-          "evaluation_time_ms": 18814.9,
-          "total_time_ms": 19281.6,
+          "search_api_latency_ms": 493.6,
+          "evaluation_time_ms": 19252.1,
+          "total_time_ms": 19745.7,
           "detailed_results": [
             {
               "url": "https://immixlaw.com/equity-compensation/",
@@ -280,7 +280,7 @@
               "citation_bonus": 1.0,
               "citation_count": 15,
               "page_length": 1396,
-              "fetch_latency_ms": 98.78706932067871
+              "fetch_latency_ms": 93.76001358032227
             },
             {
               "url": "https://www.foley.com/insights/publications/2024/08/equity-based-incentive-compensation-stock-options-iso/",
@@ -290,7 +290,7 @@
               "citation_bonus": 1.0,
               "citation_count": 1,
               "page_length": 2461,
-              "fetch_latency_ms": 328.3960819244385
+              "fetch_latency_ms": 235.08405685424805
             },
             {
               "url": "https://www.legalgps.com/equity-compensation/blog/securities-laws-guide",
@@ -300,7 +300,7 @@
               "citation_bonus": 1.0,
               "citation_count": 59,
               "page_length": 2230,
-              "fetch_latency_ms": 210.9091281890869
+              "fetch_latency_ms": 383.044958114624
             },
             {
               "url": "https://media.taftlaw.com/taft/files/fileuploads/63208a98ef1a000024dfd297/Equity%20Incentive%20Compensation%20Plans%20for%20Start-Ups.pdf",
@@ -310,7 +310,7 @@
               "citation_bonus": 0.4532332209623046,
               "citation_count": 1,
               "page_length": 13052,
-              "fetch_latency_ms": 359.12084579467773
+              "fetch_latency_ms": 456.43067359924316
             },
             {
               "url": "https://www.orrick.com/api/content/downloadattachment?id=d4b03b09-34bf-4063-9e58-cce2debdd5c9",
@@ -320,7 +320,7 @@
               "citation_bonus": 0.4600256040966555,
               "citation_count": 1,
               "page_length": 12498,
-              "fetch_latency_ms": 2913.2087230682373
+              "fetch_latency_ms": 828.0079364776611
             },
             {
               "url": "https://frostbrowntodd.com/sec-liberalizes-rules-for-private-company-equity-compensation-2/",
@@ -330,7 +330,7 @@
               "citation_bonus": 1.0,
               "citation_count": 13,
               "page_length": 990,
-              "fetch_latency_ms": 204.9548625946045
+              "fetch_latency_ms": 201.33399963378906
             },
             {
               "url": "https://www.lightercapital.com/blog/equity-compensation-mistakes-to-avoid",
@@ -340,7 +340,7 @@
               "citation_bonus": 1.0,
               "citation_count": 23,
               "page_length": 1671,
-              "fetch_latency_ms": 171.68927192687988
+              "fetch_latency_ms": 248.07286262512207
             },
             {
               "url": "https://www.nasaa.org/wp-content/uploads/2021/09/2002-Uniform-Securities-Act.pdf",
@@ -350,7 +350,7 @@
               "citation_bonus": 0.3,
               "citation_count": 0,
               "page_length": 30348,
-              "fetch_latency_ms": 401.92723274230957
+              "fetch_latency_ms": 297.0290184020996
             },
             {
               "url": "https://www.sos.ms.gov/content/documents/Securities/MS_Securities_Act_Rules.pdf",
@@ -360,7 +360,7 @@
               "citation_bonus": 0.3,
               "citation_count": 0,
               "page_length": 22018,
-              "fetch_latency_ms": 210.99400520324707
+              "fetch_latency_ms": 177.4890422821045
             },
             {
               "url": "https://www.bipc.com/early-stage-company-equity-incentive-plans-key-limitations-under-securities-laws",
@@ -370,7 +370,7 @@
               "citation_bonus": 1.0,
               "citation_count": 9,
               "page_length": 983,
-              "fetch_latency_ms": 250.20909309387207
+              "fetch_latency_ms": 745.3498840332031
             }
           ]
         }
@@ -385,13 +385,13 @@
         "avg_utility_score_at_10": 1.158,
         "queries_evaluated": 3,
         "latency_summary": {
-          "avg_search_api_latency_ms": 367.8,
-          "avg_evaluation_time_ms": 11465.0,
-          "avg_total_time_ms": 11832.8,
+          "avg_search_api_latency_ms": 722.0,
+          "avg_evaluation_time_ms": 13298.1,
+          "avg_total_time_ms": 14020.1,
           "fetch_time_stats": {
-            "avg_per_url_ms": 404.1,
-            "min_fetch_time_ms": 98.8,
-            "max_fetch_time_ms": 2913.2,
+            "avg_per_url_ms": 511.6,
+            "min_fetch_time_ms": 93.8,
+            "max_fetch_time_ms": 1375.3,
             "total_urls_evaluated": 30
           }
         }
@@ -407,10 +407,10 @@
             "high_auth_hit_at_3": false,
             "utility_score_at_10": 1.464,
             "latency_stats": {
-              "total_fetch_time_ms": 3953.1,
-              "avg_fetch_time_ms": 395.3,
-              "min_fetch_time_ms": 99.3,
-              "max_fetch_time_ms": 1466.5,
+              "total_fetch_time_ms": 6407.4,
+              "avg_fetch_time_ms": 640.7,
+              "min_fetch_time_ms": 201.8,
+              "max_fetch_time_ms": 1375.3,
               "urls_evaluated": 10
             }
           }
@@ -425,10 +425,10 @@
             "high_auth_hit_at_3": false,
             "utility_score_at_10": 0.735,
             "latency_stats": {
-              "total_fetch_time_ms": 3021.0,
-              "avg_fetch_time_ms": 302.1,
-              "min_fetch_time_ms": 188.4,
-              "max_fetch_time_ms": 660.7,
+              "total_fetch_time_ms": 5275.0,
+              "avg_fetch_time_ms": 527.5,
+              "min_fetch_time_ms": 181.3,
+              "max_fetch_time_ms": 1157.2,
               "urls_evaluated": 10
             }
           }
@@ -443,10 +443,10 @@
             "high_auth_hit_at_3": false,
             "utility_score_at_10": 1.276,
             "latency_stats": {
-              "total_fetch_time_ms": 5150.2,
-              "avg_fetch_time_ms": 515.0,
-              "min_fetch_time_ms": 98.8,
-              "max_fetch_time_ms": 2913.2,
+              "total_fetch_time_ms": 3665.6,
+              "avg_fetch_time_ms": 366.6,
+              "min_fetch_time_ms": 93.8,
+              "max_fetch_time_ms": 828.0,
               "urls_evaluated": 10
             }
           }

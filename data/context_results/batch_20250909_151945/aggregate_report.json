@@ -1,0 +1,253 @@
+{
+  "summary": {
+    "exa": {
+      "avg_win_rate": 0.45,
+      "avg_authority_cited": 0.515,
+      "avg_support_ratio": 0.783,
+      "avg_generation_time_ms": 1103.0,
+      "queries_with_data": 10
+    },
+    "google": {
+      "avg_win_rate": 0.625,
+      "avg_authority_cited": 0.674,
+      "avg_support_ratio": 0.756,
+      "avg_generation_time_ms": 968.6,
+      "queries_with_data": 10
+    },
+    "serp_bing": {
+      "avg_win_rate": 0.512,
+      "avg_authority_cited": 0.322,
+      "avg_support_ratio": 0.135,
+      "avg_generation_time_ms": 984.7,
+      "queries_with_data": 10
+    },
+    "serp_duckduckgo": {
+      "avg_win_rate": 0.35,
+      "avg_authority_cited": 0.627,
+      "avg_support_ratio": 0.74,
+      "avg_generation_time_ms": 1238.4,
+      "queries_with_data": 10
+    },
+    "serp_google": {
+      "avg_win_rate": 0.562,
+      "avg_authority_cited": 0.659,
+      "avg_support_ratio": 0.794,
+      "avg_generation_time_ms": 993.3,
+      "queries_with_data": 10
+    }
+  },
+  "detailed_metrics": {
+    "llm_win_rate": {
+      "exa": [
+        0.0,
+        0.375,
+        0.75,
+        0.5,
+        0.5,
+        0.5,
+        0.125,
+        0.75,
+        1.0,
+        0.0
+      ],
+      "google": [
+        0.375,
+        0.75,
+        0.75,
+        0.75,
+        0.875,
+        1.0,
+        0.75,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "serp_bing": [
+        0.75,
+        0.375,
+        0.375,
+        0.5,
+        0.375,
+        0.25,
+        1.0,
+        0.25,
+        0.25,
+        1.0
+      ],
+      "serp_duckduckgo": [
+        0.75,
+        0.5,
+        0.25,
+        0.25,
+        0.0,
+        0.25,
+        0.125,
+        0.625,
+        0.0,
+        0.75
+      ],
+      "serp_google": [
+        0.625,
+        0.5,
+        0.375,
+        0.5,
+        0.75,
+        0.5,
+        0.5,
+        0.625,
+        0.75,
+        0.5
+      ]
+    },
+    "authority_of_cited": {
+      "exa": [
+        0.5,
+        0.5,
+        0.611,
+        0.643,
+        0.5,
+        0.0,
+        0.667,
+        0.583,
+        0.65,
+        0.5
+      ],
+      "google": [
+        0.5,
+        0.6,
+        0.542,
+        0.5,
+        0.917,
+        0.688,
+        0.85,
+        0.625,
+        0.714,
+        0.8
+      ],
+      "serp_bing": [
+        0.0,
+        1.0,
+        0.5,
+        0.5,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.725
+      ],
+      "serp_duckduckgo": [
+        0.5,
+        0.5,
+        0.5,
+        0.55,
+        0.769,
+        0.7,
+        0.688,
+        0.625,
+        0.875,
+        0.564
+      ],
+      "serp_google": [
+        0.5,
+        0.5,
+        0.75,
+        0.688,
+        0.714,
+        0.846,
+        0.722,
+        0.6,
+        0.773,
+        0.5
+      ]
+    },
+    "support_ratio": {
+      "exa": [
+        0.917,
+        1.0,
+        0.778,
+        0.769,
+        0.818,
+        0.667,
+        0.786,
+        0.529,
+        0.8,
+        0.769
+      ],
+      "google": [
+        0.688,
+        0.529,
+        0.895,
+        0.9,
+        0.417,
+        0.917,
+        0.769,
+        0.6,
+        0.9,
+        0.941
+      ],
+      "serp_bing": [
+        0.056,
+        0.056,
+        0.038,
+        0.0,
+        0.056,
+        0.0,
+        0.0,
+        0.294,
+        0.0,
+        0.846
+      ],
+      "serp_duckduckgo": [
+        0.846,
+        0.824,
+        0.625,
+        0.833,
+        0.5,
+        0.688,
+        0.571,
+        0.938,
+        0.667,
+        0.909
+      ],
+      "serp_google": [
+        0.929,
+        0.875,
+        0.889,
+        0.65,
+        0.818,
+        0.857,
+        0.846,
+        0.81,
+        0.6,
+        0.667
+      ]
+    }
+  },
+  "queries_evaluated": 10,
+  "composite_scores": {
+    "exa": 0.569,
+    "google": 0.679,
+    "serp_bing": 0.342,
+    "serp_duckduckgo": 0.55,
+    "serp_google": 0.661
+  },
+  "recommended_provider": {
+    "name": "google",
+    "composite_score": 0.679,
+    "reasoning": "google achieved the highest composite score across all three context metrics"
+  },
+  "metadata": {
+    "timestamp": "20250909_151945",
+    "total_queries": 10,
+    "successful_queries": 10,
+    "failed_queries": [],
+    "providers": [
+      "exa",
+      "google",
+      "serp_google",
+      "serp_bing",
+      "serp_duckduckgo"
+    ]
+  }
+}

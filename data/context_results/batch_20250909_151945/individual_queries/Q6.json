@@ -1,0 +1,792 @@
+{
+  "query": "What are the federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy?",
+  "timestamp": "2025-09-09 15:22:44",
+  "providers": {
+    "exa": {
+      "answer": "A 501(c)(3) organization engaging in climate policy advocacy is subject to federal lobbying registration and reporting requirements. The Lobbying Disclosure Act (LDA) of 1995, 2 U.S.C. \u00a7 1601 et seq., requires organizations that lobby federal officials to register with the Clerk of the House of Representatives and the Secretary of the Senate, and to file quarterly reports disclosing their lobbying activities.\n\nAccording to the IRS, lobbying by 501(c)(3) organizations is generally prohibited, except for certain limited exceptions (26 U.S.C. \u00a7 501(c)(3)). However, the IRS allows 501(c)(3) organizations to engage in some lobbying activities, as long as they do not exceed a certain threshold (26 U.S.C. \u00a7 501(h)). The IRS has established a 20% expenditure test, which means that if a 501(c)(3) organization's lobbying expenditures exceed 20% of its total expenditures, it may lose its tax-exempt status (26 U.S.C. \u00a7 501(h)(1)(B)).\n\nThe LDA requires organizations to register if they expend more than $3,000 in a six-month period on lobbying activities (2 U.S.C. \u00a7 1602(2)). The registration must include the organization's name, address, and a description of its lobbying activities (2 U.S.C. \u00a7 1602(3)). The organization must also file a quarterly report disclosing its lobbying activities, including the amount of money spent on lobbying and the issues lobbied (2 U.S.C. \u00a7 1602(4)).\n\nIn addition to the LDA, 501(c)(3) organizations must also comply with the IRS's rules on lobbying, which include the 20% expenditure test and the prohibition on campaign intervention (26 U.S.C. \u00a7 501(c)(3)). The IRS has also established a safe harbor rule, which allows 501(c)(3) organizations to engage in certain lobbying activities without losing their tax-exempt status (26 C.F.R. \u00a7 1.501(c)(3)-1).\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register with the Clerk of the House of Representatives and the Secretary of the Senate, and file quarterly reports disclosing its lobbying activities, if it expends more than $3,000 in a six-month period on lobbying activities. The organization must also comply with the IRS's rules on",
+      "generation_latency_ms": 1171.463966369629,
+      "authority_of_cited": {
+        "authority_score": 0.0,
+        "num_citations": 0,
+        "cited_urls": [],
+        "latency_ms": 0.051021575927734375
+      },
+      "support_ratio": {
+        "support_ratio": 0.667,
+        "supported_sentences": 12,
+        "total_sentences": 18,
+        "sentence_details": [
+          {
+            "sentence": "A 501(c)(3) organization engaging in climate policy advocacy is subject to federal lobbying registration and reporting requirements",
+            "max_similarity": 0.6596731543540955,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The Lobbying Disclosure Act (LDA) of 1995, 2 U",
+            "max_similarity": 0.7171831130981445,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 1601 et seq",
+            "max_similarity": 0.30595242977142334,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": ", requires organizations that lobby federal officials to register with the Clerk of the House of Representatives and the Secretary of the Senate, and to file quarterly reports disclosing their lobbying activities",
+            "max_similarity": 0.7252309322357178,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to the IRS, lobbying by 501(c)(3) organizations is generally prohibited, except for certain limited exceptions (26 U",
+            "max_similarity": 0.7964913249015808,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 501(c)(3))",
+            "max_similarity": 0.3694654107093811,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, the IRS allows 501(c)(3) organizations to engage in some lobbying activities, as long as they do not exceed a certain threshold (26 U",
+            "max_similarity": 0.794590413570404,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The IRS has established a 20% expenditure test, which means that if a 501(c)(3) organization's lobbying expenditures exceed 20% of its total expenditures, it may lose its tax-exempt status (26 U",
+            "max_similarity": 0.8122742772102356,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 501(h)(1)(B))",
+            "max_similarity": 0.28003448247909546,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The LDA requires organizations to register if they expend more than $3,000 in a six-month period on lobbying activities (2 U",
+            "max_similarity": 0.7833428978919983,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The registration must include the organization's name, address, and a description of its lobbying activities (2 U",
+            "max_similarity": 0.6447169184684753,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The organization must also file a quarterly report disclosing its lobbying activities, including the amount of money spent on lobbying and the issues lobbied (2 U",
+            "max_similarity": 0.7085173726081848,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In addition to the LDA, 501(c)(3) organizations must also comply with the IRS's rules on lobbying, which include the 20% expenditure test and the prohibition on campaign intervention (26 U",
+            "max_similarity": 0.7763006091117859,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 501(c)(3))",
+            "max_similarity": 0.3694654107093811,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The IRS has also established a safe harbor rule, which allows 501(c)(3) organizations to engage in certain lobbying activities without losing their tax-exempt status (26 C",
+            "max_similarity": 0.7364340424537659,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "501(c)(3)-1)",
+            "max_similarity": 0.4467470645904541,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In summary, a 501(c)(3) organization engaging in climate policy advocacy must register with the Clerk of the House of Representatives and the Secretary of the Senate, and file quarterly reports disclosing its lobbying activities, if it expends more than $3,000 in a six-month period on lobbying activities",
+            "max_similarity": 0.6884281039237976,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The organization must also comply with the IRS's rules on",
+            "max_similarity": 0.5521052479743958,
+            "is_supported": false,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 67,
+        "latency_ms": 801.6300201416016
+      }
+    },
+    "google": {
+      "answer": "A 501(c)(3) organization engaging in climate policy advocacy is subject to federal lobbying registration and reporting requirements under the Lobbying Disclosure Act (LDA) of 1995, as amended. The LDA requires organizations to register with the Secretary of the Senate and the Clerk of the House of Representatives if they expend more than $3,000 in a six-month period on lobbying activities [3].\n\nTo determine whether a 501(c)(3) organization is engaging in lobbying, the Internal Revenue Code (IRC) defines lobbying as \"any attempt to influence any legislation through an attempt to affect or influence either members of Congress or any national elected official or the general public with respect to legislation\" [6]. The IRS has also issued regulations that provide guidance on what constitutes lobbying, including activities such as communicating with members of Congress, testifying before Congress, and preparing and distributing written materials to influence legislation [6].\n\nThe LDA requires registered lobbyists to file quarterly reports with the Secretary of the Senate and the Clerk of the House of Representatives, which must include information about the lobbyist's clients, the issues being lobbied, and the amount of money spent on lobbying activities [3]. The reports must be filed electronically and made available to the public [3].\n\n501(c)(3) organizations are also subject to the tax laws and regulations governing lobbying, including the prohibition on using tax-exempt funds for lobbying activities that are not related to the organization's exempt purpose [9]. The IRS has issued guidance on the types of activities that are considered lobbying and the types of activities that are not considered lobbying, including activities such as educating the public about a particular issue and advocating for a particular policy [9].\n\nIn addition to the federal requirements, some states have their own lobbying registration and reporting requirements for 501(c)(3) organizations. For example, New York requires 501(c)(3) organizations to register with the New York State Joint Commission on Public Ethics if they expend more than $5,000 in a calendar year on lobbying activities [2].\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register with the Secretary of the Senate and the Clerk of the House of Representatives if they expend more than $3,000 in a six-month period on lobbying activities, and must file quarterly reports with the Secretary of the Senate and the Clerk of the House of Representatives. The organization must also comply with the tax laws and regulations governing lobbying, including the prohibition on using tax",
+      "generation_latency_ms": 1049.415111541748,
+      "authority_of_cited": {
+        "authority_score": 0.688,
+        "num_citations": 8,
+        "cited_urls": [
+          "https://lda.senate.gov/",
+          "https://www.venable.com/insights/publications/2011/10/lobbying-what-does-it-mean-for-501c3-organizations",
+          "https://www.venable.com/insights/publications/2011/10/lobbying-what-does-it-mean-for-501c3-organizations",
+          "https://lda.senate.gov/",
+          "https://lda.senate.gov/",
+          "https://www.lawhelp.org/files/7C92C43F-9283-A7E0-5931-E57134E903FB/attachments/149CD4BC-3EC6-48D0-8233-B7D0C5C25427/lobbying-guide-final.pdf",
+          "https://www.lawhelp.org/files/7C92C43F-9283-A7E0-5931-E57134E903FB/attachments/149CD4BC-3EC6-48D0-8233-B7D0C5C25427/lobbying-guide-final.pdf",
+          "https://lawyersalliance.org/userFiles/uploads/legal_alerts/Nonprofits_and_Lobbying_FAQ.pdf"
+        ],
+        "individual_scores": [
+          1.0,
+          0.5,
+          0.5,
+          1.0,
+          1.0,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 1.0557174682617188
+      },
+      "support_ratio": {
+        "support_ratio": 0.917,
+        "supported_sentences": 11,
+        "total_sentences": 12,
+        "sentence_details": [
+          {
+            "sentence": "A 501(c)(3) organization engaging in climate policy advocacy is subject to federal lobbying registration and reporting requirements under the Lobbying Disclosure Act (LDA) of 1995, as amended",
+            "max_similarity": 0.6504648327827454,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The LDA requires organizations to register with the Secretary of the Senate and the Clerk of the House of Representatives if they expend more than $3,000 in a six-month period on lobbying activities [3]",
+            "max_similarity": 0.756148636341095,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "To determine whether a 501(c)(3) organization is engaging in lobbying, the Internal Revenue Code (IRC) defines lobbying as \"any attempt to influence any legislation through an attempt to affect or influence either members of Congress or any national elected official or the general public with respect to legislation\" [6]",
+            "max_similarity": 0.7140634655952454,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The IRS has also issued regulations that provide guidance on what constitutes lobbying, including activities such as communicating with members of Congress, testifying before Congress, and preparing and distributing written materials to influence legislation [6]",
+            "max_similarity": 0.7119668126106262,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The LDA requires registered lobbyists to file quarterly reports with the Secretary of the Senate and the Clerk of the House of Representatives, which must include information about the lobbyist's clients, the issues being lobbied, and the amount of money spent on lobbying activities [3]",
+            "max_similarity": 0.7848602533340454,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The reports must be filed electronically and made available to the public [3]",
+            "max_similarity": 0.5118280649185181,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "501(c)(3) organizations are also subject to the tax laws and regulations governing lobbying, including the prohibition on using tax-exempt funds for lobbying activities that are not related to the organization's exempt purpose [9]",
+            "max_similarity": 0.8410198092460632,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The IRS has issued guidance on the types of activities that are considered lobbying and the types of activities that are not considered lobbying, including activities such as educating the public about a particular issue and advocating for a particular policy [9]",
+            "max_similarity": 0.6929396390914917,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In addition to the federal requirements, some states have their own lobbying registration and reporting requirements for 501(c)(3) organizations",
+            "max_similarity": 0.7507426738739014,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "For example, New York requires 501(c)(3) organizations to register with the New York State Joint Commission on Public Ethics if they expend more than $5,000 in a calendar year on lobbying activities [2]",
+            "max_similarity": 0.7108544111251831,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In summary, a 501(c)(3) organization engaging in climate policy advocacy must register with the Secretary of the Senate and the Clerk of the House of Representatives if they expend more than $3,000 in a six-month period on lobbying activities, and must file quarterly reports with the Secretary of the Senate and the Clerk of the House of Representatives",
+            "max_similarity": 0.6815945506095886,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The organization must also comply with the tax laws and regulations governing lobbying, including the prohibition on using tax",
+            "max_similarity": 0.6662642955780029,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 53,
+        "latency_ms": 247.60079383850098
+      }
+    },
+    "serp_google": {
+      "answer": "A 501(c)(3) organization engaging in climate policy advocacy must comply with federal lobbying registration and reporting requirements. The Lobbying Disclosure Act (LDA) of 1995, as amended, governs lobbying activities by organizations, including 501(c)(3) organizations [1].\n\nTo register as a lobbyist, a 501(c)(3) organization must file a registration statement with the Clerk of the House of Representatives and the Secretary of the Senate within 10 days of engaging in lobbying activities [10]. The registration statement must include the organization's name, address, and a list of lobbyists employed by the organization [10].\n\nThe LDA defines lobbying as \"lobbying contact\" or \"lobbying activity,\" which includes communicating with covered officials to influence legislation, regulations, or administrative actions [10]. Climate policy advocacy may be considered lobbying if it involves communicating with covered officials to influence legislation, regulations, or administrative actions related to climate policy [1].\n\n501(c)(3) organizations are subject to the 20% expenditure test, which requires that lobbying activities not exceed 20% of the organization's total expenditures [2]. If the organization's lobbying expenditures exceed 20% of its total expenditures, it may be subject to tax on the excess lobbying expenditures [2].\n\nThe Internal Revenue Service (IRS) provides guidance on lobbying by 501(c)(3) organizations, including the rules for determining whether an organization is engaged in lobbying and the requirements for reporting lobbying activities [2].\n\nThe Lobbying Disclosure Act requires lobbyists to file quarterly reports with the Clerk of the House of Representatives and the Secretary of the Senate, which must include information about lobbying activities, including the issues lobbied, the officials lobbied, and the amount of lobbying expenditures [10].\n\nIn addition to the LDA, 501(c)(3) organizations must also comply with the rules and regulations of the IRS, including the requirement to file Form 990, which includes information about lobbying activities [2].\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register as a lobbyist under the Lobbying Disclosure Act, file quarterly reports, and comply with the 20% expenditure test and IRS rules and regulations.\n\nReferences:\n\n[1] Understanding the Lobbying Disclosure Act, American Federation for Justice (2018)\n[2] Lobbying | Internal Revenue Service, IRS.gov\n[3] Nonprofit Lobbying: The Rules You Need to Know, Whiteford, Taylor & Preston LLP",
+      "generation_latency_ms": 1037.8587245941162,
+      "authority_of_cited": {
+        "authority_score": 0.846,
+        "num_citations": 13,
+        "cited_urls": [
+          "https://afj.org/wp-content/uploads/2018/06/Understanding_the_Lobbying_Disclosure_Act.pdf",
+          "https://lobbyingdisclosure.house.gov/",
+          "https://lobbyingdisclosure.house.gov/",
+          "https://lobbyingdisclosure.house.gov/",
+          "https://afj.org/wp-content/uploads/2018/06/Understanding_the_Lobbying_Disclosure_Act.pdf",
+          "https://www.irs.gov/charities-non-profits/lobbying",
+          "https://www.irs.gov/charities-non-profits/lobbying",
+          "https://www.irs.gov/charities-non-profits/lobbying",
+          "https://lobbyingdisclosure.house.gov/",
+          "https://www.irs.gov/charities-non-profits/lobbying",
+          "https://afj.org/wp-content/uploads/2018/06/Understanding_the_Lobbying_Disclosure_Act.pdf",
+          "https://www.irs.gov/charities-non-profits/lobbying",
+          "https://www.whitefordlaw.com/news-events/nonprofit-lobbying-the-rules-you-need-to-know"
+        ],
+        "individual_scores": [
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.5,
+          1.0,
+          0.5
+        ],
+        "latency_ms": 0.7371902465820312
+      },
+      "support_ratio": {
+        "support_ratio": 0.857,
+        "supported_sentences": 12,
+        "total_sentences": 14,
+        "sentence_details": [
+          {
+            "sentence": "A 501(c)(3) organization engaging in climate policy advocacy must comply with federal lobbying registration and reporting requirements",
+            "max_similarity": 0.6573888659477234,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The Lobbying Disclosure Act (LDA) of 1995, as amended, governs lobbying activities by organizations, including 501(c)(3) organizations [1]",
+            "max_similarity": 0.703815758228302,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "To register as a lobbyist, a 501(c)(3) organization must file a registration statement with the Clerk of the House of Representatives and the Secretary of the Senate within 10 days of engaging in lobbying activities [10]",
+            "max_similarity": 0.7778684496879578,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The registration statement must include the organization's name, address, and a list of lobbyists employed by the organization [10]",
+            "max_similarity": 0.600316047668457,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The LDA defines lobbying as \"lobbying contact\" or \"lobbying activity,\" which includes communicating with covered officials to influence legislation, regulations, or administrative actions [10]",
+            "max_similarity": 0.6880882978439331,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Climate policy advocacy may be considered lobbying if it involves communicating with covered officials to influence legislation, regulations, or administrative actions related to climate policy [1]",
+            "max_similarity": 0.5718588829040527,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "501(c)(3) organizations are subject to the 20% expenditure test, which requires that lobbying activities not exceed 20% of the organization's total expenditures [2]",
+            "max_similarity": 0.7952410578727722,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "If the organization's lobbying expenditures exceed 20% of its total expenditures, it may be subject to tax on the excess lobbying expenditures [2]",
+            "max_similarity": 0.6783097386360168,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The Internal Revenue Service (IRS) provides guidance on lobbying by 501(c)(3) organizations, including the rules for determining whether an organization is engaged in lobbying and the requirements for reporting lobbying activities [2]",
+            "max_similarity": 0.7523318529129028,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The Lobbying Disclosure Act requires lobbyists to file quarterly reports with the Clerk of the House of Representatives and the Secretary of the Senate, which must include information about lobbying activities, including the issues lobbied, the officials lobbied, and the amount of lobbying expenditures [10]",
+            "max_similarity": 0.7140700221061707,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In addition to the LDA, 501(c)(3) organizations must also comply with the rules and regulations of the IRS, including the requirement to file Form 990, which includes information about lobbying activities [2]",
+            "max_similarity": 0.7735924124717712,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In summary, a 501(c)(3) organization engaging in climate policy advocacy must register as a lobbyist under the Lobbying Disclosure Act, file quarterly reports, and comply with the 20% expenditure test and IRS rules and regulations",
+            "max_similarity": 0.6722316741943359,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "References:\n\n[1] Understanding the Lobbying Disclosure Act, American Federation for Justice (2018)\n[2] Lobbying | Internal Revenue Service, IRS",
+            "max_similarity": 0.6859034895896912,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "gov\n[3] Nonprofit Lobbying: The Rules You Need to Know, Whiteford, Taylor & Preston LLP",
+            "max_similarity": 0.5996561646461487,
+            "is_supported": false,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 65,
+        "latency_ms": 466.3119316101074
+      }
+    },
+    "serp_bing": {
+      "answer": "Based on the search results provided, it appears that there is no direct information related to federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy. However, I can provide general information on lobbying regulations and the requirements for 501(c)(3) organizations.\n\nThe Lobbying Disclosure Act of 1995 (LDA) requires lobbyists to register with the Secretary of the Senate and the Clerk of the House of Representatives if they engage in lobbying activities on behalf of a client (2 U.S.C. \u00a7 1602 et seq.). The LDA defines lobbying as \"lobbying contact\" which includes any oral or written communication with a covered legislative branch official or employee for the purpose of influencing legislation (2 U.S.C. \u00a7 1602(2)).\n\n501(c)(3) organizations are exempt from federal income tax and are required to file annual information returns with the Internal Revenue Service (IRS). However, if a 501(c)(3) organization engages in lobbying activities, it may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 (2 U.S.C. \u00a7 1602 et seq.).\n\nThe IRS has rules governing lobbying activities by 501(c)(3) organizations. Under the IRS regulations, a 501(c)(3) organization is allowed to engage in some lobbying activities, but it must meet certain requirements. The organization must not expend more than 20% of its total expenditures on lobbying activities (26 U.S.C. \u00a7 501(h)). The organization must also file a Form 5768 with the IRS to elect to have its lobbying activities subject to the 20% expenditure test (26 C.F.R. \u00a7 1.501(c)(3)-1).\n\nIn terms of climate policy advocacy, a 501(c)(3) organization may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 if it engages in lobbying activities on behalf of a client. The organization must register with the Secretary of the Senate and the Clerk of the House of Representatives and file quarterly reports on its lobbying activities (2 U.S.C. \u00a7 1602 et seq.).\n\nIn conclusion, while the search results provided do not directly address the question, a 501(c)(3) organization engaging in climate policy advocacy may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 if it engages in lobbying activities on behalf of a client. The organization must",
+      "generation_latency_ms": 852.2891998291016,
+      "authority_of_cited": {
+        "authority_score": 0.0,
+        "num_citations": 0,
+        "cited_urls": [],
+        "latency_ms": 0.019073486328125
+      },
+      "support_ratio": {
+        "support_ratio": 0.0,
+        "supported_sentences": 0,
+        "total_sentences": 18,
+        "sentence_details": [
+          {
+            "sentence": "Based on the search results provided, it appears that there is no direct information related to federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy",
+            "max_similarity": 0.22595500946044922,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, I can provide general information on lobbying regulations and the requirements for 501(c)(3) organizations",
+            "max_similarity": 0.3101990222930908,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The Lobbying Disclosure Act of 1995 (LDA) requires lobbyists to register with the Secretary of the Senate and the Clerk of the House of Representatives if they engage in lobbying activities on behalf of a client (2 U",
+            "max_similarity": 0.2420693039894104,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 1602 et seq",
+            "max_similarity": 0.28222793340682983,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The LDA defines lobbying as \"lobbying contact\" which includes any oral or written communication with a covered legislative branch official or employee for the purpose of influencing legislation (2 U",
+            "max_similarity": 0.29167789220809937,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "501(c)(3) organizations are exempt from federal income tax and are required to file annual information returns with the Internal Revenue Service (IRS)",
+            "max_similarity": 0.22984488308429718,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "However, if a 501(c)(3) organization engages in lobbying activities, it may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 (2 U",
+            "max_similarity": 0.27557167410850525,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 1602 et seq",
+            "max_similarity": 0.28222793340682983,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The IRS has rules governing lobbying activities by 501(c)(3) organizations",
+            "max_similarity": 0.2108307033777237,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Under the IRS regulations, a 501(c)(3) organization is allowed to engage in some lobbying activities, but it must meet certain requirements",
+            "max_similarity": 0.2420584112405777,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The organization must not expend more than 20% of its total expenditures on lobbying activities (26 U",
+            "max_similarity": 0.18471857905387878,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The organization must also file a Form 5768 with the IRS to elect to have its lobbying activities subject to the 20% expenditure test (26 C",
+            "max_similarity": 0.17477303743362427,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "501(c)(3)-1)",
+            "max_similarity": 0.20909865200519562,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In terms of climate policy advocacy, a 501(c)(3) organization may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 if it engages in lobbying activities on behalf of a client",
+            "max_similarity": 0.27827683091163635,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The organization must register with the Secretary of the Senate and the Clerk of the House of Representatives and file quarterly reports on its lobbying activities (2 U",
+            "max_similarity": 0.19324634969234467,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 1602 et seq",
+            "max_similarity": 0.28222793340682983,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "In conclusion, while the search results provided do not directly address the question, a 501(c)(3) organization engaging in climate policy advocacy may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 if it engages in lobbying activities on behalf of a client",
+            "max_similarity": 0.27496564388275146,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The organization must",
+            "max_similarity": 0.27425697445869446,
+            "is_supported": false,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 82,
+        "latency_ms": 928.318977355957
+      }
+    },
+    "serp_duckduckgo": {
+      "answer": "A 501(c)(3) organization engaging in climate policy advocacy must comply with the federal lobbying registration and reporting requirements under the Lobbying Disclosure Act (LDA) of 1995, as amended (2 U.S.C. \u00a7 1601 et seq.).\n\n**Registration Thresholds:**\nTo determine whether a 501(c)(3) organization must register under the LDA, we must consider the registration thresholds. According to the Lobbying Disclosure Act Thresholds 2025 Update [1], the thresholds for registration have increased for lobbyist employers and lobbying firms. Specifically, a lobbyist employer or lobbying firm must register if it has at least one lobbyist who has spent more than $3,000 on lobbying activities in a quarterly period [1].\n\n**Lobbying Activities:**\nLobbying activities include attempts to influence specific legislation or executive branch action [3]. Climate policy advocacy, such as lobbying for or against specific climate-related legislation or regulations, may be considered lobbying activities [7]. According to the Rules of 501(c)(3) Nonprofit Lobbying [7], a 501(c)(3) organization may engage in lobbying activities, but it must comply with the LDA registration and reporting requirements.\n\n**Registration and Reporting Requirements:**\nA 501(c)(3) organization that engages in lobbying activities must register with the Secretary of the Senate and the Clerk of the House of Representatives [3]. The organization must file a registration statement, which includes information about its lobbying activities, such as the issues it is lobbying on and the amount of time spent on lobbying [9]. The organization must also file quarterly reports, which include information about its lobbying activities and expenses [9].\n\n**Exemptions:**\nSome 501(c)(3) organizations may be exempt from registration under the LDA. For example, organizations that spend less than $3,000 on lobbying activities in a quarterly period may not be required to register [1]. Additionally, organizations that engage in grassroots lobbying, which is defined as lobbying that is not directed at specific legislation or executive branch action, may not be required to register [8].\n\n**Conclusion:**\nIn conclusion, a 501(c)(3) organization engaging in climate policy advocacy must comply with the federal lobbying registration and reporting requirements under the Lobbying Disclosure Act of 1995, as amended. The organization must register if it has at least one lobbyist who has spent more than $3,000 on lobbying activities in a quarterly period and must file registration and",
+      "generation_latency_ms": 1024.3191719055176,
+      "authority_of_cited": {
+        "authority_score": 0.7,
+        "num_citations": 10,
+        "cited_urls": [
+          "https://afj.org/wp-content/uploads/2025/03/Lobbying-Disclosure-Act-Thresholds-2025-Update.pdf",
+          "https://afj.org/wp-content/uploads/2025/03/Lobbying-Disclosure-Act-Thresholds-2025-Update.pdf",
+          "https://lda.congress.gov/LD/help/default.htm?turl=Documents%2FLD1Requirements.htm",
+          "https://www.naeyc.org/our-work/public-policy-advocacy/rules-501c3-nonprofit-lobbying",
+          "https://www.naeyc.org/our-work/public-policy-advocacy/rules-501c3-nonprofit-lobbying",
+          "https://lda.congress.gov/LD/help/default.htm?turl=Documents%2FLD1Requirements.htm",
+          "https://lobbyingdisclosure.house.gov/ldaguidance.pdf",
+          "https://lobbyingdisclosure.house.gov/ldaguidance.pdf",
+          "https://afj.org/wp-content/uploads/2025/03/Lobbying-Disclosure-Act-Thresholds-2025-Update.pdf",
+          "https://www.asaecenter.org/resources/articles/an_plus/2017/february/nonprofit-lobbying-the-rules-you-need-to-know"
+        ],
+        "individual_scores": [
+          0.5,
+          0.5,
+          1.0,
+          0.5,
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          0.5,
+          0.5
+        ],
+        "latency_ms": 1.3208389282226562
+      },
+      "support_ratio": {
+        "support_ratio": 0.688,
+        "supported_sentences": 11,
+        "total_sentences": 16,
+        "sentence_details": [
+          {
+            "sentence": "A 501(c)(3) organization engaging in climate policy advocacy must comply with the federal lobbying registration and reporting requirements under the Lobbying Disclosure Act (LDA) of 1995, as amended (2 U",
+            "max_similarity": 0.5972399115562439,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "\u00a7 1601 et seq",
+            "max_similarity": 0.2559211552143097,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Registration Thresholds:**\nTo determine whether a 501(c)(3) organization must register under the LDA, we must consider the registration thresholds",
+            "max_similarity": 0.6597805023193359,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to the Lobbying Disclosure Act Thresholds 2025 Update [1], the thresholds for registration have increased for lobbyist employers and lobbying firms",
+            "max_similarity": 0.791184663772583,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Specifically, a lobbyist employer or lobbying firm must register if it has at least one lobbyist who has spent more than $3,000 on lobbying activities in a quarterly period [1]",
+            "max_similarity": 0.7967783212661743,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Lobbying Activities:**\nLobbying activities include attempts to influence specific legislation or executive branch action [3]",
+            "max_similarity": 0.6742722392082214,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Climate policy advocacy, such as lobbying for or against specific climate-related legislation or regulations, may be considered lobbying activities [7]",
+            "max_similarity": 0.5237863063812256,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "According to the Rules of 501(c)(3) Nonprofit Lobbying [7], a 501(c)(3) organization may engage in lobbying activities, but it must comply with the LDA registration and reporting requirements",
+            "max_similarity": 0.7626276016235352,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Registration and Reporting Requirements:**\nA 501(c)(3) organization that engages in lobbying activities must register with the Secretary of the Senate and the Clerk of the House of Representatives [3]",
+            "max_similarity": 0.7002636790275574,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The organization must file a registration statement, which includes information about its lobbying activities, such as the issues it is lobbying on and the amount of time spent on lobbying [9]",
+            "max_similarity": 0.7361087799072266,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The organization must also file quarterly reports, which include information about its lobbying activities and expenses [9]",
+            "max_similarity": 0.7088289856910706,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Exemptions:**\nSome 501(c)(3) organizations may be exempt from registration under the LDA",
+            "max_similarity": 0.5806741714477539,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "For example, organizations that spend less than $3,000 on lobbying activities in a quarterly period may not be required to register [1]",
+            "max_similarity": 0.7537184357643127,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "Additionally, organizations that engage in grassroots lobbying, which is defined as lobbying that is not directed at specific legislation or executive branch action, may not be required to register [8]",
+            "max_similarity": 0.6965946555137634,
+            "is_supported": true,
+            "method": "semantic"
+          },
+          {
+            "sentence": "**Conclusion:**\nIn conclusion, a 501(c)(3) organization engaging in climate policy advocacy must comply with the federal lobbying registration and reporting requirements under the Lobbying Disclosure Act of 1995, as amended",
+            "max_similarity": 0.5572565197944641,
+            "is_supported": false,
+            "method": "semantic"
+          },
+          {
+            "sentence": "The organization must register if it has at least one lobbyist who has spent more than $3,000 on lobbying activities in a quarterly period and must file registration and",
+            "max_similarity": 0.7591569423675537,
+            "is_supported": true,
+            "method": "semantic"
+          }
+        ],
+        "method": "semantic",
+        "threshold": 0.6,
+        "num_doc_chunks": 58,
+        "latency_ms": 417.5381660461426
+      }
+    }
+  },
+  "content_fetch_latency_ms": 3344.849109649658,
+  "llm_win_rate": {
+    "win_rates": {
+      "exa": 0.5,
+      "google": 1.0,
+      "serp_google": 0.5,
+      "serp_bing": 0.25,
+      "serp_duckduckgo": 0.25
+    },
+    "win_counts": {
+      "exa": 2,
+      "google": 4,
+      "serp_google": 2,
+      "serp_bing": 1,
+      "serp_duckduckgo": 1
+    },
+    "judgments_count": 10,
+    "evaluation_latency_ms": 28270.201206207275
+  },
+  "pairwise_judgments": [
+    {
+      "query": "What are the federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy?",
+      "provider_a": "google",
+      "provider_b": "exa",
+      "answer_a": "A 501(c)(3) organization engaging in climate policy advocacy is subject to federal lobbying registration and reporting requirements under the Lobbying Disclosure Act (LDA) of 1995, as amended. The LDA requires organizations to register with the Secretary of the Senate and the Clerk of the House of Representatives if they expend more than $3,000 in a six-month period on lobbying activities [3].\n\nTo determine whether a 501(c)(3) organization is engaging in lobbying, the Internal Revenue Code (IRC) defines lobbying as \"any attempt to influence any legislation through an attempt to affect or influence either members of Congress or any national elected official or the general public with respect to legislation\" [6]. The IRS has also issued regulations that provide guidance on what constitutes lobbying, including activities such as communicating with members of Congress, testifying before Congress, and preparing and distributing written materials to influence legislation [6].\n\nThe LDA requires registered lobbyists to file quarterly reports with the Secretary of the Senate and the Clerk of the House of Representatives, which must include information about the lobbyist's clients, the issues being lobbied, and the amount of money spent on lobbying activities [3]. The reports must be filed electronically and made available to the public [3].\n\n501(c)(3) organizations are also subject to the tax laws and regulations governing lobbying, including the prohibition on using tax-exempt funds for lobbying activities that are not related to the organization's exempt purpose [9]. The IRS has issued guidance on the types of activities that are considered lobbying and the types of activities that are not considered lobbying, including activities such as educating the public about a particular issue and advocating for a particular policy [9].\n\nIn addition to the federal requirements, some states have their own lobbying registration and reporting requirements for 501(c)(3) organizations. For example, New York requires 501(c)(3) organizations to register with the New York State Joint Commission on Public Ethics if they expend more than $5,000 in a calendar year on lobbying activities [2].\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register with the Secretary of the Senate and the Clerk of the House of Representatives if they expend more than $3,000 in a six-month period on lobbying activities, and must file quarterly reports with the Secretary of the Senate and the Clerk of the House of Representatives. The organization must also comply with the tax laws and regulations governing lobbying, including the prohibition on using tax",
+      "answer_b": "A 501(c)(3) organization engaging in climate policy advocacy is subject to federal lobbying registration and reporting requirements. The Lobbying Disclosure Act (LDA) of 1995, 2 U.S.C. \u00a7 1601 et seq., requires organizations that lobby federal officials to register with the Clerk of the House of Representatives and the Secretary of the Senate, and to file quarterly reports disclosing their lobbying activities.\n\nAccording to the IRS, lobbying by 501(c)(3) organizations is generally prohibited, except for certain limited exceptions (26 U.S.C. \u00a7 501(c)(3)). However, the IRS allows 501(c)(3) organizations to engage in some lobbying activities, as long as they do not exceed a certain threshold (26 U.S.C. \u00a7 501(h)). The IRS has established a 20% expenditure test, which means that if a 501(c)(3) organization's lobbying expenditures exceed 20% of its total expenditures, it may lose its tax-exempt status (26 U.S.C. \u00a7 501(h)(1)(B)).\n\nThe LDA requires organizations to register if they expend more than $3,000 in a six-month period on lobbying activities (2 U.S.C. \u00a7 1602(2)). The registration must include the organization's name, address, and a description of its lobbying activities (2 U.S.C. \u00a7 1602(3)). The organization must also file a quarterly report disclosing its lobbying activities, including the amount of money spent on lobbying and the issues lobbied (2 U.S.C. \u00a7 1602(4)).\n\nIn addition to the LDA, 501(c)(3) organizations must also comply with the IRS's rules on lobbying, which include the 20% expenditure test and the prohibition on campaign intervention (26 U.S.C. \u00a7 501(c)(3)). The IRS has also established a safe harbor rule, which allows 501(c)(3) organizations to engage in certain lobbying activities without losing their tax-exempt status (26 C.F.R. \u00a7 1.501(c)(3)-1).\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register with the Clerk of the House of Representatives and the Secretary of the Senate, and file quarterly reports disclosing its lobbying activities, if it expends more than $3,000 in a six-month period on lobbying activities. The organization must also comply with the IRS's rules on",
+      "winner": "google",
+      "confidence": 1,
+      "reasoning": "Overall: A=85.0, B=88.6 (diff=3.6%). Legal Accuracy: B better (9 vs 8); Citation Quality: B better (9 vs 8); Legal Reasoning: A better (9 vs 8)",
+      "judgment_latency_ms": 3459.074020385742
+    },
+    {
+      "query": "What are the federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy?",
+      "provider_a": "exa",
+      "provider_b": "serp_google",
+      "answer_a": "A 501(c)(3) organization engaging in climate policy advocacy is subject to federal lobbying registration and reporting requirements. The Lobbying Disclosure Act (LDA) of 1995, 2 U.S.C. \u00a7 1601 et seq., requires organizations that lobby federal officials to register with the Clerk of the House of Representatives and the Secretary of the Senate, and to file quarterly reports disclosing their lobbying activities.\n\nAccording to the IRS, lobbying by 501(c)(3) organizations is generally prohibited, except for certain limited exceptions (26 U.S.C. \u00a7 501(c)(3)). However, the IRS allows 501(c)(3) organizations to engage in some lobbying activities, as long as they do not exceed a certain threshold (26 U.S.C. \u00a7 501(h)). The IRS has established a 20% expenditure test, which means that if a 501(c)(3) organization's lobbying expenditures exceed 20% of its total expenditures, it may lose its tax-exempt status (26 U.S.C. \u00a7 501(h)(1)(B)).\n\nThe LDA requires organizations to register if they expend more than $3,000 in a six-month period on lobbying activities (2 U.S.C. \u00a7 1602(2)). The registration must include the organization's name, address, and a description of its lobbying activities (2 U.S.C. \u00a7 1602(3)). The organization must also file a quarterly report disclosing its lobbying activities, including the amount of money spent on lobbying and the issues lobbied (2 U.S.C. \u00a7 1602(4)).\n\nIn addition to the LDA, 501(c)(3) organizations must also comply with the IRS's rules on lobbying, which include the 20% expenditure test and the prohibition on campaign intervention (26 U.S.C. \u00a7 501(c)(3)). The IRS has also established a safe harbor rule, which allows 501(c)(3) organizations to engage in certain lobbying activities without losing their tax-exempt status (26 C.F.R. \u00a7 1.501(c)(3)-1).\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register with the Clerk of the House of Representatives and the Secretary of the Senate, and file quarterly reports disclosing its lobbying activities, if it expends more than $3,000 in a six-month period on lobbying activities. The organization must also comply with the IRS's rules on",
+      "answer_b": "A 501(c)(3) organization engaging in climate policy advocacy must comply with federal lobbying registration and reporting requirements. The Lobbying Disclosure Act (LDA) of 1995, as amended, governs lobbying activities by organizations, including 501(c)(3) organizations [1].\n\nTo register as a lobbyist, a 501(c)(3) organization must file a registration statement with the Clerk of the House of Representatives and the Secretary of the Senate within 10 days of engaging in lobbying activities [10]. The registration statement must include the organization's name, address, and a list of lobbyists employed by the organization [10].\n\nThe LDA defines lobbying as \"lobbying contact\" or \"lobbying activity,\" which includes communicating with covered officials to influence legislation, regulations, or administrative actions [10]. Climate policy advocacy may be considered lobbying if it involves communicating with covered officials to influence legislation, regulations, or administrative actions related to climate policy [1].\n\n501(c)(3) organizations are subject to the 20% expenditure test, which requires that lobbying activities not exceed 20% of the organization's total expenditures [2]. If the organization's lobbying expenditures exceed 20% of its total expenditures, it may be subject to tax on the excess lobbying expenditures [2].\n\nThe Internal Revenue Service (IRS) provides guidance on lobbying by 501(c)(3) organizations, including the rules for determining whether an organization is engaged in lobbying and the requirements for reporting lobbying activities [2].\n\nThe Lobbying Disclosure Act requires lobbyists to file quarterly reports with the Clerk of the House of Representatives and the Secretary of the Senate, which must include information about lobbying activities, including the issues lobbied, the officials lobbied, and the amount of lobbying expenditures [10].\n\nIn addition to the LDA, 501(c)(3) organizations must also comply with the rules and regulations of the IRS, including the requirement to file Form 990, which includes information about lobbying activities [2].\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register as a lobbyist under the Lobbying Disclosure Act, file quarterly reports, and comply with the 20% expenditure test and IRS rules and regulations.\n\nReferences:\n\n[1] Understanding the Lobbying Disclosure Act, American Federation for Justice (2018)\n[2] Lobbying | Internal Revenue Service, IRS.gov\n[3] Nonprofit Lobbying: The Rules You Need to Know, Whiteford, Taylor & Preston LLP",
+      "winner": "exa",
+      "confidence": 2,
+      "reasoning": "Overall: A=90.0, B=84.3 (diff=5.7%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2141.9241428375244
+    },
+    {
+      "query": "What are the federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy?",
+      "provider_a": "serp_bing",
+      "provider_b": "exa",
+      "answer_a": "Based on the search results provided, it appears that there is no direct information related to federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy. However, I can provide general information on lobbying regulations and the requirements for 501(c)(3) organizations.\n\nThe Lobbying Disclosure Act of 1995 (LDA) requires lobbyists to register with the Secretary of the Senate and the Clerk of the House of Representatives if they engage in lobbying activities on behalf of a client (2 U.S.C. \u00a7 1602 et seq.). The LDA defines lobbying as \"lobbying contact\" which includes any oral or written communication with a covered legislative branch official or employee for the purpose of influencing legislation (2 U.S.C. \u00a7 1602(2)).\n\n501(c)(3) organizations are exempt from federal income tax and are required to file annual information returns with the Internal Revenue Service (IRS). However, if a 501(c)(3) organization engages in lobbying activities, it may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 (2 U.S.C. \u00a7 1602 et seq.).\n\nThe IRS has rules governing lobbying activities by 501(c)(3) organizations. Under the IRS regulations, a 501(c)(3) organization is allowed to engage in some lobbying activities, but it must meet certain requirements. The organization must not expend more than 20% of its total expenditures on lobbying activities (26 U.S.C. \u00a7 501(h)). The organization must also file a Form 5768 with the IRS to elect to have its lobbying activities subject to the 20% expenditure test (26 C.F.R. \u00a7 1.501(c)(3)-1).\n\nIn terms of climate policy advocacy, a 501(c)(3) organization may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 if it engages in lobbying activities on behalf of a client. The organization must register with the Secretary of the Senate and the Clerk of the House of Representatives and file quarterly reports on its lobbying activities (2 U.S.C. \u00a7 1602 et seq.).\n\nIn conclusion, while the search results provided do not directly address the question, a 501(c)(3) organization engaging in climate policy advocacy may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 if it engages in lobbying activities on behalf of a client. The organization must",
+      "answer_b": "A 501(c)(3) organization engaging in climate policy advocacy is subject to federal lobbying registration and reporting requirements. The Lobbying Disclosure Act (LDA) of 1995, 2 U.S.C. \u00a7 1601 et seq., requires organizations that lobby federal officials to register with the Clerk of the House of Representatives and the Secretary of the Senate, and to file quarterly reports disclosing their lobbying activities.\n\nAccording to the IRS, lobbying by 501(c)(3) organizations is generally prohibited, except for certain limited exceptions (26 U.S.C. \u00a7 501(c)(3)). However, the IRS allows 501(c)(3) organizations to engage in some lobbying activities, as long as they do not exceed a certain threshold (26 U.S.C. \u00a7 501(h)). The IRS has established a 20% expenditure test, which means that if a 501(c)(3) organization's lobbying expenditures exceed 20% of its total expenditures, it may lose its tax-exempt status (26 U.S.C. \u00a7 501(h)(1)(B)).\n\nThe LDA requires organizations to register if they expend more than $3,000 in a six-month period on lobbying activities (2 U.S.C. \u00a7 1602(2)). The registration must include the organization's name, address, and a description of its lobbying activities (2 U.S.C. \u00a7 1602(3)). The organization must also file a quarterly report disclosing its lobbying activities, including the amount of money spent on lobbying and the issues lobbied (2 U.S.C. \u00a7 1602(4)).\n\nIn addition to the LDA, 501(c)(3) organizations must also comply with the IRS's rules on lobbying, which include the 20% expenditure test and the prohibition on campaign intervention (26 U.S.C. \u00a7 501(c)(3)). The IRS has also established a safe harbor rule, which allows 501(c)(3) organizations to engage in certain lobbying activities without losing their tax-exempt status (26 C.F.R. \u00a7 1.501(c)(3)-1).\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register with the Clerk of the House of Representatives and the Secretary of the Senate, and file quarterly reports disclosing its lobbying activities, if it expends more than $3,000 in a six-month period on lobbying activities. The organization must also comply with the IRS's rules on",
+      "winner": "serp_bing",
+      "confidence": 3,
+      "reasoning": "Overall: A=58.6, B=82.9 (diff=24.3%). Legal Accuracy: B better (8 vs 6); Citation Quality: B better (8 vs 6); Completeness: B better (9 vs 6)",
+      "judgment_latency_ms": 2134.3512535095215
+    },
+    {
+      "query": "What are the federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "exa",
+      "answer_a": "A 501(c)(3) organization engaging in climate policy advocacy must comply with the federal lobbying registration and reporting requirements under the Lobbying Disclosure Act (LDA) of 1995, as amended (2 U.S.C. \u00a7 1601 et seq.).\n\n**Registration Thresholds:**\nTo determine whether a 501(c)(3) organization must register under the LDA, we must consider the registration thresholds. According to the Lobbying Disclosure Act Thresholds 2025 Update [1], the thresholds for registration have increased for lobbyist employers and lobbying firms. Specifically, a lobbyist employer or lobbying firm must register if it has at least one lobbyist who has spent more than $3,000 on lobbying activities in a quarterly period [1].\n\n**Lobbying Activities:**\nLobbying activities include attempts to influence specific legislation or executive branch action [3]. Climate policy advocacy, such as lobbying for or against specific climate-related legislation or regulations, may be considered lobbying activities [7]. According to the Rules of 501(c)(3) Nonprofit Lobbying [7], a 501(c)(3) organization may engage in lobbying activities, but it must comply with the LDA registration and reporting requirements.\n\n**Registration and Reporting Requirements:**\nA 501(c)(3) organization that engages in lobbying activities must register with the Secretary of the Senate and the Clerk of the House of Representatives [3]. The organization must file a registration statement, which includes information about its lobbying activities, such as the issues it is lobbying on and the amount of time spent on lobbying [9]. The organization must also file quarterly reports, which include information about its lobbying activities and expenses [9].\n\n**Exemptions:**\nSome 501(c)(3) organizations may be exempt from registration under the LDA. For example, organizations that spend less than $3,000 on lobbying activities in a quarterly period may not be required to register [1]. Additionally, organizations that engage in grassroots lobbying, which is defined as lobbying that is not directed at specific legislation or executive branch action, may not be required to register [8].\n\n**Conclusion:**\nIn conclusion, a 501(c)(3) organization engaging in climate policy advocacy must comply with the federal lobbying registration and reporting requirements under the Lobbying Disclosure Act of 1995, as amended. The organization must register if it has at least one lobbyist who has spent more than $3,000 on lobbying activities in a quarterly period and must file registration and",
+      "answer_b": "A 501(c)(3) organization engaging in climate policy advocacy is subject to federal lobbying registration and reporting requirements. The Lobbying Disclosure Act (LDA) of 1995, 2 U.S.C. \u00a7 1601 et seq., requires organizations that lobby federal officials to register with the Clerk of the House of Representatives and the Secretary of the Senate, and to file quarterly reports disclosing their lobbying activities.\n\nAccording to the IRS, lobbying by 501(c)(3) organizations is generally prohibited, except for certain limited exceptions (26 U.S.C. \u00a7 501(c)(3)). However, the IRS allows 501(c)(3) organizations to engage in some lobbying activities, as long as they do not exceed a certain threshold (26 U.S.C. \u00a7 501(h)). The IRS has established a 20% expenditure test, which means that if a 501(c)(3) organization's lobbying expenditures exceed 20% of its total expenditures, it may lose its tax-exempt status (26 U.S.C. \u00a7 501(h)(1)(B)).\n\nThe LDA requires organizations to register if they expend more than $3,000 in a six-month period on lobbying activities (2 U.S.C. \u00a7 1602(2)). The registration must include the organization's name, address, and a description of its lobbying activities (2 U.S.C. \u00a7 1602(3)). The organization must also file a quarterly report disclosing its lobbying activities, including the amount of money spent on lobbying and the issues lobbied (2 U.S.C. \u00a7 1602(4)).\n\nIn addition to the LDA, 501(c)(3) organizations must also comply with the IRS's rules on lobbying, which include the 20% expenditure test and the prohibition on campaign intervention (26 U.S.C. \u00a7 501(c)(3)). The IRS has also established a safe harbor rule, which allows 501(c)(3) organizations to engage in certain lobbying activities without losing their tax-exempt status (26 C.F.R. \u00a7 1.501(c)(3)-1).\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register with the Clerk of the House of Representatives and the Secretary of the Senate, and file quarterly reports disclosing its lobbying activities, if it expends more than $3,000 in a six-month period on lobbying activities. The organization must also comply with the IRS's rules on",
+      "winner": "exa",
+      "confidence": 2,
+      "reasoning": "Overall: A=92.1, B=82.1 (diff=10.0%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 1935.021162033081
+    },
+    {
+      "query": "What are the federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy?",
+      "provider_a": "google",
+      "provider_b": "serp_google",
+      "answer_a": "A 501(c)(3) organization engaging in climate policy advocacy is subject to federal lobbying registration and reporting requirements under the Lobbying Disclosure Act (LDA) of 1995, as amended. The LDA requires organizations to register with the Secretary of the Senate and the Clerk of the House of Representatives if they expend more than $3,000 in a six-month period on lobbying activities [3].\n\nTo determine whether a 501(c)(3) organization is engaging in lobbying, the Internal Revenue Code (IRC) defines lobbying as \"any attempt to influence any legislation through an attempt to affect or influence either members of Congress or any national elected official or the general public with respect to legislation\" [6]. The IRS has also issued regulations that provide guidance on what constitutes lobbying, including activities such as communicating with members of Congress, testifying before Congress, and preparing and distributing written materials to influence legislation [6].\n\nThe LDA requires registered lobbyists to file quarterly reports with the Secretary of the Senate and the Clerk of the House of Representatives, which must include information about the lobbyist's clients, the issues being lobbied, and the amount of money spent on lobbying activities [3]. The reports must be filed electronically and made available to the public [3].\n\n501(c)(3) organizations are also subject to the tax laws and regulations governing lobbying, including the prohibition on using tax-exempt funds for lobbying activities that are not related to the organization's exempt purpose [9]. The IRS has issued guidance on the types of activities that are considered lobbying and the types of activities that are not considered lobbying, including activities such as educating the public about a particular issue and advocating for a particular policy [9].\n\nIn addition to the federal requirements, some states have their own lobbying registration and reporting requirements for 501(c)(3) organizations. For example, New York requires 501(c)(3) organizations to register with the New York State Joint Commission on Public Ethics if they expend more than $5,000 in a calendar year on lobbying activities [2].\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register with the Secretary of the Senate and the Clerk of the House of Representatives if they expend more than $3,000 in a six-month period on lobbying activities, and must file quarterly reports with the Secretary of the Senate and the Clerk of the House of Representatives. The organization must also comply with the tax laws and regulations governing lobbying, including the prohibition on using tax",
+      "answer_b": "A 501(c)(3) organization engaging in climate policy advocacy must comply with federal lobbying registration and reporting requirements. The Lobbying Disclosure Act (LDA) of 1995, as amended, governs lobbying activities by organizations, including 501(c)(3) organizations [1].\n\nTo register as a lobbyist, a 501(c)(3) organization must file a registration statement with the Clerk of the House of Representatives and the Secretary of the Senate within 10 days of engaging in lobbying activities [10]. The registration statement must include the organization's name, address, and a list of lobbyists employed by the organization [10].\n\nThe LDA defines lobbying as \"lobbying contact\" or \"lobbying activity,\" which includes communicating with covered officials to influence legislation, regulations, or administrative actions [10]. Climate policy advocacy may be considered lobbying if it involves communicating with covered officials to influence legislation, regulations, or administrative actions related to climate policy [1].\n\n501(c)(3) organizations are subject to the 20% expenditure test, which requires that lobbying activities not exceed 20% of the organization's total expenditures [2]. If the organization's lobbying expenditures exceed 20% of its total expenditures, it may be subject to tax on the excess lobbying expenditures [2].\n\nThe Internal Revenue Service (IRS) provides guidance on lobbying by 501(c)(3) organizations, including the rules for determining whether an organization is engaged in lobbying and the requirements for reporting lobbying activities [2].\n\nThe Lobbying Disclosure Act requires lobbyists to file quarterly reports with the Clerk of the House of Representatives and the Secretary of the Senate, which must include information about lobbying activities, including the issues lobbied, the officials lobbied, and the amount of lobbying expenditures [10].\n\nIn addition to the LDA, 501(c)(3) organizations must also comply with the rules and regulations of the IRS, including the requirement to file Form 990, which includes information about lobbying activities [2].\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register as a lobbyist under the Lobbying Disclosure Act, file quarterly reports, and comply with the 20% expenditure test and IRS rules and regulations.\n\nReferences:\n\n[1] Understanding the Lobbying Disclosure Act, American Federation for Justice (2018)\n[2] Lobbying | Internal Revenue Service, IRS.gov\n[3] Nonprofit Lobbying: The Rules You Need to Know, Whiteford, Taylor & Preston LLP",
+      "winner": "google",
+      "confidence": 2,
+      "reasoning": "Overall: A=90.0, B=80.0 (diff=10.0%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2278.0189514160156
+    },
+    {
+      "query": "What are the federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy?",
+      "provider_a": "google",
+      "provider_b": "serp_bing",
+      "answer_a": "A 501(c)(3) organization engaging in climate policy advocacy is subject to federal lobbying registration and reporting requirements under the Lobbying Disclosure Act (LDA) of 1995, as amended. The LDA requires organizations to register with the Secretary of the Senate and the Clerk of the House of Representatives if they expend more than $3,000 in a six-month period on lobbying activities [3].\n\nTo determine whether a 501(c)(3) organization is engaging in lobbying, the Internal Revenue Code (IRC) defines lobbying as \"any attempt to influence any legislation through an attempt to affect or influence either members of Congress or any national elected official or the general public with respect to legislation\" [6]. The IRS has also issued regulations that provide guidance on what constitutes lobbying, including activities such as communicating with members of Congress, testifying before Congress, and preparing and distributing written materials to influence legislation [6].\n\nThe LDA requires registered lobbyists to file quarterly reports with the Secretary of the Senate and the Clerk of the House of Representatives, which must include information about the lobbyist's clients, the issues being lobbied, and the amount of money spent on lobbying activities [3]. The reports must be filed electronically and made available to the public [3].\n\n501(c)(3) organizations are also subject to the tax laws and regulations governing lobbying, including the prohibition on using tax-exempt funds for lobbying activities that are not related to the organization's exempt purpose [9]. The IRS has issued guidance on the types of activities that are considered lobbying and the types of activities that are not considered lobbying, including activities such as educating the public about a particular issue and advocating for a particular policy [9].\n\nIn addition to the federal requirements, some states have their own lobbying registration and reporting requirements for 501(c)(3) organizations. For example, New York requires 501(c)(3) organizations to register with the New York State Joint Commission on Public Ethics if they expend more than $5,000 in a calendar year on lobbying activities [2].\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register with the Secretary of the Senate and the Clerk of the House of Representatives if they expend more than $3,000 in a six-month period on lobbying activities, and must file quarterly reports with the Secretary of the Senate and the Clerk of the House of Representatives. The organization must also comply with the tax laws and regulations governing lobbying, including the prohibition on using tax",
+      "answer_b": "Based on the search results provided, it appears that there is no direct information related to federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy. However, I can provide general information on lobbying regulations and the requirements for 501(c)(3) organizations.\n\nThe Lobbying Disclosure Act of 1995 (LDA) requires lobbyists to register with the Secretary of the Senate and the Clerk of the House of Representatives if they engage in lobbying activities on behalf of a client (2 U.S.C. \u00a7 1602 et seq.). The LDA defines lobbying as \"lobbying contact\" which includes any oral or written communication with a covered legislative branch official or employee for the purpose of influencing legislation (2 U.S.C. \u00a7 1602(2)).\n\n501(c)(3) organizations are exempt from federal income tax and are required to file annual information returns with the Internal Revenue Service (IRS). However, if a 501(c)(3) organization engages in lobbying activities, it may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 (2 U.S.C. \u00a7 1602 et seq.).\n\nThe IRS has rules governing lobbying activities by 501(c)(3) organizations. Under the IRS regulations, a 501(c)(3) organization is allowed to engage in some lobbying activities, but it must meet certain requirements. The organization must not expend more than 20% of its total expenditures on lobbying activities (26 U.S.C. \u00a7 501(h)). The organization must also file a Form 5768 with the IRS to elect to have its lobbying activities subject to the 20% expenditure test (26 C.F.R. \u00a7 1.501(c)(3)-1).\n\nIn terms of climate policy advocacy, a 501(c)(3) organization may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 if it engages in lobbying activities on behalf of a client. The organization must register with the Secretary of the Senate and the Clerk of the House of Representatives and file quarterly reports on its lobbying activities (2 U.S.C. \u00a7 1602 et seq.).\n\nIn conclusion, while the search results provided do not directly address the question, a 501(c)(3) organization engaging in climate policy advocacy may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 if it engages in lobbying activities on behalf of a client. The organization must",
+      "winner": "google",
+      "confidence": 3,
+      "reasoning": "Overall: A=88.6, B=65.7 (diff=22.9%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 6); Completeness: A better (9 vs 6)",
+      "judgment_latency_ms": 2765.8491134643555
+    },
+    {
+      "query": "What are the federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "google",
+      "answer_a": "A 501(c)(3) organization engaging in climate policy advocacy must comply with the federal lobbying registration and reporting requirements under the Lobbying Disclosure Act (LDA) of 1995, as amended (2 U.S.C. \u00a7 1601 et seq.).\n\n**Registration Thresholds:**\nTo determine whether a 501(c)(3) organization must register under the LDA, we must consider the registration thresholds. According to the Lobbying Disclosure Act Thresholds 2025 Update [1], the thresholds for registration have increased for lobbyist employers and lobbying firms. Specifically, a lobbyist employer or lobbying firm must register if it has at least one lobbyist who has spent more than $3,000 on lobbying activities in a quarterly period [1].\n\n**Lobbying Activities:**\nLobbying activities include attempts to influence specific legislation or executive branch action [3]. Climate policy advocacy, such as lobbying for or against specific climate-related legislation or regulations, may be considered lobbying activities [7]. According to the Rules of 501(c)(3) Nonprofit Lobbying [7], a 501(c)(3) organization may engage in lobbying activities, but it must comply with the LDA registration and reporting requirements.\n\n**Registration and Reporting Requirements:**\nA 501(c)(3) organization that engages in lobbying activities must register with the Secretary of the Senate and the Clerk of the House of Representatives [3]. The organization must file a registration statement, which includes information about its lobbying activities, such as the issues it is lobbying on and the amount of time spent on lobbying [9]. The organization must also file quarterly reports, which include information about its lobbying activities and expenses [9].\n\n**Exemptions:**\nSome 501(c)(3) organizations may be exempt from registration under the LDA. For example, organizations that spend less than $3,000 on lobbying activities in a quarterly period may not be required to register [1]. Additionally, organizations that engage in grassroots lobbying, which is defined as lobbying that is not directed at specific legislation or executive branch action, may not be required to register [8].\n\n**Conclusion:**\nIn conclusion, a 501(c)(3) organization engaging in climate policy advocacy must comply with the federal lobbying registration and reporting requirements under the Lobbying Disclosure Act of 1995, as amended. The organization must register if it has at least one lobbyist who has spent more than $3,000 on lobbying activities in a quarterly period and must file registration and",
+      "answer_b": "A 501(c)(3) organization engaging in climate policy advocacy is subject to federal lobbying registration and reporting requirements under the Lobbying Disclosure Act (LDA) of 1995, as amended. The LDA requires organizations to register with the Secretary of the Senate and the Clerk of the House of Representatives if they expend more than $3,000 in a six-month period on lobbying activities [3].\n\nTo determine whether a 501(c)(3) organization is engaging in lobbying, the Internal Revenue Code (IRC) defines lobbying as \"any attempt to influence any legislation through an attempt to affect or influence either members of Congress or any national elected official or the general public with respect to legislation\" [6]. The IRS has also issued regulations that provide guidance on what constitutes lobbying, including activities such as communicating with members of Congress, testifying before Congress, and preparing and distributing written materials to influence legislation [6].\n\nThe LDA requires registered lobbyists to file quarterly reports with the Secretary of the Senate and the Clerk of the House of Representatives, which must include information about the lobbyist's clients, the issues being lobbied, and the amount of money spent on lobbying activities [3]. The reports must be filed electronically and made available to the public [3].\n\n501(c)(3) organizations are also subject to the tax laws and regulations governing lobbying, including the prohibition on using tax-exempt funds for lobbying activities that are not related to the organization's exempt purpose [9]. The IRS has issued guidance on the types of activities that are considered lobbying and the types of activities that are not considered lobbying, including activities such as educating the public about a particular issue and advocating for a particular policy [9].\n\nIn addition to the federal requirements, some states have their own lobbying registration and reporting requirements for 501(c)(3) organizations. For example, New York requires 501(c)(3) organizations to register with the New York State Joint Commission on Public Ethics if they expend more than $5,000 in a calendar year on lobbying activities [2].\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register with the Secretary of the Senate and the Clerk of the House of Representatives if they expend more than $3,000 in a six-month period on lobbying activities, and must file quarterly reports with the Secretary of the Senate and the Clerk of the House of Representatives. The organization must also comply with the tax laws and regulations governing lobbying, including the prohibition on using tax",
+      "winner": "google",
+      "confidence": 2,
+      "reasoning": "Overall: A=90.0, B=80.0 (diff=10.0%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2108.264923095703
+    },
+    {
+      "query": "What are the federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy?",
+      "provider_a": "serp_google",
+      "provider_b": "serp_bing",
+      "answer_a": "A 501(c)(3) organization engaging in climate policy advocacy must comply with federal lobbying registration and reporting requirements. The Lobbying Disclosure Act (LDA) of 1995, as amended, governs lobbying activities by organizations, including 501(c)(3) organizations [1].\n\nTo register as a lobbyist, a 501(c)(3) organization must file a registration statement with the Clerk of the House of Representatives and the Secretary of the Senate within 10 days of engaging in lobbying activities [10]. The registration statement must include the organization's name, address, and a list of lobbyists employed by the organization [10].\n\nThe LDA defines lobbying as \"lobbying contact\" or \"lobbying activity,\" which includes communicating with covered officials to influence legislation, regulations, or administrative actions [10]. Climate policy advocacy may be considered lobbying if it involves communicating with covered officials to influence legislation, regulations, or administrative actions related to climate policy [1].\n\n501(c)(3) organizations are subject to the 20% expenditure test, which requires that lobbying activities not exceed 20% of the organization's total expenditures [2]. If the organization's lobbying expenditures exceed 20% of its total expenditures, it may be subject to tax on the excess lobbying expenditures [2].\n\nThe Internal Revenue Service (IRS) provides guidance on lobbying by 501(c)(3) organizations, including the rules for determining whether an organization is engaged in lobbying and the requirements for reporting lobbying activities [2].\n\nThe Lobbying Disclosure Act requires lobbyists to file quarterly reports with the Clerk of the House of Representatives and the Secretary of the Senate, which must include information about lobbying activities, including the issues lobbied, the officials lobbied, and the amount of lobbying expenditures [10].\n\nIn addition to the LDA, 501(c)(3) organizations must also comply with the rules and regulations of the IRS, including the requirement to file Form 990, which includes information about lobbying activities [2].\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register as a lobbyist under the Lobbying Disclosure Act, file quarterly reports, and comply with the 20% expenditure test and IRS rules and regulations.\n\nReferences:\n\n[1] Understanding the Lobbying Disclosure Act, American Federation for Justice (2018)\n[2] Lobbying | Internal Revenue Service, IRS.gov\n[3] Nonprofit Lobbying: The Rules You Need to Know, Whiteford, Taylor & Preston LLP",
+      "answer_b": "Based on the search results provided, it appears that there is no direct information related to federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy. However, I can provide general information on lobbying regulations and the requirements for 501(c)(3) organizations.\n\nThe Lobbying Disclosure Act of 1995 (LDA) requires lobbyists to register with the Secretary of the Senate and the Clerk of the House of Representatives if they engage in lobbying activities on behalf of a client (2 U.S.C. \u00a7 1602 et seq.). The LDA defines lobbying as \"lobbying contact\" which includes any oral or written communication with a covered legislative branch official or employee for the purpose of influencing legislation (2 U.S.C. \u00a7 1602(2)).\n\n501(c)(3) organizations are exempt from federal income tax and are required to file annual information returns with the Internal Revenue Service (IRS). However, if a 501(c)(3) organization engages in lobbying activities, it may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 (2 U.S.C. \u00a7 1602 et seq.).\n\nThe IRS has rules governing lobbying activities by 501(c)(3) organizations. Under the IRS regulations, a 501(c)(3) organization is allowed to engage in some lobbying activities, but it must meet certain requirements. The organization must not expend more than 20% of its total expenditures on lobbying activities (26 U.S.C. \u00a7 501(h)). The organization must also file a Form 5768 with the IRS to elect to have its lobbying activities subject to the 20% expenditure test (26 C.F.R. \u00a7 1.501(c)(3)-1).\n\nIn terms of climate policy advocacy, a 501(c)(3) organization may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 if it engages in lobbying activities on behalf of a client. The organization must register with the Secretary of the Senate and the Clerk of the House of Representatives and file quarterly reports on its lobbying activities (2 U.S.C. \u00a7 1602 et seq.).\n\nIn conclusion, while the search results provided do not directly address the question, a 501(c)(3) organization engaging in climate policy advocacy may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 if it engages in lobbying activities on behalf of a client. The organization must",
+      "winner": "serp_google",
+      "confidence": 3,
+      "reasoning": "Overall: A=88.6, B=70.0 (diff=18.6%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (8 vs 6); Completeness: A better (9 vs 6)",
+      "judgment_latency_ms": 1982.269287109375
+    },
+    {
+      "query": "What are the federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy?",
+      "provider_a": "serp_duckduckgo",
+      "provider_b": "serp_google",
+      "answer_a": "A 501(c)(3) organization engaging in climate policy advocacy must comply with the federal lobbying registration and reporting requirements under the Lobbying Disclosure Act (LDA) of 1995, as amended (2 U.S.C. \u00a7 1601 et seq.).\n\n**Registration Thresholds:**\nTo determine whether a 501(c)(3) organization must register under the LDA, we must consider the registration thresholds. According to the Lobbying Disclosure Act Thresholds 2025 Update [1], the thresholds for registration have increased for lobbyist employers and lobbying firms. Specifically, a lobbyist employer or lobbying firm must register if it has at least one lobbyist who has spent more than $3,000 on lobbying activities in a quarterly period [1].\n\n**Lobbying Activities:**\nLobbying activities include attempts to influence specific legislation or executive branch action [3]. Climate policy advocacy, such as lobbying for or against specific climate-related legislation or regulations, may be considered lobbying activities [7]. According to the Rules of 501(c)(3) Nonprofit Lobbying [7], a 501(c)(3) organization may engage in lobbying activities, but it must comply with the LDA registration and reporting requirements.\n\n**Registration and Reporting Requirements:**\nA 501(c)(3) organization that engages in lobbying activities must register with the Secretary of the Senate and the Clerk of the House of Representatives [3]. The organization must file a registration statement, which includes information about its lobbying activities, such as the issues it is lobbying on and the amount of time spent on lobbying [9]. The organization must also file quarterly reports, which include information about its lobbying activities and expenses [9].\n\n**Exemptions:**\nSome 501(c)(3) organizations may be exempt from registration under the LDA. For example, organizations that spend less than $3,000 on lobbying activities in a quarterly period may not be required to register [1]. Additionally, organizations that engage in grassroots lobbying, which is defined as lobbying that is not directed at specific legislation or executive branch action, may not be required to register [8].\n\n**Conclusion:**\nIn conclusion, a 501(c)(3) organization engaging in climate policy advocacy must comply with the federal lobbying registration and reporting requirements under the Lobbying Disclosure Act of 1995, as amended. The organization must register if it has at least one lobbyist who has spent more than $3,000 on lobbying activities in a quarterly period and must file registration and",
+      "answer_b": "A 501(c)(3) organization engaging in climate policy advocacy must comply with federal lobbying registration and reporting requirements. The Lobbying Disclosure Act (LDA) of 1995, as amended, governs lobbying activities by organizations, including 501(c)(3) organizations [1].\n\nTo register as a lobbyist, a 501(c)(3) organization must file a registration statement with the Clerk of the House of Representatives and the Secretary of the Senate within 10 days of engaging in lobbying activities [10]. The registration statement must include the organization's name, address, and a list of lobbyists employed by the organization [10].\n\nThe LDA defines lobbying as \"lobbying contact\" or \"lobbying activity,\" which includes communicating with covered officials to influence legislation, regulations, or administrative actions [10]. Climate policy advocacy may be considered lobbying if it involves communicating with covered officials to influence legislation, regulations, or administrative actions related to climate policy [1].\n\n501(c)(3) organizations are subject to the 20% expenditure test, which requires that lobbying activities not exceed 20% of the organization's total expenditures [2]. If the organization's lobbying expenditures exceed 20% of its total expenditures, it may be subject to tax on the excess lobbying expenditures [2].\n\nThe Internal Revenue Service (IRS) provides guidance on lobbying by 501(c)(3) organizations, including the rules for determining whether an organization is engaged in lobbying and the requirements for reporting lobbying activities [2].\n\nThe Lobbying Disclosure Act requires lobbyists to file quarterly reports with the Clerk of the House of Representatives and the Secretary of the Senate, which must include information about lobbying activities, including the issues lobbied, the officials lobbied, and the amount of lobbying expenditures [10].\n\nIn addition to the LDA, 501(c)(3) organizations must also comply with the rules and regulations of the IRS, including the requirement to file Form 990, which includes information about lobbying activities [2].\n\nIn summary, a 501(c)(3) organization engaging in climate policy advocacy must register as a lobbyist under the Lobbying Disclosure Act, file quarterly reports, and comply with the 20% expenditure test and IRS rules and regulations.\n\nReferences:\n\n[1] Understanding the Lobbying Disclosure Act, American Federation for Justice (2018)\n[2] Lobbying | Internal Revenue Service, IRS.gov\n[3] Nonprofit Lobbying: The Rules You Need to Know, Whiteford, Taylor & Preston LLP",
+      "winner": "serp_google",
+      "confidence": 2,
+      "reasoning": "Overall: A=90.0, B=80.0 (diff=10.0%). Legal Accuracy: A better (9 vs 8); Citation Quality: A better (9 vs 8); Completeness: A better (9 vs 8)",
+      "judgment_latency_ms": 2195.013999938965
+    },
+    {
+      "query": "What are the federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy?",
+      "provider_a": "serp_bing",
+      "provider_b": "serp_duckduckgo",
+      "answer_a": "Based on the search results provided, it appears that there is no direct information related to federal lobbying registration and reporting requirements for a 501(c)(3) organization engaging in climate policy advocacy. However, I can provide general information on lobbying regulations and the requirements for 501(c)(3) organizations.\n\nThe Lobbying Disclosure Act of 1995 (LDA) requires lobbyists to register with the Secretary of the Senate and the Clerk of the House of Representatives if they engage in lobbying activities on behalf of a client (2 U.S.C. \u00a7 1602 et seq.). The LDA defines lobbying as \"lobbying contact\" which includes any oral or written communication with a covered legislative branch official or employee for the purpose of influencing legislation (2 U.S.C. \u00a7 1602(2)).\n\n501(c)(3) organizations are exempt from federal income tax and are required to file annual information returns with the Internal Revenue Service (IRS). However, if a 501(c)(3) organization engages in lobbying activities, it may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 (2 U.S.C. \u00a7 1602 et seq.).\n\nThe IRS has rules governing lobbying activities by 501(c)(3) organizations. Under the IRS regulations, a 501(c)(3) organization is allowed to engage in some lobbying activities, but it must meet certain requirements. The organization must not expend more than 20% of its total expenditures on lobbying activities (26 U.S.C. \u00a7 501(h)). The organization must also file a Form 5768 with the IRS to elect to have its lobbying activities subject to the 20% expenditure test (26 C.F.R. \u00a7 1.501(c)(3)-1).\n\nIn terms of climate policy advocacy, a 501(c)(3) organization may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 if it engages in lobbying activities on behalf of a client. The organization must register with the Secretary of the Senate and the Clerk of the House of Representatives and file quarterly reports on its lobbying activities (2 U.S.C. \u00a7 1602 et seq.).\n\nIn conclusion, while the search results provided do not directly address the question, a 501(c)(3) organization engaging in climate policy advocacy may be subject to the LDA and the Lobbying Disclosure Act Amendments of 1995 if it engages in lobbying activities on behalf of a client. The organization must",
+      "answer_b": "A 501(c)(3) organization engaging in climate policy advocacy must comply with the federal lobbying registration and reporting requirements under the Lobbying Disclosure Act (LDA) of 1995, as amended (2 U.S.C. \u00a7 1601 et seq.).\n\n**Registration Thresholds:**\nTo determine whether a 501(c)(3) organization must register under the LDA, we must consider the registration thresholds. According to the Lobbying Disclosure Act Thresholds 2025 Update [1], the thresholds for registration have increased for lobbyist employers and lobbying firms. Specifically, a lobbyist employer or lobbying firm must register if it has at least one lobbyist who has spent more than $3,000 on lobbying activities in a quarterly period [1].\n\n**Lobbying Activities:**\nLobbying activities include attempts to influence specific legislation or executive branch action [3]. Climate policy advocacy, such as lobbying for or against specific climate-related legislation or regulations, may be considered lobbying activities [7]. According to the Rules of 501(c)(3) Nonprofit Lobbying [7], a 501(c)(3) organization may engage in lobbying activities, but it must comply with the LDA registration and reporting requirements.\n\n**Registration and Reporting Requirements:**\nA 501(c)(3) organization that engages in lobbying activities must register with the Secretary of the Senate and the Clerk of the House of Representatives [3]. The organization must file a registration statement, which includes information about its lobbying activities, such as the issues it is lobbying on and the amount of time spent on lobbying [9]. The organization must also file quarterly reports, which include information about its lobbying activities and expenses [9].\n\n**Exemptions:**\nSome 501(c)(3) organizations may be exempt from registration under the LDA. For example, organizations that spend less than $3,000 on lobbying activities in a quarterly period may not be required to register [1]. Additionally, organizations that engage in grassroots lobbying, which is defined as lobbying that is not directed at specific legislation or executive branch action, may not be required to register [8].\n\n**Conclusion:**\nIn conclusion, a 501(c)(3) organization engaging in climate policy advocacy must comply with the federal lobbying registration and reporting requirements under the Lobbying Disclosure Act of 1995, as amended. The organization must register if it has at least one lobbyist who has spent more than $3,000 on lobbying activities in a quarterly period and must file registration and",
+      "winner": "serp_duckduckgo",
+      "confidence": 3,
+      "reasoning": "Overall: A=58.6, B=85.7 (diff=27.1%). Legal Accuracy: B better (9 vs 6); Citation Quality: B better (8 vs 6); Completeness: B better (9 vs 6)",
+      "judgment_latency_ms": 2131.5701007843018
+    }
+  ],
+  "total_evaluation_latency_ms": 34480.01313209534,
+  "query_id": "Q6",
+  "scenario": "Non-profit organization wants to lobby for climate legislation",
+  "search_query": "501c3 nonprofit lobbying registration LDA federal reporting requirements advocacy",
+  "search_latencies_ms": {
+    "exa": 2173.679828643799,
+    "google": 354.77495193481445,
+    "serp_google": 215.61598777770996,
+    "serp_bing": 294.8300838470459,
+    "serp_duckduckgo": 1808.4790706634521
+  }
+}
