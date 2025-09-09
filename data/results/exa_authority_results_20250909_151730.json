@@ -1,0 +1,458 @@
+{
+  "timestamp": "20250909_151730",
+  "provider": "exa",
+  "queries": [
+    {
+      "query_id": "Q1",
+      "query_text": "AI hiring screening compliance requirements NYC Local Law 144 California Illinois",
+      "providers": {
+        "exa": {
+          "metrics": {
+            "authority_at_3": 0.383,
+            "high_auth_hit_at_3": false,
+            "utility_score_at_10": 1.021,
+            "latency_stats": {
+              "total_fetch_time_ms": 6038.1,
+              "avg_fetch_time_ms": 603.8,
+              "min_fetch_time_ms": 188.5,
+              "max_fetch_time_ms": 3206.8,
+              "urls_evaluated": 10
+            }
+          },
+          "search_api_latency_ms": 1506.3,
+          "evaluation_time_ms": 7258.7,
+          "total_time_ms": 8765.0,
+          "detailed_results": [
+            {
+              "url": "https://www.warden-ai.com/blog/hr-tech-compliance-nyc-local-law-144",
+              "rank": 1,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 0,
+              "fetch_latency_ms": 207.4260711669922
+            },
+            {
+              "url": "https://mosey.com/blog/nyc-local-law-144-compliance/",
+              "rank": 2,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 14,
+              "page_length": 1522,
+              "fetch_latency_ms": 354.5258045196533
+            },
+            {
+              "url": "https://fairnow.ai/guide/nyc-local-law-144/",
+              "rank": 3,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 22,
+              "page_length": 1291,
+              "fetch_latency_ms": 405.9712886810303
+            },
+            {
+              "url": "https://eticas.ai/nyc-local-law-144/",
+              "rank": 4,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 14,
+              "page_length": 663,
+              "fetch_latency_ms": 188.50111961364746
+            },
+            {
+              "url": "https://natlawreview.com/article/nyc-s-local-law-144-and-final-regulations-regulation-ai-driven-hiring-tools-united",
+              "rank": 5,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 5,
+              "page_length": 2556,
+              "fetch_latency_ms": 3206.8331241607666
+            },
+            {
+              "url": "https://blogs.duanemorris.com/classactiondefense/2025/04/29/best-practices-to-mitigate-the-risk-of-ai-hiring-tool-noncompliance-with-antidiscrimination-statutes/",
+              "rank": 6,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 322,
+              "fetch_latency_ms": 517.4031257629395
+            },
+            {
+              "url": "https://www.sensehq.com/blog/sense-passes-bias-audit-to-comply-with-nyc-hiring-law",
+              "rank": 7,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 8,
+              "page_length": 1225,
+              "fetch_latency_ms": 282.78303146362305
+            },
+            {
+              "url": "https://www.millercanfield.com/resources-NYC-Law-Restricting-AI-Employment-Tools-Reveals-Whats-to-Come.html",
+              "rank": 8,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 7,
+              "page_length": 1144,
+              "fetch_latency_ms": 299.7608184814453
+            },
+            {
+              "url": "https://babl.ai/understanding-new-york-local-law-144-implications-for-employers-using-ai-in-hiring/",
+              "rank": 9,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 15,
+              "page_length": 979,
+              "fetch_latency_ms": 347.16320037841797
+            },
+            {
+              "url": "https://www.brightmine.com/us/resources/hr-compliance/ai-laws-by-state-and-locality/",
+              "rank": 10,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 6,
+              "fetch_latency_ms": 227.76293754577637
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": "Q2",
+      "query_text": "employee fired social media DEI criticism wrongful termination NLRA First Amendment at-will",
+      "providers": {
+        "exa": {
+          "metrics": {
+            "authority_at_3": 0.383,
+            "high_auth_hit_at_3": false,
+            "utility_score_at_10": 1.049,
+            "latency_stats": {
+              "total_fetch_time_ms": 6358.4,
+              "avg_fetch_time_ms": 635.8,
+              "min_fetch_time_ms": 107.4,
+              "max_fetch_time_ms": 2401.5,
+              "urls_evaluated": 10
+            }
+          },
+          "search_api_latency_ms": 1643.7,
+          "evaluation_time_ms": 8569.7,
+          "total_time_ms": 10213.4,
+          "detailed_results": [
+            {
+              "url": "https://dcemploymentlawblog.com/2025/03/20/the-legal-implications-of-employee-social-media-use/",
+              "rank": 1,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 3,
+              "page_length": 786,
+              "fetch_latency_ms": 283.68473052978516
+            },
+            {
+              "url": "https://edition.cnn.com/2025/03/15/tech/can-you-lose-job-for-social-media-post/index.html",
+              "rank": 2,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 1,
+              "page_length": 1353,
+              "fetch_latency_ms": 621.7949390411377
+            },
+            {
+              "url": "https://www.ibtimes.com/can-you-get-fired-social-media-posts-heres-what-law-says-3766549",
+              "rank": 3,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1031,
+              "fetch_latency_ms": 236.0692024230957
+            },
+            {
+              "url": "https://en.as.com/latest_news/be-careful-with-what-you-post-can-you-be-fired-for-what-you-write-on-social-media-n/",
+              "rank": 4,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 648,
+              "fetch_latency_ms": 107.42306709289551
+            },
+            {
+              "url": "https://www.ferretly.com/blog/can-employees-be-fired-for-social-media-posts-by-employers",
+              "rank": 5,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 6750,
+              "fetch_latency_ms": 336.5950584411621
+            },
+            {
+              "url": "https://laborblog.vorys.com/2011/11/articles/nlrb/one-for-the-employer-social-media-posting-results-in-lawful-termination",
+              "rank": 6,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 668,
+              "fetch_latency_ms": 349.69091415405273
+            },
+            {
+              "url": "https://www.mbm-law.net/insights/court-upholds-employees-termination-for-violating-employers-social-media-policy/",
+              "rank": 7,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 4,
+              "page_length": 943,
+              "fetch_latency_ms": 530.4930210113525
+            },
+            {
+              "url": "https://www.tlnt.com/articles/heres-proof-that-a-twitter-firing-can-withstand-nlrb-scrutiny",
+              "rank": 8,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 1703,
+              "fetch_latency_ms": 1342.0400619506836
+            },
+            {
+              "url": "https://www.mcgoniglelaw.com/resources/post/blog/social-media-and-wrongful-termination",
+              "rank": 9,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 677,
+              "fetch_latency_ms": 149.10197257995605
+            },
+            {
+              "url": "https://natlawreview.com/article/dealing-controversial-commentary-some-guidance-and-guardrails-employers",
+              "rank": 10,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 6,
+              "page_length": 3699,
+              "fetch_latency_ms": 2401.4840126037598
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": "Q3",
+      "query_text": "equity compensation independent contractors securities law Rule 701 state blue sky",
+      "providers": {
+        "exa": {
+          "metrics": {
+            "authority_at_3": 0.667,
+            "high_auth_hit_at_3": true,
+            "utility_score_at_10": 1.644,
+            "latency_stats": {
+              "total_fetch_time_ms": 5034.5,
+              "avg_fetch_time_ms": 503.5,
+              "min_fetch_time_ms": 197.7,
+              "max_fetch_time_ms": 603.3,
+              "urls_evaluated": 10
+            }
+          },
+          "search_api_latency_ms": 1642.7,
+          "evaluation_time_ms": 6915.4,
+          "total_time_ms": 8558.1,
+          "detailed_results": [
+            {
+              "url": "https://www.masudafunai.com/12896",
+              "rank": 1,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 4,
+              "page_length": 773,
+              "fetch_latency_ms": 485.20565032958984
+            },
+            {
+              "url": "https://www.sec.gov/resources-small-businesses/exempt-offerings/employee-benefit-plans-rule-701-0",
+              "rank": 2,
+              "authority_score": 1.0,
+              "domain_score": 1.0,
+              "citation_bonus": 1.0,
+              "citation_count": 7,
+              "page_length": 263,
+              "fetch_latency_ms": 197.68881797790527
+            },
+            {
+              "url": "https://clsbluesky.law.columbia.edu/tag/rule-701/",
+              "rank": 3,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 1,
+              "page_length": 143,
+              "fetch_latency_ms": 568.8960552215576
+            },
+            {
+              "url": "https://www.naspp.com/blog/rule-701-private-companies",
+              "rank": 4,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 29,
+              "page_length": 929,
+              "fetch_latency_ms": 567.5849914550781
+            },
+            {
+              "url": "https://www.priorilegal.com/securities/sec-rule-701",
+              "rank": 5,
+              "authority_score": 0.15,
+              "domain_score": 0.5,
+              "citation_bonus": 0.3,
+              "citation_count": 0,
+              "page_length": 310,
+              "fetch_latency_ms": 482.99288749694824
+            },
+            {
+              "url": "https://www.goodwinlaw.com/en/insights/publications/2018/01/01_30_18_rule-701-refresher-and-updates",
+              "rank": 6,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 37,
+              "page_length": 2045,
+              "fetch_latency_ms": 603.3289432525635
+            },
+            {
+              "url": "https://www.qapita.com/us/blog/rule-701",
+              "rank": 7,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 54,
+              "page_length": 2907,
+              "fetch_latency_ms": 583.5199356079102
+            },
+            {
+              "url": "https://www.jdsupra.com/legalnews/when-do-blue-sky-laws-apply-7326239/",
+              "rank": 8,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 9,
+              "page_length": 646,
+              "fetch_latency_ms": 566.4422512054443
+            },
+            {
+              "url": "https://www.moschettilaw.com/california-blue-sky-laws-for-syndication/",
+              "rank": 9,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 40,
+              "page_length": 5233,
+              "fetch_latency_ms": 378.92603874206543
+            },
+            {
+              "url": "https://spzlegal.com/blog/funding/common-california-securities-exemptions-startups",
+              "rank": 10,
+              "authority_score": 0.5,
+              "domain_score": 0.5,
+              "citation_bonus": 1.0,
+              "citation_count": 3,
+              "page_length": 860,
+              "fetch_latency_ms": 599.9388694763184
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "aggregate_report": {
+    "summary": {
+      "exa": {
+        "authority_at_3": 0.478,
+        "high_auth_hit_rate": 0.333,
+        "avg_utility_score_at_10": 1.238,
+        "queries_evaluated": 3,
+        "latency_summary": {
+          "avg_search_api_latency_ms": 1597.6,
+          "avg_evaluation_time_ms": 7581.3,
+          "avg_total_time_ms": 9178.8,
+          "fetch_time_stats": {
+            "avg_per_url_ms": 581.0,
+            "min_fetch_time_ms": 107.4,
+            "max_fetch_time_ms": 3206.8,
+            "total_urls_evaluated": 30
+          }
+        }
+      }
+    },
+    "detailed_comparison": [
+      {
+        "query_id": "Q1",
+        "query_text": "AI hiring screening compliance requirements NYC Local Law 144 California Illinois",
+        "provider_metrics": {
+          "exa": {
+            "authority_at_3": 0.383,
+            "high_auth_hit_at_3": false,
+            "utility_score_at_10": 1.021,
+            "latency_stats": {
+              "total_fetch_time_ms": 6038.1,
+              "avg_fetch_time_ms": 603.8,
+              "min_fetch_time_ms": 188.5,
+              "max_fetch_time_ms": 3206.8,
+              "urls_evaluated": 10
+            }
+          }
+        }
+      },
+      {
+        "query_id": "Q2",
+        "query_text": "employee fired social media DEI criticism wrongful termination NLRA First Amendment at-will",
+        "provider_metrics": {
+          "exa": {
+            "authority_at_3": 0.383,
+            "high_auth_hit_at_3": false,
+            "utility_score_at_10": 1.049,
+            "latency_stats": {
+              "total_fetch_time_ms": 6358.4,
+              "avg_fetch_time_ms": 635.8,
+              "min_fetch_time_ms": 107.4,
+              "max_fetch_time_ms": 2401.5,
+              "urls_evaluated": 10
+            }
+          }
+        }
+      },
+      {
+        "query_id": "Q3",
+        "query_text": "equity compensation independent contractors securities law Rule 701 state blue sky",
+        "provider_metrics": {
+          "exa": {
+            "authority_at_3": 0.667,
+            "high_auth_hit_at_3": true,
+            "utility_score_at_10": 1.644,
+            "latency_stats": {
+              "total_fetch_time_ms": 5034.5,
+              "avg_fetch_time_ms": 503.5,
+              "min_fetch_time_ms": 197.7,
+              "max_fetch_time_ms": 603.3,
+              "urls_evaluated": 10
+            }
+          }
+        }
+      }
+    ]
+  }
+}
