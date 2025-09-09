@@ -98,4 +98,5 @@ python3 tests/context/run_batch_context_eval.py --providers exa google
 
 
 ### Time Usage
+The GitHub commit history is a fairly accurate representation of how much time I spent on each task, but here's a bit more in depth breakdown of what I did. Keep in mind that I have to sleep and go to class today as well.
 <img width="256" height="591" alt="image" src="https://github.com/user-attachments/assets/24763d4e-4486-4840-9aa0-77f3a76e2876" />
