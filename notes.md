@@ -24,3 +24,8 @@ Evaluation harness (run + eval)
 Possibly something to run queries in parallel with live results and evaluation
 
 # "Can someone use the results to answer their legal research question correctly and efficiently
+
+
+I want to make a solution where we are evaluating two things:
+1. The authority levels of each of the top k results
+2. A simple rag pipeline and evaluating the answers from each search and figuring out if Exa is better than non-RAG, competitors, etc.
