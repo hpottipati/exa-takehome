@@ -27,8 +27,8 @@ class SerpDuckDuckGoClient:
                 'url': item.get('link', ''),
                 'title': item.get('title', ''),
                 'text': item.get('snippet', ''),
-                'score': 1.0 / (i + 1),  # DuckDuckGo doesn't provide position, use index
-                'published_date': '',  # DuckDuckGo doesn't provide dates in SerpAPI
+                'score': 1.0 / (i + 1), 
+                'published_date': '', 
                 'provider': 'serp_duckduckgo'
             })
             

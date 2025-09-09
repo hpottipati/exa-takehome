@@ -46,7 +46,6 @@ class SearchManager:
     @classmethod
     def search_single_provider(cls, provider: str, query: str, num_results: int = 10, **kwargs) -> List[Dict]:
         client = cls.get_client(provider)
-        # Enforce equal evals: only pass query and num_results
         return client.search(query, num_results)
     
     @classmethod
@@ -67,47 +66,4 @@ class SearchManager:
                 results[provider] = []
         
         return results
-
-    @classmethod
-    def get_available_providers(cls) -> List[str]:
-        return list(cls.PROVIDERS.keys())
-
-        return {
-            'google': {
-                'type': 'Direct API',
-                'supports_date_restrict': True,
-                'max_results': 10,
-                'cost': 'Per query',
-                'description': 'Google Custom Search API'
-            },
-            'exa': {
-                'type': 'AI Search',
-                'supports_domain_filtering': True,
-                'supports_date_range': True,
-                'max_results': 1000,
-                'description': 'Exa AI-powered search'
-            },
-            'serp_google': {
-                'type': 'SerpAPI',
-                'engine': 'google',
-                'supports_location': True,
-                'supports_safe_search': True,
-                'max_results': 100,
-                'description': 'SerpAPI Google with advanced options'
-            },
-            'serp_bing': {
-                'type': 'SerpAPI',
-                'engine': 'bing',
-                'supports_freshness': True,
-                'supports_location': True,
-                'max_results': 50,
-                'description': 'SerpAPI Bing search'
-            },
-            'serp_duckduckgo': {
-                'type': 'SerpAPI',
-                'engine': 'duckduckgo',
-                'supports_region': True,
-                'privacy_focused': True,
-                'description': 'SerpAPI DuckDuckGo search'
-            }
-        }
+ 
