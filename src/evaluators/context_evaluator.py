@@ -7,15 +7,18 @@ import json
 import logging
 import re
 import time
+import os
 from typing import Dict, List, Optional, Tuple, Any
 from dataclasses import dataclass, asdict
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import ollama
 from urllib.parse import urlparse
+from groq import Groq
 
 from .authority_scorer import AuthorityScorer
+from ..utils.content_fetcher import ContentFetcher
+from ..models.search_result import StandardizedSearchResult
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -44,12 +47,16 @@ class PairwiseJudgment:
     judgment_latency_ms: float
 
 
-class OllamaClient:
-    """Client for interacting with Ollama LLM"""
+class GroqClient:
+    """Client for interacting with Groq LLM"""
     
-    def __init__(self, model: str = "qwen2.5:3b", temperature: float = 0.1):
+    def __init__(self, model: str = "llama-3.1-8b-instant", temperature: float = 0.1):
         self.model = model
         self.temperature = temperature
+        api_key = os.getenv("GROQ_API_KEY")
+        if not api_key:
+            raise ValueError("GROQ_API_KEY environment variable is required")
+        self.client = Groq(api_key=api_key)
         
     def generate_answer(self, query: str, documents: List[Dict], max_tokens: int = 500) -> Tuple[str, float]:
         """
@@ -84,15 +91,15 @@ Instructions:
         
         start_time = time.time()
         try:
-            response = ollama.generate(
+            response = self.client.chat.completions.create(
                 model=self.model,
-                prompt=prompt,
-                options={
-                    "temperature": self.temperature,
-                    "num_predict": max_tokens
-                }
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=self.temperature,
+                max_tokens=max_tokens
             )
-            answer = response['response']
+            answer = response.choices[0].message.content
             latency_ms = (time.time() - start_time) * 1000
             
             return answer, latency_ms
@@ -134,12 +141,13 @@ ANSWER B:
 Return ONLY the JSON evaluation:"""
         
         try:
-            response = ollama.generate(
+            response = self.client.chat.completions.create(
                 model=self.model,
-                prompt=prompt,
-                options={"temperature": 0.1, "num_predict": 300}
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.1,
+                response_format={"type": "json_object"}
             )
-            return json.loads(response['response'].strip())
+            return json.loads(response.choices[0].message.content)
         except Exception as e:
             logger.error(f"Error in legal accuracy evaluation: {e}")
             return {"score_a": 5, "score_b": 5, "errors_a": [], "errors_b": [], "explanation": str(e)}
@@ -176,12 +184,13 @@ ANSWER B:
 Return ONLY the JSON evaluation:"""
         
         try:
-            response = ollama.generate(
+            response = self.client.chat.completions.create(
                 model=self.model,
-                prompt=prompt,
-                options={"temperature": 0.1, "num_predict": 200}
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.1,
+                response_format={"type": "json_object"}
             )
-            return json.loads(response['response'].strip())
+            return json.loads(response.choices[0].message.content)
         except Exception as e:
             logger.error(f"Error in citation quality evaluation: {e}")
             return {"score_a": 5, "score_b": 5, "primary_sources_a": 0, "primary_sources_b": 0, "quality_assessment": str(e)}
@@ -218,12 +227,14 @@ ANSWER B:
 Return ONLY the JSON evaluation:"""
         
         try:
-            response = ollama.generate(
+            response = self.client.chat.completions.create(
                 model=self.model,
-                prompt=prompt,
-                options={"temperature": 0.1, "num_predict": 250}
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.1,
+                max_tokens=250,
+                response_format={"type": "json_object"}
             )
-            return json.loads(response['response'].strip())
+            return json.loads(response.choices[0].message.content)
         except Exception as e:
             logger.error(f"Error in completeness evaluation: {e}")
             return {"score_a": 5, "score_b": 5, "missing_aspects_a": [], "missing_aspects_b": [], "coverage_assessment": str(e)}
@@ -260,12 +271,14 @@ ANSWER B:
 Return ONLY the JSON evaluation:"""
         
         try:
-            response = ollama.generate(
+            response = self.client.chat.completions.create(
                 model=self.model,
-                prompt=prompt,
-                options={"temperature": 0.1, "num_predict": 250}
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.1,
+                max_tokens=250,
+                response_format={"type": "json_object"}
             )
-            return json.loads(response['response'].strip())
+            return json.loads(response.choices[0].message.content)
         except Exception as e:
             logger.error(f"Error in jurisdictional evaluation: {e}")
             return {"score_a": 5, "score_b": 5, "jurisdictions_a": [], "jurisdictions_b": [], "jurisdiction_assessment": str(e)}
@@ -302,12 +315,14 @@ ANSWER B:
 Return ONLY the JSON evaluation:"""
         
         try:
-            response = ollama.generate(
+            response = self.client.chat.completions.create(
                 model=self.model,
-                prompt=prompt,
-                options={"temperature": 0.1, "num_predict": 250}
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.1,
+                max_tokens=250,
+                response_format={"type": "json_object"}
             )
-            return json.loads(response['response'].strip())
+            return json.loads(response.choices[0].message.content)
         except Exception as e:
             logger.error(f"Error in reasoning evaluation: {e}")
             return {"score_a": 5, "score_b": 5, "strengths_a": [], "strengths_b": [], "reasoning_assessment": str(e)}
@@ -434,10 +449,58 @@ Return ONLY the JSON evaluation:"""
 class ContextEvaluator:
     """Main context evaluation class implementing the three metrics"""
     
-    def __init__(self, ollama_model: str = "qwen2.5:3b"):
-        self.ollama_client = OllamaClient(model=ollama_model)
+    def __init__(self, groq_model: str = "llama-3.1-8b-instant", use_fetched_content: bool = True):
+        self.groq_client = GroqClient(model=groq_model)
         self.authority_scorer = AuthorityScorer()
         self.vectorizer = TfidfVectorizer(max_features=1000, stop_words='english')
+        self.content_fetcher = ContentFetcher()
+        self.use_fetched_content = use_fetched_content
+    
+    def standardize_and_fetch_content(self, providers_results: Dict[str, List[Dict]]) -> Dict[str, List[StandardizedSearchResult]]:
+        """
+        Standardize search results and optionally fetch full content for fair comparison.
+        
+        Args:
+            providers_results: Raw results from each provider
+            
+        Returns:
+            Dict of provider -> list of StandardizedSearchResult
+        """
+        standardized = {}
+        
+        # First, convert all results to StandardizedSearchResult
+        for provider, results in providers_results.items():
+            standardized[provider] = []
+            for i, result in enumerate(results[:10], 1):  # Top 10 results
+                std_result = StandardizedSearchResult.from_provider_result(result, provider, i)
+                standardized[provider].append(std_result)
+        
+        # If using fetched content, fetch all unique URLs
+        if self.use_fetched_content:
+            logger.info("Fetching full content for fair comparison...")
+            
+            # Deduplicate URLs
+            dedup_info = self.content_fetcher.deduplicate_urls(providers_results)
+            unique_urls = dedup_info['unique_urls']
+            
+            logger.info(f"Found {len(unique_urls)} unique URLs across all providers")
+            
+            # Batch fetch content
+            fetched_content = self.content_fetcher.batch_fetch(unique_urls)
+            
+            # Map fetched content back to results
+            url_to_content = {url: content for url, content in zip(unique_urls, fetched_content)}
+            
+            for provider, std_results in standardized.items():
+                for std_result in std_results:
+                    if std_result.url in url_to_content:
+                        std_result.add_fetched_content(url_to_content[std_result.url])
+            
+            # Log fetch statistics
+            successful_fetches = sum(1 for content in fetched_content if content.get('success'))
+            logger.info(f"Successfully fetched {successful_fetches}/{len(unique_urls)} URLs")
+        
+        return standardized
         
     def evaluate_llm_win_rate(self, query: str, providers_results: Dict[str, List[Dict]]) -> Dict:
         """
@@ -453,7 +516,7 @@ class ContextEvaluator:
                 logger.warning(f"No results for {provider}, skipping")
                 continue
                 
-            answer, latency = self.ollama_client.generate_answer(query, results)
+            answer, latency = self.groq_client.generate_answer(query, results)
             answers[provider] = answer
             generation_times[provider] = latency
             logger.info(f"Generated answer for {provider} in {latency:.1f}ms")
@@ -469,7 +532,7 @@ class ContextEvaluator:
                 # Randomize order to avoid position bias
                 if np.random.random() > 0.5:
                     # A vs B
-                    judgment, judge_latency = self.ollama_client.judge_pairwise(
+                    judgment, judge_latency = self.groq_client.judge_pairwise(
                         query, answers[provider_a], answers[provider_b],
                         provider_a, provider_b
                     )
@@ -477,7 +540,7 @@ class ContextEvaluator:
                     swap = False
                 else:
                     # B vs A (swapped)
-                    judgment, judge_latency = self.ollama_client.judge_pairwise(
+                    judgment, judge_latency = self.groq_client.judge_pairwise(
                         query, answers[provider_b], answers[provider_a],
                         provider_b, provider_a
                     )
@@ -615,12 +678,15 @@ class ContextEvaluator:
                 'total_sentences': 0
             }
         
-        # Prepare document texts
+        # Prepare document texts and track their lengths
         doc_texts = []
-        for doc in documents[:10]:  # Use top 10 documents
-            text = doc.get('text', doc.get('snippet', ''))
+        doc_lengths = []
+        for i, doc in enumerate(documents[:10]):  # Use top 10 documents
+            # Fix: Use 'or' to properly fallback when 'text' is empty string
+            text = doc.get('text', '').strip() or doc.get('snippet', '').strip() or doc.get('content', '').strip()
             if text:
                 doc_texts.append(text)
+                doc_lengths.append(len(text))
         
         if not doc_texts:
             return {
@@ -641,13 +707,28 @@ class ContextEvaluator:
             # Calculate cosine similarity between each sentence and all documents
             similarities = cosine_similarity(sentence_vectors, doc_vectors)
             
-            # Count supported sentences (max similarity >= 0.6)
+            # Use standard threshold when fetched content is enabled (fair comparison)
+            # Dynamic threshold only when using provider's original content
+            if hasattr(self, 'use_fetched_content') and self.use_fetched_content:
+                threshold = 0.5  # Standard threshold for fetched content
+            else:
+                # Dynamic threshold based on average document length
+                # Long documents (like Exa's full articles) need lower thresholds
+                avg_doc_length = sum(doc_lengths) / len(doc_lengths) if doc_lengths else 0
+                if avg_doc_length > 2000:  # Full articles (Exa)
+                    threshold = 0.3
+                elif avg_doc_length > 500:  # Medium content
+                    threshold = 0.45
+                else:  # Short snippets (Google/SERP)
+                    threshold = 0.6
+            
+            # Count supported sentences with dynamic threshold
             supported_count = 0
             sentence_support = []
             
             for i, sentence in enumerate(sentences):
                 max_similarity = similarities[i].max() if similarities[i].size > 0 else 0
-                is_supported = max_similarity >= 0.6
+                is_supported = max_similarity >= threshold
                 supported_count += int(is_supported)
                 
                 sentence_support.append({
@@ -686,6 +767,35 @@ class ContextEvaluator:
             'timestamp': time.strftime('%Y-%m-%d %H:%M:%S'),
             'providers': {}
         }
+        
+        # Standardize and optionally fetch content for fair comparison
+        if self.use_fetched_content:
+            logger.info("Standardizing results and fetching content for fair comparison...")
+            fetch_start = time.time()
+            standardized_results = self.standardize_and_fetch_content(providers_results)
+            
+            # Convert StandardizedSearchResult back to dict format for compatibility
+            # But use evaluation_text instead of original text
+            providers_results_fair = {}
+            for provider, std_results in standardized_results.items():
+                providers_results_fair[provider] = []
+                for std_result in std_results:
+                    providers_results_fair[provider].append({
+                        'url': std_result.url,
+                        'title': std_result.evaluation_title,
+                        'text': std_result.evaluation_text,  # Uses fetched content if available
+                        'score': std_result.score,
+                        'provider': std_result.provider,
+                        '_original_length': std_result.original_text_length,
+                        '_fetched_length': len(std_result.fetched_content) if std_result.fetched_content else 0,
+                        '_fetch_success': std_result.fetch_success
+                    })
+            
+            fetch_latency = (time.time() - fetch_start) * 1000
+            results['content_fetch_latency_ms'] = fetch_latency
+            
+            # Use fair results for evaluation
+            providers_results = providers_results_fair
         
         # Metric 1: LLM Win Rate (includes answer generation)
         logger.info("Evaluating LLM Win Rate...")
