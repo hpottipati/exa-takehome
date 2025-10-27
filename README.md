@@ -1,4 +1,7 @@
 # Legal Search Benchmark
+** THIS WAS THE TAKE HOME I DID FOR EXA.AI MLE(didn't get the job 😔)**
+
+Thought it was a cool project nonetheless so I'll keep this posted
 
 **TLDR**: A set of evals to answer the question — *Which search provider delivers the most authoritative and useful results for legal research?*
 
