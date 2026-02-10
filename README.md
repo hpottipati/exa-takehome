@@ -1,7 +1,4 @@
 # Legal Search Benchmark
-** THIS WAS THE TAKE HOME I DID FOR EXA.AI MLE(didn't get the job 😔)**
-
-Thought it was a cool project nonetheless so I'll keep this posted
 
 **TLDR**: A set of evals to answer the question — *Which search provider delivers the most authoritative and useful results for legal research?*
 
@@ -98,11 +95,3 @@ python3 tests/context/run_batch_context_eval.py --providers exa google
 <img width="2234" height="755" alt="context_evaluation_dashboard" src="https://github.com/user-attachments/assets/511ccab1-c317-42e4-a56b-4d6a56f7a409" />
 <img width="2380" height="887" alt="combined_summary" src="https://github.com/user-attachments/assets/615a617b-f0f5-472d-a4ca-f7aa8162d2c3" />
 <img width="1784" height="742" alt="authority_evaluation_dashboard" src="https://github.com/user-attachments/assets/eaa37b1d-953f-4117-b98e-f775fbaeb62d" />
-
-
-### Time Usage
-The GitHub commit history is a fairly accurate representation of how much time I spent on each task, but here's a bit more in depth breakdown of what I did. Keep in mind that I have to sleep and go to class today as well.
-
-
-
-<img width="256" height="591" alt="image" src="https://github.com/user-attachments/assets/24763d4e-4486-4840-9aa0-77f3a76e2876" />
